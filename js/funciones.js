@@ -1916,64 +1916,6 @@ function getProductoProductosDelVendedorByParams(params = {}) {
         });
     });
 }
-function canAskPhotos(data) {
-    let data_url = baseurl + "/controllers/producto/?puede_pedir_fotos";
-    return new Promise((resolve, reject) => {
-        $.ajax({
-            url: data_url,
-            type: 'POST',
-            data: data,
-            dataType: 'json',
-            "headers": { 'x-api-key': user.token },
-        }).done(async (result) => {
-            if (result["status"]) {
-                resolve(result);
-            } else {
-                let validate_token = await erroresTokenEmpresa(result);
-                if (!validate_token) {
-                    resolve(null);
-                }
-
-            }
-        }).fail((err) => {
-            presentAlertObject({ icon: 'error', text: idioma.trans281 });
-            // Swal.fire({ icon: 'error', text: 'Error al cargar las divisas.' });
-            reject(null);
-        });
-    });
-}
-function askPhotos(data) {
-    let data_url = baseurl + "/controllers/producto/?pedir_fotos";
-    //  console.log(data);
-    return new Promise((resolve, reject) => {
-        $.ajax({
-            url: data_url,
-            type: 'POST',
-            data: data,
-            dataType: 'json',
-            "headers": { 'x-api-key': user.token },
-        }).done(async (result) => {
-            if (result["status"] == 'success') {
-                presentAlertObject({ icon: 'success', text: idioma.trans_eb2 });
-                $(".btn-ask-photos").addClass('d-none');
-            } else if (result["status"] == 'fail') {
-                presentAlertObject({ icon: 'error', text: idioma.trans_eb3 });
-            } else if (result["status"] == 'errorNoExiste') {
-                presentAlertObject({ icon: 'error', text: idioma.trans_eb4 });
-            } else if (result["status"] == 'errorInsertarSolicitud') {
-                presentAlertObject({ icon: 'error', text: idioma.trans_eb5 });
-            } else {
-                let validate_token = await erroresTokenEmpresa(result);
-                if (!validate_token) presentAlertObject({ icon: 'error', text: idioma.trans_eb6 });
-
-            }
-        }).fail((err) => {
-            presentAlertObject({ icon: 'error', text: idioma.trans281 });
-            // Swal.fire({ icon: 'error', text: 'Error al cargar las divisas.' });
-            reject(null);
-        });
-    });
-}
 function getRatesIcons(rate = 0) {
     let html = "";
     for (let index = 1; index <= 5; ++index) {

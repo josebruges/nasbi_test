@@ -37,10 +37,10 @@ $(document).ready((e) => {
     $('.btn-preguntar').on('click', cajadePreguntas);
     $(".btn__compartir").off()
     $(".btn__compartir").on('click', compartirMiPublicacion);
-    $(".select-tallas").off()
+    /*$(".select-tallas").off()
     $(".select-tallas").on('change', selectTallaColor);
     $(".select-colores").off()
-    $(".select-colores").on('change', selectColorAvailable);
+    $(".select-colores").on('change', selectColorAvailable);*/
 });
 function prodFavorito() {
     if (validarText(user)) {
@@ -134,8 +134,6 @@ function cargarPrimero() {
         datos.iso_code_2_money = iso_code_2_money;
     }
     getPromiseProducto();
-    getTallaColorProducto();
-    // getParesProducto();
 }
 async function getPromiseProducto() {
     var categorias_vendedor = [
@@ -1048,82 +1046,6 @@ function abrirAlerta(titulo, text) {
     $(".alerta_text").text(text);
     $("#modal-alertas-generales").modal("toggle")
 }
-var tallaXcolorXproducto = null;
-function getTallaColorProducto() {
-    let data_url = baseurl + "/controllers/producto/?producto_colores_tallas";
-    let data = {
-        data: { id_producto: datos.id },
-    }
-
-    return new Promise((resolve, reject) => {
-        $.ajax({
-            url: data_url,
-            type: 'POST',
-            data: data,
-            dataType: 'json',
-        }).done((result) => {
-            if (result["status"] == 'success') {
-                tallaXcolorXproducto = result.data;
-                chargeTallasProducto();
-            } else {
-                $(".div-tallas-colores").addClass("d-none");
-                resolve(null);
-            }
-        }).fail((err) => {
-            presentAlertObject({ icon: 'error', text: 'No tiene tallas' });
-            // Swal.fire({ icon: 'error', text: 'Error al cargar las divisas.' });
-            reject(null);
-        });
-    });
-
-}
-
-function chargeTallasProducto() {
-    let data = tallaXcolorXproducto;
-    $(".select-tallas").html('');
-    $(".select-colores").html('');
-    if (localLenguaje == 'EN') {
-        let html = '<option value="" selected>Select</option>';
-        let html1 = ``;
-        Object.keys(tallaXcolorXproducto).forEach(function (key) {
-            html += `<option value="${key}">${tallaXcolorXproducto[key][0].talla_nombre_en}</option>`;
-            for (let i = 0; i < tallaXcolorXproducto[key].length; i++) {
-                html1 += `
-            <a class="mt-1 dropdown-item ccolor key${key}${i} d-none" style="background-color: ${tallaXcolorXproducto[key][i].hexadecimal} !important; height: 20px; border-top: 1px solid #232a85; border-bottom: 1px solid #232a85;"  onclick="selectColorAvailable(${tallaXcolorXproducto[key][i].id_color}, ${key}, ${i})"></a>
-            `;
-                //<option style="background-color: ${tallaXcolorXproducto[key][i].hexadecimal}" class="key${key} d-none" value="${tallaXcolorXproducto[key][i].id_color}"></option
-            }
-        });
-        $(".select-tallas").html(html);
-        $(".select-colores").html(html1);
-    } else if (localLenguaje == 'ES') {
-        let html = '<option value="" selected>Selecciona</option>';
-        let html1 = ``;
-        Object.keys(tallaXcolorXproducto).forEach(function (key) {
-            html += `<option value="${key}">${tallaXcolorXproducto[key][0].talla_nombre_es}</option>`;
-            for (let i = 0; i < tallaXcolorXproducto[key].length; i++) {
-                html1 += `
-            <a class="mt-1 dropdown-item ccolor key${key}${i} d-none" style="background-color: ${tallaXcolorXproducto[key][i].hexadecimal} !important; height: 20px; border-top: 1px solid #232a85; border-bottom: 1px solid #232a85;"  onclick="selectColorAvailable(${tallaXcolorXproducto[key][i].id_color}, ${key}, ${i})"></a>
-            `;
-                // html1 += `<option style="background-color: ${tallaXcolorXproducto[key][i].hexadecimal}" class="key${key} d-none" value="${tallaXcolorXproducto[key][i].id_color}"></option>`;
-            }
-        });
-        $(".select-tallas").html(html);
-        $(".select-colores").html(html1);
-    }
-}
-function selectTallaColor() {
-    let key = $(".select-tallas").val();
-    $(".ccolor").addClass('d-none');
-    if (key != '') {
-        for (let i = 0; i < tallaXcolorXproducto[key].length; i++) {
-            $(".key" + key + i).removeClass('d-none');
-        }
-    }
-    let element = document.querySelector('.id_color');
-    element.style.backgroundColor = 'white';
-    element.style.color = '#232a85';
-}
 
 var paresProductos = null;
 var parProducto = {
@@ -1131,63 +1053,3 @@ var parProducto = {
     id_color: null,
     id_talla: null,
 };
-function selectColorAvailable(id_color, key, i) {
-    let size = $(".select-tallas").val();
-    let color = id_color;
-    let element = document.querySelector('.key' + key + i);
-    let bg = element.style.backgroundColor;
-    bg = bg.substr(4);
-    bg = bg.split(')');
-    bg = bg[0];
-    bg = bg.split(',');
-    let hex = rgbToHex(parseInt(bg[0]), parseInt(bg[1]), parseInt(bg[2]));
-    console.log(hex);
-    element = document.querySelector('.id_color');
-    element.style.backgroundColor = hex;
-    element.style.color = 'transparent';
-    let response = null;
-    Object.keys(tallaXcolorXproducto).forEach(function (key) {
-        for (let i = 0; i < tallaXcolorXproducto[key].length; i++) {
-            if (tallaXcolorXproducto[key][i].id_color == color && tallaXcolorXproducto[key][i].id_tallas == size) {
-                parProducto.id_pair = tallaXcolorXproducto[key][i].id_pair;
-                parProducto.id_color = tallaXcolorXproducto[key][i].id_color;
-                parProducto.id_talla = tallaXcolorXproducto[key][i].id_tallas;
-                parProducto.cantidad = tallaXcolorXproducto[key][i].cantidad;
-            }
-        }
-    });
-    // for (let i = 0; i < paresProductos.length; i++){
-    //     if (paresProductos[i].id_color == color && paresProductos[i].id_tallas == size) {
-    //         parProducto.id_pair = paresProductos[i].id_pair;
-    //         parProducto.id_color = paresProductos[i].id_color;
-    //         parProducto.id_talla = paresProductos[i].id_tallas;
-    //         parProducto.cantidad = paresProductos[i].cantidad;
-    //     }
-    // }
-
-    console.log(parProducto);
-}
-// function getParesProducto() {
-//     let data_url = baseurl + "/controllers/publicacion/?obtener_pares_producto_colores_tallas";
-//     let data = {
-//         data:{id_producto: datos.id},
-//     }
-//     return new Promise((resolve, reject) => {
-//         $.ajax({
-//             url: data_url,
-//             type: 'POST',
-//             data: data,
-//             dataType: 'json',
-//         }).done((result) => {
-//             if (result["status"] == 'success') {
-//                 paresProductos = result.data;
-//             } else {
-//                 resolve(null);
-//             }
-//         }).fail((err) => {
-//             presentAlertObject({ icon: 'error', text: 'No tiene tallas' });
-//             // Swal.fire({ icon: 'error', text: 'Error al cargar las divisas.' });
-//             reject(null);
-//         });
-//     });
-// }
