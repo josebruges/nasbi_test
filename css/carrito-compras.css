@@ -1,0 +1,220 @@
+.row-global {
+    padding: 60px 35px;
+    margin-bottom: 50px;
+}
+.row-global h2 {
+    margin: 0;
+    text-align: left;
+    color: #232a85;
+    font-family: "Geometos";
+}
+.row-global h5 {
+    color: #666666;
+    text-align: left;
+    margin-top: 50px;
+    font-family: "Poppins";
+}
+
+.responsive-carrito {
+    max-height: 310px;
+    overflow: auto;
+    margin-top: 30px;
+}
+.table-carrito {
+    margin: 0;
+}
+.table-carrito thead th {
+    top: 0;
+    border: none;
+    font-size: 12px;
+    position: sticky;
+    color: #232a85;
+    padding: 0px 0px 15px;
+    text-align: center;
+    font-weight: normal;
+    font-family: "Poppins";
+    background-color: #fff;
+}
+.table-carrito tbody tr {
+    border-bottom: 3px solid #fff;
+}
+.table-carrito tr td:first-child {
+    border-radius: 25px 0 0 25px;
+}
+.table-carrito tr td:last-child {
+    border-radius: 0 25px 25px 0;
+}
+.table-carrito tbody td {
+    background: #e7e7e7;
+    border: none;
+    padding: 2px 4px;
+    text-align: center;
+    vertical-align: middle;
+}
+.table-carrito input[type="number"] {
+    width: 67px;
+    border: none;
+    margin: auto;
+    /* direction: rtl; */
+    text-align: center;
+    border-radius: 50px;
+    font-family: "Poppins";
+}
+.table-carrito input[type="number"]::-webkit-inner-spin-button {
+    opacity: 1;
+}
+.td-border p {
+    padding: 0 3px;
+    font-size: 13px;
+    /*max-width: 130px;*/
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    /* border-left: 1px solid #707070;
+    border-right: 1px solid #707070; */
+}
+.flex-name {
+    display: flex;
+    align-items: center;
+    /*max-width: 200px;*/
+}
+.container-photo .img-produt {
+    width: 45px;
+    height: 45px;
+    display: block;
+    max-width: 45px;
+    min-width: 45px;
+    max-height: 45px;
+    min-height: 45px;
+    border-radius: 50%;
+    margin-left: auto;
+    vertical-align: middle;
+    border: 1px solid #b1b1b1;
+}
+.img-produt {
+    width: 45px;
+    height: 45px;
+    max-width: 45px;
+    max-height: 45px;
+    object-fit: contain;
+    background: #ffffff;
+}
+.name-product {
+    width: 320px;
+    font-size: 12px;
+    margin-left: 4px;
+    margin-bottom: 0;
+    color: #eb4454;
+    text-align: left;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font-family: "Poppins";
+}
+.return-td {
+    margin: 0;
+    padding: 0 3px;
+    font-size: 13px;
+    color: #707070;
+}
+.eliminar {
+    margin: 0 10px;
+    font-size: 13px;
+    color: #e22437;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.container-pagos {
+    width: 100%;
+    margin-top: 108px;
+    padding: 20px 10px;
+    border-radius: 25px;
+    background-color: #e7e7e7;
+}
+.container-pagos button {
+    width: 100%;
+    border: none;
+    padding: 15px;
+    color: #fff;
+    font-size: 12px;
+    margin: 20px 0 0;
+    border-radius: 25px;
+    font-family: "Geometos";
+}
+.btn1 {
+    background-color: #FF103D;
+}
+.btn2 {
+    background-color: #1464E1;
+}
+.container-pagos p {
+    font-size: 14px;
+    margin: 15px 0 0;
+    color: #232a85;
+    text-align: left;
+    display: grid;
+    font-family: "Poppins";
+}
+.container-pagos p span {
+    color: #707070;
+    font-family: Open San, sans-serif;
+}
+
+.radio-carrito {
+    width: 20px;
+    margin: auto;
+}
+
+.row-titleEntrega h5 {
+    margin: 25px 0 0;
+    color: #232a85;
+    text-align: center;
+    font-family: "Poppins";
+}
+/* ----------------------------------------- Media Responsive ----------------------------------------- */
+@media (max-width: 1130px) {
+    .container-pagos {
+        width: 400px;
+        margin-top: 50px;
+    }
+}
+
+@media (max-width: 992px) {
+    .table-carrito {
+        width: 1030px;
+    }
+    .td-border p{
+        max-width: inherit;
+    }
+}
+
+@media (max-width: 767px) {
+    .container-pagos button {
+        width: 100%;
+        margin: 20px 0px 0;
+    }
+    .row-global h2,
+    .row-global h5 {
+        text-align: center;
+    }
+    .row-global h2 {
+        margin-top: 30px;
+    }
+    .row-global {
+        padding: 20px;
+    }
+}
+
+@media (max-width: 575px) {
+    .container-pagos {
+        width: 100%;
+    }
+    .row-global {
+        padding: 0px;
+    }
+    .row-global h2 {
+        margin-top: 50px;
+        font-size: 28px;
+    }
+}

@@ -1,0 +1,197 @@
+.row-header-escuela{
+    padding: 70px 10px;
+    background-size: cover;
+    background-image: url('../imagen/fondo-escuela.png');
+}
+.row-header-escuela img{
+    width: 70px;
+    display: block;
+    margin: 0 auto -10px;
+}
+.row-header-escuela h2{
+    margin: 0px;
+    color: #fff;
+    text-align: center;
+    font-family: "Poppins";
+}
+.row-header-escuela p{
+    margin: 8px;
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+}
+.contn-btns {
+    display: flex;
+    margin-top: 15px;
+    justify-content: center;
+}
+.contn-btns button{
+    width: 13%;
+    border: none;
+    color: #fff;
+    font-size: 12px;
+    margin: 0 10px;
+    padding: 13px 0px;
+    border-radius: 25px;
+    font-family: "Geometos";
+    background-color: #0C0F3D;
+}
+.rows-videos{
+    padding: 70px 50px 30px;
+}
+.rows-videos .col-sm-4{
+    padding: 25px;
+}
+.contenedor-videos iframe {
+    width: 100%;
+    height: 216px;
+    border-radius: 25px;
+}
+.editor-videos h4 {
+    margin: 8px 0 0;
+    font-size: 25px;
+    color: #3474FC;
+    font-family: "Poppins";
+}
+.editor-videos p {
+    font-size: 14px;
+    color: #707070;
+}
+.row-noticias{
+    padding: 30px 0;
+    background-color: #fff;
+}
+.row-noticias h4{
+    margin: 0;
+    color: #0C0F3D;
+    text-align: center;
+    padding: 20px 0 15px;
+    font-family: "Poppins";
+}
+.container-noticia{
+    padding: 20px;
+}
+.container-noticia h5{
+    color: #0C0F3D;
+    line-height: 1.1;
+    margin: 8px 0 5px;
+    font-family: "Poppins";
+}
+.container-noticia p{
+    margin: 0;
+    font-size: 15px;
+    color: #707070;
+}
+.container-noticia p i{
+    vertical-align: middle;
+}
+
+/* Info carda video */
+.row-info-card{
+    padding: 50px;
+    align-items: center;
+}
+.row-info-card h1{
+    margin: 8px 0 0;
+    color: #040589;
+    font-size: 45px;
+    word-break: break-word;
+    font-family: "Poppins";
+}
+.row-info-card p{
+    font-size: 15px;
+    color: #707070;
+}
+.row-info-card iframe{
+    width: 90%;
+    margin-right: auto;
+    display: block;
+    border-radius: 50px;
+}
+.row-info-card .contenedor-videos{
+    margin-top: 50px;
+}
+.row-info-card .contenedor-videos iframe{
+    width: 90%;
+    margin: auto;
+    height: 165px;
+    display: block;
+    border-radius: 35px;
+}
+a:hover{
+    text-decoration: none;
+}
+.contenedor-videos .img-produt {
+    width: 100%;
+    height: 200px;
+    display: block;
+    margin-top: 1.5px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.img-produt {
+    width: 100%;
+    height: 200px;
+    cursor: pointer;
+    object-fit: cover;
+    background: #ffffff;
+}
+
+.frame-chat-vimeo body{
+    margin: 0% 10%!important;
+}
+/* ------------------------------------------------ Medias responsive ---------------------------------------------- */
+@media (max-width: 1130px){
+    .rows-videos{
+        padding: 50px 0px 30px;
+    }
+    .row-info-card{
+        padding: 50px 0;
+    }
+}
+
+@media (max-width: 992px){
+    .contn-btns button{
+        width: 20%;
+    }
+    .row-header-escuela{
+        background-size: cover;
+    }
+    .row-info-card h1{
+        font-size: 40px;
+        text-align: center;
+    }
+    .tx1{
+        text-align: center;
+    }
+    .row-info-card h1 br{
+        display: none;
+    }
+    .row-info-card iframe{
+        margin: auto;
+        height: 300px;
+    }
+}
+
+@media (max-width: 575px){
+    .row-header-escuela h2{
+        font-size: 23px;
+    }
+    .contn-btns{
+        display: block;
+    }
+    .contn-btns button{
+        width: 100%;
+        margin: 15px 0 0;
+    }
+    .editor-videos p{
+        margin-bottom: 40px;
+    }
+    .row-info-card h1{
+        font-size: 27px;
+    }
+    .row-info-card iframe{
+        height: 250px;
+    }
+}

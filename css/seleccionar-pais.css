@@ -1,0 +1,154 @@
+/* Parte 1 */
+.row-cont {
+    padding: 115px 90px;
+    background-color: #e6e6e6;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: -20px;
+    background-image: url("../imagen/fondo-referir-negocio.png");
+}
+.row-cont h3 {
+    font-size: 23px;
+    margin: 0 0 3px;
+    text-align: left;
+    color: #232a85;
+    font-family: "Poppins";
+}
+.row-cont p {
+    margin: 0 0 10px;
+    font-size: 15px;
+    text-align: left;
+    color: #707070;
+    line-height: 1.7;
+}
+.btn-siguiente {
+    border: none;
+    color: #fff;
+    display: block;
+    font-size: 13px;
+    margin-top: 20px;
+    margin-right: auto;
+    padding: 10px 50px;
+    border-radius: 25px;
+    font-family: "Geometos";
+    background-color: #005fff;
+}
+.select-pais {
+    width: 70% !important;
+    display: block !important;
+    margin-right: auto;
+    border-radius: 25px;
+}
+.bootstrap-select .dropdown-toggle:focus,
+.bootstrap-select > select.mobile-device:focus + .dropdown-toggle {
+    outline: 0px !important;
+}
+.select-pais .dropdown-toggle,
+.btn:not(:disabled):not(.disabled) {
+    color: #fff;
+    padding: 8px 20px;
+    border-radius: 25px;
+    font-family: "Poppins";
+    background-color: #ff103d !important;
+}
+:not(.input-group) > .bootstrap-select.form-control:not([class*="col-"]) {
+    background-color: transparent;
+    border: none;
+}
+.select__pais .dropdown-menu li a {
+    font-size: 13px;
+    color: #232a85;
+    padding: 5px 20px;
+    font-family: "Poppins";
+}
+.bs-searchbox {
+    padding: 15px !important;
+}
+
+.btn-light:not(:disabled):not(.disabled).active,
+.btn-light:not(:disabled):not(.disabled):active,
+.show > .btn-light.dropdown-toggle {
+    color: #fff !important;
+}
+.selected .active:hover {
+    color: #fff;
+}
+/* .dropdown-item.active{
+    background-color: #FF103D;
+} */
+.dropdown-item:focus,
+.dropdown-item:active {
+    border: none !important;
+    background-color: #ff103d;
+}
+.bs-searchbox .form-control:focus {
+    box-shadow: none;
+    border-color: #ff103d;
+}
+.edit-footer a {
+    color: #fff;
+}
+
+/* -------------- para el nuevo select de dioma -------------- */
+
+.select-idioma-paises{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.select-idioma-text{
+    font-size: 15px !important;
+    padding-top: 8px;
+    color: #232a85 !important; 
+    font-family: "Poppins";
+}
+
+/*------------------------------------------------------------*/
+
+/* ---------------------------------- Medias Responsives ---------------------------------- */
+@media (max-width: 1130px) {
+    .row-cont {
+        padding: 90px 15px;
+        background-size: 60%;
+    }
+}
+
+@media (max-width: 991px) {
+    .row-cont {
+        padding: 70px 15px;
+        background-position-x: -60px;
+    }
+}
+
+@media (max-width: 767px) {
+    .row-cont {
+        padding: 0;
+        background-size: contain;
+        background-position-x: initial;
+    }
+    .row-cont .col-md-7 {
+        padding: 60px;
+        background: rgba(243, 243, 243, 0.8);
+    }
+    .select-pais,
+    .btn-siguiente {
+        width: 100% !important;
+    }
+    .row-cont h3,
+    .row-cont p {
+        text-align: center;
+    }
+}
+
+@media (max-width: 575px) {
+    .row-cont {
+        padding: 0;
+        background-size: cover;
+        background-position-x: -250px;
+    }
+    .row-cont .col-md-7 {
+        padding: 65px 15px;
+    }
+}

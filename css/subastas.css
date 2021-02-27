@@ -1,0 +1,758 @@
+.row-12-back .owl-carousel {
+    margin-top: 30px;
+}
+.row-12-back .owl-carousel .owl-dots {
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    margin: 15px auto -10px;
+    justify-content: center;
+}
+
+.link1 {
+    color: #FF103D !important;
+}
+.row-carousel {
+    padding: 20px 0 0;
+    align-items: center;
+}
+.container-text-carousel {
+    padding-left: 110px;
+}
+.container-text-carousel h1 {
+    margin: 0;
+    line-height: 1;
+    color: #ff3145;
+    text-align: left;
+    font-family: "Poppins";
+}
+.container-text-carousel p {
+    margin: 10px 0 0 0;
+    color: #4a00b1;
+    text-align: left;
+    font-family: "Poppins";
+}
+.container-text-carousel button {
+    width: max-content;
+    height: 42px;
+    border: none;
+    color: #fff;
+    display: block;
+    margin-top: 10px;
+    font-size: 12px;
+    transition: 200ms;
+    margin-right: auto;
+    padding: 14px 20px;
+    border-radius: 25px;
+    font-family: "Geometos";
+    border-color: #6200ea;
+    background-color: #6200ea;
+}
+/* .container-text-carousel a {
+    border: none;
+    color: #fff;
+    display: block;
+    margin-top: 8px;
+    font-size: 13px;
+    margin-right: auto;
+    padding: 0px 40px;
+    border-radius: 25px;
+    font-family: "Geometos";
+    border-color: #232a85;
+    background-color: #232a85;
+    width: 250px;
+} */
+.container-text-carousel a:hover {
+    text-decoration: none;
+}
+.container-text-carousel h1 span {
+    color: #6200ea;
+}
+.img-lazo {
+    top: 30px;
+    left: -83px;
+    position: absolute;
+    width: 170px !important;
+}
+#carousel-banner-subastas .owl-prev {
+    top: 32%;
+    left: 45%;
+    color: #707070;
+    position: absolute;
+    font-size: 90px !important;
+}
+#carousel-banner-subastas .owl-next {
+    top: 32%;
+    right: 2%;
+    color: #fff;
+    position: absolute;
+    font-size: 90px !important;
+}
+.franja-info {
+    color: #fff;
+    font-size: 15px;
+    text-align: left;
+    padding: 10px 75px;
+    font-family: "Poppins";
+    background-color: #1464E1;
+}
+.franjared {
+    background-color: #ff3145 !important;
+}
+
+/* Como entrar a uns subasta */
+.row-circle {
+    margin: auto;
+    padding: 30px 65px;
+    margin-bottom: 20px;
+    background-color: #6200ea;
+}
+.col3circle {
+    position: relative;
+}
+.div-circle {
+    width: 110px;
+    height: 110px;
+    margin-left: 50px;
+    margin-right: auto;
+    border-radius: 50%;
+    background-color: #0064d6;
+}
+.container-info {
+    top: 0;
+    display: flex;
+    color: #fff;
+    font-size: 14px;
+    position: absolute;
+    align-items: center;
+    font-family: "Poppins";
+}
+.container-info .number {
+    font-size: 35px;
+    font-family: "Poppins";
+}
+.number {
+    color: #fff;
+    text-align: left;
+    margin: 10px 0 0;
+    font-weight: bold;
+    font-family: "Antonio-Regular";
+}
+.container-info img {
+    width: 110px;
+    margin: 0 3px;
+    margin-bottom: -25px;
+    object-fit: contain;
+}
+.container-info .text-inf {
+    text-align: left;
+    margin-top: 20px;
+}
+
+/* Carousel Subastas anteriores */
+.row-12-back {
+    background-color: #f5f5f5;
+}
+.row-container-destacado {
+    width: 240px;
+    padding: 20px 10px;
+}
+.row-container-destacado:hover {
+    cursor: pointer;
+    border-radius: 50px;
+    background: #621dea;
+}
+.row-container-destacado:hover p,
+.row-container-destacado:hover p span,
+.row-container-destacado:hover h4 {
+    color: #fff !important;
+}
+.row-container-destacado:hover .nombre-producto {
+    color: #fff;
+}
+.container-destacado .imagen-destacados {
+    width: 150px;
+    height: 130px;
+    max-width: 150px;
+    min-width: 150px;
+    max-height: 130px;
+    min-height: 130px;
+    border-radius: 3px;
+    vertical-align: middle;
+}
+.imagen-destacados {
+    width: 150px;
+    height: 130px;
+    max-width: 150px;
+    max-height: 130px;
+    background: #fff;
+    object-fit: contain;
+}
+.nombre-producto {
+    height: 53px;
+    font-size: 15px;
+    margin: 12px 0 0;
+    color: #FF103D !important;
+    overflow: hidden;
+    text-align: center;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    font-family: "Poppins";
+    text-overflow: ellipsis;
+    -webkit-box-orient: vertical;
+}
+.descuento {
+    margin: 3px 0 0;
+    font-size: 16px;
+    color: #FF103D;
+}
+.price-product {
+    margin: 0;
+    font-size: 16px;
+    color: #808080;
+    text-align: center;
+    font-family: "Poppins";
+}
+.descripcion-product {
+    font-size: 15px;
+    margin: 10px 0 0;
+    color: #707070;
+}
+.btn-comprar {
+    width: 90%;
+    height: 35px;
+    padding: 5px;
+    border: none;
+    font-size: 12px;
+    color: #1464E1;
+    margin: 10px 0 0;
+    border-radius: 25px;
+    font-family: "Geometos";
+    text-transform: uppercase;
+    background-color: #e7e7e7;
+}
+.btn-participar {
+    border: none;
+    color: #fff;
+    margin: 30px 0;
+    font-size: 13px;
+    padding: 12px 40px;
+    border-radius: 25px;
+    font-family: "Geometos";
+    text-transform: uppercase;
+    background-color: #1464E1;
+}
+
+/* Paginacion */
+.pagination {
+    margin-bottom: 30px;
+    display: inline-block;
+}
+.pagination a {
+    color: #FF103D;
+    font-size: 15px;
+    padding: 10px 14px;
+    text-decoration: none;
+}
+.pagination .active {
+    color: #fff;
+    border-radius: 50%;
+    background-color: #FF103D;
+}
+.pagination .AD {
+    font-size: 20px;
+}
+
+/* Modas subastas */
+.infor-subas {
+    padding: 20px 5px;
+    align-items: flex-start;
+}
+.content-foto .img-carousel {
+    margin: auto;
+    width: 200px;
+    height: 200px;
+    max-width: 200px;
+    min-width: 200px;
+    max-height: 200px;
+    min-height: 200px;
+    border-radius: 3px;
+    vertical-align: middle;
+    border: 1px solid #d6d6d6;
+}
+.img-carousel {
+    width: 200px;
+    height: 200px;
+    max-width: 200px;
+    max-height: 200px;
+    background: #fff;
+    object-fit: contain;
+}
+.nombre-producto-modal {
+    margin: 0;
+    font-size: 21px;
+    color: #FF103D;
+    overflow: hidden;
+    text-align: left;
+    white-space: nowrap;
+    font-family: "Poppins";
+    text-overflow: ellipsis;
+}
+.label-modal {
+    font-size: 14px;
+    margin: 5px 0 0;
+    color: #707070;
+    text-align: left;
+}
+.price-product-modal {
+    margin: 5px 0 0;
+    font-size: 16px;
+    color: #808080;
+    text-align: left;
+    overflow: hidden;
+    white-space: nowrap;
+    font-family: "Poppins";
+    text-overflow: ellipsis;
+}
+.label02 {
+    margin: 10px 0 0;
+    font-size: 14px;
+    color: #808080;
+    text-align: left;
+    font-family: "Poppins";
+}
+.tipo-subasta {
+    color: #fff;
+    font-size: 12px;
+    padding: 5px 12px;
+    margin-left: 6px;
+    border-radius: 25px;
+    background-color: #be8a00;
+}
+.tipo-subasta img {
+    width: 20px;
+}
+.label02 .return {
+    font-size: 16px;
+    font-family: Open San, sans-serif;
+}
+.infor-subas button {
+    width: 100%;
+    border: none;
+    color: #fff;
+    margin-top: 50px;
+    padding: 13.5px 0;
+    font-size: 10px;
+    border-radius: 25px;
+    font-family: "Geometos";
+}
+.btn1 {
+    background-color: #eb4454;
+}
+.btn2 {
+    background-color: #0165d6;
+}
+.btn3 {
+    background-color: #040589;
+}
+.header-modal-label {
+    margin: 12px 0 0;
+    text-align: left;
+    display: flex;
+    color: #707070;
+    padding-right: 35px;
+    align-items: center;
+    justify-content: end;
+}
+.header-modal-label span {
+    display: flex;
+    font-size: 14px;
+    color: #0c0f3d;
+    margin-left: 10px;
+    padding: 7px 20px;
+    align-items: center;
+    border-radius: 25px;
+    font-family: "Poppins";
+    justify-content: flex-end;
+}
+.header-modal-label span:after {
+    content: "";
+    width: 6px;
+    height: 6px;
+    border-radius: 25px;
+    margin: 1px 0 0 10px;
+    background-color: #0c0f3d;
+}
+.header-modal-label .estado1 {
+    background-color: #00ffba;
+}
+.header-modal-label .estado4 {
+    background-color: #eb4454;
+}
+.col12none {
+    display: none;
+}
+.tipo-subasta {
+    color: #fff;
+    font-size: 13px;
+    padding: 7px 15px;
+    margin-left: 6px;
+    border-radius: 25px;
+}
+.Gold {
+    background-color: #be8a00;
+}
+.Platinum {
+    background-color: #a9a9a9;
+}
+.Bronze {
+    background-color: #a74111;
+}
+.Silver {
+    background-color: #0c0f3d;
+}
+
+#proximas_subastas .col-lg-2 {
+    padding: 0 5px;
+}
+
+/* Modal confirmacion entrega */
+.row-titleEntrega h5 {
+    margin: 25px 0 0;
+    color: #232a85;
+    text-align: center;
+    font-family: "Poppins";
+}
+.row-titleEntrega p {
+    font-size: 14px;
+    color: #707070;
+    margin: 10px 120px;
+    text-align: center;
+}
+.row-titleEntrega p a {
+    color: #232a85;
+    font-family: "Poppins";
+}
+.contn-entrega {
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+}
+.contn-entrega button {
+    border: none;
+    width: 20%;
+    color: #fff;
+    font-size: 12px;
+    margin: 0 10px;
+    padding: 10px 0px;
+    border-radius: 25px;
+    font-family: "Geometos";
+}
+.btnsi {
+    background-color: #0c0f3d;
+}
+.btnno {
+    background-color: #005FFF;
+}
+
+#modal-info-subastas-new .owl-prev {
+    top: 0;
+    left: 5px;
+    bottom: 0;
+    margin: 0;
+    width: auto;
+    height: 100%;
+    cursor: pointer;
+    font-size: 50px;
+    color: #ababab;
+    position: absolute;
+    transition: 200ms;
+}
+#modal-info-subastas-new .owl-next {
+    top: 0;
+    right: 5px;
+    bottom: 0;
+    margin: 0;
+    width: auto;
+    height: 100%;
+    cursor: pointer;
+    font-size: 50px;
+    color: #ababab;
+    position: absolute;
+    transition: 200ms;
+}
+.row12sp p {
+    margin-bottom: 10px !important;
+    text-align: left !important;
+    /* justify-content: end !important; */
+}
+#modal-subastas-logeado-sinsaldo .contn-entrega button{
+    width: 30%;
+}
+.content-modal .close.close-subastas {
+    margin: -0.2rem -0.8rem 0rem auto !important;
+}
+.subasta__symbol__coin {
+    width: 26px !important;
+}
+/* modal inscribirse */
+.content-titulo {
+    text-align: center;
+}
+.content-titulo h5 {
+    margin: 10px 0 15px;
+    font-family: "Poppins";
+    color: #0c0f3d;
+}
+.content-info-der {
+    display: flex;
+    align-items: center;
+}
+.img-prod img {
+    width: 47px;
+    height: 47px;
+    object-fit: cover;
+    margin: auto;
+    display: block;
+    border-radius: 50%;
+    border: 1px solid #c6c6c6;
+}
+.rowinfoSubas{
+    align-items: center;
+}
+.rowinfoSubas p {
+    margin: 0;
+    color: #232a85;
+    font-size: 12px;
+    font-family: "Poppins";
+    text-decoration: underline;
+}
+.rowinfoSubas h3 {
+    margin: 0;
+    color: black;
+    text-decoration: underline;
+    font-family: "Antonio-Light";
+}
+.row-selectt {
+    margin-top: 15px;
+    align-items: center;
+}
+.row-selectt span {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    color: #0c0f3d;
+}
+.row-selectt input {
+    width: 67px;
+    border: none;
+    margin-left: 15px;
+    text-align: center;
+    border-radius: 50px;
+    font-family: "Poppins";
+    background-color: #e7e7e7;
+}
+.row-selectt input :focus{
+    outline: 0px;
+    box-shadow: none;
+    background-color: #e7e7e7;
+}
+.contant-buttonTikk {
+    display: flex;
+    justify-content: center;
+}
+.contant-buttonTikk button {
+    border: none;
+    color: #fff;
+    margin: 0 3px;
+    width: 100%;
+    height: 38px;
+    text-align: center;
+    padding: 10px 2px;
+    font-size: 12px;
+    border-radius: 25px;
+    font-family: "Poppins";
+}
+.contant-buttonTikk button span{
+    color: #fff;
+    display: inherit;
+    font-size: 12px;
+    text-align: center;
+}
+.subastas__inscripcion__comprar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contant-buttonTikk a{
+    width: 100%;
+}
+.contant-buttonTikk .compra {
+    background-color: #232a85;
+}
+.contant-buttonTikk .recarga {
+    background-color: #eb4454;
+}
+.content-cant-tickets {
+    background-color: #e7e7e7;
+    color: #232a85;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    padding: 15px;
+}
+.precio-entrada {
+    font-size: 14px;
+    color: #0c0f3d;
+}
+.divTickekss {
+    font-size: 14px;
+    text-align: center;
+}
+
+/* ----------------------- Medias Responsive ---------------------- */
+@media (max-width: 1130px) {
+    .row-circle {
+        padding: 30px 0px;
+    }
+    .container-info {
+        top: 12px;
+    }
+    .container-info img {
+        width: 75px;
+    }
+    .container-info {
+        font-size: 13px;
+    }
+    .img-lazo {
+        left: -63px !important;
+        width: 130px !important;
+    }
+    .row-container-destacado {
+        width: 100%;
+    }
+}
+
+@media (max-width: 992px) {
+    .container-text-carousel {
+        padding-top: 50px;
+        padding: 0;
+    }
+    .row12sp {
+        justify-content: center;
+    }
+    .rowmdll {
+        align-items: center;
+    }
+    .container-text-carousel h1,
+    .container-text-carousel p {
+        text-align: center;
+    }
+    .container-text-carousel h1 br,
+    .container-text-carousel p br {
+        display: none;
+    }
+    .container-text-carousel button {
+        margin: 10px auto 20px;
+    }
+    #carousel-banner-subastas .owl-next {
+        top: 55%;
+        right: 2%;
+    }
+    #carousel-banner-subastas .owl-prev {
+        top: 55%;
+        left: 2%;
+    }
+    .div-circle {
+        margin: 10px auto 40px;
+    }
+    .container-info {
+        top: 20px;
+        width: 70%;
+        font-size: 15px;
+        margin-left: 20%;
+    }
+    .franja-info {
+        text-align: center;
+        padding: 10px;
+    }
+    .col7none {
+        display: none;
+    }
+    .col12none {
+        display: block;
+        margin-bottom: 20px;
+    }
+    #modal-info-subastas-new .btn1 {
+        margin-top: 35px !important;
+    }
+    .header-modal-label {
+        margin: 15px 0 20px;
+        text-align: center;
+    }
+    .nombre-producto-modal {
+        margin: 15px 0 0;
+    }
+    .infor-subas button {
+        margin-top: 10px;
+    }
+    .pl-lg-0 {
+        padding: 15px 0;
+        padding-bottom: 20px;
+    }
+    .infor-subas {
+        padding: 0;
+    }
+    .img-lazo {
+        top: 40px;
+        right: 40px;
+        left: inherit !important;
+        width: 180px !important;
+    }
+    .container-text-carousel p {
+        margin: 10px 0 30px;
+    }
+    .row-carousel {
+        padding: 50px 0 0;
+    }
+}
+
+@media (max-width: 800px) {
+    .container-info {
+        margin-left: 10%;
+    }
+    .container-info img {
+        width: 60px;
+    }
+    .container-text-carousel h1 {
+        font-size: 33px;
+        margin-top: 30px;
+    }
+    .container-text-carousel p {
+        font-size: 14px;
+    }
+    .img-lazo {
+        width: 130px !important;
+    }
+}
+
+@media (max-width: 575px) {
+    .container-info {
+        margin-left: -20px;
+        justify-content: center;
+        width: 100%;
+    }
+    .img-lazo {
+        top: 15px;
+        right: 15px;
+        width: 90px !important;
+    }
+    .tipo-subasta {
+        font-size: 12px;
+        padding: 8px 7px;
+        display: flow-root;
+        justify-content: center;
+        text-align: center;
+        margin-top: 10px;
+    }
+}

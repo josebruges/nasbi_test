@@ -1,0 +1,683 @@
+body{
+    background-color: #F8F8F8;
+}
+.row-header-resumen {
+    padding: 100px 10px;
+    background-size: 100% 125%;
+    background-image: url("../imagen/fondo-escuela.png");
+}
+.row-header-resumen h2 {
+    margin: 0px;
+    color: #fff;
+    text-align: center;
+    font-family: "Poppins";
+}
+
+.row-tabss {
+    align-items: center;
+    padding: 70px 50px;
+}
+.row-tabss .nav-tabs {
+    border: none;
+    padding-left: 12px;
+}
+.row-tabss .nav-tabs .nav-link {
+    border: none;
+    width: 170px;
+    color: #fff;
+    font-size: 13px;
+    margin-right: 20px;
+    text-align: center;
+    border-radius: 25px;
+    font-family: "Poppins";
+    justify-content: center;
+    background-color: rgba(112, 112, 110, 0.7);
+}
+.row-tabss .nav-tabs .nav-link.active {
+    background-color: #ea4453;
+}
+.card-negocio {
+    width: 90%;
+    padding: 40px 0;
+    cursor: pointer;
+    margin: 50px auto 0;
+    border-radius: 35px;
+    background-color: #e7e7e7;
+}
+.card-negocio:hover {
+    background-color: #1464E1;
+}
+.card-negocio:hover p {
+    color: #fff;
+}
+.card-negocio:hover img {
+    filter: brightness(0) invert(1);
+}
+.card-negocio p {
+    font-size: 15px;
+    color: #0c0f3d;
+    margin: 0 0 -5px;
+}
+.card-negocio p b {
+    font-size: 16px;
+}
+.card-negocio img {
+    margin-bottom: 10px;
+}
+
+.group-filterr {
+    padding-right: 12px;
+    justify-content: flex-end;
+}
+.group-filterr .input-group-text {
+    border: none;
+    font-size: 13px;
+    color: #232a85;
+    border-radius: 0px;
+    font-family: "Poppins";
+    background-color: transparent;
+}
+.group-filterr .bootstrap-select .dropdown-toggle, .row-selects .bootstrap-select .dropdown-toggle {
+    z-index: 99;
+    padding: 8px 12px;
+    border-radius: 20px;
+    background-color: #fff;
+    /* border: 2px solid #232a85; */
+}
+.group-filterr .dropdown-item {
+    padding: 5px 15px;
+    font-size: 13px;
+    cursor: pointer;
+    color: #232a85;
+    white-space: normal;
+    text-align: left;
+    font-family: "Poppins";
+}
+.group-filterr .dropdown-menu a:hover {
+    color: #FF103D;
+}
+.group-filterr .dropdown-menu {
+    min-width: 100%;
+    z-index: 9;
+    margin-top: -18px;
+    /* border: 2px solid #232a85; */
+    border-radius: 3px 0 20px 20px;
+    padding: 15px 0px 5px !important;
+}
+.group-filterr .filter-option-inner-inner {
+    font-size: 14px;
+    color: #707070;
+    font-family: "Poppins-normal";
+    text-align: left!important;
+}
+.group-filterr select {
+    border: none;
+    cursor: pointer;
+    padding: 0 10px;
+    color: #707070;
+    text-align: center;
+    text-align-last: center;
+    background-color: transparent;
+}
+.group-filterr select:focus,
+.group-filterr select:active {
+    outline: 0px;
+    border: none;
+}
+.label-title_nodata{
+    font-size: 11px;
+    color: #FF103D;
+    text-align: center;
+    font-family: "Geometos";
+}
+.responsiv-tble {
+    padding: 12px;
+    margin-top: 49px;
+    overflow-y: auto;
+    max-height: 500px;
+}
+.responsiv-tble table thead th {
+    top: 0;
+    border: none;
+    font-size: 15px;
+    position: sticky;
+    color: #232a85;
+    padding: 0 0 10px;
+    text-align: center;
+    font-weight: normal;
+    font-family: "Poppins";
+    background-color: transparent;
+}
+.responsiv-tble table tbody td {
+    border: none;
+    font-size: 15px;
+    color: #707070;
+    text-align: center;
+    vertical-align: middle;
+}
+.td-name {
+    color: #040589 !important;
+    font-weight: bold !important;
+}
+.responsiv-tble table tr td:first-child {
+    border-radius: 25px 0 0 25px;
+}
+.responsiv-tble table tr td:last-child {
+    border-radius: 0 25px 25px 0;
+}
+.responsiv-tble table tr:nth-child(even) {
+    background: rgba(112, 112, 112, 0.1);
+}
+
+/* Parte 2 */
+.row-one-info {
+    width: 70%;
+    margin-right: auto;
+    align-items: center;
+    padding: 70px 70px 50px;
+}
+.row-one-info h4 {
+    margin: 0px;
+    color: #0c0f3d;
+    text-align: left;
+    font-family: "Poppins";
+}
+.row-one-info .return {
+    margin: 8px 0 0;
+    color: #0c0f3d;
+    text-align: left;
+}
+.negocio-act {
+    margin: 0;
+    background-color: #1464E1;
+}
+.negocio-act p {
+    color: #fff;
+}
+.negocio-act img {
+    filter: brightness(0) invert(1);
+}
+
+.row-two-est {
+    width: 90%;
+    margin-top: 50px;
+    align-items: center;
+}
+.row-two-est h5 {
+    margin: 0px;
+    color: #232a85;
+    text-align: left;
+    font-family: "Poppins";
+}
+.row-two-est .group-filterr {
+    padding-right: 0;
+    margin-top: 0;
+}
+
+.row-three {
+    width: 100%;
+    display: flex;
+    margin: 30px 0;
+    padding: 5px 50px;
+    background-color: #D1D1D1;
+    justify-content: space-between;
+}
+.row-three select {
+    width: auto;
+    border: none;
+    border: none;
+    color: #fff;
+    font-size: 18px;
+    padding: 0 10px;
+    text-align: center;
+    font-family: "Poppins";
+    text-align-last: center;
+    background-color: transparent;
+}
+.row-three select option {
+    color: #707070;
+}
+.select1 {
+    margin-right: auto;
+}
+.select2 {
+    margin-left: auto;
+}
+.row-three select:focus,
+.row-three select:active {
+    outline: 0px;
+    color: #fff;
+    box-shadow: none;
+    background-color: transparent;
+}
+
+.row-four {
+    margin-top: 70px;
+}
+.row-four h5 {
+    margin: 0 0 40px;
+    color: #232a85;
+    text-align: center;
+    font-family: "Poppins";
+}
+.row-four img {
+    width: 70%;
+}
+
+.row-five {
+    /* width: 90%; */
+    margin: 100px 0 70px;
+}
+.row-five .group-filterr {
+    justify-content: end;
+    margin-bottom: 30px;
+}
+.responsive-carrito {
+    max-height: 310px;
+    overflow: auto;
+    margin-top: 30px;
+}
+.table-negocio tbody tr {
+    border-bottom: 3px solid #F8F8F8;
+}
+.table-negocio tr:nth-child(even) {
+    background: #ebebeb;
+}
+.table-negocio thead th {
+    top: 0;
+    border: none;
+    font-size: 15px;
+    position: sticky;
+    color: #040589;
+    padding: 0px 8px 15px;
+    text-align: center;
+    font-weight: normal;
+    font-family: "Poppins";
+    background-color: transparent;
+}
+.table-negocio tbody td {
+    /* border: none;
+    padding: 2px 4px;
+    text-align: center;
+    vertical-align: middle; */
+
+    border: none;
+    padding: 0 5px;
+    font-size: 15px;
+    color: #040589;
+    text-align: center;
+    cursor: default;
+    vertical-align: middle;
+}
+.table-negocio tr td:first-child {
+    border-radius: 21px 0px 0px 23px !important;
+}
+.table-negocio tr td:last-child {
+    border-radius: 0 25px 25px 0;
+}
+.container-photo .img-produt {
+    width: 50px;
+    height: 50px;
+    float: left;
+    display: block;
+    max-width: 50px;
+    min-width: 50px;
+    max-height: 50px;
+    margin-top: 1.5px;
+    min-height: 50px;
+    margin-right: 10px;
+    border-radius: 50%;
+    vertical-align: middle;
+    border: 1px solid #b1b1b1;
+    margin: 9px;
+}
+.img-produt {
+    width: 50px;
+    height: 50px;
+    max-width: 50px;
+    max-height: 50px;
+    object-fit: contain;
+    background: #ffffff;
+}
+.flex-name {
+    align-items: center;
+}
+.flex-name p {
+    max-width: 195px;
+    text-align: left;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.txt-numb {
+    margin: 0;
+    font-size: 13px;
+    color: #707070;
+}
+.name-product {
+    font-size: 12px;
+    margin-left: 8px;
+    margin-bottom: 0;
+    color: #eb4454;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font-family: "Poppins";
+}
+.visits {
+    margin: 0;
+    font-size: 11px;
+    color: #707070;
+}
+.text-gry {
+    margin: 0;
+    color: #707070;
+    font-size: 14px;
+}
+.btnTle {
+    width: 100%;
+    border: none;
+    color: #fff;
+    display: block;
+    font-size: 10px;
+    padding: 10px 0px;
+    margin: 8px auto 0;
+    border-radius: 25px;
+    font-family: "Geometos";
+    background-color: #232a85;
+}
+/* .td1 {
+    width: 25%;
+}
+.td2 {
+    width: 15%;
+}
+.td3 {
+    width: 10%;
+}
+.td4 {
+    width: 25%;
+}
+.td5 {
+    width: 25%;
+} */
+.legends_grafica_uno .list-group{
+    /*flex-direction: initial;*/
+}
+
+.botones_grafica_uno{
+    width: 100%;
+}
+
+.botones_grafica_dos{
+    font-size: 9px !important; 
+    
+}  
+
+.legends_grafica_uno .list-group li{
+    width: 100%;
+}
+.td2 p {
+    border-left: 1px solid #707070;
+    border-right: 1px solid #707070;
+}
+.td4 p {
+    border-left: 1px solid #707070;
+    border-right: 1px solid #707070;
+}
+.table-modal-info{
+    overflow: auto;
+    max-height: 230px;
+    margin-top: 30px;
+}
+.table-modal-info thead th {
+    top: 0;
+    border: none;
+    font-size: 14px;
+    position: sticky;
+    color: #232A85;
+    padding: 0px 8px 15px;
+    text-align: center;
+    font-weight: normal;
+    font-family: "Poppins";
+    background-color: #fff;
+}
+.table-modal-info tbody td {
+    border: none;
+    font-size: 14px;
+    color: #707070;
+    padding: 10px 8px;
+    text-align: center;
+    vertical-align: middle;
+}
+ .select_mejores_vents .select_padre_mejoresvents .btn:not(:disabled):not(.disabled){
+     border: none; 
+    color: #fff;
+    padding: 8px 20px;
+    border-radius: 25px;
+    font-family: "Poppins";
+    background-color: #D1D1D1 !important;
+}
+.bootstrap-select .dropdown-toggle .filter-option-inner-inner{
+    text-align: center;
+}
+.row-three .dropdown-menu {
+    z-index: 9999;
+    min-width: 100%;
+    border-radius: 20px;
+    border: 2px solid #232a85;
+    padding: 10px 0px!important;
+}
+.row-three .dropdown-item {
+    padding: 5px 15px;
+    font-size: 13px;
+    cursor: pointer;
+    color: #232a85;
+    white-space: normal;
+    text-align: left;
+    font-family: "Poppins";
+}
+.row-three .dropdown-menu a:hover {
+    color: #FF103D;
+    background-color: transparent;
+}
+.bootstrap-select .dropdown-toggle:focus, .bootstrap-select > select.mobile-device:focus + .dropdown-toggle {
+    box-shadow: none !important;
+    outline: 0px !important;
+}
+.table-negocio .dropdown-menu {
+    min-width: 100%;
+    border-radius: 20px;
+    padding: 10px 0px!important;
+    border: 2px solid #232a85;
+}
+.table-negocio .dropdown-item {
+    padding: 5px 15px;
+    font-size: 13px;
+    cursor: pointer;
+    color: #232a85;
+    white-space: normal;
+    text-align: left;
+    font-family: "Poppins";
+    border-radius: 20px;
+}
+.ventas_negocio_referido p{
+    margin: 0;
+}
+
+.row-secund-grafic{
+    align-items: flex-end;
+}
+.ver_info_comprador{
+    font-size: 9px !important;
+    background-color: #005FFF!important;
+    width: 80% !important;
+}
+.row-five .bootstrap-select>.dropdown-toggle:after{
+    color: #707070;
+}
+
+.table_estadistica_ventas_style tbody tr {
+        background: #ebebeb;
+        border-bottom: 5px solid #ebebeb;
+        border-top: 5px solid #ebebeb;
+        line-height: 20px;
+}
+
+
+.responsiv-tble table   {
+    background-color: #707070;
+  
+}
+
+.table-responsive{
+    background-color: #f5f5f5;
+}
+
+.table_estadistica_ventas_style thead {
+    background-color: transparent;
+}
+.table_estadistica_ventas_style{
+    border-collapse: separate;
+    border-spacing: 0px 20px;
+    padding: 6px;
+}
+
+.opciones_estadistica_style{
+    width: 97% !important; 
+}
+
+
+/* ---------------------------------- Medias Responsives ---------------------------------- */
+@media (max-width: 1130px) {
+    .card-negocio {
+        padding: 40px 0;
+    }
+    .row-three {
+        padding: 5px 33px;
+    }
+    .row-one-info {
+        width: 80%;
+    }
+    .row-five {
+        width: 100%;
+    }
+    .div_grafica_2{
+        margin-top: 70px;
+    }
+}
+
+@media (max-width: 991px) {
+    .row-tabss .nav-tabs .nav-link {
+        width: 140px;
+    }
+    .row-one-info {
+        width: 95%;
+    }
+    .table-negocio {
+        width: 1000px;
+        overflow: auto;
+    }
+}
+
+@media (max-width: 850px) {
+    .row-one-info {
+        width: 100%;
+        padding: 70px 40px 50px;
+    }
+}
+
+@media (max-width: 767px) {
+    .row-header-resumen {
+        background-size: cover;
+    }
+    .responsiv-tble table {
+        width: 750px;
+        overflow: auto;
+    }
+    .row-tabss .nav-tabs {
+        justify-content: center;
+    }
+    .group-filterr {
+        padding-right: 0px;
+        justify-content: center;
+        margin-top: 30px;
+    }
+    .row-tabss .nav-tabs .nav-link {
+        width: 45%;
+        margin: auto;
+    }
+    .row-one-info {
+        padding: 70px 20px 50px;
+    }
+    .row-three {
+        padding: 5px;
+    }
+    .trans250_{
+        margin-top: 70px!important;
+    }
+    .row-secund-grafic {
+        align-items: center;
+    }
+    .div_grafica_2{
+        margin-top: 0;
+    }
+    .chartjs-render-monitor{
+        margin-top: 30px;
+    }
+}
+
+@media (max-width: 575px) {
+    .table-modal-info table{
+        width: 500px;
+        overflow-x: auto;
+    }
+    .legends_grafica_uno .list-group {
+        flex-direction: column;
+    }
+    .row-three{
+        justify-content: center;
+    }
+    .select_mejores_vents .select_padre_mejoresvents .btn:not(:disabled):not(.disabled){
+        width: 170px;
+    }
+    .bootstrap-select:not([class*=col-]):not([class*=form-control]):not(.input-group-btn){
+        width: 100%;
+    }
+    .row-header-resumen {
+        padding: 50px 10px;
+    }
+    .row-header-resumen h2 {
+        font-size: 23px;
+    }
+    .row-tabss {
+        padding: 70px 20px;
+    }
+    .card-negocio {
+        margin: 40px auto 0;
+    }
+    .responsiv-tble {
+        padding: 12px 0;
+    }
+    .row-one-info {
+        padding: 25px 20px 30px;
+    }
+    .row-one-info h4,
+    .row-one-info p,
+    .row-two-est h5 {
+        text-align: center !important;
+    }
+    .card-negocio {
+        margin: 40px auto 20px;
+    }
+    .row-five {
+        margin: 0px 0 70px;
+    }
+    .row-four h5 {
+        margin: 0 0 25px;
+    }
+    .row-five .group-filterr {
+        margin-top: 15px;
+        justify-content: center;
+    }
+}

@@ -1,0 +1,755 @@
+/* Nav pills */
+.col-list-nav {
+    width: 24%;
+    padding: 30px 10px;
+    background-color: rgba(235, 235, 235, 0.6);
+}
+.col-tabcontent {
+    width: 76%;
+}
+.nav-pills .nav-link {
+    font-size: 14px;
+    color: #232a85;
+    text-align: left;
+    padding: 10px 8px;
+    font-family: "Poppins";
+    text-transform: capitalize;
+}
+.nav-pills .nav-link img {
+    width: 30px;
+}
+.nav-pills .nav-link.active {
+    color: #eb4454;
+    background-color: transparent;
+}
+.icon-down-responsive {
+    display: none;
+}
+
+/* Sesiones */
+.row-nav {
+    display: flex;
+}
+.tab-pane {
+    padding: 0px 25px;
+}
+.title-section {
+    margin: 40px 0 0;
+    color: #232a85;
+    text-align: left;
+    font-family: "Poppins";
+}
+
+/* Mis Tickets */
+.row-card-ticket {
+    padding: 30px 0;
+    align-items: center;
+    margin-bottom: 15px;
+    /* background-color: #c40000; */
+}
+.card-tiket{
+    margin: 5px 0;
+    display: flex;
+    align-items: center;
+}
+.card-total{
+    display: block;
+}
+.card-total h1 {
+    margin: 0;
+    line-height: 1;
+    font-size: 55px;
+    color: #232a85;
+    overflow: hidden;
+    white-space: nowrap;
+    font-family: "Poppins";
+    text-overflow: ellipsis;
+}
+.card-total h3 {
+    line-height: 1;
+    font-size: 25px;
+    color: #232a85;
+    text-align: center;
+    word-break: break-all;
+    font-family: "Poppins";
+}
+.card-tiket img{
+    width: 100px;
+    margin-right: 12px;
+}
+.card-tiket h1 {
+    margin: 0 8px 0 0;
+    width: 130px;
+    line-height: 1;
+    font-size: 60px;
+    overflow: hidden;
+    color: #232a85;
+    text-align: center;
+    white-space: nowrap;
+    font-family: "Poppins";
+    text-overflow: ellipsis;
+}
+.card-tiket h3 {
+    margin: 0;
+    color: #232a85;
+    line-height: 1;
+    font-size: 16px;
+    text-align: left;
+    word-break: break-all;
+    font-family: "Poppins";
+}
+
+
+
+.grouo-fecha .dropdown-toggle {
+    z-index: 999;
+    color: #232a85;
+    background-color: #fff;
+    border: 2px solid #232a85;
+    border-radius: 25px !important;
+}
+.grouo-fecha .btn-light:not(:disabled):not(.disabled).active,
+.grouo-fecha .btn-light:not(:disabled):not(.disabled):active,
+.grouo-fecha .show > .btn-light.dropdown-toggle {
+    border-color: #232a85;
+}
+.grouo-fecha .dropdown-menu {
+    z-index: 99;
+    width: inherit;
+    margin-top: -18px;
+    border: 2px solid #232a85;
+    padding: 10px 0 5px !important;
+    border-radius: 3px 0 20px 20px;
+}
+.grouo-fecha .dropdown-menu a:hover {
+    color: #FF103D;
+    background-color: transparent;
+}
+.grouo-fecha .dropdown-item {
+    padding: 5px 15px;
+    font-size: 13px;
+    cursor: pointer;
+    color: #232a85;
+    white-space: normal;
+    text-align: left;
+    font-family: "Poppins";
+}
+.grouo-fecha .dropdown-toggle .filter-option-inner-inner {
+    font-size: 14px;
+    color: #232a85;
+    text-align: center;
+    font-family: "Poppins";
+}
+.bootstrap-select .dropdown-toggle:focus,
+.bootstrap-select > select.mobile-device:focus + .dropdown-toggle {
+    box-shadow: none;
+    outline: 0px !important;
+}
+.grouo-fecha .input-group-text {
+    border: none;
+    color: #040589;
+    font-size: 15px;
+    background-color: transparent;
+}
+.grouo-fecha .input-group-text b {
+    color: #0c0f3d;
+}
+.grouo-fecha input,
+.grouo-fecha select {
+    border: none;
+    height: 40px;
+    font-size: 15px;
+    padding: 6px 12px;
+    color: #232a85;
+    cursor: pointer;
+    text-align: center;
+    max-width: 170px;
+    border: 2px solid #232a85;
+    border-radius: 25px !important;
+}
+.grouo-fecha input:focus,
+.grouo-fecha select:focus {
+    outline: 0px;
+    cursor: pointer;
+    box-shadow: none;
+    color: #232a85;
+    border: 2px solid #232a85;
+}
+input[type="date"]::-webkit-calendar-picker-indicator {
+    margin-left: -30px;
+}
+
+.responsive-table {
+    /* max-height: 310px; */
+    overflow: auto;
+    margin-top: 30px;
+}
+.table-list {
+    margin: 0;
+}
+.table-list thead th {
+    top: 0;
+    border: none;
+    font-size: 15px;
+    position: sticky;
+    color: #040589;
+    padding: 0px 8px 15px;
+    text-align: center;
+    font-weight: normal;
+    font-family: "Poppins";
+    background-color: #fff;
+}
+.table-list tbody td {
+    border: none;
+    padding: 10px 5px;
+    font-size: 15px;
+    color: #040589;
+    text-align: center;
+    vertical-align: middle;
+}
+.table-list tbody td {
+    border-bottom: 1px solid #040589;
+}
+.table-list tbody td img {
+    width: 25px;
+    margin-top: -4px;
+}
+.table-list tbody td b {
+    font-size: 11px;
+    font-family: "Geometos";
+}
+
+/* Transacciones */
+/* .text-inf1 {
+    margin: 0;
+    font-size: 15px;
+    text-align: left;
+    color: #707070;
+} */
+.btnagg {
+    height: 40px;
+    border: none;
+    color: #fff;
+    display: block;
+    font-size: 12px;
+    padding: 10px 50px;
+    margin: auto;
+    border-radius: 25px;
+    font-family: "Geometos";
+    background-color: #FF103D;
+}
+
+.roe-head {
+    padding: 10px;
+    align-items: center;
+    background-color: #0c0f3d;
+}
+.roe-head p {
+    margin: 0;
+    color: #fff;
+    text-align: left;
+}
+.roe-head button {
+    width: 45%;
+    height: 40px;
+    border: none;
+    font-size: 12px;
+    color: #151a30;
+    border-radius: 25px;
+    font-family: "Geometos";
+    background-color: #dbdbdb;
+}
+.row-prics {
+    align-items: flex-end;
+}
+.row-col-left {
+    margin-top: 10px;
+}
+.row-prics p {
+    margin: 0;
+    padding: 15px 0;
+    font-size: 15px;
+    color: #040589;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    border-bottom: 1px solid #040589;
+}
+.text-right {
+    direction: rtl;
+    font-size: 14px;
+    font-family: "Geometos";
+}
+.text-right img {
+    width: 23px;
+    vertical-align: sub;
+}
+.row-right p {
+    margin: 0;
+    padding: 15px 0;
+    font-size: 15px;
+    color: #040589;
+    text-align: left;
+}
+.row-recarga {
+    align-items: flex-end;
+    background-color: #0c0f3d;
+}
+.text2 {
+    margin: 0 !important;
+    color: #fff !important;
+    font-size: 17px !important;
+    font-family: "Poppins" !important;
+}
+.row-recarga .btc {
+    width: 30px;
+    margin-right: 10px;
+}
+.row-secund {
+    padding: 20px 5px 0;
+    align-items: flex-end;
+}
+.QR {
+    width: 100%;
+    display: block;
+    margin-right: auto;
+    margin-bottom: -5px;
+}
+.textqr {
+    padding-bottom: 0 !important;
+    margin: 0 !important;
+    font-size: 16px !important;
+    color: #040589 !important;
+    text-align: left;
+    line-height: 1 !important;
+}
+.textqr img {
+    width: 30px;
+    cursor: pointer;
+}
+.grouo-info {
+    margin-top: 30px;
+}
+.grouo-info .input-group-text {
+    border: none;
+    color: #232a85;
+    font-size: 15px;
+    padding-left: 0;
+    background-color: transparent;
+}
+.grouo-info input {
+    border: none;
+    height: 40px;
+    font-size: 15px;
+    color: #151a30;
+    max-width: 250px;
+    background-color: #dbdbdb;
+    border-radius: 25px !important;
+}
+.grouo-info input:active,
+.grouo-info input:focus {
+    outline: 0px;
+    box-shadow: none;
+    color: #151a30;
+    background-color: #dbdbdb;
+}
+.btn-transfer {
+    height: 50px;
+    border: none;
+    color: #fff;
+    display: block;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 0 70px;
+    font-size: 12px;
+    margin-right: auto;
+    border-radius: 25px;
+    font-family: "Geometos";
+    background-color: #FF103D;
+}
+
+/* Reconsumo */
+.card-reconsumo {
+    padding: 10px;
+    cursor: pointer;
+    border: 5px solid #fff;
+}
+.card-reconsumo:hover {
+    border: 5px solid #232a85;
+}
+.row-recons {
+    margin: 30px 0;
+}
+.card-reconsumo h2 {
+    margin: 0;
+    color: #fff;
+    padding: 26px 0 20px;
+    font-family: "Geometos";
+}
+
+.color1 {
+    background-color: #84300f !important;
+}
+.color2 {
+    background-color: #efefef !important;
+}
+.color3 {
+    background-color: #e5a907 !important;
+}
+.color4 {
+    background-color: #9b9b9b !important;
+}
+.color5 {
+    background-color: #cecece !important;
+}
+.color6 {
+    background-color: #FF103D !important;
+}
+
+.conte-text {
+    padding: 30px 0;
+    background-color: #151a30;
+}
+.card-reconsumo p {
+    margin: 0;
+    padding: 10px 0;
+    color: #fff;
+    font-size: 15px;
+    line-height: 1.2;
+}
+.card-reconsumo button {
+    height: 45px;
+    border: none;
+    color: #fff;
+    font-size: 12px;
+    margin-top: 10px;
+    padding: 10px 50px;
+    border-radius: 25px;
+    font-family: "Geometos";
+    background-color: #FF103D;
+}
+.fondo-bono {
+    padding: 60px 65px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-image: url("../imagen/fondo-bono.png");
+}
+.fondo-bono h2 {
+    margin: 0;
+    color: #fff;
+    text-align: left;
+    font-family: "Geometos";
+}
+.fondo-bono p {
+    margin: 0;
+    color: #fff;
+    font-size: 15px;
+    text-align: left;
+}
+.text-01 {
+    margin: 25px 0;
+    color: #707070;
+    font-size: 15px;
+    text-align: left;
+}
+.label-pago {
+    color: #fff;
+    font-size: 18px;
+    text-align: left;
+    padding: 15px 10px;
+    font-family: "Poppins";
+    background-color: #0c0f3d;
+}
+.row-pago-act {
+    margin-bottom: 70px;
+    padding-bottom: 50px;
+    background-color: rgba(231, 231, 231, 0.5);
+}
+.row-pago-info p {
+    margin: 0;
+    font-size: 15px;
+    color: #11128f;
+}
+.retr1 {
+    font-size: 19px !important;
+}
+.row-pago-info .text-right {
+    direction: inherit;
+    font-family: "Geometos";
+}
+.row-pago-info .text-right img {
+    width: 23px;
+}
+.row-pago-info .text-left b {
+    font-family: "Poppins";
+}
+.txt-copy {
+    text-align: left;
+}
+.txt-copy img {
+    width: 30px;
+}
+.row-pago-info input {
+    border: none;
+    margin-top: 7px;
+    color: #707070;
+    font-size: 15px;
+    border-radius: 0px;
+    background-color: #fff;
+}
+.row-pago-info input:focus {
+    border: none;
+    outline: 0px;
+    box-shadow: none;
+    background-color: #fff;
+}
+.qrpago {
+    align-items: center;
+}
+.qrpago .textqr {
+    line-height: 1.4 !important;
+}
+.row-form4 .fa-info-circle {
+    font-size: 25px;
+    margin: 10px 0;
+}
+.row-form4 .titulo {
+    text-align: center;
+    margin-bottom: 25px;
+    color: #FF103D;
+}
+.titulo h5 {
+    font-family: "Geometos";
+}
+
+.row-form4 p {
+    font-family: "Poppins";
+    color: #232a85;
+    font-size: 15px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.content-button {
+    text-align: center;
+}
+.row-form4 .form-control[readonly] {
+    border: none;
+    background-color: #ffffff;
+    border-radius: 0;
+    border-bottom: 1px solid #232a85;
+    font-size: 14px;
+    color: #151a30;
+    text-align: center;
+}
+.row-form4 input:focus,
+.row-form4 input.form-control:focus {
+    outline: 0 !important;
+    outline-width: 0 !important;
+    box-shadow: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+}
+.btn-cerrar {
+    background-color: #11128f;
+    color: #ffffff;
+    font-family: "Poppins";
+    border: none;
+    padding: 5px 30px;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+.grouo-fecha .bootstrap-select > .dropdown-toggle:after {
+    color: #232a85;
+}
+.grouo-fecha .bootstrap-select > select {
+    left: 0;
+}
+
+/* -------------------------------- Medias Responsives -------------------------------- */
+@media (max-width: 1130px) {
+    .tab-pane {
+        padding: 0px 15px;
+    }
+    .nav-pills .nav-link {
+        padding: 15px 0;
+        font-size: 13px;
+    }
+    .col-tabcontent {
+        width: 100%;
+    }
+    .col-list-nav {
+        z-index: 9999;
+        left: -265px;
+        width: 310px;
+        transition: 1s;
+        position: fixed;
+        background-size: 100% 100%;
+        padding: 15px 0px 15px 5px;
+        background-color: transparent;
+        background-image: url("../imagen/nav-lateral.png");
+    }
+    .col-list-nav:hover {
+        left: 0;
+    }
+    .icon-down-responsive {
+        bottom: 0;
+        top: 124px;
+        left: auto;
+        right: 20px;
+        display: block;
+        font-size: 18px;
+        color: #232a85;
+        position: absolute;
+        text-align: center;
+    }
+    .col-list-nav .fa-chevron-left {
+        display: none;
+        margin-top: 3px;
+    }
+    .col-list-nav:hover .fa-chevron-left {
+        display: block;
+    }
+    .col-list-nav:hover .fa-chevron-right {
+        display: none;
+    }
+    .grouo-fecha {
+        justify-content: center;
+    }
+    .fondo-bono {
+        background-size: cover;
+    }
+}
+
+@media (max-width: 991px) {
+    .card-tiket{
+        justify-content: center;
+    }
+    .card-tiket h1{
+        width: 175px;
+    }
+    .card-tiket h3 {
+        margin: 15px 0 0 0;
+    }
+    .card-total h1 {
+        margin: 15px 0 0;
+    }
+}
+
+
+@media (max-width: 890px) {
+    .card-tiket h1{
+        width: 150px;
+    }
+}
+
+
+
+@media (max-width: 767px) {
+    .grouo-info,
+    .grouo-fecha {
+        display: block;
+    }
+    .grouo-info input,
+    .grouo-fecha input,
+    .grouo-fecha select {
+        max-width: 100% !important;
+        min-width: 100% !important;
+    }
+    .grouo-fecha > .custom-select:not(:first-child),
+    .grouo-fecha > .form-control:not(:first-child) {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .table-list {
+        width: 700px;
+    }
+    .btnagg {
+        margin: 30px auto 0;
+    }
+    .roe-head {
+        margin-top: 40px;
+    }
+    .roe-head p {
+        text-align: center;
+    }
+    .roe-head button {
+        width: 40%;
+        margin: 10px;
+    }
+    .card-tiket h1 {
+        width: auto;
+        max-width: 300px;
+    }
+}
+
+@media (max-width: 575px) {
+    .title-section {
+        font-size: 25px;
+        text-align: center;
+    }
+    /* .text-inf1 {
+        text-align: center;
+        margin-bottom: 30px;
+    } */
+    .btnagg {
+        width: 100%;
+    }
+    .QR {
+        width: 90px;
+        margin: auto;
+        display: block;
+        margin-bottom: 5px;
+    }
+    .text2,
+    .textqr,
+    .row-right p {
+        text-align: center;
+    }
+    .roe-head button {
+        width: 45%;
+        margin: 10px 3px;
+    }
+    .btn-transfer {
+        width: 100%;
+        height: 40px;
+        margin-top: 40px;
+    }
+    .fondo-bono {
+        padding: 25px 20px;
+    }
+    .fondo-bono h2 {
+        font-size: 28px;
+        text-align: center;
+    }
+    .fondo-bono p {
+        font-size: 14px;
+        line-height: 1.3;
+        text-align: center;
+    }
+    .text-01 {
+        line-height: 1.3;
+        text-align: center;
+    }
+    .label-pago {
+        text-align: center;
+    }
+    .card-tiket h1 {
+        width: auto;
+        max-width: 130px;
+        font-size: 45px;
+    }
+    .card-tiket img{
+        width: 80px;
+    }
+    .card-tiket {
+        justify-content: end;
+    }
+    .card-tiket h3{
+        font-size: 14px;
+    }
+    .row-card-ticket {
+        padding: 30px 0 0;
+        margin-bottom: 0;
+    }
+}

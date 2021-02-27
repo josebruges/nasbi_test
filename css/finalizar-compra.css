@@ -1,0 +1,518 @@
+.row-general {
+    padding: 50px 80px 70px;
+}
+.label-sect {
+    color: #232a85;
+    text-align: left;
+    font-family: "Poppins";
+}
+.row-card1 {
+    margin-top: 30px;
+    padding: 45px 20px;
+    border-radius: 25px;
+    align-items: flex-end;
+    background-color: rgba(231, 231, 231, 0.6);
+}
+.row-card1 h6 {
+    margin: 0;
+    color: #0c0f3d;
+    text-align: left;
+    font-family: "Poppins";
+}
+.label1 {
+    margin: 20px 0 0;
+    font-size: 13px;
+    color: #0c0f3d;
+    text-align: left;
+    font-family: "Poppins";
+}
+.return {
+    margin: 0;
+    font-size: 15px;
+    color: #707070;
+    text-align: left;
+}
+.btn-edit {
+    border: none;
+    color: #fff;
+    display: block;
+    font-size: 11.5px;
+    padding: 8px 40px;
+    margin-right: auto;
+    border-radius: 25px;
+    font-family: "Geometos";
+    background-color: #040589;
+}
+.label-paso{
+    width: 220px;
+    border: none;
+    color: #fff;
+    margin: auto;
+    font-size: 11px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 25px;
+    font-family: "Geometos";
+    background-color: #0c0f3d;
+}
+.labelgray {
+    margin: 12px 0 0;
+    font-size: 15px;
+    color: #707070;
+    text-align: left;
+}
+.text-pago {
+    margin: 7px 0 5px;
+    font-size: 13px;
+    color: #232a85;
+    text-align: left;
+    font-family: "Poppins";
+}
+.text-pago span {
+    margin-right: 10px;
+}
+.text-pago img {
+    width: 32px;
+}
+.text-pago input {
+    margin-left: 3px;
+    vertical-align: middle;
+}
+.agg-tarjeta {
+    border: none;
+    color: #fff;
+    display: block;
+    font-size: 12px;
+    margin-top: 10px;
+    padding: 8px 40px;
+    margin-right: auto;
+    border-radius: 25px;
+    font-family: "Geometos";
+    background-color: #040589;
+}
+.label-form-sect {
+    font-size: 14px;
+    margin: 20px 0 0;
+    color: #232a85;
+    text-align: left;
+    font-family: "Poppins";
+}
+.label-text {
+    margin: 10px 0 5px;
+    font-size: 14px;
+    color: #151a30;
+    text-align: left;
+}
+.inputs {
+    height: 45px;
+    width: 100%;
+    border: none;
+    resize: none;
+    color: #151a30;
+    font-size: 13px;
+    padding: 0 8px;
+    border-radius: 0px;
+    margin-bottom: 20px;
+    font-family: "Poppins";
+    background-color: #dbdbdb;
+}
+.inputs:focus {
+    outline: 0px;
+    color: #151a30;
+    box-shadow: none;
+    background-color: #dbdbdb;
+}
+.row-prodt {
+    margin-top: 15px;
+    align-items: center;
+}
+.content-img .img-product {
+    cursor: pointer !important;
+    width: 65px;
+    height: 65px;
+    display: block;
+    max-width: 65px;
+    min-width: 65px;
+    max-height: 65px;
+    min-height: 65px;
+    border-radius: 50%;
+    margin-right: auto;
+    vertical-align: middle;
+    border: 1px solid #b1b1b1;
+}
+.img-product {
+    width: 65px;
+    height: 65px;
+    max-width: 65px;
+    max-height: 65px;
+    object-fit: contain;
+    background: #ffffff;
+}
+.text-product {
+    margin: 0;
+    font-size: 15px;
+    color: #707070;
+    text-align: center;
+    overflow: hidden;
+    white-space: nowrap;
+    font-family: "Poppins";
+    text-overflow: ellipsis;
+}
+.price-p {
+    color: #0c0f3d;
+    text-align: right;
+}
+.text-left {
+    color: #0c0f3d;
+}
+.ttal {
+    color: #FF103D;
+}
+.btn-codigo {
+    width: 100%;
+    border: none;
+    color: #fff;
+    font-size: 12px;
+    padding: 14px;
+    border-radius: 25px;
+    font-family: "Geometos";
+    background-color: #FF103D;
+}
+.card2 {
+    margin-top: 58px;
+    align-items: center;
+}
+.text-codigo {
+    margin: 0;
+    font-size: 11px;
+    color: #707070;
+    overflow: hidden;
+    padding: 20px 10px;
+    border-radius: 25px;
+    white-space: nowrap;
+    font-family: "Poppins";
+    text-overflow: ellipsis;
+    background-color: #fff;
+}
+.btn-confir-compra {
+    width: 70%;
+    border: none;
+    color: #fff;
+    padding: 14px;
+    margin-top: 20px;
+    font-size: 12px;
+    border-radius: 25px;
+    font-family: "Geometos";
+    background-color: #005FFF;
+}
+#select-metodo-pago{
+    height: 40px;
+    color: #040589;
+    font-size: 11.5px;
+    text-align: center;
+    border-radius: 25px;
+    padding: 8px 40px 5px;
+    font-family: "Geometos";
+    background-color: #fff;
+}
+#select-metodo-pago option{
+    padding: 5px!important;
+}
+.text-modal-direcciones {
+    text-align: left !important;
+    justify-content: space-between;
+    overflow-wrap: break-word;
+}
+.contant-button02 {
+    display: flex;
+    margin: 15px 0 20px;
+    justify-content: center;
+}
+.contant-button02 button {
+    width: 170px;
+    border: none;
+    color: #fff;
+    margin: 0 10px;
+    padding: 10px 0;
+    font-size: 14px;
+    border-radius: 25px;
+    font-family: "Poppins";
+}
+.inct{
+    color: #FF103D!important;
+}
+.btnact{
+    width: 100%;
+    border: none;
+    color: #fff;
+    font-size: 11px;
+    padding: 10px 0px;
+    border-radius: 25px;
+    font-family: "Geometos";
+    background-color: #0c0f3d;
+}
+
+.btntikets {
+    background-color: #0c0f3d;
+}
+
+.btncomrar {
+    background-color: #1464E1;
+}
+
+.row-form1 p {
+    margin: 0;
+    font-size: 14px;
+    color: #232a85;
+    text-align: center;
+    font-family: "Poppins";
+}
+
+.tipo-carrier {
+    font-size: 14px;
+    text-align: left;
+}
+
+.precio-carrier {
+    font-size: 14px;
+}
+
+textarea {
+    resize: none;
+}
+
+.row-form1 {
+    width: 85%;
+    margin: 40px 0;
+    padding: 30px 20px;
+    border-radius: 15px;
+    background-color: #fff;
+}
+
+.modal .row-form1 {
+    width: auto;
+}
+
+.modal .row-form1 .filter-option-inner-inner {
+    text-align: center !important;
+    font-size: 14px !important;
+    text-transform: capitalize !important;
+}
+
+.row-form1 .form-control:disabled,
+.form-control[readonly] {
+    background-color: transparent !important;
+}
+.row-form1 input,
+.row-form1 input:hover,
+.row-form1 input:focus,
+.row-form1 input:active {
+    padding: 0;
+    height: 30px;
+    border: none;
+    font-size: 17px;
+    color: #232a85;
+    text-align: center;
+    border-radius: 0px;
+    margin-bottom: 10px;
+    background-color: #fff;
+    border-bottom: 1px solid #232a85;
+    outline: none;
+    box-shadow: none;
+}
+.row-form1 input::placeholder {
+    color: #232a85;
+    opacity: 1;
+}
+.row-form1 input:-ms-input-placeholder {
+    color: #232a85;
+}
+.row-form1 input::-ms-input-placeholder {
+    color: #232a85;
+}
+.row-form1 p {
+    margin: 0;
+    font-size: 14px;
+    color: #232a85;
+    text-align: center;
+    font-family: "Poppins";
+}
+
+.select-plataforma .dropdown-toggle,
+.select-plataforma .dropdown-toggle:hover,
+.select-plataforma .dropdown-toggle:focus,
+.select-plataforma .dropdown-toggle:active {
+    padding: 0;
+    height: 30px;
+    border: none;
+    font-size: 17px;
+    color: #232a85;
+    text-align: center;
+    border-radius: 0px;
+    margin-bottom: 10px;
+    background-color: #fff !important;
+    border: none !important;
+    border-bottom: 1px solid #232a85 !important;
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+.pac-container {
+    z-index: 999999999999 !important;
+}
+.row-select-dir-compra .dropdown-item.active,
+.dropdown-item:active,
+.dropdown-item:hover {
+    background-color: #eb4454 !important;
+    color: #ffffff !important;
+}
+
+/* modal finalizar compra */
+.compra-finalizada h5 {
+    font-family: "Poppins";
+    color: #0c0f3d;
+    text-align: center;
+    margin: 0;
+}
+.compra-finalizada p {
+    color: #707070;
+    font-size: 14px;
+    text-align: center;
+    margin: 15px 0;
+}
+.content-button {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.compra-finalizada button {
+    width: 100%;
+    border: none;
+    color: #fff;
+    font-size: 12px;
+    padding: 14px 20px;
+    border-radius: 25px;
+    font-family: "Geometos";
+    background-color: #232a85;
+}
+.compra-finalizada a {
+    margin: 0 15px;
+}
+
+.text-codigo::-webkit-input-placeholder {
+    color: #707070;
+}
+.card-direct{
+    padding: 0 6px;
+    cursor: pointer;
+}
+.card-direct h4 {
+    margin: 0 0 5px;
+    color: #040589;
+    text-align: left;
+    font-family: "Poppins";
+}
+.card-direct p{
+    width: 100%;
+    border: none;
+    resize: none;
+    padding: 10px;
+    font-size: 13px;
+    color: #151a30;
+    text-align: left;
+    overflow: hidden;
+    border-radius: 0px;
+    margin-bottom: 20px;
+    white-space: nowrap;
+    font-family: "Poppins";
+    text-overflow: ellipsis;
+    background-color: #ebebeb;
+}
+.form-inline label{
+    font-size: 15px!important;
+    color: #0c0f3d!important;
+    font-family: "Poppins"!important;
+}
+.finalizar_compra__inputscombinadospagos input{
+    color: #999;
+    font-size: 15px;
+    border-right: none;
+    border-radius: 25px 0px 0px 25px!important;
+}
+.finalizar_compra__inputscombinadospagos .input-group-text{
+    border: none;
+    color: #fff;
+    font-size: 13px;
+    padding: 0px 22px;
+    font-family: "Poppins";
+    background-color: #0c0f3d;
+    border-radius: 0px 25px 25px 0px!important;
+}
+
+
+
+
+
+
+/* -------------------------------------------- Media responsive ----------------------------------------- */
+@media (max-width: 1130px) {
+    .row-general {
+        padding: 50px 15px 70px;
+    }
+    .label-text {
+        font-size: 12px;
+    }
+    .row-card1 {
+        padding: 45px 5px;
+    }
+}
+
+@media (max-width: 991px) {
+    .content-button{
+        display: block;
+    }
+    .compra-finalizada a{
+        margin: 0;
+    }
+    .compra-finalizada button{
+        margin-bottom: 20px;
+    }
+}
+
+
+@media (max-width: 767px) {
+    .label-sect {
+        text-align: center;
+    }
+}
+
+@media (max-width: 575px) {
+    .text-pago span {
+        display: block;
+    }
+    .text-codigo{
+        text-align: center;
+    }
+    .inputs {
+        margin-bottom: 8px;
+    }
+    .text-product {
+        font-size: 13px;
+    }
+    .label-text {
+        font-size: 14px;
+    }
+    .row-card1 h6 {
+        text-align: center;
+    }
+    .btn-edit {
+        margin-left: 0;
+        margin-right: auto;
+    }
+    .content-img .img-product {
+        margin: 0 auto 10px;
+    }
+    .btn-confir-compra {
+        width: 100%;
+    }
+}

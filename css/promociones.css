@@ -1,0 +1,370 @@
+.link2{
+    color: #FF103D!important;
+}
+.row-carousel{
+    align-items: center;
+}
+.container-text-carousel{
+    padding-left: 60px;
+}
+.container-text-carousel button{
+    width: max-content;
+    height: 42px;
+    border: none;
+    color: #fff;
+    display: block;
+    font-size: 12px;
+    transition: 200ms;
+    margin-right: auto;
+    padding: 14px 20px;
+    border-radius: 25px;
+    font-family: "Geometos";
+    border-color: #232A85;
+    background-color: #232A85;
+}
+
+.container-text-carousel p{
+    margin: 0;
+    color: #707070;
+    text-align: left;
+    transition: 200ms;
+}
+.container-text-carousel h1{
+    line-height: 1;
+    color: #232A85;
+    text-align: left;
+    font-size: 42px;
+    font-family: "Geometos";
+    transition: 200ms;
+}
+/* .container-text-carousel h1 span{
+    color: #707070;
+} */
+#carousel-banner-promociones .owl-prev {
+    top: 22%;
+    left: 39%;
+    color: #070926;
+    position: absolute;
+    font-size: 90px!important;
+}
+#carousel-banner-promociones .owl-next {
+    top: 22%;
+    right: 5%;
+    color: #070926;
+    position: absolute;
+    font-size: 90px!important;
+}
+#carousel-banner-promociones .owl-dots {
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    margin: -15px auto 30px;
+    justify-content: center;
+}
+#carousel-banner-promociones .owl-dots button {
+    opacity: .4;
+    width: 11px;
+    height: 11px;
+    margin: auto 8px;
+    text-align: center;
+    border-radius: 25px;
+    background-color: #040589;
+}
+#carousel-banner-promociones .owl-dots button.active {
+    opacity: 1;
+}
+
+/* Modal bienvenida (promociones) */
+.row-inf h4{
+    width: 100%;
+    font-size: 19px;
+    line-height: 1.5;
+    margin: 20px 0 15px;
+    color: #0C0F3D;
+    text-align: center;
+    font-family: "Poppins";
+}
+.row-inf p{
+    width: 100%;
+    font-size: 15px;
+    color: #707070;
+    text-align: center;
+}
+.row-inf button{
+    border: none;
+    color: #fff;
+    display: block;
+    font-size: 12px;
+    padding: 10px 42px;
+    margin: 0 auto;
+    border-radius: 25px;
+    font-family: "Poppins";
+    background-color: #0C0F3D;
+}
+
+
+/* Filtro */
+.drop-filtro{
+    height: 40px;
+    width: 160px;
+    border: none;
+    z-index: 1050;
+    font-size: 14px;
+    overflow: hidden;
+    color: #232A85;
+    text-align: left;
+    padding: 5px 25px;
+    font-weight: bold;
+    position: relative;
+    border-radius: 25px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    background-color: #fff;
+    border: 3px solid #232A85;
+}
+.drop-filtro:hover{
+    color: #232A85;
+}
+.drop-filtro::after{
+    top: 14px;
+    right: 12px;
+    font-size: 20px;
+    position: absolute;
+}
+.dropselect{
+    width: max-content;
+    border-radius: 25px;
+    
+}
+.col1-ver{
+    height: 40px;
+    display: flex;
+    vertical-align: baseline;
+    border-left: 1px solid #232A85;
+}
+.ver-list{
+    display: flex;
+    font-size: 14px;
+    color: #232A85;
+    font-weight: bold;
+    align-items: center;
+}
+.ver-list span{
+    font-size: 17px;
+    margin-left: 8px;
+    cursor: pointer;
+}
+
+/* Productos promociones */
+.row-container-destacado{
+    margin-top: 20px;
+    padding: 20px 10px;
+}
+.row-container-destacado:hover{
+    cursor: pointer;
+    border-radius: 50px;
+    background-color: #FF103D;
+}
+.row-container-destacado a:hover{
+    text-decoration: none;
+}
+.row-container-destacado:hover p,
+.row-container-destacado:hover p span,
+.row-container-destacado:hover h4{
+    color: #fff;
+}
+.container-destacado .imagen-destacados {
+    width: 150px;
+    height: 130px;
+    max-width: 150px;
+    min-width: 150px;
+    max-height: 130px;
+    min-height: 130px;
+    border-radius: 3px;
+    vertical-align: middle;
+    /* box-shadow: 0px 0px 5px 0px rgba(232,232,232,1);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(232,232,232,1);
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(232,232,232,1); */
+}
+.imagen-destacados {
+    width: 150px;
+    height: 130px;
+    max-width: 150px;
+    max-height: 130px;
+    background: #fff;
+    object-fit: contain;
+}
+.nombre-producto{
+    height: 53px;
+    font-size: 15px;
+    margin: 12px 0 0;
+    color: #FF103D;
+    overflow: hidden;
+    text-align: center;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    font-family: "Poppins";
+    text-overflow: ellipsis;
+    -webkit-box-orient: vertical;
+}
+.descuento{
+    margin: 3px 0 0;
+    font-size: 16px;
+    color: #FF103D;
+}
+.descuento span{
+    font-size: 14px;
+    color: #999999;
+    text-decoration: line-through;
+}
+.price-product{
+    font-size: 22px;
+    margin: 3px 0 0;
+    color: #808080;
+    text-align: center;
+    font-family: "Poppins";
+}
+.descripcion-product{
+    height: 55px;
+    font-size: 12px;
+    margin: 3px 0 0;
+    color: #0C0F3D;
+    overflow: hidden;
+    text-align: center;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    text-overflow: ellipsis;
+    -webkit-box-orient: vertical;
+    transition: 200ms;
+}
+.btn-comprar{
+    width: 90%;
+    height: 35px;
+    padding: 5px;
+    border: none;
+    color: #fff;
+    font-size: 12px;
+    margin: 10px 0 0;
+    border-radius: 25px;
+    font-family: "Geometos";
+    text-transform: uppercase;
+    background-color: #232A85;
+}
+
+/* Paginacion */
+.pagination {
+    margin-bottom: 30px;
+    display: inline-block;
+}
+.pagination a {
+    color: #FF103D;
+    font-size: 15px;
+    padding: 10px 14px;
+    text-decoration: none;
+}
+.pagination .active{
+    color: #fff;
+    border-radius: 50%;
+    background-color: #FF103D;
+}
+.pagination .AD{
+    font-size: 20px;
+}
+
+
+
+/* ------------------------------------------ Media Responsives ------------------------------------- */
+@media (max-width: 1130px){
+    .container-text-carousel{
+        padding-left: 30px;
+    }
+    .dropselect{
+        width: 100%;
+    }
+    .dropselect .drop-filtro{
+        width: 100%;
+    }
+    .drop-filtro{
+        width: 145px;
+    }
+    .col1-ver{
+        border: none;
+    }
+    .container-text-carousel h1{
+        font-size: 37px;
+        transition: 200ms;
+    }
+}
+
+
+@media (max-width: 991px){
+    .container-text-carousel{
+        padding: 0;
+    }
+    .container-text-carousel h1,
+    .container-text-carousel p{
+        text-align: center;
+        transition: 200ms;
+    }
+    .container-text-carousel h1{
+        padding: 0;
+        margin-top: 50px;
+        text-align: center;
+    }
+    .container-text-carousel h1 br{
+        display: none;
+    }
+    #carousel-banner-promociones .owl-prev {
+        left: 3%;
+        top: 45%;
+    }
+    #carousel-banner-promociones .owl-next {
+        right: 3%;
+        top: 45%;
+    }
+    .ver-list{
+        width: 100%;
+        justify-content: center;
+    }
+    .col-selet{
+        padding-top: 31.5px;
+    }
+}
+
+
+@media (max-width: 767px){
+    .container-text-carousel h1{
+        font-size: 30px;
+    }
+    .col-selet{
+        padding-top: 0;
+    }
+    .dropselect{
+        margin: 20px 0;
+    }
+}
+
+
+@media (min-width: 767px){
+    #bienvenida-promociones .modal-dialog{
+        max-width: 670px;
+    }
+}
+
+
+@media (max-width: 575px){
+    #carousel-banner-promociones .owl-prev {
+        left: 3%;
+        top: 56%;
+    }
+    #carousel-banner-promociones .owl-next {
+        right: 3%;
+        top: 56%;
+    }
+    .row-inf h4{
+        font-size: 17px;
+    }
+    .row-inf h4 br{
+        display: none;
+    }
+}

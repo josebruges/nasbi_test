@@ -1,0 +1,554 @@
+.content-portada {
+    height: 350px;
+    padding: 30px;
+    position: relative;
+}
+.contenedor-logo {
+    left: 0;
+    right: 0;
+    margin: auto;
+    bottom: -30px;
+    width: max-content;
+    position: absolute;
+}
+.contenedor-logo .imagen-logo {
+    width: 120px;
+    height: 120px;
+    max-width: 120px;
+    min-width: 120px;
+    max-height: 120px;
+    min-height: 120px;
+    border-radius: 50%;
+    vertical-align: middle;
+    border: 1px solid #cecece;
+}
+.imagen-logo {
+    width: 120px;
+    height: 120px;
+    max-width: 120px;
+    max-height: 120px;
+    background: #fff;
+    object-fit: contain;
+}
+.img-portada {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    object-fit: cover;
+}
+
+.rowscars {
+    width: 95%;
+    margin-top: -37px;
+}
+.card-empresas1 {
+    width: 80%;
+    border-radius: 13px;
+    margin-right: auto;
+    padding: 30px 45px;
+    background-color: #fff;
+}
+.card-empresas1 button {
+    border: none;
+    color: #fff;
+    display: block;
+    font-size: 12px;
+    margin-top: -47px;
+    padding: 5px 25px;
+    margin-right: auto;
+    border-radius: 25px;
+    font-family: "Geometos";
+    background-color: #232a85;
+}
+.card-empresas1 button img {
+    width: 25px;
+    filter: brightness(0) invert(1);
+}
+.card-empresas1 h1 {
+    font-size: 32px;
+    margin: 10px 0 0;
+    text-align: left;
+    color: #0c0f3d;
+    font-family: "Poppins";
+}
+.card-empresas1 p {
+    height: 80px;
+    font-size: 15px;
+    text-align: left;
+    color: #707070;
+    line-height: 1.8;
+    overflow: hidden;
+    margin: 7px 0 15px;
+    display: -webkit-box;
+    word-break: break-all;
+    -webkit-line-clamp: 3;
+    text-overflow: ellipsis;
+    -webkit-box-orient: vertical;
+}
+.row-asesor {
+    align-items: center;
+}
+.contenedor-avatar .imagen-avatar {
+    width: 80px;
+    height: 80px;
+    display: block;
+    max-width: 80px;
+    min-width: 80px;
+    max-height: 80px;
+    min-height: 80px;
+    margin-right: auto;
+    border-radius: 50%;
+    vertical-align: middle;
+    border: 1px solid #cecece;
+}
+.imagen-avatar {
+    width: 80px;
+    height: 80px;
+    max-width: 80px;
+    max-height: 80px;
+    background: #fff;
+    object-fit: contain;
+}
+.label-asesor {
+    margin: 0 0 3px;
+    color: #0c0f3d;
+    text-align: left;
+    font-family: "Poppins";
+}
+
+.card-empresas2 {
+    width: 80%;
+    margin-left: auto;
+    padding: 15px 45px 30px;
+}
+.group-calificacion {
+    display: flex;
+    justify-content: flex-end;
+}
+.text01 {
+    border: none;
+    color: #fff;
+    font-size: 12px;
+    border-radius: 30px;
+    padding: 0 40px 0 15px;
+    font-family: "Poppins";
+    background-color: #FF103D;
+}
+.text02 {
+    border: none;
+    border-radius: 30px;
+    background-color: #e7e7e7;
+    margin-left: -30px !important;
+}
+.clasificacion-tienda {
+    margin: 0;
+    font-size: 13px;
+    color: #909090;
+    text-align: center;
+    letter-spacing: 1px;
+}
+.clasificacion-tienda .orange {
+    color: orange;
+}
+.clasificacion-tienda span {
+    font-size: 20px;
+    color: #eb4454;
+    margin-right: 5px;
+    vertical-align: sub;
+    font-family: "Poppins";
+}
+.text-label1 span {
+    font-size: 14px;
+    color: #999999;
+    text-align: right;
+    margin: 6px 0 12px;
+}
+.text-label1 span:first-child {
+    font-family: "Poppins";
+    color: #0c0f3d;
+}
+.content-opc {
+    display: flex;
+    justify-content: flex-end;
+}
+.content-opc button {
+    border: none;
+    margin: 0 5px;
+    font-size: 12px;
+    color: #0c0f3d;
+    border-radius: 25px;
+    padding: 3px 10px;
+    font-family: "Poppins";
+    background-color: transparent;
+}
+.content-opc button:hover {
+    color: #fff;
+    background-color: #232a85;
+}
+
+.content-flex {
+    display: flex;
+    padding: 15px 0;
+    margin-top: 20px;
+    border-radius: 50px;
+    align-items: center;
+    justify-content: flex-end;
+}
+.sub-content {
+    margin: 0 7px;
+}
+.card-select {
+    display: flex;
+    width: fit-content;
+    align-items: center;
+    border-radius: 50px;
+    justify-content: flex-end;
+    background-color: #e7e7e7;
+    padding: 2px 3px 2px 23px;
+}
+.card-select img {
+    width: 20px;
+    height: 22px;
+    margin: 0 8px;
+    object-fit: contain;
+}
+.card-select button {
+    width: 60px;
+    height: 60px;
+    border: none;
+    color: #fff;
+    font-size: 9px;
+    line-height: 1.2;
+    border-radius: 50%;
+    font-family: "Poppins";
+}
+.btn1 {
+    background-color: #0c0f3d;
+}
+.btn2 {
+    background-color: #eb4454;
+}
+.btn3 {
+    background-color: #232a85;
+}
+
+.row-filtro {
+    margin-top: 20px;
+    padding: 15px 50px;
+    align-items: center;
+    background-color: #e8e8e8;
+}
+.group-filtro {
+    width: max-content;
+    align-items: center;
+    border-radius: 25px;
+    background-color: #232a85;
+}
+.divdropdownfiltro {
+    display: flex;
+    width: fit-content;
+}
+.text-label {
+    margin: 0;
+    border: none;
+    color: #232a85;
+    text-align: left;
+    font-family: "Poppins";
+    background-color: transparent;
+}
+.group-filtro .input-group-text {
+    border: none;
+    color: #fff;
+    font-size: 15px;
+    padding: 6px 5px 6px 12px;
+    background-color: transparent;
+}
+.drop-filtro {
+    height: 40px;
+    z-index: 1050;
+    min-width: 160px;
+    font-size: 14px;
+    overflow: hidden;
+    color: #232a85;
+    text-align: left;
+    padding: 5px 35px;
+    font-weight: bold;
+    position: relative;
+    border-radius: 25px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    background-color: #fff;
+    border: 2px solid #232a85;
+    width: -webkit-fill-available;
+}
+.drop-filtro::after {
+    top: 14px;
+    right: 12px;
+    font-size: 20px;
+    color: #232a85;
+    position: absolute;
+}
+.divdropdownfiltro .dropdown-menu {
+    /* width: auto;
+    height: 255px;
+    overflow: auto;
+    margin-top: -20px;
+    padding: 15px 0px 5px;
+    border: 2px solid #232a85;
+    border-radius: 3px 0 20px 20px; */
+    min-width: 100%;
+    margin-top: -18px;
+    padding: 15px 0px 5px;
+    background-color: #fff;
+    border: 2px solid #232A85;
+    width: -webkit-fill-available;
+    border-radius: 3px 0 20px 20px;
+}
+.prev__tienda__subcategory__list{
+    height: 250px;
+    overflow: auto;
+}
+.divdropdownfiltro .dropdown-item {
+    color: #232a85;
+    font-size: 13px;
+    overflow: hidden;
+    white-space: nowrap;
+    font-family: "Poppins";
+    text-overflow: ellipsis;
+    background-color: transparent;
+}
+.divdropdownfiltro .dropdown-item:hover {
+    color: #FF103D;
+    background-color: transparent;
+}
+.col1-ver {
+    height: 40px;
+    display: flex;
+    vertical-align: baseline;
+    border-left: 1px solid #232a85;
+}
+.ver-list {
+    display: flex;
+    font-size: 14px;
+    color: #232a85;
+    font-weight: bold;
+    align-items: center;
+}
+.ver-list span {
+    font-size: 17px;
+    margin-left: 8px;
+    cursor: pointer;
+}
+.row-prodcuts {
+    width: 92%;
+    margin: 50px 0 80px;
+}
+.card-products {
+    padding: 5px;
+    overflow: hidden;
+    margin-bottom: 30px;
+    border-radius: 35px;
+    border: 2px solid #e8e8e8;
+}
+.contenedor-producto .imagen-producto {
+    width: 100%;
+    height: 200px;
+    max-width: 100%;
+    min-width: 100%;
+    max-height: 200px;
+    min-height: 200px;
+    vertical-align: middle;
+}
+.imagen-producto {
+    width: 100%;
+    height: 200px;
+    max-width: 100%;
+    max-height: 200px;
+    background: #fff;
+    object-fit: contain;
+}
+.contenedor-producto {
+    position: relative;
+}
+.btn-descuent {
+    top: 10px;
+    left: 12px;
+    width: 70px;
+    height: 70px;
+    padding: 5px;
+    border: none;
+    color: #fff;
+    font-size: 10px;
+    line-height: 1.2;
+    position: absolute;
+    border-radius: 50%;
+    align-items: center;
+    display: inline-flex;
+    font-family: "Poppins";
+    justify-content: center;
+    background-color: #eb4454;
+}
+.row-name-price {
+    border-radius: 30px;
+    align-items: center;
+    padding: 5px 0px 5px 9px;
+    background-color: #3c45b7;
+}
+.content-button-product {
+    right: 12px;
+    bottom: 10px;
+    position: absolute;
+}
+.content-button-product button {
+    width: 30px;
+    height: 30px;
+    border: none;
+    margin: 0 2px;
+    border-radius: 50%;
+}
+.content-button-product button img {
+    width: 12px;
+    height: 15px;
+    object-fit: contain;
+    filter: brightness(0) invert(1);
+}
+.row-name-price p {
+    margin: 0;
+    color: #fff;
+    font-size: 13px;
+    line-height: 1.3;
+    text-align: left;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font-family: "Poppins-normal";
+}
+.row-name-price p b {
+    font-family: "Poppins";
+}
+.row-name-price button {
+    width: 100%;
+    border: none;
+    color: #fff;
+    font-size: 9px;
+    padding: 10px 3px;
+    border-radius: 25px;
+    font-family: "Geometos";
+    text-transform: uppercase;
+    background-color: #232a85;
+}
+
+/* ----------------------- Medias Responsive ---------------------- */
+@media (max-width: 1130px) {
+    .row-filtro {
+        padding: 15px;
+    }
+    .col1-ver {
+        border: none;
+    }
+    .drop-filtro {
+        width: 100%;
+    }
+    .card-empresas2 {
+        padding: 15px 0px 30px;
+    }
+    .divdropdownfiltro{
+        width: auto;
+    }
+}
+
+@media (max-width: 992px) {
+    .label-asesor {
+        font-size: 14px;
+    }
+    .contenedor-avatar .imagen-avatar {
+        width: 65px;
+        min-width: 65px;
+        max-width: 65px;
+        height: 65px;
+        max-height: 65px;
+        min-height: 65px;
+    }
+    .rowscars {
+        width: 98%;
+        margin-top: 40px;
+    }
+    .card-empresas1,
+    .card-empresas2 {
+        width: 100%;
+    }
+    .group-filtro,
+    .drop-filtro,
+    .divdropdownfiltro {
+        width: 100%;
+    }
+    .group-filtro .input-group-prepend {
+        width: 100%;
+        justify-content: center;
+    }
+    .group-filtro {
+        margin: 15px 0;
+    }
+    .ver-list {
+        width: 100%;
+        justify-content: center;
+    }
+    .col-selet {
+        padding-top: 31.5px;
+    }
+    .drop-filtro {
+        z-index: 99;
+    }
+    .divdropdownfiltro .dropdown-menu {
+        width: 100%;
+        margin-top: 7px;
+        border-radius: 20px;
+    }
+}
+
+@media (max-width: 800px) {
+}
+
+@media (max-width: 767px) {
+    .rowscars {
+        margin-top: 80px;
+    }
+}
+
+@media (max-width: 575px) {
+    .content-flex {
+        display: block;
+    }
+    .sub-content {
+        margin: 15px 7px 0;
+    }
+    .group-calificacion {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+    .text-label1 {
+        text-align: center;
+    }
+    .content-opc {
+        display: contents;
+    }
+    .content-opc button {
+        margin: 7px 10px;
+        padding: 5px 20px;
+    }
+    .row-name-price {
+        padding: 5px 0;
+    }
+    .row-name-price p {
+        margin-left: 15px;
+    }
+    .card-empresas1{
+        padding: 30px 25px;
+    }
+}

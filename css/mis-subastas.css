@@ -1,0 +1,1209 @@
+.row-header {
+    align-items: center;
+}
+.container-text-carousel {
+    padding-left: 60px;
+    margin-top: -20px;
+}
+.container-text-carousel h1 {
+    margin: 0;
+    line-height: 1;
+    color: #232a85;
+    text-align: left;
+    font-family: "Poppins";
+}
+.container-text-carousel p {
+    margin: 0;
+    color: #707070;
+    text-align: left;
+}
+.row-filter {
+    padding: 20px 45px;
+    background-color: #0c0f3d;
+}
+.group-filtro {
+    width: max-content;
+    align-items: center;
+}
+.divdropdownfiltro {
+    display: flex;
+    width: initial;
+}
+.group-filtro .input-group-text {
+    border: none;
+    color: #fff;
+    font-size: 14px;
+    font-family: "Poppins";
+    padding: 0px 5px 0px 0px;
+    background-color: transparent;
+}
+.group-filtro .input-group-text img {
+    width: 25px;
+    margin-right: 5px;
+    filter: brightness(0) invert(1);
+}
+.drop-filtro {
+    width: 100%;
+    height: 40px;
+    border: none;
+    z-index: 1050;
+    font-size: 12px;
+    max-width: 300px;
+    overflow: hidden;
+    color: #232a85;
+    text-align: left;
+    padding: 5px 40px;
+    font-weight: bold;
+    position: relative;
+    border-radius: 25px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    background-color: #fff;
+    border: 2px solid #fff;
+}
+.divdropdownfiltro .dropdown-menu {
+    min-width: 100%;
+    overflow: hidden;
+    margin-top: -18px;
+    padding: 15px 0px 5px;
+    border: 2px solid #232a85;
+    border-radius: 3px 0 20px 20px;
+}
+.divdropdownfiltro .dropdown-item {
+    padding: 5px;
+    font-size: 11px;
+    cursor: pointer;
+    color: #232a85;
+    white-space: normal;
+    text-align: center;
+    font-family: "Poppins";
+}
+.divdropdownfiltro .dropdown-item:active {
+    background-color: transparent;
+}
+.text-filter {
+    margin-right: 50px;
+}
+.button-filtrar {
+    border: none;
+    height: 40px;
+    color: #fff;
+    display: block;
+    font-size: 12px;
+    margin-right: auto;
+    padding: 10px 50px;
+    border-radius: 25px;
+    font-family: "Geometos";
+    background-color: #005fff;
+    border: 2px solid #005fff;
+    margin-left: 3px !important;
+}
+.img-inscr {
+    width: 20px;
+    margin-top: -3px;
+}
+.table-respn-subasta {
+    width: 95%;
+    margin: 40px 0;
+    overflow: auto;
+    max-height: 400px;
+}
+.table-subasta {
+    margin: 0;
+}
+.table-subasta thead th {
+    top: 0;
+    z-index: 999;
+    border: none;
+    font-size: 13px;
+    position: sticky;
+    color: #232a85;
+    text-align: center;
+    font-weight: normal;
+    padding: 0px 3px 10px;
+    font-family: "Geometos";
+    background-color: #fff;
+}
+.table-subasta tbody td {
+    border: none;
+    font-size: 12px;
+    color: #0c0f3d;
+    padding: 15px 5px;
+    text-align: center;
+    vertical-align: middle;
+    font-family: "Geometos";
+}
+.button-modificar {
+    width: 100%;
+    border: none;
+    height: 35px;
+    color: #fff;
+    font-size: 11px;
+    padding: 10px 15px;
+    border-radius: 25px;
+    font-family: "Geometos";
+    background-color: #005fff;
+}
+.entrar {
+    background-color: #ff103d;
+}
+.img-articulo {
+    width: 60px;
+    height: 60px;
+    max-width: 60px;
+    max-height: 60px;
+    object-fit: contain;
+    background: #ffffff;
+}
+.containe-fto .img-articulo {
+    width: 60px;
+    margin: auto;
+    height: 60px;
+    display: block;
+    max-width: 60px;
+    min-width: 60px;
+    max-height: 60px;
+    margin-top: -4px;
+    min-height: 60px;
+    border-radius: 50%;
+    vertical-align: middle;
+    border: 1px solid #b1b1b1;
+}
+.spanv {
+    position: relative;
+}
+.vineta {
+    top: 2px;
+    right: 7px;
+    width: 6px;
+    height: 6px;
+    position: absolute;
+    border-radius: 25px;
+    background-color: #62c126;
+}
+.table-subasta tr:nth-child(even) {
+    background: #eaeaea;
+}
+.name-product {
+    max-width: 250px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+/* Modales */
+.row-inf h4 {
+    width: 100%;
+    font-size: 20px;
+    line-height: 1.5;
+    margin: 10px 0 5px;
+    color: #0c0f3d;
+    text-align: center;
+    font-family: "Poppins";
+}
+.row-inf p {
+    width: 100%;
+    font-size: 15px;
+    color: #707070;
+    text-align: center;
+}
+.container-img {
+    margin: 0 auto 15px;
+}
+.container-img img {
+    width: 51px;
+    margin: 0 3px;
+}
+
+/* Seleccionar billetera */
+.labelbilletera {
+    width: 100%;
+    font-size: 20px;
+    line-height: 1.5;
+    margin: 10px 0 5px;
+    color: #0c0f3d;
+    text-align: center;
+    font-family: "Poppins";
+}
+.labrl020 {
+    font-size: 16px;
+    padding: 0 80px;
+    color: #232a85;
+    text-align: left;
+    margin: 20px 0 15px;
+}
+.colfile {
+    overflow: auto;
+    padding: 0 80px;
+    max-height: 200px;
+}
+.row-list-wallat {
+    margin: 0 0 10px;
+    align-items: center;
+}
+.row-list-wallat h5 {
+    margin: 0px;
+    font-size: 15px;
+    color: #232a85;
+    text-align: left;
+    font-family: "Poppins";
+}
+.container-inputss {
+    display: flex;
+    align-items: center;
+}
+.group-billetera {
+    padding: 5px 0;
+    border-radius: 0px;
+    background: #ebebeb;
+}
+.group-billetera input {
+    padding: 0;
+    height: 25px;
+    border: none;
+    font-size: 15px;
+    color: #3b3b3b;
+    padding-left: 10px;
+    border-radius: 0px;
+    font-family: "Poppins";
+    background-color: #ebebeb;
+}
+.group-billetera input:focus,
+.group-billetera input:focus {
+    outline: 0px;
+    box-shadow: none;
+    background-color: #ebebeb;
+}
+.group-billetera .input-group-text {
+    height: 25px;
+    border: none;
+    padding: 0 15px;
+    font-size: 15px;
+    color: #3b3b3b;
+    border-radius: 0px;
+    font-family: "Poppins";
+    background-color: #ebebeb;
+    border-left: 2px solid #3b3b3b;
+}
+.checkk {
+    margin-left: 15px;
+}
+.contant-button02 {
+    display: flex;
+    margin: 15px 0 20px;
+    justify-content: center;
+}
+.contant-button02 button {
+    width: 22%;
+    border: none;
+    color: #fff;
+    margin: 0 10px;
+    padding: 10px 0;
+    font-size: 14px;
+    border-radius: 25px;
+    font-family: "Poppins";
+}
+.text0028 {
+    color: #232a85;
+    font-size: 15px;
+    text-align: center;
+    margin-bottom: 0;
+    margin-top: 15px;
+}
+.text0028 a {
+    font-size: 14px;
+    color: #232a85;
+    font-family: "Poppins";
+    text-decoration: underline;
+}
+.btntikets {
+    background-color: #ff103d;
+}
+.btncomrar {
+    background-color: #1464e1;
+}
+.text03 {
+    margin: 0;
+    color: #fff;
+    font-size: 15px;
+    text-align: center;
+}
+.img-modal {
+    width: 70px;
+    margin: auto;
+    display: block;
+}
+.inptPass {
+    width: 35% !important;
+    margin: auto !important;
+    height: 35px !important;
+    border: none !important;
+    color: #808080 !important;
+    display: block !important;
+    padding: 0 6px !important;
+    font-size: 15px !important;
+    border-radius: 0px !important;
+    text-align: center !important;
+    text-align-last: center !important;
+    background-color: #ebebeb !important;
+}
+.inptPass:focus,
+.inptPass:active {
+    outline: 0px;
+    box-shadow: none;
+}
+
+/* Modal puja */
+.logo-modal02 {
+    width: 115px;
+    margin-right: 20px;
+}
+.row-pujaa {
+    margin-top: 20px;
+}
+.rowtime {
+    align-items: center;
+}
+.rowtime img {
+    width: 90%;
+}
+.rowtime h1 {
+    margin: 0;
+    color: #232a85;
+    font-weight: bold;
+    font-family: "Antonio-Regular";
+}
+.rowtime p {
+    margin: 0;
+    color: #232a85;
+    font-size: 17px;
+    letter-spacing: 3px;
+    font-family: "Antonio-Light";
+}
+.rowtable {
+    margin-top: 15px;
+}
+.tL {
+    text-align: left;
+}
+.tR {
+    text-align: right;
+}
+.TitleT {
+    color: #232a85;
+    font-size: 15px;
+    margin: 10px;
+    font-family: "Poppins";
+}
+.scroll-puja {
+    overflow: auto;
+    max-height: 205px;
+    padding: 3px !important;
+}
+/* scrollbar giss */
+.scroll-puja::-webkit-scrollbar {
+    width: 30px;
+    background: #e1e1e1;
+    border-radius: 30px;
+    display: block; /* Ocultar scroll */
+}
+.scroll-puja::-webkit-scrollbar-thumb {
+    background: #ccc;
+    border-radius: 30px;
+}
+
+.scroll-puja::-webkit-scrollbar-button {
+    background-color: #232a85;
+    height: 30px;
+    color: #ffffff;
+    border-radius: 40px;
+    border: 3px solid #e1e1e1;
+}
+.scroll-puja::-webkit-scrollbar-button:vertical:decrement {
+    background-image: url("../imagen/up-scroll.png");
+    background-size: 100%;
+}
+
+.scroll-puja::-webkit-scrollbar-button:vertical:increment {
+    background-image: url("../imagen/down-scroll.png");
+    background-size: 100%;
+}
+
+.row-lider {
+    height: 35px;
+    align-items: center;
+    border-radius: 25px;
+    background-color: #eb4454;
+}
+.row-lider div {
+    height: 35px;
+    display: flex;
+    align-items: center;
+}
+.divelipsi {
+    display: flex;
+}
+.row-lider .divelipsi img {
+    width: 40px;
+    margin: -8px 0 0;
+}
+.row-secundP .divelipsi img {
+    width: 40px;
+    margin: -10px 0 0;
+}
+.row-others .divelipsi img {
+    width: 40px;
+    margin: -10px 0 0;
+}
+.row-lider .left {
+    margin: 2px 0;
+    color: #fff;
+    text-align: left;
+    overflow: hidden;
+    font-size: 15px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    text-transform: uppercase;
+}
+.row-lider .right {
+    margin: 2px 0;
+    color: #fff;
+    padding: 0 5px;
+    font-weight: bold;
+    margin-left: auto;
+    /* direction: rtl; */
+    text-align: right;
+    font-size: 15px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.row-secundP {
+    height: 35px;
+    margin-top: 12px;
+    align-items: center;
+    border-radius: 25px;
+    background-color: #005fff;
+}
+.row-secundP div {
+    height: 35px;
+    display: flex;
+    align-items: center;
+}
+.row-secundP .left {
+    margin: 2px 0;
+    color: #fff;
+    text-align: left;
+    font-size: 15px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    text-transform: uppercase;
+}
+.row-secundP .right {
+    margin: 2px 0;
+    padding: 0 5px;
+    color: #fff;
+    font-weight: bold;
+    text-align: right;
+    font-size: 15px;
+    overflow: hidden;
+    margin-left: auto;
+    /*direction: rtl;*/
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.row-others {
+    height: 35px;
+    margin-top: 12px;
+    align-items: center;
+    display: flex;
+    border-radius: 25px;
+    background-color: #848484;
+}
+.row-others div {
+    height: 35px;
+    display: flex;
+    align-items: center;
+}
+.row-others .left {
+    margin: 2px 0;
+    color: #fff;
+    text-align: left;
+    font-size: 15px;
+    overflow: hidden;
+    margin-left: auto;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    text-transform: uppercase;
+}
+.row-others .right {
+    margin: 2px 0;
+    padding: 0 5px;
+    color: #fff;
+    font-weight: bold;
+    text-align: right;
+    font-size: 15px;
+    margin-left: auto;
+    overflow: hidden;
+    /*direction: rtl;*/
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.rowrival {
+    margin-top: 5px;
+    align-items: center;
+    margin: 10px 0;
+}
+.rowrival img {
+    width: 80%;
+}
+.rowrival h2 {
+    margin: 0;
+    font-size: 25px;
+    color: #232a85;
+    font-weight: bold;
+    font-family: "Antonio-Regular";
+}
+.rowrival h2 span {
+    top: -12px;
+    left: 217px;
+    font-size: 14px;
+    margin-left: 8px;
+    position: absolute;
+    font-family: Open San, sans-serif;
+}
+.rowrival p {
+    margin: 0;
+    font-size: 15px;
+    color: #232a85;
+    text-transform: uppercase;
+}
+.rowrival2 {
+    align-items: center;
+    margin: 10px 0;
+}
+.rowrival2 img {
+    width: 80%;
+}
+.rowrival2 h2 {
+    margin: 0;
+    font-size: 25px;
+    color: #232a85;
+    font-weight: bold;
+    font-family: "Antonio-Regular";
+}
+.rowrival2 h2 span {
+    font-size: 34px;
+    color: #232a85;
+    margin-left: 5px;
+}
+.rowSaldotwo,
+.btp {
+    align-items: center;
+}
+.rowSaldotwo p {
+    margin: 0;
+    color: #232a85;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.rowSaldotwo .textPuja1 {
+    font-size: 14px;
+    text-align: left;
+    line-height: 1.2;
+    font-family: "Poppins";
+}
+.rowSaldotwo .textPuja2 {
+    margin: 3px 0;
+    font-size: 15px;
+    text-align: center;
+    text-decoration: underline;
+    font-family: "Antonio-Regular";
+}
+.btn-pujarr {
+    border: none;
+    color: #fff;
+    font-size: 20px;
+    padding: 5px 50px;
+    border-radius: 75px;
+    background-color: #eb4454;
+    font-family: "Antonio-Regular";
+}
+.textR {
+    text-align: right !important;
+}
+
+.btn-pujarr img {
+    width: 25px;
+}
+.textsugerido {
+    margin: 15px 0 10px;
+    font-size: 15px;
+    color: #232a85;
+    text-align: center;
+    font-family: "Poppins";
+}
+.text-error {
+    margin: 10px 0;
+    font-size: 15px;
+    color: #eb4454;
+    text-align: center;
+    font-family: "Poppins";
+}
+.textsugerido input {
+    margin-left: 5px;
+    vertical-align: middle;
+}
+.content-subas .subas-img {
+    width: 200px;
+    height: 150px;
+    display: block;
+    margin: 0 auto 5px;
+    border-radius: 5px;
+    vertical-align: middle;
+    border: 1px solid #b1b1b1;
+}
+.subas-img {
+    width: 200px;
+    height: 150px;
+    object-fit: contain;
+    background: #ffffff;
+}
+.name-sub {
+    margin: 0;
+    font-size: 15px;
+    text-align: center;
+    color: #232a85;
+}
+.price-subas {
+    margin: 5px 0 0;
+    font-size: 22px;
+    font-weight: bold;
+    color: #232a85;
+    overflow: hidden;
+    text-align: center;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    text-decoration: underline;
+    font-family: "Antonio-Regular";
+}
+.text-pujaT {
+    margin-bottom: 0;
+}
+.text-pujaT span {
+    font-size: 20px;
+    margin-left: 0;
+}
+.nav-subastas .nav-tabs {
+    padding: 3px;
+    width: max-content;
+    border-radius: 25px;
+    margin: -80px auto 0;
+    background-color: #005fff;
+}
+.nav-subastas .nav-tabs .nav-item {
+    margin: 0;
+    border: none;
+    color: #fff;
+    font-size: 15px;
+    padding: 6px 40px;
+    font-family: "Poppins";
+    justify-content: center;
+    border-radius: 25px !important;
+}
+.nav-tabs .nav-link.active {
+    background-color: #0c0f3d;
+}
+
+.border-input-modal-pujar {
+    border: 0px !important;
+    border-radius: 0px !important;
+    box-shadow: none !important;
+    border-bottom: 1px solid #232a85 !important;
+    font-family: "Antonio-Regular";
+    color: #232a85;
+    font-size: 14px;
+    height: 23px;
+    padding: 0;
+    margin: 3px 0;
+}
+
+.border-input-modal-pujar:disabled,
+.border-input-modal-pujar[readonly] {
+    background-color: transparent;
+    opacity: 1;
+}
+
+/* Modal transparente */
+.modal-content.transparente-modal-ganador-perdedor {
+    background: transparent;
+    text-align: center;
+    border: none;
+}
+.modal-body.transparente-modal-ganador-perdedor {
+    background: transparent;
+    text-align: center;
+}
+.img-gif-ganador {
+    width: 70%;
+    object-fit: contain;
+    @media (max-width: 575px) {
+        width: 100%;
+    }
+}
+.content-part {
+    padding: 0 45px;
+}
+/*select del filtro*/
+.div-select {
+    display: flex;
+    padding: 2px;
+    width: fit-content;
+    margin: 0px;
+    margin-right: 9px;
+    margin-left: 9px;
+    border-radius: 25px;
+    align-items: center;
+    justify-content: left;
+    background-color: #fff;
+}
+.div-select:not(.input-group) > .bootstrap-select.form-control:not([class*="col-"]) {
+    padding: 0 13px;
+    width: fit-content;
+    background-color: transparent;
+}
+.div-select .bootstrap-select > .dropdown-toggle {
+    border: none;
+    width: fit-content;
+    margin-right: auto;
+    display: block !important;
+    background-color: transparent;
+}
+.btn-light:not(:disabled):not(.disabled).active:focus,
+.btn-light:not(:disabled):not(.disabled):active:focus,
+.show > .btn-light.dropdown-toggle:focus,
+.bootstrap-select .dropdown-toggle .filter-option-inner-inner:focus,
+.bootstrap-select .dropdown-toggle:focus,
+.bootstrap-select > select.mobile-device:focus + .dropdown-toggle {
+    outline: 0px !important;
+    box-shadow: none !important;
+    background-color: transparent;
+}
+.div-select .bootstrap-select .dropdown-toggle .filter-option-inner-inner {
+    color: #040c89;
+    font-size: 14px;
+    font-family: "Poppins";
+}
+.div-select .dropdown-menu {
+    min-width: 100%;
+    margin-top: 5px;
+    margin-left: -13px;
+    border-radius: 20px;
+    z-index: 9999 !important;
+    border: 2px solid #232a85;
+    padding: 5px 0px !important;
+}
+.div-select .dropdown-item {
+    padding: 5px 15px;
+    font-size: 12px;
+    cursor: pointer;
+    color: #232a85;
+    white-space: normal;
+    text-align: left;
+    font-family: "Poppins";
+}
+.div-select p {
+    margin: 0;
+    font-size: 14px;
+    color: #040c89;
+    margin-right: 15px;
+    padding-right: 50px;
+    font-family: "Poppins";
+    border-right: 1px solid #040c89;
+}
+.div-select img {
+    width: 25px;
+    height: 25px;
+    margin-top: -5px;
+    vertical-align: middle;
+}
+.div-select select {
+    padding: 0;
+    width: auto;
+    height: 30px;
+    border: none;
+    margin: 0 20px;
+    cursor: pointer;
+    font-size: 14px;
+    color: #040c89;
+    border-radius: 0px;
+    font-family: "Poppins";
+    background-color: transparent;
+}
+.div-select select:focus,
+.div-select select:active {
+    outline: 0px;
+    color: #040c89;
+    box-shadow: none;
+    background-color: transparent;
+}
+.div-select select option {
+    color: #070926;
+    font-size: 13px;
+}
+
+.title_missubasta {
+    font-family: "Poppins";
+}
+
+.texto_entrar_subasta {
+    font-family: "Poppins";
+}
+.nodata_style_mis_subasta {
+    margin-bottom: 80px;
+}
+
+.interlineado_texto_compartirsubasta {
+    line-height: 38px;
+}
+
+.wallet-img_bonos {
+    height: 24px;
+    margin-top: 0px !important;
+    transition: 200ms;
+}
+
+/* modales direcciones */
+.row-form1 {
+    width: 85%;
+    margin: 40px 0;
+    padding: 30px 20px;
+    border-radius: 15px;
+    background-color: #fff;
+}
+
+.modal .row-form1 {
+    width: auto;
+}
+
+.modal .row-form1 .filter-option-inner-inner {
+    text-align: center !important;
+    font-size: 14px !important;
+    text-transform: capitalize !important;
+}
+
+.row-form1 .form-control:disabled,
+.form-control[readonly] {
+    background-color: transparent !important;
+}
+.row-form1 input,
+.row-form1 input:hover,
+.row-form1 input:focus,
+.row-form1 input:active {
+    padding: 0;
+    height: 30px;
+    border: none;
+    font-size: 17px;
+    color: #232a85;
+    text-align: center;
+    border-radius: 0px;
+    margin-bottom: 10px;
+    background-color: #fff;
+    border-bottom: 1px solid #232a85;
+    outline: none;
+    box-shadow: none;
+}
+.row-form1 input::placeholder {
+    color: #232a85;
+    opacity: 1;
+}
+.row-form1 input:-ms-input-placeholder {
+    color: #232a85;
+}
+.row-form1 input::-ms-input-placeholder {
+    color: #232a85;
+}
+.row-form1 p {
+    margin: 0;
+    font-size: 14px;
+    color: #232a85;
+    text-align: center;
+    font-family: "Poppins";
+}
+
+.select-plataforma .dropdown-toggle,
+.select-plataforma .dropdown-toggle:hover,
+.select-plataforma .dropdown-toggle:focus,
+.select-plataforma .dropdown-toggle:active {
+    padding: 0;
+    height: 30px;
+    border: none;
+    font-size: 17px;
+    color: #232a85;
+    text-align: center;
+    border-radius: 0px;
+    margin-bottom: 10px;
+    background-color: #fff !important;
+    border: none !important;
+    border-bottom: 1px solid #232a85 !important;
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+.pac-container {
+    z-index: 999999999999 !important;
+}
+.row-select-dir-compra .dropdown-item.active,
+.dropdown-item:active,
+.dropdown-item:hover {
+    background-color: #eb4454 !important;
+    color: #ffffff !important;
+}
+
+/* modal finalizar compra */
+.title-direcciones {
+    margin: 10px 0px;
+    cursor: pointer;
+    font-size: 18px;
+    margin-bottom: 20px;
+    font-family: "Poppins";
+    text-align: center;
+    color: #ff103d;
+    text-decoration: underline;
+}
+.compra-finalizada h5 {
+    font-family: "Poppins";
+    color: #0c0f3d;
+    text-align: center;
+    margin: 0;
+}
+.compra-finalizada p {
+    color: #707070;
+    font-size: 14px;
+    text-align: center;
+    margin: 15px 0;
+}
+.content-button {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.compra-finalizada button {
+    width: 100%;
+    border: none;
+    color: #fff;
+    font-size: 12px;
+    padding: 14px 20px;
+    border-radius: 25px;
+    font-family: "Geometos";
+    background-color: #232a85;
+}
+.compra-finalizada a {
+    margin: 0 15px;
+}
+
+.text-codigo::-webkit-input-placeholder {
+    color: #707070;
+}
+.card-direct {
+    padding: 0 6px;
+    cursor: pointer;
+}
+.card-direct h4 {
+    margin: 0 0 5px;
+    color: #040589;
+    text-align: left;
+    font-family: "Poppins";
+}
+.card-direct p {
+    width: 100%;
+    border: none;
+    resize: none;
+    padding: 10px;
+    font-size: 13px;
+    color: #151a30;
+    text-align: left;
+    overflow: hidden;
+    border-radius: 0px;
+    margin-bottom: 20px;
+    white-space: nowrap;
+    font-family: "Poppins";
+    text-overflow: ellipsis;
+    background-color: #ebebeb;
+}
+.inct {
+    color: #ff103d !important;
+}
+.btnact {
+    border: none;
+    color: #fff;
+    font-size: 10px;
+    padding: 8px 10px;
+    margin: -5px;
+    border-radius: 25px;
+    font-family: "Geometos";
+    background-color: #0c0f3d;
+}
+.btneliminar {
+    background-color: #ff103d;
+}
+.content-btns {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* importante autocompletar google */
+.pac-container {
+    z-index: 999999999999 !important;
+}
+
+/* --------------------------------------------- Media Responsive --------------------------------------------- */
+
+@media (max-width: 1130px) {
+    .row-filter {
+        padding: 20px;
+    }
+    .table-subasta {
+        width: 1135px;
+        overflow: auto;
+    }
+    .container-text-carousel {
+        margin-top: 0;
+    }
+    .nav-subastas .nav-tabs {
+        margin: 15px auto;
+    }
+}
+
+@media (max-width: 992px) {
+    .container-text-carousel h1 {
+        margin-top: 50px;
+        text-align: center;
+    }
+    .container-text-carousel p {
+        text-align: center;
+        margin-bottom: 40px;
+    }
+    .container-text-carousel {
+        padding: 0;
+    }
+    .labrl020,
+    .colfile {
+        padding: 0 15px;
+    }
+    .contant-button02 button {
+        width: 50%;
+    }
+    .container-inputss {
+        margin-bottom: 13px;
+    }
+    .text0028 {
+        margin-top: 0;
+    }
+    .inptPass {
+        width: 95% !important;
+    }
+    .text-pujaT {
+        display: block;
+    }
+    .text-pujaT span {
+        margin-left: 0;
+        display: inline-flex;
+    }
+    .content-subas .subas-img {
+        margin: 20px auto 10px;
+    }
+    .rowSaldotwo .textPuja1 {
+        font-size: 15px;
+    }
+    .rowSaldotwo .textPuja2 {
+        font-size: 17px;
+        text-align: center !important;
+    }
+    .btn-pujarr {
+        display: block;
+        margin: 20px auto 0;
+    }
+    .nav-subastas .nav-tabs {
+        margin: 25px auto;
+    }
+    .border-input-modal-pujar {
+        text-align: center;
+        width: max-content;
+        margin: auto;
+    }
+}
+
+@media (max-width: 767px) {
+    .button-filtrar {
+        width: 100%;
+        margin: 20px auto 0;
+    }
+    .group-filtro {
+        display: initial;
+    }
+    .drop-filtro,
+    .div-select,
+    .div-select .bootstrap-select > .dropdown-toggle {
+        margin: 0;
+        width: 100%;
+        min-width: 100%;
+        justify-content: center;
+    }
+    .row-filter .input-group-prepend {
+        margin-bottom: 15px;
+    }
+    .drop-filtro {
+        text-align: center;
+    }
+}
+
+@media (max-width: 575px) {
+    #modal-pujar .modal-body {
+        padding: 15px;
+    }
+    .text-pujaT span {
+        font-size: 17px;
+    }
+    .row-header img {
+        width: 100%;
+    }
+    .container-text-carousel h1 {
+        font-size: 28px;
+    }
+    .container-text-carousel p {
+        font-size: 15px;
+    }
+    .row-inf p {
+        font-size: 14px;
+    }
+    .text03 br {
+        display: none;
+    }
+    .ModalBodySubasta {
+        overflow-y: auto;
+        max-height: 500px;
+        overflow-x: hidden;
+    }
+    .rowrival2 h2,
+    .rowrival h2 {
+        font-size: 26px;
+    }
+    .nav-subastas .nav-tabs {
+        width: 100%;
+    }
+    .nav-subastas .nav-tabs .nav-item {
+        width: 50%;
+        padding: 6px;
+    }
+}
+
+@media (max-width: 320px) {
+    .text-pujaT span {
+        font-size: 14px;
+    }
+}

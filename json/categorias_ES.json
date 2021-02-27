@@ -1,0 +1,3649 @@
+[
+    {
+        "CategoryID": "",
+        "CategoryIDPath": "",
+        "CategoryLevel": 1,
+        "CategoryName": "Elige una categoría",
+        "CategoryNamePath": "Selecciona una categoría",
+        "CategoryParentID": "-1",
+        "LeafCategory": false,
+        "subCategoria": [],
+        "nameurl": "Selecciona-una-categoria"
+    },
+    {
+        "CategoryID": "101",
+        "CategoryIDPath": "101",
+        "CategoryLevel": 1,
+        "CategoryName": "Bebés",
+        "CategoryNamePath": "Bebés",
+        "CategoryParentID": "-1",
+        "LeafCategory": false,
+        "tarifaPublicacion": {
+            "gratuita": "0%",
+            "clasica": "12%",
+            "premium": "13%"
+        },
+        "subCategoria": [
+            {
+                "CategoryID": "1011",
+                "CategoryIDPath": "101:1011",
+                "CategoryLevel": 2,
+                "CategoryName": "Accesorios para baño",
+                "CategoryNamePath": "Bebés:Accesorios para baño",
+                "CategoryParentID": "101",
+                "LeafCategory": false,
+                "nameurl": "bebes-accesorios-para-bano"
+            },
+            {
+                "CategoryID": "1012",
+                "CategoryIDPath": "101:1012",
+                "CategoryLevel": 2,
+                "CategoryName": "Alimentación del bebé",
+                "CategoryNamePath": "Bebés:Alimentación del bebé",
+                "CategoryParentID": "101",
+                "LeafCategory": false,
+                "nameurl": "bebes-alimentacion-del-bebe"
+            },
+            {
+                "CategoryID": "1013",
+                "CategoryIDPath": "101:1013",
+                "CategoryLevel": 2,
+                "CategoryName": "Andadores y correpasillos",
+                "CategoryNamePath": "Bebés:Andadores y correpasillos",
+                "CategoryParentID": "101",
+                "LeafCategory": false,
+                "nameurl": "bebes-aandadores-y-correpasillos"
+            },
+            {
+                "CategoryID": "1014",
+                "CategoryIDPath": "101:1014",
+                "CategoryLevel": 2,
+                "CategoryName": "Carritos y paseo",
+                "CategoryNamePath": "Bebés:Carritos y paseo",
+                "CategoryParentID": "101",
+                "LeafCategory": false,
+                "nameurl": "bebes-carritos-y-paseo"
+            },
+            {
+                "CategoryID": "1015",
+                "CategoryIDPath": "101:1015",
+                "CategoryLevel": 2,
+                "CategoryName": "Cunas, minicunas y capazos",
+                "CategoryNamePath": "Bebés:Cunas, minicunas y capazos",
+                "CategoryParentID": "101",
+                "LeafCategory": false,
+                "nameurl": "bebes-cunas-minicunas-y-capazos"
+            },
+            {
+                "CategoryID": "1016",
+                "CategoryIDPath": "101:1016",
+                "CategoryLevel": 2,
+                "CategoryName": "Juguetes y juegos",
+                "CategoryNamePath": "Bebés:Juguetes y juegos",
+                "CategoryParentID": "101",
+                "LeafCategory": false,
+                "nameurl": "bebes-juguetes-y-juegos"
+            },
+            {
+                "CategoryID": "1017",
+                "CategoryIDPath": "101:1017",
+                "CategoryLevel": 2,
+                "CategoryName": "Libros de bebé y premamá",
+                "CategoryNamePath": "Bebés:Libros de bebé y premamá",
+                "CategoryParentID": "101",
+                "LeafCategory": false,
+                "nameurl": "bebes-libros-de-bebe-y-premama"
+            },
+            {
+                "CategoryID": "1018",
+                "CategoryIDPath": "101:1018",
+                "CategoryLevel": 2,
+                "CategoryName": "Maternidad y premamá",
+                "CategoryNamePath": "Bebés:Maternidad y premamá",
+                "CategoryParentID": "101",
+                "LeafCategory": false,
+                "nameurl": "bebes-maternidad-y-premama"
+            },
+            {
+                "CategoryID": "1019",
+                "CategoryIDPath": "101:1019",
+                "CategoryLevel": 2,
+                "CategoryName": "Mobiliario y decoración bebés",
+                "CategoryNamePath": "Bebés:Mobiliario y decoración bebés",
+                "CategoryParentID": "101",
+                "LeafCategory": false,
+                "nameurl": "bebes-mobiliario-y-decoracion"
+            },
+            {
+                "CategoryID": "10110",
+                "CategoryIDPath": "101:10110",
+                "CategoryLevel": 2,
+                "CategoryName": "Mochilas portabebés",
+                "CategoryNamePath": "Bebés:Mochilas portabebés",
+                "CategoryParentID": "101",
+                "LeafCategory": false,
+                "nameurl": "bebes-mochilas-y-portabebes"
+            },
+            {
+                "CategoryID": "10111",
+                "CategoryIDPath": "101:10111",
+                "CategoryLevel": 2,
+                "CategoryName": "Pañales y limpieza",
+                "CategoryNamePath": "Bebés:Pañales y limpieza",
+                "CategoryParentID": "101",
+                "LeafCategory": false,
+                "nameurl": "bebes-mochilas-y-portabebes"
+            },
+            {
+                "CategoryID": "10112",
+                "CategoryIDPath": "101:10112",
+                "CategoryLevel": 2,
+                "CategoryName": "Ropa de cuna",
+                "CategoryNamePath": "Bebés:Ropa de cuna",
+                "CategoryParentID": "101",
+                "LeafCategory": false,
+                "nameurl": "bebes-ropa-de-cuna"
+            },
+            {
+                "CategoryID": "10113",
+                "CategoryIDPath": "101:10113",
+                "CategoryLevel": 2,
+                "CategoryName": "Ropa, calzado y complementos",
+                "CategoryNamePath": "Bebés:Ropa, calzado y complementos",
+                "CategoryParentID": "101",
+                "LeafCategory": false,
+                "nameurl": "bebes-ropa-calzado-y-complementos"
+            },
+            {
+                "CategoryID": "10114",
+                "CategoryIDPath": "101:10114",
+                "CategoryLevel": 2,
+                "CategoryName": "Seguridad",
+                "CategoryNamePath": "Bebés:Seguridad",
+                "CategoryParentID": "101",
+                "LeafCategory": false,
+                "nameurl": "bebes-seguridad"
+            },
+            {
+                "CategoryID": "10115",
+                "CategoryIDPath": "101:10115",
+                "CategoryLevel": 2,
+                "CategoryName": "Sillas de coche",
+                "CategoryNamePath": "Bebés:Sillas de coche",
+                "CategoryParentID": "101",
+                "LeafCategory": false,
+                "nameurl": "bebes-sillas-de-coche"
+            },
+            {
+                "CategoryID": "10116",
+                "CategoryIDPath": "101:10116",
+                "CategoryLevel": 2,
+                "CategoryName": "Otros",
+                "CategoryNamePath": "Bebés:OTros",
+                "CategoryParentID": "101",
+                "LeafCategory": false,
+                "nameurl": "bebes-otros"
+            }
+        ],
+        "nameurl": "bebes"
+    },
+    {
+        "CategoryID": "102",
+        "CategoryIDPath": "102",
+        "CategoryLevel": 1,
+        "CategoryName": "Belleza y salud",
+        "CategoryNamePath": "Belleza y salud",
+        "CategoryParentID": "-1",
+        "LeafCategory": false,
+        "tarifaPublicacion": {
+            "gratuita": "0%",
+            "clasica": "14%",
+            "premium": "15%"
+        },
+        "subCategoria": [
+            {
+                "CategoryID": "1021",
+                "CategoryIDPath": "102:1021",
+                "CategoryLevel": 2,
+                "CategoryName": "Afeitado y depilación",
+                "CategoryNamePath": "Belleza y salud:Afeitado y depilación",
+                "CategoryParentID": "102",
+                "LeafCategory": false,
+                "nameurl": "belleza-y-salud-afeitado-y-depilacion"
+            },
+            {
+                "CategoryID": "1022",
+                "CategoryIDPath": "102:1022",
+                "CategoryLevel": 2,
+                "CategoryName": "Baño y cuidado corporal",
+                "CategoryNamePath": "Belleza y salud:Baño y cuidado corporal",
+                "CategoryParentID": "102",
+                "LeafCategory": false,
+                "nameurl": "belleza-y-salud-bano-y-cuidado-corporal"
+            },
+            {
+                "CategoryID": "1023",
+                "CategoryIDPath": "102:1023",
+                "CategoryLevel": 2,
+                "CategoryName": "Bronceado y protección solar",
+                "CategoryNamePath": "Belleza y salud:Bronceado y protección solar",
+                "CategoryParentID": "102",
+                "LeafCategory": false,
+                "nameurl": "belleza-y-salud-bronceado-y-proteccion-solar"
+            },
+            {
+                "CategoryID": "1024",
+                "CategoryIDPath": "102:1024",
+                "CategoryLevel": 2,
+                "CategoryName": "Cuidado de la salud",
+                "CategoryNamePath": "Belleza y salud:Cuidado de la salud",
+                "CategoryParentID": "102",
+                "LeafCategory": false,
+                "nameurl": "belleza-y-salud-cuidado-de-la-salud"
+            },
+            {
+                "CategoryID": "1025",
+                "CategoryIDPath": "102:1025",
+                "CategoryLevel": 2,
+                "CategoryName": "Cuidado de la vista, óptica",
+                "CategoryNamePath": "Belleza y salud:Cuidado de la vista, óptica",
+                "CategoryParentID": "102",
+                "LeafCategory": false,
+                "nameurl": "belleza-y-salud-cuidado-de-la-vista-optica"
+            },
+            {
+                "CategoryID": "1026",
+                "CategoryIDPath": "102:1026",
+                "CategoryLevel": 2,
+                "CategoryName": "Cuidado del cabello",
+                "CategoryNamePath": "Belleza y salud:Cuidado del cabello",
+                "CategoryParentID": "102",
+                "LeafCategory": false,
+                "nameurl": "belleza-y-salud-cuidado-del-cabello"
+            },
+            {
+                "CategoryID": "1027",
+                "CategoryIDPath": "102:1027",
+                "CategoryLevel": 2,
+                "CategoryName": "Cuidado del rostro",
+                "CategoryNamePath": "Belleza y salud:Cuidado del rostro",
+                "CategoryParentID": "102",
+                "LeafCategory": false,
+                "nameurl": "belleza-y-salud-cuidado-del-rostro"
+            },
+            {
+                "CategoryID": "1028",
+                "CategoryIDPath": "102:1028",
+                "CategoryLevel": 2,
+                "CategoryName": "Cuidado e higiene bucodental",
+                "CategoryNamePath": "Belleza y salud:Cuidado e higiene bucodental",
+                "CategoryParentID": "102",
+                "LeafCategory": false,
+                "nameurl": "belleza-y-salud-cuidado-e-higiene-dental"
+            },
+            {
+                "CategoryID": "1029",
+                "CategoryIDPath": "102:1029",
+                "CategoryLevel": 2,
+                "CategoryName": "Manicura y pedicura",
+                "CategoryNamePath": "Belleza y salud:Manicura y pedicura",
+                "CategoryParentID": "102",
+                "LeafCategory": false,
+                "nameurl": "belleza-y-salud-manicura-y-pedicura"
+            },
+            {
+                "CategoryID": "10210",
+                "CategoryIDPath": "102:10210",
+                "CategoryLevel": 2,
+                "CategoryName": "Maquillaje",
+                "CategoryNamePath": "Belleza y salud:Maquillaje",
+                "CategoryParentID": "102",
+                "LeafCategory": false,
+                "nameurl": "belleza-y-salud-maquillaje"
+            },
+            {
+                "CategoryID": "10211",
+                "CategoryIDPath": "102:10211",
+                "CategoryLevel": 2,
+                "CategoryName": "Masajes",
+                "CategoryNamePath": "Belleza y salud:Masajes",
+                "CategoryParentID": "102",
+                "LeafCategory": false,
+                "nameurl": "belleza-y-salud-masajes"
+            },
+            {
+                "CategoryID": "10212",
+                "CategoryIDPath": "102:10212",
+                "CategoryLevel": 2,
+                "CategoryName": "Movilidad y minusvalía",
+                "CategoryNamePath": "Belleza y salud:Movilidad y minusvalía",
+                "CategoryParentID": "102",
+                "LeafCategory": false,
+                "nameurl": "belleza-y-salud-movilidad-y-minusvalia"
+            },
+            {
+                "CategoryID": "10213",
+                "CategoryIDPath": "102:10213",
+                "CategoryLevel": 2,
+                "CategoryName": "Perfumes",
+                "CategoryNamePath": "Belleza y salud:Perfumes",
+                "CategoryParentID": "102",
+                "LeafCategory": false,
+                "nameurl": "belleza-y-salud-perfumes"
+            },
+            {
+                "CategoryID": "10214",
+                "CategoryIDPath": "102:10214",
+                "CategoryLevel": 2,
+                "CategoryName": "Productos profesionales",
+                "CategoryNamePath": "Belleza y salud:Productos profesionales",
+                "CategoryParentID": "102",
+                "LeafCategory": false,
+                "nameurl": "belleza-y-salud-productos-profesionales"
+            },
+            {
+                "CategoryID": "10215",
+                "CategoryIDPath": "102:10215",
+                "CategoryLevel": 2,
+                "CategoryName": "Tatuajes y arte corporal",
+                "CategoryNamePath": "Belleza y salud:Tatuajes y arte corporal",
+                "CategoryParentID": "102",
+                "LeafCategory": false,
+                "nameurl": "belleza-y-salud-tatuajes-y-arte-corporal"
+            },
+            {
+                "CategoryID": "10216",
+                "CategoryIDPath": "102:10216",
+                "CategoryLevel": 2,
+                "CategoryName": "Terapias alternativas",
+                "CategoryNamePath": "Belleza y salud:Terapias alternativas",
+                "CategoryParentID": "102",
+                "LeafCategory": false,
+                "nameurl": "belleza-y-salud-terapias-alternativas"
+            },
+            {
+                "CategoryID": "10217",
+                "CategoryIDPath": "102:10217",
+                "CategoryLevel": 2,
+                "CategoryName": "Vitaminas y suplem. dietarios",
+                "CategoryNamePath": "Belleza y salud:Vitaminas y suplem. dietarios",
+                "CategoryParentID": "102",
+                "LeafCategory": false,
+                "nameurl": "belleza-y-salud-vitaminas-y-suplementos-dietarios"
+            },
+            {
+                "CategoryID": "10218",
+                "CategoryIDPath": "102:10218",
+                "CategoryLevel": 2,
+                "CategoryName": "Otros",
+                "CategoryNamePath": "Belleza y salud:Otros",
+                "CategoryParentID": "102",
+                "LeafCategory": false,
+                "nameurl": "belleza-y-salud-otros"
+            }
+        ],
+        "nameurl": "belleza-y-salud"
+    },
+    {
+        "CategoryID": "103",
+        "CategoryIDPath": "103",
+        "CategoryLevel": 1,
+        "CategoryName": "Cámaras y fotografía",
+        "CategoryNamePath": "Cámaras y fotografía",
+        "CategoryParentID": "-1",
+        "LeafCategory": false,
+        "tarifaPublicacion": {
+            "gratuita": "0%",
+            "clasica": "11%",
+            "premium": "12%"
+        },
+        "subCategoria": [
+            {
+                "CategoryID": "1031",
+                "CategoryIDPath": "103:1031",
+                "CategoryLevel": 2,
+                "CategoryName": "Accesorios cámaras/fotografía",
+                "CategoryNamePath": "Cámaras y fotografía:Accesorios cámaras/fotografía",
+                "CategoryParentID": "103",
+                "LeafCategory": false,
+                "nameurl": "camaras-y-fotografia-accesorios-camara-fotografia"
+            },
+            {
+                "CategoryID": "1032",
+                "CategoryIDPath": "103:1032",
+                "CategoryLevel": 2,
+                "CategoryName": "Cámaras de vídeo",
+                "CategoryNamePath": "Cámaras y fotografía:Cámaras de vídeo",
+                "CategoryParentID": "103",
+                "LeafCategory": false,
+                "nameurl": "camaras-y-fotografia-camaras-de-video"
+            },
+            {
+                "CategoryID": "1033",
+                "CategoryIDPath": "103:1033",
+                "CategoryLevel": 2,
+                "CategoryName": "Cámaras digitales",
+                "CategoryNamePath": "Cámaras y fotografía:Cámaras digitales",
+                "CategoryParentID": "103",
+                "LeafCategory": false,
+                "nameurl": "camaras-y-fotografia-camaras-digitales"
+            },
+            {
+                "CategoryID": "1033",
+                "CategoryIDPath": "103:1033",
+                "CategoryLevel": 2,
+                "CategoryName": "Drones con cámara",
+                "CategoryNamePath": "Cámaras y fotografía:Drones con cámara",
+                "CategoryParentID": "103",
+                "LeafCategory": false,
+                "nameurl": "camaras-y-fotografia-drones-con-camara"
+            },
+            {
+                "CategoryID": "1034",
+                "CategoryIDPath": "103:1034",
+                "CategoryLevel": 2,
+                "CategoryName": "Flashes y accesorios",
+                "CategoryNamePath": "Cámaras y fotografía:Flashes y accesorios",
+                "CategoryParentID": "103",
+                "LeafCategory": false,
+                "nameurl": "camaras-y-fotografia-flashes-y-accesorios"
+            },
+            {
+                "CategoryID": "1035",
+                "CategoryIDPath": "103:1035",
+                "CategoryLevel": 2,
+                "CategoryName": "Fotografía analógica",
+                "CategoryNamePath": "Cámaras y fotografía:Fotografía analógica",
+                "CategoryParentID": "103",
+                "LeafCategory": false,
+                "nameurl": "camaras-y-fotografia-fotografia-analogica"
+            },
+            {
+                "CategoryID": "1036",
+                "CategoryIDPath": "103:1036",
+                "CategoryLevel": 2,
+                "CategoryName": "Fotografía vintage",
+                "CategoryNamePath": "Cámaras y fotografía:Fotografía vintage",
+                "CategoryParentID": "103",
+                "LeafCategory": false,
+                "nameurl": "camaras-y-fotografia-fotografia-vintage"
+            },
+            {
+                "CategoryID": "1037",
+                "CategoryIDPath": "103:1037",
+                "CategoryLevel": 2,
+                "CategoryName": "Iluminación y estudio",
+                "CategoryNamePath": "Cámaras y fotografía:Iluminación y estudio",
+                "CategoryParentID": "103",
+                "LeafCategory": false,
+                "nameurl": "camaras-y-fotografia-iluminacion-y-estudio"
+            },
+            {
+                "CategoryID": "1038",
+                "CategoryIDPath": "103:1038",
+                "CategoryLevel": 2,
+                "CategoryName": "Manuales y guías",
+                "CategoryNamePath": "Cámaras y fotografía:Manuales y guías",
+                "CategoryParentID": "103",
+                "LeafCategory": false,
+                "nameurl": "camaras-y-fotografia-manuales-y-guias"
+            },
+            {
+                "CategoryID": "1039",
+                "CategoryIDPath": "103:1039",
+                "CategoryLevel": 2,
+                "CategoryName": "Marcos digitales",
+                "CategoryNamePath": "Cámaras y fotografía:Marcos digitales",
+                "CategoryParentID": "103",
+                "LeafCategory": false,
+                "nameurl": "camaras-y-fotografia-marcos-digitales"
+            },
+            {
+                "CategoryID": "10310",
+                "CategoryIDPath": "103:10310",
+                "CategoryLevel": 2,
+                "CategoryName": "Objetivos y filtros",
+                "CategoryNamePath": "Cámaras y fotografía:Objetivos y filtros",
+                "CategoryParentID": "103",
+                "LeafCategory": false,
+                "nameurl": "camaras-y-fotografia-objetivos-y-filtros"
+            },
+            {
+                "CategoryID": "10311",
+                "CategoryIDPath": "103:10311",
+                "CategoryLevel": 2,
+                "CategoryName": "Recambios y herramientas",
+                "CategoryNamePath": "Cámaras y fotografía:Recambios y herramientas",
+                "CategoryParentID": "103",
+                "LeafCategory": false,
+                "nameurl": "camaras-y-fotografia-recambio-y-herramientas"
+            },
+            {
+                "CategoryID": "10312",
+                "CategoryIDPath": "103:10312",
+                "CategoryLevel": 2,
+                "CategoryName": "Telescopios y prismáticos",
+                "CategoryNamePath": "Cámaras y fotografía:Telescopios y prismáticos",
+                "CategoryParentID": "103",
+                "LeafCategory": false,
+                "nameurl": "camaras-y-fotografia-telescopios-y-prismaticos"
+            },
+            {
+                "CategoryID": "10313",
+                "CategoryIDPath": "103:10313",
+                "CategoryLevel": 2,
+                "CategoryName": "Trípodes y soportes",
+                "CategoryNamePath": "Cámaras y fotografía:Trípodes y soportes",
+                "CategoryParentID": "103",
+                "LeafCategory": false,
+                "nameurl": "camaras-y-fotografia-tripodes-y-soportes"
+            },
+            {
+                "CategoryID": "10314",
+                "CategoryIDPath": "103:10314",
+                "CategoryLevel": 2,
+                "CategoryName": "Otros",
+                "CategoryNamePath": "Cámaras y fotografía:Otros",
+                "CategoryParentID": "103",
+                "LeafCategory": false,
+                "nameurl": "camaras-y-fotografia-otros"
+            }
+        ],
+        "nameurl": "camaras-y-fotografia"
+    },
+    {
+        "CategoryID": "104",
+        "CategoryIDPath": "104",
+        "CategoryLevel": 1,
+        "CategoryName": "Casa, jardín y bricolaje",
+        "CategoryNamePath": "Casa, jardín y bricolaje",
+        "CategoryParentID": "-1",
+        "LeafCategory": false,
+        "tarifaPublicacion": {
+            "gratuita": "0%",
+            "clasica": "13%",
+            "premium": "15%"
+        },
+        "subCategoria": [
+            {
+                "CategoryID": "1041",
+                "CategoryIDPath": "104:1041",
+                "CategoryLevel": 2,
+                "CategoryName": "Alfombras y moquetas",
+                "CategoryNamePath": "Casa, jardín y bricolaje:Alfombras y moquetas",
+                "CategoryParentID": "104",
+                "LeafCategory": false,
+                "nameurl": "casa-jardin-y-bricolaje-alfombras-y-moquetas"
+            },
+            {
+                "CategoryID": "1042",
+                "CategoryIDPath": "104:1042",
+                "CategoryLevel": 2,
+                "CategoryName": "Artesanía y manualidades",
+                "CategoryNamePath": "Casa, jardín y bricolaje:Artesanía y manualidades",
+                "CategoryParentID": "104",
+                "LeafCategory": false,
+                "nameurl": "casa-jardin-y-bricolaje-artesania-y-manualidades"
+            },
+            {
+                "CategoryID": "1043",
+                "CategoryIDPath": "104:1043",
+                "CategoryLevel": 2,
+                "CategoryName": "Artículos para animales",
+                "CategoryNamePath": "Casa, jardín y bricolaje:Artículos para animales",
+                "CategoryParentID": "104",
+                "LeafCategory": false,
+                "nameurl": "casa-jardin-y-bricolaje-articulos-para-animales"
+            },
+            {
+                "CategoryID": "1044",
+                "CategoryIDPath": "104:1044",
+                "CategoryLevel": 2,
+                "CategoryName": "Baño",
+                "CategoryNamePath": "Casa, jardín y bricolaje:Baño",
+                "CategoryParentID": "104",
+                "LeafCategory": false,
+                "nameurl": "casa-jardin-y-bricolaje-bano"
+            },
+            {
+                "CategoryID": "1045",
+                "CategoryIDPath": "104:1045",
+                "CategoryLevel": 2,
+                "CategoryName": "Chimeneas y accesorios",
+                "CategoryNamePath": "Casa, jardín y bricolaje:Chimeneas y accesorios",
+                "CategoryParentID": "104",
+                "LeafCategory": false,
+                "nameurl": "casa-jardin-y-bricolaje-chimeneas-y-accesorios"
+            },
+            {
+                "CategoryID": "1046",
+                "CategoryIDPath": "104:1046",
+                "CategoryLevel": 2,
+                "CategoryName": "Cocina, comedor y bar",
+                "CategoryNamePath": "Casa, jardín y bricolaje:Cocina, comedor y bar",
+                "CategoryParentID": "104",
+                "LeafCategory": false,
+                "nameurl": "casa-jardin-y-bricolaje-cocina-comedor-bar"
+            },
+            {
+                "CategoryID": "1047",
+                "CategoryIDPath": "104:1047",
+                "CategoryLevel": 2,
+                "CategoryName": "Cortinas y estores",
+                "CategoryNamePath": "Casa, jardín y bricolaje:Cortinas y estores",
+                "CategoryParentID": "104",
+                "LeafCategory": false,
+                "nameurl": "casa-jardin-y-bricolaje-cortinas-y-estores"
+            },
+            {
+                "CategoryID": "1048",
+                "CategoryIDPath": "104:1048",
+                "CategoryLevel": 2,
+                "CategoryName": "Decoración para bodas",
+                "CategoryNamePath": "Casa, jardín y bricolaje:Decoración para bodas",
+                "CategoryParentID": "104",
+                "LeafCategory": false,
+                "nameurl": "casa-jardin-y-bricolaje-decoracion-para-bodas"
+            },
+            {
+                "CategoryID": "1049",
+                "CategoryIDPath": "104:1049",
+                "CategoryLevel": 2,
+                "CategoryName": "Decoración para el hogar",
+                "CategoryNamePath": "Casa, jardín y bricolaje:Decoración para el hogar",
+                "CategoryParentID": "104",
+                "LeafCategory": false,
+                "nameurl": "casa-jardin-y-bricolaje-decoracion-para-el-hogar"
+            },
+            {
+                "CategoryID": "10410",
+                "CategoryIDPath": "104:10410",
+                "CategoryLevel": 2,
+                "CategoryName": "Fiestas y ocasiones especiales",
+                "CategoryNamePath": "Casa, jardín y bricolaje:Fiestas y ocasiones especiales",
+                "CategoryParentID": "104",
+                "LeafCategory": false,
+                "nameurl": "casa-jardin-y-bricolaje-fiestas-y-ocasiones-especiales"
+            },
+            {
+                "CategoryID": "10411",
+                "CategoryIDPath": "104:10411",
+                "CategoryLevel": 2,
+                "CategoryName": "Herramientas de bricolaje",
+                "CategoryNamePath": "Casa, jardín y bricolaje:Herramientas de bricolaje",
+                "CategoryParentID": "104",
+                "LeafCategory": false,
+                "nameurl": "casa-jardin-y-bricolaje-herramientas-de-bricolaje"
+            },
+            {
+                "CategoryID": "10412",
+                "CategoryIDPath": "104:10412",
+                "CategoryLevel": 2,
+                "CategoryName": "Iluminación de interiores",
+                "CategoryNamePath": "Casa, jardín y bricolaje:Iluminación de interiores",
+                "CategoryParentID": "104",
+                "LeafCategory": false,
+                "nameurl": "casa-jardin-y-bricolaje-iluminacion-de-interiores"
+            },
+            {
+                "CategoryID": "10413",
+                "CategoryIDPath": "104:10413",
+                "CategoryLevel": 2,
+                "CategoryName": "Materiales de bricolaje",
+                "CategoryNamePath": "Casa, jardín y bricolaje:Materiales de bricolaje",
+                "CategoryParentID": "104",
+                "LeafCategory": false,
+                "nameurl": "casa-jardin-y-bricolaje-materiales-de-bricolaje"
+            },
+            {
+                "CategoryID": "10414",
+                "CategoryIDPath": "104:10414",
+                "CategoryLevel": 2,
+                "CategoryName": "Muebles",
+                "CategoryNamePath": "Casa, jardín y bricolaje:Muebles",
+                "CategoryParentID": "104",
+                "LeafCategory": false,
+                "nameurl": "casa-jardin-y-bricolaje-muebles"
+            },
+            {
+                "CategoryID": "10415",
+                "CategoryIDPath": "104:10415",
+                "CategoryLevel": 2,
+                "CategoryName": "Muebles y decoración infantil",
+                "CategoryNamePath": "Casa, jardín y bricolaje:Muebles y decoración infantil",
+                "CategoryParentID": "104",
+                "LeafCategory": false,
+                "nameurl": "casa-jardin-y-bricolaje-muebles-y-decoracion-infantil"
+            },
+            {
+                "CategoryID": "10416",
+                "CategoryIDPath": "104:10416",
+                "CategoryLevel": 2,
+                "CategoryName": "Relojes y despertadores",
+                "CategoryNamePath": "Casa, jardín y bricolaje:Relojes y despertadores",
+                "CategoryParentID": "104",
+                "LeafCategory": false,
+                "nameurl": "casa-jardin-y-bricolaje-relojes-y-despertadores"
+            },
+            {
+                "CategoryID": "10417",
+                "CategoryIDPath": "104:10417",
+                "CategoryLevel": 2,
+                "CategoryName": "Ropa de cama",
+                "CategoryNamePath": "Casa, jardín y bricolaje:Ropa de cama",
+                "CategoryParentID": "104",
+                "LeafCategory": false,
+                "nameurl": "casa-jardin-y-bricolaje-ropa-de-cama"
+            },
+            {
+                "CategoryID": "10418",
+                "CategoryIDPath": "104:10418",
+                "CategoryLevel": 2,
+                "CategoryName": "Saunas y spa",
+                "CategoryNamePath": "Casa, jardín y bricolaje:Saunas y spa",
+                "CategoryParentID": "104",
+                "LeafCategory": false,
+                "nameurl": "casa-jardin-y-bricolaje-saunas-y-spa"
+            },
+            {
+                "CategoryID": "10419",
+                "CategoryIDPath": "104:10419",
+                "CategoryLevel": 2,
+                "CategoryName": "Seguridad del hogar",
+                "CategoryNamePath": "Casa, jardín y bricolaje:Seguridad del hogar",
+                "CategoryParentID": "104",
+                "LeafCategory": false,
+                "nameurl": "casa-jardin-y-bricolaje-seguridad-del-hogar"
+            },
+            {
+                "CategoryID": "10420",
+                "CategoryIDPath": "104:10420",
+                "CategoryLevel": 2,
+                "CategoryName": "Soluciones de almacenamiento",
+                "CategoryNamePath": "Casa, jardín y bricolaje:Soluciones de almacenamiento",
+                "CategoryParentID": "104",
+                "LeafCategory": false,
+                "nameurl": "casa-jardin-y-bricolaje-soluciones-de-almacenamiento"
+            },
+            {
+                "CategoryID": "10421",
+                "CategoryIDPath": "104:10421",
+                "CategoryLevel": 2,
+                "CategoryName": "Terraza y jardín",
+                "CategoryNamePath": "Casa, jardín y bricolaje:Terraza y jardín",
+                "CategoryParentID": "104",
+                "LeafCategory": false,
+                "nameurl": "casa-jardin-y-bricolaje-terraza-y-jardin"
+            },
+            {
+                "CategoryID": "10422",
+                "CategoryIDPath": "104:10422",
+                "CategoryLevel": 2,
+                "CategoryName": "Otros",
+                "CategoryNamePath": "Casa, jardín y bricolaje:Otros",
+                "CategoryParentID": "104",
+                "LeafCategory": false,
+                "nameurl": "casa-jardin-y-bricolaje-otros"
+            }
+        ],
+        "nameurl": "casa-jardín-y-bricolaje"
+    },
+    {
+        "CategoryID": "105",
+        "CategoryIDPath": "105",
+        "CategoryLevel": 1,
+        "CategoryName": "Cine, DVD y películas",
+        "CategoryNamePath": "Cine, DVD y películas",
+        "CategoryParentID": "-1",
+        "LeafCategory": false,
+        "tarifaPublicacion": {
+            "gratuita": "0%",
+            "clasica": "11%",
+            "premium": "12%"
+        },
+        "subCategoria": [
+            {
+                "CategoryID": "1051",
+                "CategoryIDPath": "105:1051",
+                "CategoryLevel": 2,
+                "CategoryName": "Accesorios y almacenaje",
+                "CategoryNamePath": "Cine, DVD y películas:Accesorios y almacenaje",
+                "CategoryParentID": "105",
+                "LeafCategory": false,
+                "nameurl": "cine-dvd-y-películas-accesorios-y-almacenaje"
+            },
+            {
+                "CategoryID": "1052",
+                "CategoryIDPath": "105:1052",
+                "CategoryLevel": 2,
+                "CategoryName": "Cine",
+                "CategoryNamePath": "Cine, DVD y películas:Cine",
+                "CategoryParentID": "105",
+                "LeafCategory": false,
+                "nameurl": "cine-dvd-y-películas-cine"
+            },
+            {
+                "CategoryID": "1053",
+                "CategoryIDPath": "105:1053",
+                "CategoryLevel": 2,
+                "CategoryName": "Cintas de VHS",
+                "CategoryNamePath": "Cine, DVD y películas:Cintas de VHS",
+                "CategoryParentID": "105",
+                "LeafCategory": false,
+                "nameurl": "cine-dvd-y-películas-cintas-de-vhs"
+            },
+            {
+                "CategoryID": "1054",
+                "CategoryIDPath": "105:1054",
+                "CategoryLevel": 2,
+                "CategoryName": "Laser discs",
+                "CategoryNamePath": "Cine, DVD y películas:Laser discs",
+                "CategoryParentID": "105",
+                "LeafCategory": false,
+                "nameurl": "cine-dvd-y-películas-laser-discs"
+            },
+            {
+                "CategoryID": "1055",
+                "CategoryIDPath": "105:1055",
+                "CategoryLevel": 2,
+                "CategoryName": "Lotes de cine, DVD y películas",
+                "CategoryNamePath": "Cine, DVD y películas:Lotes de cine, DVD y películas",
+                "CategoryParentID": "105",
+                "LeafCategory": false,
+                "nameurl": "cine-dvd-y-películas-lotes-de-cine-dvd-y-peliculas"
+            },
+            {
+                "CategoryID": "1056",
+                "CategoryIDPath": "105:1056",
+                "CategoryLevel": 2,
+                "CategoryName": "Películas en DVD y Blu-ray",
+                "CategoryNamePath": "Cine, DVD y películas:Películas en DVD y Blu-ray",
+                "CategoryParentID": "105",
+                "LeafCategory": false,
+                "nameurl": "cine-dvd-y-películas-peliculas-en-dvd-y-blu-ray"
+            },
+            {
+                "CategoryID": "1057",
+                "CategoryIDPath": "105:1057",
+                "CategoryLevel": 2,
+                "CategoryName": "Películas UMD",
+                "CategoryNamePath": "Cine, DVD y películas:Películas UMD",
+                "CategoryParentID": "105",
+                "LeafCategory": false,
+                "nameurl": "cine-dvd-y-películas-peliculas-umd"
+            },
+            {
+                "CategoryID": "1058",
+                "CategoryIDPath": "105:1058",
+                "CategoryLevel": 2,
+                "CategoryName": "Otros formatos",
+                "CategoryNamePath": "Cine, DVD y películas:Otros formatos",
+                "CategoryParentID": "105",
+                "LeafCategory": false,
+                "nameurl": "cine-dvd-y-películas-otros-formatos"
+            },
+            {
+                "CategoryID": "1059",
+                "CategoryIDPath": "105:1059",
+                "CategoryLevel": 2,
+                "CategoryName": "Otros",
+                "CategoryNamePath": "Cine, DVD y películas:Otros",
+                "CategoryParentID": "105",
+                "LeafCategory": false,
+                "nameurl": "cine-dvd-y-películas-otros"
+            }
+        ],
+        "nameurl": "cine-dvd-y-peliculas"
+    },
+    {
+        "CategoryID": "106",
+        "CategoryIDPath": "106",
+        "CategoryLevel": 1,
+        "CategoryName": "Coches, motos y otros vehículos",
+        "CategoryNamePath": "Coches, motos y otros vehículos",
+        "CategoryParentID": "-1",
+        "LeafCategory": false,
+        "tarifaPublicacion": {
+            "gratuita": "0%",
+            "clasica": "12%",
+            "premium": "13%"
+        },
+        "subCategoria": [
+            {
+                "CategoryID": "1061",
+                "CategoryIDPath": "106:1061",
+                "CategoryLevel": 2,
+                "CategoryName": "Aviones",
+                "CategoryNamePath": "Coches, motos y otros vehículos:Aviones",
+                "CategoryParentID": "106",
+                "LeafCategory": false,
+                "nameurl": "coches-motos-y-otros-vehiculos-aviones"
+            },
+            {
+                "CategoryID": "1062",
+                "CategoryIDPath": "106:1062",
+                "CategoryLevel": 2,
+                "CategoryName": "Barcos",
+                "CategoryNamePath": "Coches, motos y otros vehículos:Barcos",
+                "CategoryParentID": "106",
+                "LeafCategory": false,
+                "nameurl": "coches-motos-y-otros-vehiculos-barcos"
+            },
+            {
+                "CategoryID": "1063",
+                "CategoryIDPath": "106:1063",
+                "CategoryLevel": 2,
+                "CategoryName": "Buggies",
+                "CategoryNamePath": "Coches, motos y otros vehículos:Buggies",
+                "CategoryParentID": "106",
+                "LeafCategory": false,
+                "nameurl": "coches-motos-y-otros-vehiculos-buggies"
+            },
+            {
+                "CategoryID": "1064",
+                "CategoryIDPath": "106:1064",
+                "CategoryLevel": 2,
+                "CategoryName": "Caravanas y remolques",
+                "CategoryNamePath": "Coches, motos y otros vehículos:Caravanas y remolques",
+                "CategoryParentID": "106",
+                "LeafCategory": false,
+                "nameurl": "coches-motos-y-otros-vehiculos-caravana-y-remolques"
+            },
+            {
+                "CategoryID": "1065",
+                "CategoryIDPath": "106:1065",
+                "CategoryLevel": 2,
+                "CategoryName": "Coches",
+                "CategoryNamePath": "Coches, motos y otros vehículos:Coches",
+                "CategoryParentID": "106",
+                "LeafCategory": false,
+                "nameurl": "coches-motos-y-otros-vehiculos-coches"
+            },
+            {
+                "CategoryID": "1066",
+                "CategoryIDPath": "106:1066",
+                "CategoryLevel": 2,
+                "CategoryName": "Coches para desguace",
+                "CategoryNamePath": "Coches, motos y otros vehículos:Coches para desguace",
+                "CategoryParentID": "106",
+                "LeafCategory": false,
+                "nameurl": "coches-motos-y-otros-vehiculos-coches-para-desague"
+            },
+            {
+                "CategoryID": "1067",
+                "CategoryIDPath": "106:1067",
+                "CategoryLevel": 2,
+                "CategoryName": "Minimotos y pocket bikes",
+                "CategoryNamePath": "Coches, motos y otros vehículos:Minimotos y pocket bikes",
+                "CategoryParentID": "106",
+                "LeafCategory": false,
+                "nameurl": "coches-motos-y-otros-vehiculos-minimotos-y-pocket-bikes"
+            },
+            {
+                "CategoryID": "1068",
+                "CategoryIDPath": "106:1068",
+                "CategoryLevel": 2,
+                "CategoryName": "Motos",
+                "CategoryNamePath": "Coches, motos y otros vehículos:Motos",
+                "CategoryParentID": "106",
+                "LeafCategory": false,
+                "nameurl": "coches-motos-y-otros-vehiculos-motos"
+            },
+            {
+                "CategoryID": "1069",
+                "CategoryIDPath": "106:1069",
+                "CategoryLevel": 2,
+                "CategoryName": "Motos para desguace",
+                "CategoryNamePath": "Coches, motos y otros vehículos:Motos para desguace",
+                "CategoryParentID": "106",
+                "LeafCategory": false,
+                "nameurl": "coches-motos-y-otros-vehiculos-motos-para-desguace"
+            },
+            {
+                "CategoryID": "10610",
+                "CategoryIDPath": "106:10610",
+                "CategoryLevel": 2,
+                "CategoryName": "Quads y karting",
+                "CategoryNamePath": "Coches, motos y otros vehículos:Quads y karting",
+                "CategoryParentID": "106",
+                "LeafCategory": false,
+                "nameurl": "coches-motos-y-otros-vehiculos-motos-para-desguace"
+            },
+            {
+                "CategoryID": "10611",
+                "CategoryIDPath": "106:10611",
+                "CategoryLevel": 2,
+                "CategoryName": "Scooters",
+                "CategoryNamePath": "Coches, motos y otros vehículos:Scooters",
+                "CategoryParentID": "106",
+                "LeafCategory": false,
+                "nameurl": "coches-motos-y-otros-vehiculos-scooters"
+            },
+            {
+                "CategoryID": "10612",
+                "CategoryIDPath": "106:10612",
+                "CategoryLevel": 2,
+                "CategoryName": "Vehic.industriales y comerciales",
+                "CategoryNamePath": "Coches, motos y otros vehículos:Vehic.industriales y comerciales",
+                "CategoryParentID": "106",
+                "LeafCategory": false,
+                "nameurl": "coches-motos-y-otros-vehiculos-vehic-industriales-y-comerciales"
+            },
+            {
+                "CategoryID": "10613",
+                "CategoryIDPath": "106:10613",
+                "CategoryLevel": 2,
+                "CategoryName": "Otros",
+                "CategoryNamePath": "Coches, motos y otros vehículos:Otros",
+                "CategoryParentID": "106",
+                "LeafCategory": false,
+                "nameurl": "coches-motos-y-otros-vehiculos-otros"
+            }
+        ],
+        "nameurl": "coches-motos-y-otros-vehiculos"
+    },
+    {
+        "CategoryID": "107",
+        "CategoryIDPath": "107",
+        "CategoryLevel": 1,
+        "CategoryName": "Consolas y videojuegos",
+        "CategoryNamePath": "Consolas y videojuegos",
+        "CategoryParentID": "-1",
+        "LeafCategory": false,
+        "tarifaPublicacion": {
+            "gratuita": "0%",
+            "clasica": "11%",
+            "premium": "12%"
+        },
+        "subCategoria": [
+            {
+                "CategoryID": "1071",
+                "CategoryIDPath": "107:1071",
+                "CategoryLevel": 2,
+                "CategoryName": "Accesorios",
+                "CategoryNamePath": "Consolas y videojuegos:Accesorios",
+                "CategoryParentID": "107",
+                "LeafCategory": false,
+                "nameurl": "consolas-y-videojuegos-accesorios"
+            },
+            {
+                "CategoryID": "1072",
+                "CategoryIDPath": "107:1072",
+                "CategoryLevel": 2,
+                "CategoryName": "Cajas de juegos originales",
+                "CategoryNamePath": "Consolas y videojuegos:Cajas de juegos originales",
+                "CategoryParentID": "107",
+                "LeafCategory": false,
+                "nameurl": "consolas-y-videojuegos-cajas-de-juegos-originales"
+            },
+            {
+                "CategoryID": "1073",
+                "CategoryIDPath": "107:1073",
+                "CategoryLevel": 2,
+                "CategoryName": "Consolas",
+                "CategoryNamePath": "Consolas y videojuegos:Consolas",
+                "CategoryParentID": "107",
+                "LeafCategory": false,
+                "nameurl": "consolas-y-videojuegos-consolas"
+            },
+            {
+                "CategoryID": "1074",
+                "CategoryIDPath": "107:1074",
+                "CategoryLevel": 2,
+                "CategoryName": "Guías de juegos y trucos",
+                "CategoryNamePath": "Consolas y videojuegos:Guías de juegos y trucos",
+                "CategoryParentID": "107",
+                "LeafCategory": false,
+                "nameurl": "consolas-y-videojuegos-guias-de-juegos-y-trucos"
+            },
+            {
+                "CategoryID": "1075",
+                "CategoryIDPath": "107:1075",
+                "CategoryLevel": 2,
+                "CategoryName": "Manuales, portadas e insertos",
+                "CategoryNamePath": "Consolas y videojuegos:Manuales, portadas e insertos",
+                "CategoryParentID": "107",
+                "LeafCategory": false,
+                "nameurl": "consolas-y-videojuegos-manuales-portadas-e-insertos"
+            },
+            {
+                "CategoryID": "1076",
+                "CategoryIDPath": "107:1076",
+                "CategoryLevel": 2,
+                "CategoryName": "Máquinas recreativas",
+                "CategoryNamePath": "Consolas y videojuegos:Máquinas recreativas",
+                "CategoryParentID": "107",
+                "LeafCategory": false,
+                "nameurl": "consolas-y-videojuegos-maquinas-recreativas"
+            },
+            {
+                "CategoryID": "1077",
+                "CategoryIDPath": "107:1077",
+                "CategoryLevel": 2,
+                "CategoryName": "Merchandising de juegos",
+                "CategoryNamePath": "Consolas y videojuegos:Merchandising de juegos",
+                "CategoryParentID": "107",
+                "LeafCategory": false,
+                "nameurl": "consolas-y-videojuegos-merchandising-de-juegos"
+            },
+            {
+                "CategoryID": "1078",
+                "CategoryIDPath": "107:1078",
+                "CategoryLevel": 2,
+                "CategoryName": "Tarjetas de acceso",
+                "CategoryNamePath": "Consolas y videojuegos:Tarjetas de acceso",
+                "CategoryParentID": "107",
+                "LeafCategory": false,
+                "nameurl": "consolas-y-videojuegos-tarjetas-de-acceso"
+            },
+            {
+                "CategoryID": "1079",
+                "CategoryIDPath": "107:1079",
+                "CategoryLevel": 2,
+                "CategoryName": "Videojuegos",
+                "CategoryNamePath": "Consolas y videojuegos:Videojuegos",
+                "CategoryParentID": "107",
+                "LeafCategory": false,
+                "nameurl": "consolas-y-videojuegos-videojuegos"
+            },
+            {
+                "CategoryID": "10710",
+                "CategoryIDPath": "107:10710",
+                "CategoryLevel": 2,
+                "CategoryName": "Otros",
+                "CategoryNamePath": "Consolas y videojuegos:Otros",
+                "CategoryParentID": "107",
+                "LeafCategory": false,
+                "nameurl": "consolas-y-videojuegos-videojuegos"
+            }
+        ],
+        "nameurl": "consolas-y-videojuegos"
+    },
+    {
+        "CategoryID": "108",
+        "CategoryIDPath": "108",
+        "CategoryLevel": 1,
+        "CategoryName": "Deportes",
+        "CategoryNamePath": "Deportes",
+        "CategoryParentID": "-1",
+        "LeafCategory": false,
+        "tarifaPublicacion": {
+            "gratuita": "0%",
+            "clasica": "14%",
+            "premium": "15%"
+        },
+        "subCategoria": [
+            {
+                "CategoryID": "1081",
+                "CategoryIDPath": "108:1081",
+                "CategoryLevel": 2,
+                "CategoryName": "Acampada y senderismo",
+                "CategoryNamePath": "Deportes:Acampada y senderismo",
+                "CategoryParentID": "108",
+                "LeafCategory": false,
+                "nameurl": "deportes-acampada-y-senderismo"
+            },
+            {
+                "CategoryID": "1082",
+                "CategoryIDPath": "108:1082",
+                "CategoryLevel": 2,
+                "CategoryName": "Baloncesto",
+                "CategoryNamePath": "Deportes:Baloncesto",
+                "CategoryParentID": "108",
+                "LeafCategory": false,
+                "nameurl": "deportes-baloncesto"
+            },
+            {
+                "CategoryID": "1083",
+                "CategoryIDPath": "108:1083",
+                "CategoryLevel": 2,
+                "CategoryName": "Béisbol",
+                "CategoryNamePath": "Deportes:Béisbol",
+                "CategoryParentID": "108",
+                "LeafCategory": false,
+                "nameurl": "deportes-beisbol"
+            },
+            {
+                "CategoryID": "1084",
+                "CategoryIDPath": "108:1084",
+                "CategoryLevel": 2,
+                "CategoryName": "Caza",
+                "CategoryNamePath": "Deportes:Caza",
+                "CategoryParentID": "108",
+                "LeafCategory": false,
+                "nameurl": "deportes-caza"
+            },
+            {
+                "CategoryID": "1085",
+                "CategoryIDPath": "108:1085",
+                "CategoryLevel": 2,
+                "CategoryName": "Ciclismo",
+                "CategoryNamePath": "Deportes:Ciclismo",
+                "CategoryParentID": "108",
+                "LeafCategory": false,
+                "nameurl": "deportes-ciclismo"
+            },
+            {
+                "CategoryID": "1086",
+                "CategoryIDPath": "108:1086",
+                "CategoryLevel": 2,
+                "CategoryName": "Coleccionismo deportivo",
+                "CategoryNamePath": "Deportes:Coleccionismo deportivo",
+                "CategoryParentID": "108",
+                "LeafCategory": false,
+                "nameurl": "deportes-coleccionismo-deportivo"
+            },
+            {
+                "CategoryID": "1087",
+                "CategoryIDPath": "108:1087",
+                "CategoryLevel": 2,
+                "CategoryName": "Deportes acuáticos",
+                "CategoryNamePath": "Deportes:Deportes acuáticos",
+                "CategoryParentID": "108",
+                "LeafCategory": false,
+                "nameurl": "deportes-deportes-acuaticos"
+            },
+            {
+                "CategoryID": "1088",
+                "CategoryIDPath": "108:1088",
+                "CategoryLevel": 2,
+                "CategoryName": "Escalada y trekking",
+                "CategoryNamePath": "Deportes:Escalada y trekking",
+                "CategoryParentID": "108",
+                "LeafCategory": false,
+                "nameurl": "deportes-escalada-y-trekking"
+            },
+            {
+                "CategoryID": "1089",
+                "CategoryIDPath": "108:1089",
+                "CategoryLevel": 2,
+                "CategoryName": "Fitness, running y yoga",
+                "CategoryNamePath": "Deportes:Fitness, running y yoga",
+                "CategoryParentID": "108",
+                "LeafCategory": false,
+                "nameurl": "deportes-fitness-running-y-yoga"
+            },
+            {
+                "CategoryID": "10810",
+                "CategoryIDPath": "108:10810",
+                "CategoryLevel": 2,
+                "CategoryName": "Fórmula 1 y motociclismo",
+                "CategoryNamePath": "Deportes:Fórmula 1 y motociclismo",
+                "CategoryParentID": "108",
+                "LeafCategory": false,
+                "nameurl": "deportes-formula-1-y-motociclismo"
+            },
+            {
+                "CategoryID": "10811",
+                "CategoryIDPath": "108:10811",
+                "CategoryLevel": 2,
+                "CategoryName": "Fútbol",
+                "CategoryNamePath": "Deportes:Fútbol",
+                "CategoryParentID": "108",
+                "LeafCategory": false,
+                "nameurl": "deportes-futbol"
+            },
+            {
+                "CategoryID": "10812",
+                "CategoryIDPath": "108:10812",
+                "CategoryLevel": 2,
+                "CategoryName": "Gimnasia deportiva y rítmica",
+                "CategoryNamePath": "Deportes:Gimnasia deportiva y rítmica",
+                "CategoryParentID": "108",
+                "LeafCategory": false,
+                "nameurl": "deportes-gimnasia-deportiva-y-ritmica"
+            },
+            {
+                "CategoryID": "10813",
+                "CategoryIDPath": "108:10813",
+                "CategoryLevel": 2,
+                "CategoryName": "Golf",
+                "CategoryNamePath": "Deportes:Golf",
+                "CategoryParentID": "108",
+                "LeafCategory": false,
+                "nameurl": "deportes-golf"
+            },
+            {
+                "CategoryID": "10814",
+                "CategoryIDPath": "108:10814",
+                "CategoryLevel": 2,
+                "CategoryName": "Juegos recreativos",
+                "CategoryNamePath": "Deportes:Juegos recreativos",
+                "CategoryParentID": "108",
+                "LeafCategory": false,
+                "nameurl": "deportes-juegos-recreativos"
+            },
+            {
+                "CategoryID": "10815",
+                "CategoryIDPath": "108:10815",
+                "CategoryLevel": 2,
+                "CategoryName": "Montaña y esquí",
+                "CategoryNamePath": "Deportes:Montaña y esquí",
+                "CategoryParentID": "108",
+                "LeafCategory": false,
+                "nameurl": "deportes-montana-y-esqui"
+            },
+            {
+                "CategoryID": "10816",
+                "CategoryIDPath": "108:10816",
+                "CategoryLevel": 2,
+                "CategoryName": "Pádel y tenis",
+                "CategoryNamePath": "Deportes:Pádel y tenis",
+                "CategoryParentID": "108",
+                "LeafCategory": false,
+                "nameurl": "deportes-padel-y-tenis"
+            },
+            {
+                "CategoryID": "10817",
+                "CategoryIDPath": "108:10817",
+                "CategoryLevel": 2,
+                "CategoryName": "Paintball",
+                "CategoryNamePath": "Deportes:Paintball",
+                "CategoryParentID": "108",
+                "LeafCategory": false,
+                "nameurl": "deportes-paintball"
+            },
+            {
+                "CategoryID": "10818",
+                "CategoryIDPath": "108:10818",
+                "CategoryLevel": 2,
+                "CategoryName": "Patinaje",
+                "CategoryNamePath": "Deportes:Patinaje",
+                "CategoryParentID": "108",
+                "LeafCategory": false,
+                "nameurl": "deportes-patinaje"
+            },
+            {
+                "CategoryID": "10819",
+                "CategoryIDPath": "108:10819",
+                "CategoryLevel": 2,
+                "CategoryName": "Pesca",
+                "CategoryNamePath": "Deportes:Pesca",
+                "CategoryParentID": "108",
+                "LeafCategory": false,
+                "nameurl": "deportes-pesca"
+            },
+            {
+                "CategoryID": "10820",
+                "CategoryIDPath": "108:10820",
+                "CategoryLevel": 2,
+                "CategoryName": "Protección en el deporte",
+                "CategoryNamePath": "Deportes:Protección en el deporte",
+                "CategoryParentID": "108",
+                "LeafCategory": false,
+                "nameurl": "deportes-proteccion-en-el-deporte"
+            },
+            {
+                "CategoryID": "10821",
+                "CategoryIDPath": "108:10821",
+                "CategoryLevel": 2,
+                "CategoryName": "Submarinismo",
+                "CategoryNamePath": "Deportes:Submarinismo",
+                "CategoryParentID": "108",
+                "LeafCategory": false,
+                "nameurl": "deportes-submarinismo"
+            },
+            {
+                "CategoryID": "10822",
+                "CategoryIDPath": "108:10822",
+                "CategoryLevel": 2,
+                "CategoryName": "Tiro con arco",
+                "CategoryNamePath": "Deportes:Tiro con arco",
+                "CategoryParentID": "108",
+                "LeafCategory": false,
+                "nameurl": "deportes-tiro-con-arco"
+            },
+            {
+                "CategoryID": "10823",
+                "CategoryIDPath": "108:10823",
+                "CategoryLevel": 2,
+                "CategoryName": "Trofeos",
+                "CategoryNamePath": "Deportes:Trofeos",
+                "CategoryParentID": "108",
+                "LeafCategory": false,
+                "nameurl": "deportes-trofeos"
+            },
+            {
+                "CategoryID": "10824",
+                "CategoryIDPath": "108:10824",
+                "CategoryLevel": 2,
+                "CategoryName": "Otros deportes",
+                "CategoryNamePath": "Deportes:Otros deportes",
+                "CategoryParentID": "108",
+                "LeafCategory": false,
+                "nameurl": "deportes-otros-deportes"
+            }
+        ],
+        "nameurl": "deportes"
+    },
+    {
+        "CategoryID": "109",
+        "CategoryIDPath": "109",
+        "CategoryLevel": 1,
+        "CategoryName": "Electrodomésticos",
+        "CategoryNamePath": "Electrodomésticos",
+        "CategoryParentID": "-1",
+        "LeafCategory": false,
+        "tarifaPublicacion": {
+            "gratuita": "0%",
+            "clasica": "9%",
+            "premium": "11%"
+        },
+        "subCategoria": [
+            {
+                "CategoryID": "1091",
+                "CategoryIDPath": "109:1091",
+                "CategoryLevel": 2,
+                "CategoryName": "Aspiración y limpieza",
+                "CategoryNamePath": "Electrodomésticos:Aspiración y limpieza",
+                "CategoryParentID": "109",
+                "LeafCategory": false,
+                "nameurl": "electrodomesticos-aspiracion-y-limpieza"
+            },
+            {
+                "CategoryID": "1092",
+                "CategoryIDPath": "109:1092",
+                "CategoryLevel": 2,
+                "CategoryName": "Cafeteras",
+                "CategoryNamePath": "Electrodomésticos:Cafeteras",
+                "CategoryParentID": "109",
+                "LeafCategory": false,
+                "nameurl": "electrodomesticos-cafeteria"
+            },
+            {
+                "CategoryID": "1093",
+                "CategoryIDPath": "109:1093",
+                "CategoryLevel": 2,
+                "CategoryName": "Calefacción y climatización",
+                "CategoryNamePath": "Electrodomésticos:Calefacción y climatización",
+                "CategoryParentID": "109",
+                "LeafCategory": false,
+                "nameurl": "electrodomesticos-calefaccion-y-climatizacion"
+            },
+            {
+                "CategoryID": "1094",
+                "CategoryIDPath": "109:1094",
+                "CategoryLevel": 2,
+                "CategoryName": "Cocina: electrodomésticos peq.",
+                "CategoryNamePath": "Electrodomésticos:Cocina: electrodomésticos peq.",
+                "CategoryParentID": "109",
+                "LeafCategory": false,
+                "nameurl": "electrodomesticos-cocina-electrodomesticos-peq"
+            },
+            {
+                "CategoryID": "1095",
+                "CategoryIDPath": "109:1095",
+                "CategoryLevel": 2,
+                "CategoryName": "Cuidado personal y belleza",
+                "CategoryNamePath": "Electrodomésticos:Cuidado personal y belleza",
+                "CategoryParentID": "109",
+                "LeafCategory": false,
+                "nameurl": "electrodomesticos-cuidado-personal-y-belleza"
+            },
+            {
+                "CategoryID": "1096",
+                "CategoryIDPath": "109:1096",
+                "CategoryLevel": 2,
+                "CategoryName": "Frigoríficos y congeladores",
+                "CategoryNamePath": "Electrodomésticos:Frigoríficos y congeladores",
+                "CategoryParentID": "109",
+                "LeafCategory": false,
+                "nameurl": "electrodomesticos-frigorificos-y-congeladores"
+            },
+            {
+                "CategoryID": "1097",
+                "CategoryIDPath": "109:1097",
+                "CategoryLevel": 2,
+                "CategoryName": "Lavadoras y secadoras",
+                "CategoryNamePath": "Electrodomésticos:Lavadoras y secadoras",
+                "CategoryParentID": "109",
+                "LeafCategory": false,
+                "nameurl": "electrodomesticos-lavadoras-y-secadoras"
+            },
+            {
+                "CategoryID": "1098",
+                "CategoryIDPath": "109:1098",
+                "CategoryLevel": 2,
+                "CategoryName": "Lavavajillas",
+                "CategoryNamePath": "Electrodomésticos:Lavavajillas",
+                "CategoryParentID": "109",
+                "LeafCategory": false,
+                "nameurl": "electrodomesticos-lavavajillas"
+            },
+            {
+                "CategoryID": "1099",
+                "CategoryIDPath": "109:1099",
+                "CategoryLevel": 2,
+                "CategoryName": "Lavavajillas: accesorios",
+                "CategoryNamePath": "Electrodomésticos:Lavavajillas: accesorios",
+                "CategoryParentID": "109",
+                "LeafCategory": false,
+                "nameurl": "electrodomesticos-lavavajillas-accesorios"
+            },
+            {
+                "CategoryID": "10910",
+                "CategoryIDPath": "109:10910",
+                "CategoryLevel": 2,
+                "CategoryName": "Placas, hornos y campanas",
+                "CategoryNamePath": "Electrodomésticos:Placas, hornos y campanas",
+                "CategoryParentID": "109",
+                "LeafCategory": false,
+                "nameurl": "electrodomesticos-placas-hornos-y-campanas"
+            },
+            {
+                "CategoryID": "10911",
+                "CategoryIDPath": "109:10911",
+                "CategoryLevel": 2,
+                "CategoryName": "Planchado",
+                "CategoryNamePath": "Electrodomésticos:Planchado",
+                "CategoryParentID": "109",
+                "LeafCategory": false,
+                "nameurl": "electrodomesticos-planchado"
+            },
+            {
+                "CategoryID": "10912",
+                "CategoryIDPath": "109:10912",
+                "CategoryLevel": 2,
+                "CategoryName": "Otros",
+                "CategoryNamePath": "Electrodomésticos:Otros",
+                "CategoryParentID": "109",
+                "LeafCategory": false,
+                "nameurl": "electrodomesticos-otros"
+            }
+        ],
+        "nameurl": "electrodomesticos"
+    },
+    {
+        "CategoryID": "110",
+        "CategoryIDPath": "110",
+        "CategoryLevel": 1,
+        "CategoryName": "Equipamiento y maquinaria",
+        "CategoryNamePath": "Equipamiento y maquinaria",
+        "CategoryParentID": "-1",
+        "LeafCategory": false,
+        "tarifaPublicacion": {
+            "gratuita": "0%",
+            "clasica": "12%",
+            "premium": "14%"
+        },
+        "subCategoria": [
+            {
+                "CategoryID": "1101",
+                "CategoryIDPath": "110:1101",
+                "CategoryLevel": 2,
+                "CategoryName": "Agricultura y ganadería",
+                "CategoryNamePath": "Equipamiento y maquinaria:Agricultura y ganadería",
+                "CategoryParentID": "110",
+                "LeafCategory": false,
+                "nameurl": "equipamiento-y-maquinaria-agricultura-y-ganaderia"
+            },
+            {
+                "CategoryID": "1102",
+                "CategoryIDPath": "110:1102",
+                "CategoryLevel": 2,
+                "CategoryName": "Automatiza., motores y ejes",
+                "CategoryNamePath": "Equipamiento y maquinaria:Automatiza., motores y ejes",
+                "CategoryParentID": "110",
+                "LeafCategory": false,
+                "nameurl": "equipamiento-y-maquinaria-automatiza-motores-y-ejes"
+            },
+            {
+                "CategoryID": "1103",
+                "CategoryIDPath": "110:1103",
+                "CategoryLevel": 2,
+                "CategoryName": "Diseño gráfico e imprenta",
+                "CategoryNamePath": "Equipamiento y maquinaria:Diseño gráfico e imprenta",
+                "CategoryParentID": "110",
+                "LeafCategory": false,
+                "nameurl": "equipamiento-y-maquinaria-diseno-grafico-e-imprenta"
+            },
+            {
+                "CategoryID": "1104",
+                "CategoryIDPath": "110:1104",
+                "CategoryLevel": 2,
+                "CategoryName": "Equip. médico/laboratorio",
+                "CategoryNamePath": "Equipamiento y maquinaria:Equip. médico/laboratorio",
+                "CategoryParentID": "110",
+                "LeafCategory": false,
+                "nameurl": "equipamiento-y-maquinaria-equipo-medico-laboratorio"
+            },
+            {
+                "CategoryID": "1105",
+                "CategoryIDPath": "110:1105",
+                "CategoryLevel": 2,
+                "CategoryName": "Equip. y material tiendas",
+                "CategoryNamePath": "Equipamiento y maquinaria:Equip. y material tiendas",
+                "CategoryParentID": "110",
+                "LeafCategory": false,
+                "nameurl": "equipamiento-y-maquinaria-equipo-"
+            },
+            {
+                "CategoryID": "1106",
+                "CategoryIDPath": "110:1106",
+                "CategoryLevel": 2,
+                "CategoryName": "Equipamiento comercial",
+                "CategoryNamePath": "Equipamiento y maquinaria:Equipamiento comercial",
+                "CategoryParentID": "110",
+                "LeafCategory": false,
+                "nameurl": "equipamiento-y-maquinaria-equipamiento-comercial"
+            },
+            {
+                "CategoryID": "1107",
+                "CategoryIDPath": "110:1107",
+                "CategoryLevel": 2,
+                "CategoryName": "Equipamiento eléct. y prueba",
+                "CategoryNamePath": "Equipamiento y maquinaria:Equipamiento eléct. y prueba",
+                "CategoryParentID": "110",
+                "LeafCategory": false,
+                "nameurl": "equipamiento-y-maquinaria-equipamiento-elect-y-prueba"
+            },
+            {
+                "CategoryID": "1108",
+                "CategoryIDPath": "110:1108",
+                "CategoryLevel": 2,
+                "CategoryName": "Equipamiento gimnasios/deporte",
+                "CategoryNamePath": "Equipamiento y maquinaria:Equipamiento gimnasios/deporte",
+                "CategoryParentID": "110",
+                "LeafCategory": false,
+                "nameurl": "equipamiento-y-maquinaria-equipamiento-gimnasios-deporte"
+            },
+            {
+                "CategoryID": "1109",
+                "CategoryIDPath": "110:1109",
+                "CategoryLevel": 2,
+                "CategoryName": "Equipamiento industrial",
+                "CategoryNamePath": "Equipamiento y maquinaria:Equipamiento industrial",
+                "CategoryParentID": "110",
+                "LeafCategory": false,
+                "nameurl": "equipamiento-y-maquinaria-equipamiento-industrial"
+            },
+            {
+                "CategoryID": "11010",
+                "CategoryIDPath": "110:11010",
+                "CategoryLevel": 2,
+                "CategoryName": "Equipamiento restauración",
+                "CategoryNamePath": "Equipamiento y maquinaria:Equipamiento restauración",
+                "CategoryParentID": "110",
+                "LeafCategory": false,
+                "nameurl": "equipamiento-y-maquinaria-equipamiento-restauracion"
+            },
+            {
+                "CategoryID": "11011",
+                "CategoryIDPath": "110:11011",
+                "CategoryLevel": 2,
+                "CategoryName": "Maquinaria industrial",
+                "CategoryNamePath": "Equipamiento y maquinaria:Maquinaria industrial",
+                "CategoryParentID": "110",
+                "LeafCategory": false,
+                "nameurl": "equipamiento-y-maquinaria-maquinaria-industrial"
+            },
+            {
+                "CategoryID": "11012",
+                "CategoryIDPath": "110:11012",
+                "CategoryLevel": 2,
+                "CategoryName": "Material/Utillaje construcción",
+                "CategoryNamePath": "Equipamiento y maquinaria:Material/Utillaje construcción",
+                "CategoryParentID": "110",
+                "LeafCategory": false,
+                "nameurl": "equipamiento-y-maquinaria-material-utillaje-construccion"
+            },
+            {
+                "CategoryID": "11013",
+                "CategoryIDPath": "110:11013",
+                "CategoryLevel": 2,
+                "CategoryName": "Metalistería, fresado, soldad.",
+                "CategoryNamePath": "Equipamiento y maquinaria:Metalistería, fresado, soldad.",
+                "CategoryParentID": "110",
+                "LeafCategory": false,
+                "nameurl": "equipamiento-y-maquinaria-metalisteria-fresado-soldad"
+            },
+            {
+                "CategoryID": "11014",
+                "CategoryIDPath": "110:11014",
+                "CategoryLevel": 2,
+                "CategoryName": "Paquetería y envíos",
+                "CategoryNamePath": "Equipamiento y maquinaria:Paquetería y envíos",
+                "CategoryParentID": "110",
+                "LeafCategory": false,
+                "nameurl": "equipamiento-y-maquinaria-paqueteria-y-envios"
+            },
+            {
+                "CategoryID": "11015",
+                "CategoryIDPath": "110:11015",
+                "CategoryLevel": 2,
+                "CategoryName": "Tractores",
+                "CategoryNamePath": "Equipamiento y maquinaria:Tractores",
+                "CategoryParentID": "110",
+                "LeafCategory": false,
+                "nameurl": "equipamiento-y-maquinaria-tractores"
+            },
+            {
+                "CategoryID": "11016",
+                "CategoryIDPath": "110:11016",
+                "CategoryLevel": 2,
+                "CategoryName": "Otros",
+                "CategoryNamePath": "Equipamiento y maquinaria:Otros",
+                "CategoryParentID": "110",
+                "LeafCategory": false,
+                "nameurl": "equipamiento-y-maquinaria-otros"
+            }
+        ],
+        "nameurl": "equipamiento-y-maquinaria"
+    },
+    {
+        "CategoryID": "111",
+        "CategoryIDPath": "111",
+        "CategoryLevel": 1,
+        "CategoryName": "Imagen y sonido",
+        "CategoryNamePath": "Imagen y sonido",
+        "CategoryParentID": "-1",
+        "LeafCategory": false,
+        "tarifaPublicacion": {
+            "gratuita": "0%",
+            "clasica": "11%",
+            "premium": "13%"
+        },
+        "subCategoria": [
+            {
+                "CategoryID": "1111",
+                "CategoryIDPath": "111:1111",
+                "CategoryLevel": 2,
+                "CategoryName": "Accesorios reproductores MP3",
+                "CategoryNamePath": "Imagen y sonido:Accesorios reproductores MP3",
+                "CategoryParentID": "111",
+                "LeafCategory": false,
+                "nameurl": "imagen-y-sonido-accesorios-reproductores-mp3"
+            },
+            {
+                "CategoryID": "1112",
+                "CategoryIDPath": "111:1112",
+                "CategoryLevel": 2,
+                "CategoryName": "Accesorios TV y Home Audio",
+                "CategoryNamePath": "Imagen y sonido:Accesorios TV y Home Audio",
+                "CategoryParentID": "111",
+                "LeafCategory": false,
+                "nameurl": "imagen-y-sonido-accesorios-tv-y-home-audio"
+            },
+            {
+                "CategoryID": "1113",
+                "CategoryIDPath": "111:1113",
+                "CategoryLevel": 2,
+                "CategoryName": "Auriculares",
+                "CategoryNamePath": "Imagen y sonido:Auriculares",
+                "CategoryParentID": "111",
+                "LeafCategory": false,
+                "nameurl": "imagen-y-sonido-auriculares"
+            },
+            {
+                "CategoryID": "1114",
+                "CategoryIDPath": "111:1114",
+                "CategoryLevel": 2,
+                "CategoryName": "Baterías multiuso/electricidad",
+                "CategoryNamePath": "Imagen y sonido:Baterías multiuso/electricidad",
+                "CategoryParentID": "111",
+                "LeafCategory": false,
+                "nameurl": "imagen-y-sonido-baterias-multiuso-electricidad"
+            },
+            {
+                "CategoryID": "1115",
+                "CategoryIDPath": "111:1115",
+                "CategoryLevel": 2,
+                "CategoryName": "DVD, Blu-ray y Home DVD, Blu-ray y Home Cinema",
+                "CategoryNamePath": "Imagen y sonido:DVD, Blu-ray y Home DVD, Blu-ray y Home Cinema",
+                "CategoryParentID": "111",
+                "LeafCategory": false,
+                "nameurl": "imagen-y-sonido-dvd-blu-ray-y-home-dvd-cinema"
+            },
+            {
+                "CategoryID": "1116",
+                "CategoryIDPath": "111:1116",
+                "CategoryLevel": 2,
+                "CategoryName": "Equipos de DJ y espectáculos",
+                "CategoryNamePath": "Imagen y sonido:Equipos de DJ y espectáculos",
+                "CategoryParentID": "111",
+                "LeafCategory": false,
+                "nameurl": "imagen-y-sonido-equipos-de-dj-y-espectaculo"
+            },
+            {
+                "CategoryID": "1117",
+                "CategoryIDPath": "111:1117",
+                "CategoryLevel": 2,
+                "CategoryName": "Equipos Home Audio y HiFi",
+                "CategoryNamePath": "Imagen y sonido:Equipos Home Audio y HiFi",
+                "CategoryParentID": "111",
+                "LeafCategory": false,
+                "nameurl": "imagen-y-sonido-equipos-home-audio-y-hifi"
+            },
+            {
+                "CategoryID": "1118",
+                "CategoryIDPath": "111:1118",
+                "CategoryLevel": 2,
+                "CategoryName": "Gafas inteligentes",
+                "CategoryNamePath": "Imagen y sonido:Gafas inteligentes",
+                "CategoryParentID": "111",
+                "LeafCategory": false,
+                "nameurl": "imagen-y-sonido-gafas-inteligentes"
+            },
+            {
+                "CategoryID": "1119",
+                "CategoryIDPath": "111:1119",
+                "CategoryLevel": 2,
+                "CategoryName": "Manuales y documentación",
+                "CategoryNamePath": "Imagen y sonido:Manuales y documentación",
+                "CategoryParentID": "111",
+                "LeafCategory": false,
+                "nameurl": "imagen-y-sonido-manuales-y-documentacion"
+            },
+            {
+                "CategoryID": "11110",
+                "CategoryIDPath": "111:11110",
+                "CategoryLevel": 2,
+                "CategoryName": "Realidad virtual",
+                "CategoryNamePath": "Imagen y sonido:Realidad virtual",
+                "CategoryParentID": "111",
+                "LeafCategory": false,
+                "nameurl": "imagen-y-sonido-realidad-virtual"
+            },
+            {
+                "CategoryID": "11111",
+                "CategoryIDPath": "111:11111",
+                "CategoryLevel": 2,
+                "CategoryName": "Recambios para TV y Home Audio",
+                "CategoryNamePath": "Imagen y sonido:Recambios para TV y Home Audio",
+                "CategoryParentID": "111",
+                "LeafCategory": false,
+                "nameurl": "imagen-y-sonido-recambios-para-tv-y-home-audio"
+            },
+            {
+                "CategoryID": "11112",
+                "CategoryIDPath": "111:11112",
+                "CategoryLevel": 2,
+                "CategoryName": "Recepción y decodificadores TV",
+                "CategoryNamePath": "Imagen y sonido:Recepción y decodificadores TV",
+                "CategoryParentID": "111",
+                "LeafCategory": false,
+                "nameurl": "imagen-y-sonido-recepcion-y-decodificadores-tv"
+            },
+            {
+                "CategoryID": "11113",
+                "CategoryIDPath": "111:11113",
+                "CategoryLevel": 2,
+                "CategoryName": "Reproduct. portátiles y radios",
+                "CategoryNamePath": "Imagen y sonido:Reproduct. portátiles y radios",
+                "CategoryParentID": "111",
+                "LeafCategory": false,
+                "nameurl": "imagen-y-sonido-reproduct-portatiles-y-radios"
+            },
+            {
+                "CategoryID": "11114",
+                "CategoryIDPath": "111:11114",
+                "CategoryLevel": 2,
+                "CategoryName": "Reproductores de MP3",
+                "CategoryNamePath": "Imagen y sonido:Reproductores de MP3",
+                "CategoryParentID": "111",
+                "LeafCategory": false,
+                "nameurl": "imagen-y-sonido-reproductores-de-mp3"
+            },
+            {
+                "CategoryID": "11115",
+                "CategoryIDPath": "111:11115",
+                "CategoryLevel": 2,
+                "CategoryName": "Televisores",
+                "CategoryNamePath": "Imagen y sonido:Televisores",
+                "CategoryParentID": "111",
+                "LeafCategory": false,
+                "nameurl": "imagen-y-sonido-televisores"
+            },
+            {
+                "CategoryID": "11116",
+                "CategoryIDPath": "111:11116",
+                "CategoryLevel": 2,
+                "CategoryName": "OTros",
+                "CategoryNamePath": "Imagen y sonido:Otros",
+                "CategoryParentID": "111",
+                "LeafCategory": false,
+                "nameurl": "imagen-y-sonido-otros"
+            }
+        ],
+        "nameurl": "imagen-y-sonido"
+    },
+    {
+        "CategoryID": "112",
+        "CategoryIDPath": "112",
+        "CategoryLevel": 1,
+        "CategoryName": "Informática y tablets",
+        "CategoryNamePath": "Informática y tablets",
+        "CategoryParentID": "-1",
+        "LeafCategory": false,
+        "tarifaPublicacion": {
+            "gratuita": "0%",
+            "clasica": "10%",
+            "premium": "11%"
+        },
+        "subCategoria": [
+            {
+                "CategoryID": "1121",
+                "CategoryIDPath": "112:1121",
+                "CategoryLevel": 2,
+                "CategoryName": "Accesorios para ordenadores",
+                "CategoryNamePath": "Informática y tablets:Accesorios para ordenadores",
+                "CategoryParentID": "112",
+                "LeafCategory": false,
+                "nameurl": "informatica-y-tablets-accesorios-para-ordenadores"
+            },
+            {
+                "CategoryID": "1122",
+                "CategoryIDPath": "112:1122",
+                "CategoryLevel": 2,
+                "CategoryName": "Accesorios, tablets e eBooks",
+                "CategoryNamePath": "Informática y tablets:Accesorios, tablets e eBooks",
+                "CategoryParentID": "112",
+                "LeafCategory": false,
+                "nameurl": "informatica-y-tablets-accesorios-tablets-ebooks"
+            },
+            {
+                "CategoryID": "1123",
+                "CategoryIDPath": "112:1123",
+                "CategoryLevel": 2,
+                "CategoryName": "Artículos de oficina",
+                "CategoryNamePath": "Informática y tablets:Artículos de oficina",
+                "CategoryParentID": "112",
+                "LeafCategory": false,
+                "nameurl": "informatica-y-tablets-articulos-de-oficina"
+            },
+            {
+                "CategoryID": "1124",
+                "CategoryIDPath": "112:1124",
+                "CategoryLevel": 2,
+                "CategoryName": "Cables y conectores",
+                "CategoryNamePath": "Informática y tablets:Cables y conectores",
+                "CategoryParentID": "112",
+                "LeafCategory": false,
+                "nameurl": "informatica-y-tablets-cables-y-conectores"
+            },
+            {
+                "CategoryID": "1125",
+                "CategoryIDPath": "112:1125",
+                "CategoryLevel": 2,
+                "CategoryName": "Calculadoras",
+                "CategoryNamePath": "Informática y tablets:Calculadoras",
+                "CategoryParentID": "112",
+                "LeafCategory": false,
+                "nameurl": "informatica-y-tablets-calculadoras"
+            },
+            {
+                "CategoryID": "1126",
+                "CategoryIDPath": "112:1126",
+                "CategoryLevel": 2,
+                "CategoryName": "Componentes/piezas ordenador",
+                "CategoryNamePath": "Informática y tablets:Componentes/piezas ordenador",
+                "CategoryParentID": "112",
+                "LeafCategory": false,
+                "nameurl": "informatica-y-tablets-componentes-piezas-ordenador"
+            },
+            {
+                "CategoryID": "1127",
+                "CategoryIDPath": "112:1127",
+                "CategoryLevel": 2,
+                "CategoryName": "Conexión de redes",
+                "CategoryNamePath": "Informática y tablets:Conexión de redes",
+                "CategoryParentID": "112",
+                "LeafCategory": false,
+                "nameurl": "informatica-y-tablets-conexion-de-redes"
+            },
+            {
+                "CategoryID": "1128",
+                "CategoryIDPath": "112:1128",
+                "CategoryLevel": 2,
+                "CategoryName": "Impresión 3D",
+                "CategoryNamePath": "Informática y tablets:Impresión 3D",
+                "CategoryParentID": "112",
+                "LeafCategory": false,
+                "nameurl": "informatica-y-tablets-impresion-3d"
+            },
+            {
+                "CategoryID": "1129",
+                "CategoryIDPath": "112:1129",
+                "CategoryLevel": 2,
+                "CategoryName": "Impresoras y escáneres",
+                "CategoryNamePath": "Informática y tablets:Impresoras y escáneres",
+                "CategoryParentID": "112",
+                "LeafCategory": false,
+                "nameurl": "informatica-y-tablets-impresoras-y-escaneres"
+            },
+            {
+                "CategoryID": "11210",
+                "CategoryIDPath": "112:11210",
+                "CategoryLevel": 2,
+                "CategoryName": "Informática vintage",
+                "CategoryNamePath": "Informática y tablets:Informática vintage",
+                "CategoryParentID": "112",
+                "LeafCategory": false,
+                "nameurl": "informatica-y-tablets-informatica-vintage"
+            },
+            {
+                "CategoryID": "11211",
+                "CategoryIDPath": "112:11211",
+                "CategoryLevel": 2,
+                "CategoryName": "Manuales y recursos",
+                "CategoryNamePath": "Informática y tablets:Manuales y recursos",
+                "CategoryParentID": "112",
+                "LeafCategory": false,
+                "nameurl": "informatica-y-tablets-manuales-y-recursos"
+            },
+            {
+                "CategoryID": "11212",
+                "CategoryIDPath": "112:11212",
+                "CategoryLevel": 2,
+                "CategoryName": "Monitores/proyectores/acces.",
+                "CategoryNamePath": "Informática y tablets:Monitores/proyectores/acces.",
+                "CategoryParentID": "112",
+                "LeafCategory": false,
+                "nameurl": "informatica-y-tablets-monitores-proyectores"
+            },
+            {
+                "CategoryID": "11213",
+                "CategoryIDPath": "112:11213",
+                "CategoryLevel": 2,
+                "CategoryName": "Ordenadores de sobremesa",
+                "CategoryNamePath": "Informática y tablets:Ordenadores de sobremesa",
+                "CategoryParentID": "112",
+                "LeafCategory": false,
+                "nameurl": "informatica-y-tablets-ordenadores-de-sobremesa"
+            },
+            {
+                "CategoryID": "11214",
+                "CategoryIDPath": "112:11214",
+                "CategoryLevel": 2,
+                "CategoryName": "Portátiles y netbooks",
+                "CategoryNamePath": "Informática y tablets:Portátiles y netbooks",
+                "CategoryParentID": "112",
+                "LeafCategory": false,
+                "nameurl": "informatica-y-tablets-portatiles-y-netbooks"
+            },
+            {
+                "CategoryID": "11215",
+                "CategoryIDPath": "112:11215",
+                "CategoryLevel": 2,
+                "CategoryName": "Protección/distrib./electricid",
+                "CategoryNamePath": "Informática y tablets:Protección/distrib./electricid",
+                "CategoryParentID": "112",
+                "LeafCategory": false,
+                "nameurl": "informatica-y-tablets-proteccion-distrib-electricid"
+            },
+            {
+                "CategoryID": "11216",
+                "CategoryIDPath": "112:11216",
+                "CategoryLevel": 2,
+                "CategoryName": "Redes de empresa y servidores",
+                "CategoryNamePath": "Informática y tablets:Redes de empresa y servidores",
+                "CategoryParentID": "112",
+                "LeafCategory": false,
+                "nameurl": "informatica-y-tablets-redes-de-empresa-y-servidores"
+            },
+            {
+                "CategoryID": "11217",
+                "CategoryIDPath": "112:11217",
+                "CategoryLevel": 2,
+                "CategoryName": "Software",
+                "CategoryNamePath": "Informática y tablets:Software",
+                "CategoryParentID": "112",
+                "LeafCategory": false,
+                "nameurl": "informatica-y-tablets-software"
+            },
+            {
+                "CategoryID": "11218",
+                "CategoryIDPath": "112:11218",
+                "CategoryLevel": 2,
+                "CategoryName": "Tablets e eBooks",
+                "CategoryNamePath": "Informática y tablets:Tablets e eBooks",
+                "CategoryParentID": "112",
+                "LeafCategory": false,
+                "nameurl": "informatica-y-tablets-tablets-eBooks"
+            },
+            {
+                "CategoryID": "11219",
+                "CategoryIDPath": "112:11219",
+                "CategoryLevel": 2,
+                "CategoryName": "Tablets e eBooks: piezas",
+                "CategoryNamePath": "Informática y tablets:Tablets e eBooks: piezas",
+                "CategoryParentID": "112",
+                "LeafCategory": false,
+                "nameurl": "informatica-y-tablets-tablets-eBooks-piezas"
+            },
+            {
+                "CategoryID": "11220",
+                "CategoryIDPath": "112:11220",
+                "CategoryLevel": 2,
+                "CategoryName": "Teclados, ratones y punteros",
+                "CategoryNamePath": "Informática y tablets:Teclados, ratones y punteros",
+                "CategoryParentID": "112",
+                "LeafCategory": false,
+                "nameurl": "informatica-y-tablets-teclados-ratores-punteros"
+            },
+            {
+                "CategoryID": "11221",
+                "CategoryIDPath": "112:11221",
+                "CategoryLevel": 2,
+                "CategoryName": "Unidades de almacenamiento",
+                "CategoryNamePath": "Informática y tablets:Unidades de almacenamiento",
+                "CategoryParentID": "112",
+                "LeafCategory": false,
+                "nameurl": "informatica-y-tablets-unidades-de-almacenamiento"
+            },
+            {
+                "CategoryID": "11222",
+                "CategoryIDPath": "112:11222",
+                "CategoryLevel": 2,
+                "CategoryName": "Otros",
+                "CategoryNamePath": "Informática y tablets:Otros",
+                "CategoryParentID": "112",
+                "LeafCategory": false,
+                "nameurl": "informatica-y-tablets-otros"
+            }
+        ],
+        "nameurl": "informatica-y-tablets"
+    },
+    {
+        "CategoryID": "113",
+        "CategoryIDPath": "113",
+        "CategoryLevel": 1,
+        "CategoryName": "Instrumentos musicales",
+        "CategoryNamePath": "Instrumentos musicales",
+        "CategoryParentID": "-1",
+        "LeafCategory": false,
+        "tarifaPublicacion": {
+            "gratuita": "0%",
+            "clasica": "15%",
+            "premium": "17%"
+        },
+        "subCategoria": [
+            {
+                "CategoryID": "1131",
+                "CategoryIDPath": "113:1131",
+                "CategoryLevel": 2,
+                "CategoryName": "Accesorios y equipos",
+                "CategoryNamePath": "Instrumentos musicales:Accesorios y equipos",
+                "CategoryParentID": "113",
+                "LeafCategory": false,
+                "nameurl": "instrumentos-musicales-accesorios-y-equipos"
+            },
+            {
+                "CategoryID": "1132",
+                "CategoryIDPath": "113:1132",
+                "CategoryLevel": 2,
+                "CategoryName": "Guitarras y bajos",
+                "CategoryNamePath": "Instrumentos musicales:Guitarras y bajos",
+                "CategoryParentID": "113",
+                "LeafCategory": false,
+                "nameurl": "instrumentos-musicales-guitarras-y-bajos"
+            },
+            {
+                "CategoryID": "1133",
+                "CategoryIDPath": "113:1133",
+                "CategoryLevel": 2,
+                "CategoryName": "Instrumentos de cuerda",
+                "CategoryNamePath": "Instrumentos musicales:Instrumentos de cuerda",
+                "CategoryParentID": "113",
+                "LeafCategory": false,
+                "nameurl": "instrumentos-musicales-instrumentos-de-cuerda"
+            },
+            {
+                "CategoryID": "1134",
+                "CategoryIDPath": "113:1134",
+                "CategoryLevel": 2,
+                "CategoryName": "Instrumentos de viento madera",
+                "CategoryNamePath": "Instrumentos musicales:Instrumentos de viento madera",
+                "CategoryParentID": "113",
+                "LeafCategory": false,
+                "nameurl": "instrumentos-musicales-instrumentos-de-viento-madera"
+            },
+            {
+                "CategoryID": "1135",
+                "CategoryIDPath": "113:1135",
+                "CategoryLevel": 2,
+                "CategoryName": "Instrumentos de viento metal",
+                "CategoryNamePath": "Instrumentos musicales:Instrumentos de viento metal",
+                "CategoryParentID": "113",
+                "LeafCategory": false,
+                "nameurl": "instrumentos-musicales-instrumentos-de-viento-metal"
+            },
+            {
+                "CategoryID": "1136",
+                "CategoryIDPath": "113:1136",
+                "CategoryLevel": 2,
+                "CategoryName": "Instrumentos vintage",
+                "CategoryNamePath": "Instrumentos musicales:Instrumentos vintage",
+                "CategoryParentID": "113",
+                "LeafCategory": false,
+                "nameurl": "instrumentos-musicales-instrumentos-vintage"
+            },
+            {
+                "CategoryID": "1137",
+                "CategoryIDPath": "113:1137",
+                "CategoryLevel": 2,
+                "CategoryName": "Libros, métodos de aprendizaje",
+                "CategoryNamePath": "Instrumentos musicales:Libros, métodos de aprendizaje",
+                "CategoryParentID": "113",
+                "LeafCategory": false,
+                "nameurl": "instrumentos-musicales-libros-metodos-de-aprendizaje"
+            },
+            {
+                "CategoryID": "1138",
+                "CategoryIDPath": "113:1138",
+                "CategoryLevel": 2,
+                "CategoryName": "Partituras y libretos",
+                "CategoryNamePath": "Instrumentos musicales:Partituras y libretos",
+                "CategoryParentID": "113",
+                "LeafCategory": false,
+                "nameurl": "instrumentos-musicales-partituras-y-libretos"
+            },
+            {
+                "CategoryID": "1139",
+                "CategoryIDPath": "113:1139",
+                "CategoryLevel": 2,
+                "CategoryName": "Percusión y baterías",
+                "CategoryNamePath": "Instrumentos musicales:Percusión y baterías",
+                "CategoryParentID": "113",
+                "LeafCategory": false,
+                "nameurl": "instrumentos-musicales-percusion-y-baterias"
+            },
+            {
+                "CategoryID": "11310",
+                "CategoryIDPath": "113:11310",
+                "CategoryLevel": 2,
+                "CategoryName": "Sonido profesional",
+                "CategoryNamePath": "Instrumentos musicales:Sonido profesional",
+                "CategoryParentID": "113",
+                "LeafCategory": false,
+                "nameurl": "instrumentos-musicales-sonido-profesional"
+            },
+            {
+                "CategoryID": "11311",
+                "CategoryIDPath": "113:11311",
+                "CategoryLevel": 2,
+                "CategoryName": "Otros",
+                "CategoryNamePath": "Instrumentos musicales:Otros",
+                "CategoryParentID": "113",
+                "LeafCategory": false,
+                "nameurl": "instrumentos-musicales-otros"
+            }
+        ],
+        "nameurl": "instrumentos-musicales"
+    },
+    {
+        "CategoryID": "114",
+        "CategoryIDPath": "114",
+        "CategoryLevel": 1,
+        "CategoryName": "Juguetes",
+        "CategoryNamePath": "Juguetes",
+        "CategoryParentID": "-1",
+        "LeafCategory": false,
+        "tarifaPublicacion": {
+            "gratuita": "0%",
+            "clasica": "13%",
+            "premium": "14%"
+        },
+        "subCategoria": [
+            {
+                "CategoryID": "1141",
+                "CategoryIDPath": "114:1141",
+                "CategoryLevel": 2,
+                "CategoryName": "Automodelismo y aeromodelismo",
+                "CategoryNamePath": "Juguetes:Automodelismo y aeromodelismo",
+                "CategoryParentID": "114",
+                "LeafCategory": false,
+                "nameurl": "juguetes-automodelismo-y-aeromodelismo"
+            },
+            {
+                "CategoryID": "1142",
+                "CategoryIDPath": "114:1142",
+                "CategoryLevel": 2,
+                "CategoryName": "Casas de muñecas y miniaturas",
+                "CategoryNamePath": "Juguetes:Casas de muñecas y miniaturas",
+                "CategoryParentID": "114",
+                "LeafCategory": false,
+                "nameurl": "juguetes-casas-de-munecas-y-miniaturas"
+            },
+            {
+                "CategoryID": "1143",
+                "CategoryIDPath": "114:1143",
+                "CategoryLevel": 2,
+                "CategoryName": "Catálogos de juguetes",
+                "CategoryNamePath": "Juguetes:Catálogos de juguetes",
+                "CategoryParentID": "114",
+                "LeafCategory": false,
+                "nameurl": "juguetes-catalogos-de-juguetes"
+            },
+            {
+                "CategoryID": "1144",
+                "CategoryIDPath": "114:1144",
+                "CategoryLevel": 2,
+                "CategoryName": "Figuras de acción",
+                "CategoryNamePath": "Juguetes:Figuras de acción",
+                "CategoryParentID": "114",
+                "LeafCategory": false,
+                "nameurl": "juguetes-catalogos-de-juguetes"
+            },
+            {
+                "CategoryID": "1145",
+                "CategoryIDPath": "114:1145",
+                "CategoryLevel": 2,
+                "CategoryName": "Juegos",
+                "CategoryNamePath": "Juguetes:Juegos",
+                "CategoryParentID": "114",
+                "LeafCategory": false,
+                "nameurl": "juguetes-juegos"
+            },
+            {
+                "CategoryID": "1146",
+                "CategoryIDPath": "114:1146",
+                "CategoryLevel": 2,
+                "CategoryName": "Juegos al aire libre",
+                "CategoryNamePath": "Juguetes:Juegos al aire libre",
+                "CategoryParentID": "114",
+                "LeafCategory": false,
+                "nameurl": "juguetes-juegos-al-aire-libre"
+            },
+            {
+                "CategoryID": "1147",
+                "CategoryIDPath": "114:1147",
+                "CategoryLevel": 2,
+                "CategoryName": "Juegos de construcción",
+                "CategoryNamePath": "Juguetes:Juegos de construcción",
+                "CategoryParentID": "114",
+                "LeafCategory": false,
+                "nameurl": "juguetes-juegos-de-construccion"
+            },
+            {
+                "CategoryID": "1148",
+                "CategoryIDPath": "114:1148",
+                "CategoryLevel": 2,
+                "CategoryName": "Juegos de rol y estrategia",
+                "CategoryNamePath": "Juguetes:Juegos de rol y estrategia",
+                "CategoryParentID": "114",
+                "LeafCategory": false,
+                "nameurl": "juguetes-juegos-de-rol-y-estrategia"
+            },
+            {
+                "CategoryID": "1149",
+                "CategoryIDPath": "114:1149",
+                "CategoryLevel": 2,
+                "CategoryName": "Juegos educativos",
+                "CategoryNamePath": "Juguetes:Juegos educativos",
+                "CategoryParentID": "114",
+                "LeafCategory": false,
+                "nameurl": "juguetes-juegos-educativos"
+            },
+            {
+                "CategoryID": "11410",
+                "CategoryIDPath": "114:11410",
+                "CategoryLevel": 2,
+                "CategoryName": "Juguetes antiguos",
+                "CategoryNamePath": "Juguetes:Juguetes antiguos",
+                "CategoryParentID": "114",
+                "LeafCategory": false,
+                "nameurl": "juguetes-juegos-antiguos"
+            },
+            {
+                "CategoryID": "11411",
+                "CategoryIDPath": "114:11411",
+                "CategoryLevel": 2,
+                "CategoryName": "Juguetes de cine y TV",
+                "CategoryNamePath": "Juguetes:Juguetes de cine y TV",
+                "CategoryParentID": "114",
+                "LeafCategory": false,
+                "nameurl": "juguetes-juguetes-de-cine-y-tv"
+            },
+            {
+                "CategoryID": "11412",
+                "CategoryIDPath": "114:11412",
+                "CategoryLevel": 2,
+                "CategoryName": "Marionetas",
+                "CategoryNamePath": "Juguetes:Marionetas",
+                "CategoryParentID": "114",
+                "LeafCategory": false,
+                "nameurl": "juguetes-marionetas"
+            },
+            {
+                "CategoryID": "11413",
+                "CategoryIDPath": "114:11413",
+                "CategoryLevel": 2,
+                "CategoryName": "Modelismo ferroviario",
+                "CategoryNamePath": "Juguetes:Modelismo ferroviario",
+                "CategoryParentID": "114",
+                "LeafCategory": false,
+                "nameurl": "juguetes-modelismo-ferroviario"
+            },
+            {
+                "CategoryID": "11414",
+                "CategoryIDPath": "114:11414",
+                "CategoryLevel": 2,
+                "CategoryName": "Muñecas y accesorios",
+                "CategoryNamePath": "Juguetes:Muñecas y accesorios",
+                "CategoryParentID": "114",
+                "LeafCategory": false,
+                "nameurl": "juguetes-munecas-y-accesorios"
+            },
+            {
+                "CategoryID": "11415",
+                "CategoryIDPath": "114:11415",
+                "CategoryLevel": 2,
+                "CategoryName": "Peluches",
+                "CategoryNamePath": "Juguetes:Peluches",
+                "CategoryParentID": "114",
+                "LeafCategory": false,
+                "nameurl": "juguetes-peluches"
+            },
+            {
+                "CategoryID": "11416",
+                "CategoryIDPath": "114:11416",
+                "CategoryLevel": 2,
+                "CategoryName": "Playmobil y Airgamboys",
+                "CategoryNamePath": "Juguetes:Playmobil y Airgamboys",
+                "CategoryParentID": "114",
+                "LeafCategory": false,
+                "nameurl": "juguetes-playmobil-y-airgamboys"
+            },
+            {
+                "CategoryID": "11417",
+                "CategoryIDPath": "114:11417",
+                "CategoryLevel": 2,
+                "CategoryName": "Puzles y rompecabezas",
+                "CategoryNamePath": "Juguetes:Puzles y rompecabezas",
+                "CategoryParentID": "114",
+                "LeafCategory": false,
+                "nameurl": "juguetes-puzles-y-rompecabezas"
+            },
+            {
+                "CategoryID": "11418",
+                "CategoryIDPath": "114:11418",
+                "CategoryLevel": 2,
+                "CategoryName": "Radiocontrol y juguetes",
+                "CategoryNamePath": "Juguetes:Radiocontrol y juguetes",
+                "CategoryParentID": "114",
+                "LeafCategory": false,
+                "nameurl": "juguetes-radiocontrol-y-juguetes"
+            },
+            {
+                "CategoryID": "11419",
+                "CategoryIDPath": "114:11419",
+                "CategoryLevel": 2,
+                "CategoryName": "Scalextric y Slot Car",
+                "CategoryNamePath": "Juguetes:Scalextric y Slot Car",
+                "CategoryParentID": "114",
+                "LeafCategory": false,
+                "nameurl": "juguetes-scalextric-y-slot-car"
+            },
+            {
+                "CategoryID": "11420",
+                "CategoryIDPath": "114:11420",
+                "CategoryLevel": 2,
+                "CategoryName": "Star Wars",
+                "CategoryNamePath": "Juguetes:Star Wars",
+                "CategoryParentID": "114",
+                "LeafCategory": false,
+                "nameurl": "juguetes-star-wars"
+            },
+            {
+                "CategoryID": "11421",
+                "CategoryIDPath": "114:11421",
+                "CategoryLevel": 2,
+                "CategoryName": "Tente",
+                "CategoryNamePath": "Tente",
+                "CategoryParentID": "114",
+                "LeafCategory": false,
+                "nameurl": "juguetes-tente"
+            },
+            {
+                "CategoryID": "11422",
+                "CategoryIDPath": "114:11422",
+                "CategoryLevel": 2,
+                "CategoryName": "Otros",
+                "CategoryNamePath": "Otros",
+                "CategoryParentID": "114",
+                "LeafCategory": false,
+                "nameurl": "juguetes-otros"
+            }
+        ],
+        "nameurl": "juguetes"
+    },
+    {
+        "CategoryID": "115",
+        "CategoryIDPath": "115",
+        "CategoryLevel": 1,
+        "CategoryName": "Libros, revistas y cómics",
+        "CategoryNamePath": "Libros, revistas y cómics",
+        "CategoryParentID": "-1",
+        "LeafCategory": false,
+        "tarifaPublicacion": {
+            "gratuita": "0%",
+            "clasica": "14%",
+            "premium": "16%"
+        },
+        "subCategoria": [
+            {
+                "CategoryID": "1151",
+                "CategoryIDPath": "115:1151",
+                "CategoryLevel": 2,
+                "CategoryName": "Accesorios",
+                "CategoryNamePath": "Libros, revistas y cómics:Accesorios",
+                "CategoryParentID": "115",
+                "LeafCategory": false,
+                "nameurl": "libros-revistas-y-comics-accesorios"
+            },
+            {
+                "CategoryID": "1152",
+                "CategoryIDPath": "115:1152",
+                "CategoryLevel": 2,
+                "CategoryName": "Audiolibros",
+                "CategoryNamePath": "Libros, revistas y cómics:Audiolibros",
+                "CategoryParentID": "115",
+                "LeafCategory": false,
+                "nameurl": "libros-revistas-y-comics-audiolibros"
+            },
+            {
+                "CategoryID": "1153",
+                "CategoryIDPath": "115:1153",
+                "CategoryLevel": 2,
+                "CategoryName": "Calendarios",
+                "CategoryNamePath": "Libros, revistas y cómics:Calendarios",
+                "CategoryParentID": "115",
+                "LeafCategory": false,
+                "nameurl": "libros-revistas-y-comics-calendarios"
+            },
+            {
+                "CategoryID": "1154",
+                "CategoryIDPath": "115:1154",
+                "CategoryLevel": 2,
+                "CategoryName": "Colecciones y lotes",
+                "CategoryNamePath": "Libros, revistas y cómics:Colecciones y lotes",
+                "CategoryParentID": "115",
+                "LeafCategory": false,
+                "nameurl": "libros-revistas-y-comics-colecciones-y-lotes"
+            },
+            {
+                "CategoryID": "1155",
+                "CategoryIDPath": "115:1155",
+                "CategoryLevel": 2,
+                "CategoryName": "Cómics",
+                "CategoryNamePath": "Libros, revistas y cómics:Cómics",
+                "CategoryParentID": "115",
+                "LeafCategory": false,
+                "nameurl": "libros-revistas-y-comics-comics"
+            },
+            {
+                "CategoryID": "1156",
+                "CategoryIDPath": "115:1156",
+                "CategoryLevel": 2,
+                "CategoryName": "Libros antiguos y de colección",
+                "CategoryNamePath": "Libros, revistas y cómics:Libros antiguos y de colección",
+                "CategoryParentID": "115",
+                "LeafCategory": false,
+                "nameurl": "libros-revistas-y-comics-libros-antiguos-de-coleccion"
+            },
+            {
+                "CategoryID": "1157",
+                "CategoryIDPath": "115:1157",
+                "CategoryLevel": 2,
+                "CategoryName": "Libros de cocina y gastronomía",
+                "CategoryNamePath": "Libros, revistas y cómics:Libros de cocina y gastronomía",
+                "CategoryParentID": "115",
+                "LeafCategory": false,
+                "nameurl": "libros-revistas-y-comics-libros-de-cocina-y-gastronomia"
+            },
+            {
+                "CategoryID": "1158",
+                "CategoryIDPath": "115:1158",
+                "CategoryLevel": 2,
+                "CategoryName": "Libros de texto y formación",
+                "CategoryNamePath": "Libros, revistas y cómics:Libros de texto y formación",
+                "CategoryParentID": "115",
+                "LeafCategory": false,
+                "nameurl": "libros-revistas-y-comics-libros-de-texto-y-formacion"
+            },
+            {
+                "CategoryID": "1159",
+                "CategoryIDPath": "115:1159",
+                "CategoryLevel": 2,
+                "CategoryName": "Libros infantiles y juveniles",
+                "CategoryNamePath": "Libros, revistas y cómics:Libros infantiles y juveniles",
+                "CategoryParentID": "115",
+                "LeafCategory": false,
+                "nameurl": "libros-revistas-y-comics-libros-infantiles-y-juveniles"
+            },
+            {
+                "CategoryID": "11510",
+                "CategoryIDPath": "115:11510",
+                "CategoryLevel": 2,
+                "CategoryName": "Libros prácticos y de consulta",
+                "CategoryNamePath": "Libros, revistas y cómics:Libros prácticos y de consulta",
+                "CategoryParentID": "115",
+                "LeafCategory": false,
+                "nameurl": "libros-revistas-y-comics-libros-practicos-y-de-consulta"
+            },
+            {
+                "CategoryID": "11511",
+                "CategoryIDPath": "115:11511",
+                "CategoryLevel": 2,
+                "CategoryName": "Literatura y narrativa",
+                "CategoryNamePath": "Libros, revistas y cómics:Literatura y narrativa",
+                "CategoryParentID": "115",
+                "LeafCategory": false,
+                "nameurl": "libros-revistas-y-comics-literatura-y-narrativa"
+            },
+            {
+                "CategoryID": "11512",
+                "CategoryIDPath": "115:11512",
+                "CategoryLevel": 2,
+                "CategoryName": "Revistas",
+                "CategoryNamePath": "Libros, revistas y cómics:Revistas",
+                "CategoryParentID": "115",
+                "LeafCategory": false,
+                "nameurl": "libros-revistas-y-comics-Revistas"
+            },
+            {
+                "CategoryID": "11513",
+                "CategoryIDPath": "115:11513",
+                "CategoryLevel": 2,
+                "CategoryName": "Otros",
+                "CategoryNamePath": "Libros, revistas y cómics:Otros",
+                "CategoryParentID": "115",
+                "LeafCategory": false,
+                "nameurl": "libros-revistas-y-comics-Otros"
+            }
+        ],
+        "nameurl": "libros-revistas-y-comics"
+    },
+    {
+        "CategoryID": "116",
+        "CategoryIDPath": "116",
+        "CategoryLevel": 1,
+        "CategoryName": "Motor: recambios y accesorios",
+        "CategoryNamePath": "Motor: recambios y accesorios",
+        "CategoryParentID": "-1",
+        "LeafCategory": false,
+        "tarifaPublicacion": {
+            "gratuita": "0%",
+            "clasica": "10%",
+            "premium": "11%"
+        },
+        "subCategoria": [
+            {
+                "CategoryID": "1161",
+                "CategoryIDPath": "116:1161",
+                "CategoryLevel": 2,
+                "CategoryName": "Aceites, líquidos y lubricant.",
+                "CategoryNamePath": "Motor: recambios y accesorios:Aceites, líquidos y lubricant.",
+                "CategoryParentID": "116",
+                "LeafCategory": false,
+                "nameurl": "motor-recambios-y-accesorios-aceites-liquidos"
+            },
+            {
+                "CategoryID": "1162",
+                "CategoryIDPath": "116:1162",
+                "CategoryLevel": 2,
+                "CategoryName": "Automobilia, coleccionistas",
+                "CategoryNamePath": "Motor: recambios y accesorios:Automobilia, coleccionistas",
+                "CategoryParentID": "116",
+                "LeafCategory": false,
+                "nameurl": "motor-recambios-y-accesorios-automobilia-coleccionistas"
+            },
+            {
+                "CategoryID": "1163",
+                "CategoryIDPath": "116:1163",
+                "CategoryLevel": 2,
+                "CategoryName": "Aviones: recambios y acces.",
+                "CategoryNamePath": "Motor: recambios y accesorios:Aviones: recambios y acces.",
+                "CategoryParentID": "116",
+                "LeafCategory": false,
+                "nameurl": "motor-recambios-y-accesorios-aviones-recambios"
+            },
+            {
+                "CategoryID": "1164",
+                "CategoryIDPath": "116:1164",
+                "CategoryLevel": 2,
+                "CategoryName": "Barcos: recambios y accesorios",
+                "CategoryNamePath": "Motor: recambios y accesorios:Barcos: recambios y accesorios",
+                "CategoryParentID": "116",
+                "LeafCategory": false,
+                "nameurl": "motor-recambios-y-accesorios-barcos-recambios-y-accesorios"
+            },
+            {
+                "CategoryID": "1165",
+                "CategoryIDPath": "116:1165",
+                "CategoryLevel": 2,
+                "CategoryName": "Buggies: accesorios",
+                "CategoryNamePath": "Motor: recambios y accesorios:Buggies: accesorios",
+                "CategoryParentID": "116",
+                "LeafCategory": false,
+                "nameurl": "motor-recambios-y-accesorios-buggies-accesorios"
+            },
+            {
+                "CategoryID": "1166",
+                "CategoryIDPath": "116:1166",
+                "CategoryLevel": 2,
+                "CategoryName": "Coche: Hi-Fi, GPS y tecnología",
+                "CategoryNamePath": "Motor: recambios y accesorios:Coche: Hi-Fi, GPS y tecnología",
+                "CategoryParentID": "116",
+                "LeafCategory": false,
+                "nameurl": "motor-recambios-y-accesorios-coche-hifi-gps"
+            },
+            {
+                "CategoryID": "1167",
+                "CategoryIDPath": "116:1167",
+                "CategoryLevel": 2,
+                "CategoryName": "Coches de época: piezas",
+                "CategoryNamePath": "Motor: recambios y accesorios:Coches de época: piezas",
+                "CategoryParentID": "116",
+                "LeafCategory": false,
+                "nameurl": "motor-recambios-y-accesorios-coches-de-epoca-piezas"
+            },
+            {
+                "CategoryID": "1168",
+                "CategoryIDPath": "116:1168",
+                "CategoryLevel": 2,
+                "CategoryName": "Coches: accesorios",
+                "CategoryNamePath": "Motor: recambios y accesorios:Coches: accesorios",
+                "CategoryParentID": "116",
+                "LeafCategory": false,
+                "nameurl": "motor-recambios-y-accesorios-coches-accesorios"
+            },
+            {
+                "CategoryID": "1169",
+                "CategoryIDPath": "116:1169",
+                "CategoryLevel": 2,
+                "CategoryName": "Coches: llantas y neumáticos",
+                "CategoryNamePath": "Motor: recambios y accesorios:Coches: llantas y neumáticos",
+                "CategoryParentID": "116",
+                "LeafCategory": false,
+                "nameurl": "motor-recambios-y-accesorios-coches-llantas-y-neumaticos"
+            },
+            {
+                "CategoryID": "11610",
+                "CategoryIDPath": "116:11610",
+                "CategoryLevel": 2,
+                "CategoryName": "Coches: recambios",
+                "CategoryNamePath": "Motor: recambios y accesorios:Coches: recambios",
+                "CategoryParentID": "116",
+                "LeafCategory": false,
+                "nameurl": "motor-recambios-y-accesorios-coches-recambio"
+            },
+            {
+                "CategoryID": "11611",
+                "CategoryIDPath": "116:11611",
+                "CategoryLevel": 2,
+                "CategoryName": "Coches: tuning y styling",
+                "CategoryNamePath": "Motor: recambios y accesorios:Coches: tuning y styling",
+                "CategoryParentID": "116",
+                "LeafCategory": false,
+                "nameurl": "motor-recambios-y-accesorios-coches-tuning-t-styling"
+            },
+            {
+                "CategoryID": "11612",
+                "CategoryIDPath": "116:11612",
+                "CategoryLevel": 2,
+                "CategoryName": "Motos de colección:acc. y rec.",
+                "CategoryNamePath": "Motor: recambios y accesorios:Motos de colección:acc. y rec.",
+                "CategoryParentID": "116",
+                "LeafCategory": false,
+                "nameurl": "motor-recambios-y-accesorios-motos-de-coleccion-acc-y-rec"
+            },
+            {
+                "CategoryID": "11613",
+                "CategoryIDPath": "116:11613",
+                "CategoryLevel": 2,
+                "CategoryName": "Motos: accesorios",
+                "CategoryNamePath": "Motor: recambios y accesorios:Motos: accesorios",
+                "CategoryParentID": "116",
+                "LeafCategory": false,
+                "nameurl": "motor-recambios-y-accesorios-motos-accesorios"
+            },
+            {
+                "CategoryID": "11614",
+                "CategoryIDPath": "116:11614",
+                "CategoryLevel": 2,
+                "CategoryName": "Motos: recambios",
+                "CategoryNamePath": "Motor: recambios y accesorios:Motos: recambios",
+                "CategoryParentID": "116",
+                "LeafCategory": false,
+                "nameurl": "motor-recambios-y-accesorios-motos-recambios"
+            },
+            {
+                "CategoryID": "11615",
+                "CategoryIDPath": "116:11615",
+                "CategoryLevel": 2,
+                "CategoryName": "Motos: ruedas y neumáticos",
+                "CategoryNamePath": "Motor: recambios y accesorios:Motos: ruedas y neumáticos",
+                "CategoryParentID": "116",
+                "LeafCategory": false,
+                "nameurl": "motor-recambios-y-accesorios-motos-ruedas-y-neumaticos"
+            },
+            {
+                "CategoryID": "11616",
+                "CategoryIDPath": "116:11616",
+                "CategoryLevel": 2,
+                "CategoryName": "Motos: tuning y styling",
+                "CategoryNamePath": "Motor: recambios y accesorios:Motos: tuning y styling",
+                "CategoryParentID": "116",
+                "LeafCategory": false,
+                "nameurl": "motor-recambios-y-accesorios-motos-tuning-y-styling"
+            },
+            {
+                "CategoryID": "11617",
+                "CategoryIDPath": "116:11617",
+                "CategoryLevel": 2,
+                "CategoryName": "Quads y karting: acc. y recam.",
+                "CategoryNamePath": "Motor: recambios y accesorios:Quads y karting: acc. y recam.",
+                "CategoryParentID": "116",
+                "LeafCategory": false,
+                "nameurl": "motor-recambios-y-accesorios-motos-quads-y-karting-acc-y-recam"
+            },
+            {
+                "CategoryID": "11618",
+                "CategoryIDPath": "116:11618",
+                "CategoryLevel": 2,
+                "CategoryName": "Revistas, manuales, catálogos",
+                "CategoryNamePath": "Motor: recambios y accesorios:Revistas, manuales, catálogos",
+                "CategoryParentID": "116",
+                "LeafCategory": false,
+                "nameurl": "motor-recambios-y-accesorios-revistas-manuales-catalogos"
+            },
+            {
+                "CategoryID": "11619",
+                "CategoryIDPath": "116:11619",
+                "CategoryLevel": 2,
+                "CategoryName": "Scooters: recambios y acces.",
+                "CategoryNamePath": "Motor: recambios y accesorios:Scooters: recambios y acces.",
+                "CategoryParentID": "116",
+                "LeafCategory": false,
+                "nameurl": "motor-recambios-y-accesorios-scooters-recambios-y-acces"
+            },
+            {
+                "CategoryID": "11620",
+                "CategoryIDPath": "116:11620",
+                "CategoryLevel": 2,
+                "CategoryName": "Taller: equipos y herramientas",
+                "CategoryNamePath": "Motor: recambios y accesorios:Taller: equipos y herramientas",
+                "CategoryParentID": "116",
+                "LeafCategory": false,
+                "nameurl": "motor-recambios-y-accesorios-taller-equipos-y-herramientas"
+            },
+            {
+                "CategoryID": "11621",
+                "CategoryIDPath": "116:11621",
+                "CategoryLevel": 2,
+                "CategoryName": "Trial y motocross: acc. y rec.",
+                "CategoryNamePath": "Motor: recambios y accesorios:Trial y motocross: acc. y rec.",
+                "CategoryParentID": "116",
+                "LeafCategory": false,
+                "nameurl": "motor-recambios-y-accesorios-trial-y-motocross-acc-y-rec"
+            },
+            {
+                "CategoryID": "11622",
+                "CategoryIDPath": "116:11622",
+                "CategoryLevel": 2,
+                "CategoryName": "Vehíc. comerc.: acc y recamb.",
+                "CategoryNamePath": "Motor: recambios y accesorios:Vehíc. comerc.: acc y recamb.",
+                "CategoryParentID": "116",
+                "LeafCategory": false,
+                "nameurl": "motor-recambios-y-accesorios-vehic-comerc-acc-y-recam"
+            },
+            {
+                "CategoryID": "11623",
+                "CategoryIDPath": "116:11623",
+                "CategoryLevel": 2,
+                "CategoryName": "Vestimenta y protección",
+                "CategoryNamePath": "Motor: recambios y accesorios:Vestimenta y protección",
+                "CategoryParentID": "116",
+                "LeafCategory": false,
+                "nameurl": "motor-recambios-y-accesorios-vestimenta-y-proteccion"
+            },
+            {
+                "CategoryID": "11624",
+                "CategoryIDPath": "116:11624",
+                "CategoryLevel": 2,
+                "CategoryName": "Otros",
+                "CategoryNamePath": "Motor: recambios y accesorios:Otros",
+                "CategoryParentID": "116",
+                "LeafCategory": false,
+                "nameurl": "motor-recambios-y-accesorios-otros"
+            }
+        ],
+        "nameurl": "motor-recambios-y-accesorios"
+    },
+    {
+        "CategoryID": "117",
+        "CategoryIDPath": "117",
+        "CategoryLevel": 1,
+        "CategoryName": "Móviles y telefonía",
+        "CategoryNamePath": "Móviles y telefonía",
+        "CategoryParentID": "-1",
+        "LeafCategory": false,
+        "tarifaPublicacion": {
+            "gratuita": "0%",
+            "clasica": "8%",
+            "premium": "10%"
+        },
+        "subCategoria": [
+            {
+                "CategoryID": "1171",
+                "CategoryIDPath": "117:1171",
+                "CategoryLevel": 2,
+                "CategoryName": "Acces. relojes inteligentes",
+                "CategoryNamePath": "Móviles y telefonía:Acces. relojes inteligentes",
+                "CategoryParentID": "117",
+                "LeafCategory": false,
+                "nameurl": "moviles-y-telefonía-acces-relojes-inteligentes"
+            },
+            {
+                "CategoryID": "1172",
+                "CategoryIDPath": "117:1172",
+                "CategoryLevel": 2,
+                "CategoryName": "Accesorios para móviles y PDAs",
+                "CategoryNamePath": "Móviles y telefonía:Accesorios para móviles y PDAs",
+                "CategoryParentID": "117",
+                "LeafCategory": false,
+                "nameurl": "moviles-y-telefonía-accesorios-para-moviles-y-pdas"
+            },
+            {
+                "CategoryID": "1173",
+                "CategoryIDPath": "117:1173",
+                "CategoryLevel": 2,
+                "CategoryName": "Equipos de radio",
+                "CategoryNamePath": "Móviles y telefonía:Equipos de radio",
+                "CategoryParentID": "117",
+                "LeafCategory": false,
+                "nameurl": "moviles-y-telefonía-equipos-de-radio"
+            },
+            {
+                "CategoryID": "1174",
+                "CategoryIDPath": "117:1174",
+                "CategoryLevel": 2,
+                "CategoryName": "Móviles con contrato",
+                "CategoryNamePath": "Móviles y telefonía:Móviles con contrato",
+                "CategoryParentID": "117",
+                "LeafCategory": false,
+                "nameurl": "moviles-y-telefonía-moviles-con-contrato"
+            },
+            {
+                "CategoryID": "1175",
+                "CategoryIDPath": "117:1175",
+                "CategoryLevel": 2,
+                "CategoryName": "Móviles de prepago",
+                "CategoryNamePath": "Móviles y telefonía:Móviles de prepago",
+                "CategoryParentID": "117",
+                "LeafCategory": false,
+                "nameurl": "moviles-y-telefonía-moviles-de-prepago"
+            },
+            {
+                "CategoryID": "1176",
+                "CategoryIDPath": "117:1176",
+                "CategoryLevel": 2,
+                "CategoryName": "Móviles ficticios de expositor",
+                "CategoryNamePath": "Móviles y telefonía:Móviles ficticios de expositor",
+                "CategoryParentID": "117",
+                "LeafCategory": false,
+                "nameurl": "moviles-y-telefonía-moviles-ficticios-de-expositor"
+            },
+            {
+                "CategoryID": "1177",
+                "CategoryIDPath": "117:1177",
+                "CategoryLevel": 2,
+                "CategoryName": "Móviles libres",
+                "CategoryNamePath": "Móviles y telefonía:Móviles libres",
+                "CategoryParentID": "117",
+                "LeafCategory": false,
+                "nameurl": "moviles-y-telefonía-moviles-moviles-libres"
+            },
+            {
+                "CategoryID": "1178",
+                "CategoryIDPath": "117:1178",
+                "CategoryLevel": 2,
+                "CategoryName": "PDAs",
+                "CategoryNamePath": "Móviles y telefonía:PDAs",
+                "CategoryParentID": "117",
+                "LeafCategory": false,
+                "nameurl": "moviles-y-telefonía-moviles-pdas"
+            },
+            {
+                "CategoryID": "1179",
+                "CategoryIDPath": "117:1179",
+                "CategoryLevel": 2,
+                "CategoryName": "Relojes inteligentes",
+                "CategoryNamePath": "Móviles y telefonía:Relojes inteligentes",
+                "CategoryParentID": "117",
+                "LeafCategory": false,
+                "nameurl": "moviles-y-telefonía-moviles-relojes-inteligentes"
+            },
+            {
+                "CategoryID": "11710",
+                "CategoryIDPath": "117:11710",
+                "CategoryLevel": 2,
+                "CategoryName": "Tarjetas y lectores SIM",
+                "CategoryNamePath": "Móviles y telefonía:Tarjetas y lectores SIM",
+                "CategoryParentID": "117",
+                "LeafCategory": false,
+                "nameurl": "moviles-y-telefonía-moviles-tarjetas-y-lectores-sim"
+            },
+            {
+                "CategoryID": "11711",
+                "CategoryIDPath": "117:11711",
+                "CategoryLevel": 2,
+                "CategoryName": "Teléfonos fijos vintage",
+                "CategoryNamePath": "Móviles y telefonía:Teléfonos fijos vintage",
+                "CategoryParentID": "117",
+                "LeafCategory": false,
+                "nameurl": "moviles-y-telefonía-moviles-telefonos-fijos-vintage"
+            },
+            {
+                "CategoryID": "11712",
+                "CategoryIDPath": "117:11712",
+                "CategoryLevel": 2,
+                "CategoryName": "Teléfonos fijos y accesorios",
+                "CategoryNamePath": "Móviles y telefonía:Teléfonos fijos y accesorios",
+                "CategoryParentID": "117",
+                "LeafCategory": false,
+                "nameurl": "moviles-y-telefonía-moviles-telefonos-fijos-y-accesorios"
+            },
+            {
+                "CategoryID": "11713",
+                "CategoryIDPath": "117:11713",
+                "CategoryLevel": 2,
+                "CategoryName": "Teléfonos móviles vintage",
+                "CategoryNamePath": "Móviles y telefonía:Teléfonos móviles vintage",
+                "CategoryParentID": "117",
+                "LeafCategory": false,
+                "nameurl": "moviles-y-telefonía-moviles-telefonos-moviles-vintage"
+            },
+            {
+                "CategoryID": "11714",
+                "CategoryIDPath": "117:11714",
+                "CategoryLevel": 2,
+                "CategoryName": "Teléfonos móviles: recambios",
+                "CategoryNamePath": "Móviles y telefonía:Teléfonos móviles: recambios",
+                "CategoryParentID": "117",
+                "LeafCategory": false,
+                "nameurl": "moviles-y-telefonía-moviles-telefonos-moviles-vrecambios"
+            },
+            {
+                "CategoryID": "11715",
+                "CategoryIDPath": "117:11715",
+                "CategoryLevel": 2,
+                "CategoryName": "Tonos, logos y software",
+                "CategoryNamePath": "Móviles y telefonía:Tonos, logos y software",
+                "CategoryParentID": "117",
+                "LeafCategory": false,
+                "nameurl": "moviles-y-telefonía-moviles-tonos-logos-y-software"
+            },
+            {
+                "CategoryID": "11716",
+                "CategoryIDPath": "117:11716",
+                "CategoryLevel": 2,
+                "CategoryName": "Otros",
+                "CategoryNamePath": "Móviles y telefonía:Otros",
+                "CategoryParentID": "117",
+                "LeafCategory": false,
+                "nameurl": "moviles-y-telefonía-moviles-otros"
+            }
+        ],
+        "nameurl": "moviles-y-telefonía"
+    },
+    {
+        "CategoryID": "118",
+        "CategoryIDPath": "118",
+        "CategoryLevel": 1,
+        "CategoryName": "Música, CDs y vinilos",
+        "CategoryNamePath": "Música, CDs y vinilos",
+        "CategoryParentID": "-1",
+        "LeafCategory": false,
+        "tarifaPublicacion": {
+            "gratuita": "0%",
+            "clasica": "12%",
+            "premium": "14%"
+        },
+        "subCategoria": [
+            {
+                "CategoryID": "1181",
+                "CategoryIDPath": "118:1181",
+                "CategoryLevel": 2,
+                "CategoryName": "CDs",
+                "CategoryNamePath": "Música, CDs y vinilos:CDs",
+                "CategoryParentID": "118",
+                "LeafCategory": false,
+                "nameurl": "musica-cds-y-vinilos-cds"
+            },
+            {
+                "CategoryID": "1182",
+                "CategoryIDPath": "118:1182",
+                "CategoryLevel": 2,
+                "CategoryName": "Cintas y casetes",
+                "CategoryNamePath": "Música, CDs y vinilos:Cintas y casetes",
+                "CategoryParentID": "118",
+                "LeafCategory": false,
+                "nameurl": "musica-cds-y-vinilos-cintas-y-casetes"
+            },
+            {
+                "CategoryID": "1183",
+                "CategoryIDPath": "118:1183",
+                "CategoryLevel": 2,
+                "CategoryName": "Coleccionismo musical",
+                "CategoryNamePath": "Música, CDs y vinilos:Coleccionismo musical",
+                "CategoryParentID": "118",
+                "LeafCategory": false,
+                "nameurl": "musica-cds-y-vinilos-coleccionismo-musical"
+            },
+            {
+                "CategoryID": "1184",
+                "CategoryIDPath": "118:1184",
+                "CategoryLevel": 2,
+                "CategoryName": "Conciertos en DVD",
+                "CategoryNamePath": "Música, CDs y vinilos:Conciertos en DVD",
+                "CategoryParentID": "118",
+                "LeafCategory": false,
+                "nameurl": "musica-cds-y-vinilos-conciertos-en-dvd"
+            },
+            {
+                "CategoryID": "1185",
+                "CategoryIDPath": "118:1185",
+                "CategoryLevel": 2,
+                "CategoryName": "Descargas digitales de música",
+                "CategoryNamePath": "Música, CDs y vinilos:Descargas digitales de música",
+                "CategoryParentID": "118",
+                "LeafCategory": false,
+                "nameurl": "musica-cds-y-vinilos-descargas-digitales-de-musica"
+            },
+            {
+                "CategoryID": "1186",
+                "CategoryIDPath": "118:1186",
+                "CategoryLevel": 2,
+                "CategoryName": "Lotes de música, CD y vinilos",
+                "CategoryNamePath": "Música, CDs y vinilos:Lotes de música, CD y vinilos",
+                "CategoryParentID": "118",
+                "LeafCategory": false,
+                "nameurl": "musica-cds-y-vinilos-lotes-de-musica-cd-y-vinilos"
+            },
+            {
+                "CategoryID": "1187",
+                "CategoryIDPath": "118:1187",
+                "CategoryLevel": 2,
+                "CategoryName": "Ropa y merchandising",
+                "CategoryNamePath": "Música, CDs y vinilos:Ropa y merchandising",
+                "CategoryParentID": "118",
+                "LeafCategory": false,
+                "nameurl": "musica-cds-y-vinilos-ropa-y-merchandising"
+            },
+            {
+                "CategoryID": "1188",
+                "CategoryIDPath": "118:1188",
+                "CategoryLevel": 2,
+                "CategoryName": "Vinilos",
+                "CategoryNamePath": "Música, CDs y vinilos:Vinilos",
+                "CategoryParentID": "118",
+                "LeafCategory": false,
+                "nameurl": "musica-cds-y-vinilos-vinilos"
+            },
+            {
+                "CategoryID": "1189",
+                "CategoryIDPath": "118:1189",
+                "CategoryLevel": 2,
+                "CategoryName": "Otros",
+                "CategoryNamePath": "Música, CDs y vinilos:Otros",
+                "CategoryParentID": "118",
+                "LeafCategory": false,
+                "nameurl": "musica-cds-y-vinilos-otros"
+            }
+        ],
+        "nameurl": "musica-cds-y-vinilos"
+    },
+    {
+        "CategoryID": "119",
+        "CategoryIDPath": "119",
+        "CategoryLevel": 1,
+        "CategoryName": "Relojes y joyas",
+        "CategoryNamePath": "Relojes y joyas",
+        "CategoryParentID": "-1",
+        "LeafCategory": false,
+        "tarifaPublicacion": {
+            "gratuita": "0%",
+            "clasica": "17%",
+            "premium": "19%"
+        },
+        "subCategoria": [
+            {
+                "CategoryID": "1191",
+                "CategoryIDPath": "119:1191",
+                "CategoryLevel": 2,
+                "CategoryName": "Bisutería",
+                "CategoryNamePath": "Relojes y joya:Bisutería",
+                "CategoryParentID": "119",
+                "LeafCategory": false,
+                "nameurl": "relojes-y-joyas-bisuteria"
+            },
+            {
+                "CategoryID": "1192",
+                "CategoryIDPath": "119:1192",
+                "CategoryLevel": 2,
+                "CategoryName": "Cuentas sueltas",
+                "CategoryNamePath": "Relojes y joya:Cuentas sueltas",
+                "CategoryParentID": "119",
+                "LeafCategory": false,
+                "nameurl": "relojes-y-joyas-cuentas-sueltas"
+            },
+            {
+                "CategoryID": "1193",
+                "CategoryIDPath": "119:1193",
+                "CategoryLevel": 2,
+                "CategoryName": "Diamantes y gemas sueltas",
+                "CategoryNamePath": "Relojes y joya:Diamantes y gemas sueltas",
+                "CategoryParentID": "119",
+                "LeafCategory": false,
+                "nameurl": "relojes-y-joyas-diamantes-y-gemas-sueltas"
+            },
+            {
+                "CategoryID": "1194",
+                "CategoryIDPath": "119:1194",
+                "CategoryLevel": 2,
+                "CategoryName": "Joyas para el cuerpo",
+                "CategoryNamePath": "Relojes y joya:Joyas para el cuerpo",
+                "CategoryParentID": "119",
+                "LeafCategory": false,
+                "nameurl": "relojes-y-joyas-joyas-para-el-cuerpo"
+            },
+            {
+                "CategoryID": "1195",
+                "CategoryIDPath": "119:1195",
+                "CategoryLevel": 2,
+                "CategoryName": "Joyería",
+                "CategoryNamePath": "Relojes y joya:Joyería",
+                "CategoryParentID": "119",
+                "LeafCategory": false,
+                "nameurl": "relojes-y-joyas-joyeria"
+            },
+            {
+                "CategoryID": "1196",
+                "CategoryIDPath": "119:1196",
+                "CategoryLevel": 2,
+                "CategoryName": "Joyería artesanal",
+                "CategoryNamePath": "Relojes y joya:Joyería artesanal",
+                "CategoryParentID": "119",
+                "LeafCategory": false,
+                "nameurl": "relojes-y-joyas-joyeria-artesanal"
+            },
+            {
+                "CategoryID": "1197",
+                "CategoryIDPath": "119:1197",
+                "CategoryLevel": 2,
+                "CategoryName": "Joyería para hombre",
+                "CategoryNamePath": "Relojes y joya:Joyería para hombre",
+                "CategoryParentID": "119",
+                "LeafCategory": false,
+                "nameurl": "relojes-y-joyas-joyeria-para-hombre"
+            },
+            {
+                "CategoryID": "1198",
+                "CategoryIDPath": "119:1198",
+                "CategoryLevel": 2,
+                "CategoryName": "Joyeros y material joyería",
+                "CategoryNamePath": "Relojes y joya:Joyeros y material joyería",
+                "CategoryParentID": "119",
+                "LeafCategory": false,
+                "nameurl": "relojes-y-joyas-joyeros-y-material-joyeria"
+            },
+            {
+                "CategoryID": "1199",
+                "CategoryIDPath": "119:1199",
+                "CategoryLevel": 2,
+                "CategoryName": "Relojes, recambios y acces.",
+                "CategoryNamePath": "Relojes y joya:Relojes, recambios y acces.",
+                "CategoryParentID": "119",
+                "LeafCategory": false,
+                "nameurl": "relojes-y-joyas-relojes-recambios-y-acces"
+            },
+            {
+                "CategoryID": "11910",
+                "CategoryIDPath": "119:11910",
+                "CategoryLevel": 2,
+                "CategoryName": "Vintage y joyería antigua",
+                "CategoryNamePath": "Relojes y joya:Vintage y joyería antigua",
+                "CategoryParentID": "119",
+                "LeafCategory": false,
+                "nameurl": "relojes-y-joyas-vintage-y-joyeria-antigua"
+            },
+            {
+                "CategoryID": "11911",
+                "CategoryIDPath": "119:11911",
+                "CategoryLevel": 2,
+                "CategoryName": "Otros",
+                "CategoryNamePath": "Relojes y joya:Otros",
+                "CategoryParentID": "119",
+                "LeafCategory": false,
+                "nameurl": "relojes-y-joyas-otros"
+            }
+        ],
+        "nameurl": "relojes-y-joyas"
+    },
+    {
+        "CategoryID": "120",
+        "CategoryIDPath": "120",
+        "CategoryLevel": 1,
+        "CategoryName": "Ropa, calzado y complementos",
+        "CategoryNamePath": "Ropa, calzado y complementos",
+        "CategoryParentID": "-1",
+        "LeafCategory": false,
+        "tarifaPublicacion": {
+            "gratuita": "0%",
+            "clasica": "15%",
+            "premium": "17%"
+        },
+        "subCategoria": [
+            {
+                "CategoryID": "1201",
+                "CategoryIDPath": "120:1201",
+                "CategoryLevel": 2,
+                "CategoryName": "Bodas y ceremonias",
+                "CategoryNamePath": "Ropa, calzado y complementos:Bodas y ceremonias",
+                "CategoryParentID": "120",
+                "LeafCategory": false,
+                "nameurl": "ropa-calzado-y-complementos-bodas-y-ceremonias"
+            },
+            {
+                "CategoryID": "1202",
+                "CategoryIDPath": "120:1202",
+                "CategoryLevel": 2,
+                "CategoryName": "Bolsos de mujer",
+                "CategoryNamePath": "Ropa, calzado y complementos:Bolsos de mujer",
+                "CategoryParentID": "120",
+                "LeafCategory": false,
+                "nameurl": "ropa-calzado-y-complementos-bolsos-de-mujer"
+            },
+            {
+                "CategoryID": "1203",
+                "CategoryIDPath": "120:1203",
+                "CategoryLevel": 2,
+                "CategoryName": "Calzado de hombre",
+                "CategoryNamePath": "Ropa, calzado y complementos:Calzado de hombre",
+                "CategoryParentID": "120",
+                "LeafCategory": false,
+                "nameurl": "ropa-calzado-y-complementos-calzado-de-hombre"
+            },
+            {
+                "CategoryID": "1204",
+                "CategoryIDPath": "120:1204",
+                "CategoryLevel": 2,
+                "CategoryName": "Calzado de mujer",
+                "CategoryNamePath": "Ropa, calzado y complementos:Calzado de mujer",
+                "CategoryParentID": "120",
+                "LeafCategory": false,
+                "nameurl": "ropa-calzado-y-complementos-calzado-de-mujer"
+            },
+            {
+                "CategoryID": "1205",
+                "CategoryIDPath": "120:1205",
+                "CategoryLevel": 2,
+                "CategoryName": "Complementos de hombre",
+                "CategoryNamePath": "Ropa, calzado y complementos:Complementos de hombre",
+                "CategoryParentID": "120",
+                "LeafCategory": false,
+                "nameurl": "ropa-calzado-y-complementos-complementos-de-hombre"
+            },
+            {
+                "CategoryID": "1206",
+                "CategoryIDPath": "120:1206",
+                "CategoryLevel": 2,
+                "CategoryName": "Complementos de mujer",
+                "CategoryNamePath": "Ropa, calzado y complementos:Complementos de mujer",
+                "CategoryParentID": "120",
+                "LeafCategory": false,
+                "nameurl": "ropa-calzado-y-complementos-complementos-de-mujer"
+            },
+            {
+                "CategoryID": "1207",
+                "CategoryIDPath": "120:1207",
+                "CategoryLevel": 2,
+                "CategoryName": "Disfraces y ropa de época",
+                "CategoryNamePath": "Ropa, calzado y complementos:Disfraces y ropa de época",
+                "CategoryParentID": "120",
+                "LeafCategory": false,
+                "nameurl": "ropa-calzado-y-complementos-disfraces-y-ropa-de-epoca"
+            },
+            {
+                "CategoryID": "1208",
+                "CategoryIDPath": "120:1208",
+                "CategoryLevel": 2,
+                "CategoryName": "Ropa de danza y complementos",
+                "CategoryNamePath": "Ropa, calzado y complementos:Ropa de danza y complementos",
+                "CategoryParentID": "120",
+                "LeafCategory": false,
+                "nameurl": "ropa-calzado-y-complementos-ropa-de-danza-y-complementos"
+            },
+            {
+                "CategoryID": "1209",
+                "CategoryIDPath": "120:1209",
+                "CategoryLevel": 2,
+                "CategoryName": "Ropa de hombre",
+                "CategoryNamePath": "Ropa, calzado y complementos:Ropa de hombre",
+                "CategoryParentID": "120",
+                "LeafCategory": false,
+                "nameurl": "ropa-calzado-y-complementos-ropa-de-hombre"
+            },
+            {
+                "CategoryID": "12010",
+                "CategoryIDPath": "120:12010",
+                "CategoryLevel": 2,
+                "CategoryName": "Ropa de mujer",
+                "CategoryNamePath": "Ropa, calzado y complementos:Ropa de mujer",
+                "CategoryParentID": "120",
+                "LeafCategory": false,
+                "nameurl": "ropa-calzado-y-complementos-ropa-de-mujer"
+            },
+            {
+                "CategoryID": "12011",
+                "CategoryIDPath": "120:12011",
+                "CategoryLevel": 2,
+                "CategoryName": "Ropa de trabajo",
+                "CategoryNamePath": "Ropa, calzado y complementos:Ropa de trabajo",
+                "CategoryParentID": "120",
+                "LeafCategory": false,
+                "nameurl": "ropa-calzado-y-complementos-ropa-de-trabajo"
+            },
+            {
+                "CategoryID": "12012",
+                "CategoryIDPath": "120:12012",
+                "CategoryLevel": 2,
+                "CategoryName": "Ropa erótica",
+                "CategoryNamePath": "Ropa, calzado y complementos:Ropa erótica",
+                "CategoryParentID": "120",
+                "LeafCategory": false,
+                "nameurl": "ropa-calzado-y-complementos-ropa-erotica"
+            },
+            {
+                "CategoryID": "12013",
+                "CategoryIDPath": "120:12013",
+                "CategoryLevel": 2,
+                "CategoryName": "Ropa niños, calzado y complem.",
+                "CategoryNamePath": "Ropa, calzado y complementos:Ropa niños, calzado y complem.",
+                "CategoryParentID": "120",
+                "LeafCategory": false,
+                "nameurl": "ropa-calzado-y-complementos-ropa-niños-calzado-y-complem"
+            },
+            {
+                "CategoryID": "12014",
+                "CategoryIDPath": "120:12014",
+                "CategoryLevel": 2,
+                "CategoryName": "Ropa tradicional y del mundo",
+                "CategoryNamePath": "Ropa, calzado y complementos:Ropa tradicional y del mundo",
+                "CategoryParentID": "120",
+                "LeafCategory": false,
+                "nameurl": "ropa-calzado-y-complementos-ropa-tradicional-y-del-mundo"
+            },
+            {
+                "CategoryID": "12015",
+                "CategoryIDPath": "120:12015",
+                "CategoryLevel": 2,
+                "CategoryName": "Ropa y complementos vintage",
+                "CategoryNamePath": "Ropa, calzado y complementos:Ropa y complementos vintage",
+                "CategoryParentID": "120",
+                "LeafCategory": false,
+                "nameurl": "ropa-calzado-y-complementos-ropa-y-complementos-vintage"
+            },
+            {
+                "CategoryID": "12016",
+                "CategoryIDPath": "120:12016",
+                "CategoryLevel": 2,
+                "CategoryName": "Otros",
+                "CategoryNamePath": "Ropa, calzado y complementos:Otros",
+                "CategoryParentID": "120",
+                "LeafCategory": false,
+                "nameurl": "ropa-calzado-y-complementos-otros"
+            }
+        ],
+        "nameurl": "moviles-y-telefonía"
+    },
+    {
+        "CategoryID": "121",
+        "CategoryIDPath": "121",
+        "CategoryLevel": 1,
+        "CategoryName": "Gastronomía",
+        "CategoryNamePath": "Gastronomía",
+        "CategoryParentID": "-1",
+        "LeafCategory": false,
+        "tarifaPublicacion": {
+            "gratuita": "0%",
+            "clasica": "13%",
+            "premium": "14%"
+        },
+        "subCategoria": [
+            {
+                "CategoryID": "1211",
+                "CategoryIDPath": "121:1211",
+                "CategoryLevel": 2,
+                "CategoryName": "Aceites y aliños",
+                "CategoryNamePath": "Gastronomía:Aceites y aliños",
+                "CategoryParentID": "121",
+                "LeafCategory": false,
+                "nameurl": "gastronomia-aceites-y-alinos"
+            },
+            {
+                "CategoryID": "1212",
+                "CategoryIDPath": "121:1212",
+                "CategoryLevel": 2,
+                "CategoryName": "Cocina internacional",
+                "CategoryNamePath": "Gastronomía:Cocina internacional",
+                "CategoryParentID": "121",
+                "LeafCategory": false,
+                "nameurl": "gastronomia-cocina-internacional"
+            },
+            {
+                "CategoryID": "1213",
+                "CategoryIDPath": "121:1213",
+                "CategoryLevel": 2,
+                "CategoryName": "Dulces, chocolate, café y té",
+                "CategoryNamePath": "Gastronomía:Dulces, chocolate, café y té",
+                "CategoryParentID": "121",
+                "LeafCategory": false,
+                "nameurl": "gastronomia-dulces-chocolate-y-te"
+            },
+            {
+                "CategoryID": "1214",
+                "CategoryIDPath": "121:1214",
+                "CategoryLevel": 2,
+                "CategoryName": "Embutidos",
+                "CategoryNamePath": "Gastronomía:Embutidos",
+                "CategoryParentID": "121",
+                "LeafCategory": false,
+                "nameurl": "gastronomia-embutidos"
+            },
+            {
+                "CategoryID": "1215",
+                "CategoryIDPath": "121:1215",
+                "CategoryLevel": 2,
+                "CategoryName": "Jamón y conservas",
+                "CategoryNamePath": "Gastronomía:Jamón y conservas",
+                "CategoryParentID": "121",
+                "LeafCategory": false,
+                "nameurl": "gastronomia-jamos-y-consevas"
+            },
+            {
+                "CategoryID": "1218",
+                "CategoryIDPath": "121:1218",
+                "CategoryLevel": 2,
+                "CategoryName": "Otros",
+                "CategoryNamePath": "Gastronomía:Otros",
+                "CategoryParentID": "121",
+                "LeafCategory": false,
+                "nameurl": "gastronomia-Otros"
+            }
+        ],
+        "nameurl": "gastronomia"
+    },
+    {
+        "CategoryID": "122",
+        "CategoryIDPath": "122",
+        "CategoryLevel": 1,
+        "CategoryName": "Otras categorías",
+        "CategoryNamePath": "Otras categorías",
+        "CategoryParentID": "-1",
+        "LeafCategory": false,
+        "tarifaPublicacion": {
+            "gratuita": "0%",
+            "clasica": "16%",
+            "premium": "18%"
+        },
+        "subCategoria": [
+            {
+                "CategoryID": "1221",
+                "CategoryIDPath": "122:1221",
+                "CategoryLevel": 2,
+                "CategoryName": "Servicios",
+                "CategoryNamePath": "Otras categorías:Servicios",
+                "CategoryParentID": "122",
+                "LeafCategory": false,
+                "nameurl": "moviles-y-telefonía-servicios"
+            },
+            {
+                "CategoryID": "1222",
+                "CategoryIDPath": "122:1222",
+                "CategoryLevel": 2,
+                "CategoryName": "Otros",
+                "CategoryNamePath": "Otras categorías:Otros",
+                "CategoryParentID": "122",
+                "LeafCategory": false,
+                "nameurl": "moviles-y-telefonía-otros"
+            }
+        ],
+        "nameurl": "otras-categorias"
+    },
+    {
+        "CategoryID": "123",
+        "CategoryIDPath": "123",
+        "CategoryLevel": 1,
+        "CategoryName": "Artesanos",
+        "CategoryNamePath": "Artesanos",
+        "CategoryParentID": "-1",
+        "LeafCategory": false,
+        "tarifaPublicacion": {
+            "gratuita": "0%",
+            "clasica": "12%",
+            "premium": "14%"
+        },
+        "subCategoria": [],
+        "nameurl": "artesanos"
+    },
+    {
+        "CategoryID": "124",
+        "CategoryIDPath": "124",
+        "CategoryLevel": 1,
+        "CategoryName": "Medio Ambiente",
+        "CategoryNamePath": "Medio Ambiente",
+        "CategoryParentID": "-1",
+        "LeafCategory": false,
+        "tarifaPublicacion": {
+            "gratuita": "0%",
+            "clasica": "12%",
+            "premium": "14%"
+        },
+        "subCategoria": [],
+        "nameurl": "medio-ambiente"
+    }
+]

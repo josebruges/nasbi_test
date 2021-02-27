@@ -1,0 +1,145 @@
+.row-banner {
+    padding: 100px 0;
+    background-size: cover;
+    background-color: #3781ff;
+    background-position: center;
+    background-image: url("../imagen/collapse-preguntas/banner.png");
+}
+.row-banner h2 {
+    margin: 0;
+    color: #fff;
+    font-size: 28px;
+    text-align: center;
+    font-family: "Poppins";
+}
+.content-colapse {
+    width: 70%;
+    margin: 60px 0 70px;
+}
+.btn-collapse {
+    width: 100%;
+    border: none;
+    color: #fff;
+    display: flex;
+    font-size: 20px;
+    text-align: left;
+    font-weight: bold;
+    padding: 5px 10px;
+    margin: 15px 0 8px;
+    border-radius: 36px;
+    align-items: center;
+    background-color: #1464e1;
+}
+.btn-collapse img {
+    width: 25px;
+    margin: 0 10px;
+}
+.flecha {
+    display: block;
+    margin-left: auto !important;
+}
+.row-sub-collpase img {
+    width: 30px;
+    margin-right: 10px;
+}
+.label-sub-collapse {
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    justify-content: end;
+}
+.label-sub-collapse h6 {
+    margin: 0;
+    width: 100%;
+    padding: 12px 0;
+    color: #707070;
+    text-align: left;
+    border-bottom: 1px solid #b2b2b2;
+}
+.col-sub-collapse p {
+    font-size: 15px;
+    text-align: left;
+    color: #9f9f9f;
+    word-break: break-all;
+}
+/* respuestas */
+.respuestaF {
+    text-align: justify;
+    color: #909090;
+    font-size: 15px;
+    margin: 15px 0 15px 40px;
+}
+.respuestaF p {
+    text-align: justify;
+    word-break: keep-all;
+}
+.respuestaF span {
+    color: #232a85;
+    font-family: "Poppins";
+}
+.respuestaF li ol,
+.respuestaF li ul {
+    margin-left: 35px;
+    margin-bottom: 17px;
+}
+.table-responsive {
+    margin: 13px 0;
+}
+
+.respuestaF thead th {
+    font-size: 12px;
+    color: #ffffff;
+    background-color: #232a85;
+    font-family: "Poppins";
+    text-align: center;
+    padding-left: 7px;
+    padding-right: 7px;
+    padding-bottom: 7px;
+    padding-top: 7px;
+    border: 1px solid #ffffff;
+}
+.respuestaF tbody td {
+    font-size: 12px;
+    text-align: center;
+    border: 1px solid #232a85;
+    padding: 5px 0;
+}
+.respuestaF .fa-check {
+    color: #232a85;
+}
+.respuestaF .fa-times {
+    color: #eb4454;
+}
+.respuestaF a {
+    font-family: "Poppins";
+    color: #eb4454;
+    font-size: 15px;
+}
+
+/* ------------------------------------ Medias Responsive ------------------------------------ */
+@media (max-width: 991px) {
+    .content-colapse {
+        width: 100%;
+    }
+}
+
+@media (max-width: 575px) {
+    .row-banner {
+        padding: 60px 0;
+    }
+    .btn-collapse {
+        font-size: 18px;
+    }
+    .label-sub-collapse h6 {
+        font-size: 15px;
+    }
+    .row-banner h2 {
+        font-size: 23px;
+    }
+    .responvibeTable table{
+        width: max-content;
+    }
+    .responvibetable02 table{
+        width: 100%;
+    }
+}

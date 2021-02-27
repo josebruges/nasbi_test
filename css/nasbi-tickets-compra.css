@@ -1,0 +1,289 @@
+.banner-tickets {
+    width: 100%;
+    background-size: 110% 100%;
+    background-image: url("../imagen/nasbi-tickets/banner-tickets.png");
+}
+.content-title {
+    padding: 65px 25px 40px 70px;
+}
+.content-title p {
+    margin: 0;
+    color: #fff;
+    font-size: 15px;
+    text-align: left;
+    font-family: "Poppins";
+}
+.title {
+    color: #fff;
+    font-size: 35px;
+    text-align: left;
+    font-family: "Poppins";
+}
+.title img {
+    width: 100px;
+    margin-left: 10px;
+    vertical-align: initial;
+}
+.row-cards {
+    width: 75%;
+    padding: 30px 0;
+}
+
+.content-card {
+    width: 92%;
+    border-radius: 22px;
+    box-shadow: 0px 6px 15px -10px rgb(158 158 158);
+}
+.content-card .card1 {
+    height: 200px;
+    background-size: 100%;
+    padding: 50px 25px 25px;
+    background-repeat: no-repeat;
+    background-image: url("../imagen/nasbi-tickets/card-white.svg");
+}
+.tarjet .content-card .card1 {
+    height: 200px;
+    padding: 40px 25px 25px;
+}
+.content-card .card1 h4 {
+    margin: 0;
+    font-size: 21px;
+    text-align: left;
+    color: #151a30;
+    font-family: "Poppins";
+}
+.content-card .card1 img {
+    width: 110px;
+    float: left;
+    margin-top: -16px;
+    margin-right: 13px;
+    margin-bottom: -10px;
+}
+.content-card .card1 label {
+    margin-top: 25px;
+}
+.content-card .card1 p {
+    font-size: 12px;
+    line-height: 1.6;
+    text-align: left;
+    padding: 0 15px;
+    margin: 0;
+    display: inline-block;
+}
+.content-card .card2 {
+    padding: 30px 10px;
+    align-items: center;
+    background-color: #151a30;
+    border-radius: 0 0 25px 25px;
+}
+.content-card .card2 input {
+    width: 80px;
+    border: none;
+    direction: rtl;
+    margin-right: auto;
+    text-align: center;
+    border-radius: 50px;
+    font-family: "Poppins";
+    transform: scale(0.9);
+}
+.content-card .card2 input:focus,
+.content-card .card2 input:active {
+    box-shadow: none;
+}
+.content-card .card2 input[type="number"]::-webkit-inner-spin-button {
+    opacity: 1;
+    transform: scale(0.9);
+}
+.content-card .card2 h4 {
+    margin: 0;
+    color: #fff;
+    font-size: 19px;
+    text-align: right;
+    font-family: "Poppins";
+}
+.content-card .card2 button {
+    width: 100%;
+    border: none;
+    padding: 8px;
+    color: #fff;
+    margin: 15px 0 0;
+    font-size: 14px;
+    font-family: "Poppins";
+    border-radius: 25px;
+    text-transform: uppercase;
+    background-color: #ff3e51;
+}
+.franja-blue {
+    width: 100%;
+    height: 100px;
+    margin-top: -90px;
+    background-color: #1464e1;
+}
+
+.content-title2 {
+    padding: 50px 25px 40px 70px;
+}
+.title2 {
+    font-size: 35px;
+    color: #0c0f3d;
+    text-align: left;
+    font-family: "Poppins";
+}
+.title2 img {
+    width: 110px;
+    opacity: 0.9;
+    margin-left: 10px;
+    vertical-align: initial;
+    filter: brightness(0) invert(0);
+}
+.row-lista p {
+    width: 100%;
+    font-size: 15px;
+    text-align: left;
+    color: #151a30;
+    font-family: "Poppins";
+    margin: 10px 0 0 !important;
+}
+.row-lista p img {
+    float: none !important;
+    width: 30px !important;
+    vertical-align: bottom;
+    margin-right: 5px !important;
+}
+/* Modal confirmacion entrega */
+.label-titulo {
+    margin: 25px 0 0;
+    color: #232a85;
+    text-align: center;
+    font-family: "Poppins";
+}
+.row-titleEntrega h5 {
+    margin: 25px 0 0;
+    color: #232a85;
+    text-align: center;
+    font-family: "Poppins";
+}
+.row-titleEntrega p {
+    font-size: 14px;
+    color: #707070;
+    margin: 10px 120px;
+    text-align: center;
+    font-family: Open San, sans-serif;
+}
+.p_negrillas {
+    color: #232a85 !important;
+    font-family: "Poppins";
+}
+.row-titleEntrega p a {
+    color: #232a85;
+    font-family: "Poppins";
+}
+.contn-entrega {
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+}
+.contn-entrega button {
+    border: none;
+    width: auto;
+    color: #fff;
+    font-size: 12px;
+    margin: 0 10px;
+    padding: 10px 35px;
+    border-radius: 25px;
+    font-family: "Geometos";
+}
+.cancelar_input_motivo,
+.cancelar_input_motivo:focus,
+.__justificaciondeclinarventa,
+.__justificaciondeclinarventa:focus,
+.reclamo_input_motivo,
+.reclamo_input_motivo:focus,
+.compras_adjuntar_comprobante_description,
+.compras_adjuntar_comprobante_description:focus,
+.__descripcalificarcomprador,
+.__descripcalificarcomprador:focus {
+    color: #151a30;
+    font-size: 13px;
+    box-shadow: none;
+    border-radius: 0px;
+    background-color: #ebebeb;
+}
+.ul-recep {
+    list-style: none;
+}
+.ul-recep h5 {
+    font-size: 15px;
+    color: #eb4454;
+}
+.ul-recep p,
+.ul-recep a {
+    font-size: 14px;
+    color: #707070;
+    text-align: center;
+}
+.compras__timeline__descripcion {
+    max-height: 250px;
+}
+
+/* -------------------------------------- Medias responsives -------------------------------------- */
+@media (max-width: 1130px) {
+    .row-cards {
+        width: 90%;
+    }
+    .content-card .card1 p {
+        font-size: 13.3px;
+    }
+}
+
+@media (max-width: 992px) {
+    .banner-tickets {
+        background-size: cover;
+    }
+    .row-cards {
+        width: 100%;
+        padding: 30px 0 !important;
+    }
+    .content-title,
+    .content-title2 {
+        padding: 50px 0 0 0;
+    }
+    .title,
+    .title2,
+    .content-title p {
+        text-align: center;
+    }
+}
+
+@media (max-width: 767px) {
+    .content-card {
+        width: 85%;
+        margin-top: 50px;
+    }
+    .row-cards {
+        padding: 0 !important;
+    }
+    .franja-blue {
+        height: 140px;
+    }
+    .content-title,
+    .content-title2 {
+        padding: 50px 130px 0;
+    }
+    .content-card .card1 {
+        height: 210px;
+    }
+}
+
+@media (max-width: 600px) {
+    .content-title,
+    .content-title2 {
+        padding: 50px 20px 0;
+    }
+    .content-title p {
+        font-size: 14px;
+    }
+    .content-card .card1 p {
+        font-size: 14px;
+    }
+}

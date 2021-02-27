@@ -1,0 +1,270 @@
+.content_custom_container{
+  padding: 70px 100px;
+  background-color: #ebebeb;
+}
+.titulo_modal_confirmacion{
+  margin-top: 20px;
+  text-align: center;
+}
+.queja_titulo{
+  color:#232A85;
+  font-family: "Poppins";
+}
+.row-info-detalles{
+  margin-bottom: 30px;
+}
+.editar-historial-support{
+  width: 70%;
+}
+.row-info-detalles input,
+.row-info-detalles textarea{
+  box-shadow: none;
+  font-size: 14px;
+  resize: none;
+  border: none;
+  color: #151a30;
+  text-align: center;
+  margin: 0 auto 10px;
+  border-radius: 0px;
+  background-color: transparent;
+  font-family: "Poppins-normal";
+  border-bottom: 1px solid #232a85!important;
+}
+.row-info-detalles .form-control:disabled,
+.row-info-detalles .form-control[readonly]{
+  cursor: not-allowed;
+  border: 1px solid #232a85!important;
+}
+.row-info-detalles p{
+  margin: 30px 0 7px;
+  font-size: 15px;
+  color: #232a85;
+  text-align: center;
+  font-family: "Poppins";
+}
+.campo-respuesta{
+  background-color: #e9ecef!important;
+  border: 1px solid #232a85!important;
+}
+.row-info-detalles span{
+  color:  #1464e1;
+  font-family: "Poppins";
+}
+
+h1, h3, h4, h6 {
+  font-family: "Poppins";
+  color: #232A85;
+}
+
+#titulo{
+  font-family: "Poppins";
+  color: #232A85;
+}
+
+#mensaje{
+  font-family: "Poppins";
+  color: #232A85;
+}
+
+.editar-contenido{
+  color: #232A85;
+}
+
+.my-2{
+  color: #232A85;
+  font-family: "Poppins";
+}
+
+.textarea {
+  resize: none;
+  width: 100%;
+  height: 170px !important;
+}
+
+.btn-ver-support {
+  background-color: #ff2544 !important;
+  color: #fff !important;
+  border: none;
+  width: 260px;
+  border-radius: 31px;
+  font-size: 12px !important;
+  padding: 15px 30px !important;
+  margin: 8.5px 16px 0 0px;
+  font-family: "Poppins";
+  white-space: nowrap;
+}
+
+.btn-ver-support:focus,
+.btn-ver-support:active,
+.btn-ver-support:active:focus.btn-ver-support:hover {
+  outline: none;
+}
+.btn-ver-support img {
+  width: 18px;
+  object-fit: contain;
+  vertical-align: bottom;
+}
+
+#listaSoporte {
+  height: 450px;
+  padding: 30px;
+  overflow: auto;
+  background-color: #fff;
+}
+
+#listaSoporte div.row-edit-tickets-2 {
+  padding: 10px;
+}
+#listaSoporte div.row-edit-tickets-2:nth-child(even){
+  background-color: rgb(112 112 112 / 0.2);
+}
+
+#listaSoporte div.row-edit-tickets-2 div.col-sm-3 {
+  text-align: right;
+}
+
+.btn-ver-support-view-more {
+  background-color: #232A85;
+  color:white !important;
+  border: none;
+  width: 100%;
+  border-radius: 31px;
+  font-size: 12px !important;
+  padding: 12px 0 !important;
+  font-family: "Poppins";
+  white-space: nowrap;
+}
+
+.btn-ver-support-view-more:focus,
+.btn-ver-support-view-more:active,
+.btn-ver-support-view-more:active:focus.btn-ver-support-view-more:hover {
+  outline: none;
+}
+
+.color-edit-label-support{
+  width: 70%;
+  margin-top: 40px;
+  padding: 50px 40px;
+  background-color: rgb(112 112 112 / 0.2);
+}
+.color-edit-label-support input,
+.color-edit-label-support textarea{
+  width: 100%;
+  border: none;
+  resize: none;
+  padding: 10px;
+  font-size: 13px;
+  color: #151a30;
+  border-radius: 0px;
+  margin-bottom: 40px;
+  font-family: "Poppins";
+}
+.color-edit-label-support input:focus,
+.color-edit-label-support textarea:focus{
+  outline: 0px;
+  box-shadow: none;
+}
+.row-edit-tickets-2 {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+.imagen-1-support h6 {
+  font-size: 10px;
+  margin: 0;
+  color: #EB4454;
+  text-align: left;
+}
+.imagen-1-support p:nth-child(2) {
+  font-size: 20px;
+  text-align: left;
+  font-weight: bold;
+  margin: 3px 0 5px;
+}
+.imagen-1-support p:nth-child(3) {
+  font-size: 10px;
+  margin: 0!important;
+  text-align: left;
+  color: #707070;
+}
+.row-edit-tickets-2 div {
+  text-align: left;
+}
+
+#cuerpo1 tr td:first-child,
+#cuerpo3 tr td:first-child,
+#cuerpo2 tr td:first-child {
+  
+  text-align: left;
+  padding-left: 12px !important;
+}
+
+
+#listaSoporte .contec-no-registro{
+  padding-top: 16px;
+}
+
+.titulo-resume-ganancias h2{
+  color: #EB4454;
+  font-family: "Poppins";
+}
+
+.titulo-resume-ganancias h5{
+  font-size: 14px;
+  text-align: left;
+  color: #707070;
+  margin-bottom: 20px;
+  font-family: "Poppins";
+}
+
+
+
+
+
+
+@media (max-width: 1130px) { 
+  .color-edit-label-support,
+  .editar-historial-support{
+    width: 85%;
+  }
+}
+
+@media (max-width: 991px) { 
+  .color-edit-label-support,
+  .editar-historial-support{
+    width: 100%;
+  }
+  .content_custom_container{
+    padding: 70px 30px;
+  }
+}
+
+@media (max-width: 767px) { 
+  .btn-ver-support{
+    width: 100%;
+    margin-bottom: 15px;
+  }
+}
+
+@media (max-width: 575px) {
+  #listaSoporte{
+    padding: 16px 0;
+  }
+  .row-edit-tickets-2 div {
+    text-align: center;
+  }
+  .btn-ver-support {
+    width: 100%;
+    margin-bottom: 16px;
+  }
+  .content_custom_container{
+    padding: 50px 25px 70px;
+  }
+  .color-edit-label-support{
+    padding: 30px 10px 20px;
+  }
+  .titulo-resume-ganancias h2{
+    font-size: 27px;
+  }
+}

@@ -1,0 +1,808 @@
+/* Nav pills */
+.col-list-nav{
+    padding: 30px 7px;
+    background-color: rgba(235, 235, 235, 0.6);
+}
+.nav-pills .nav-link{
+    font-size: 13.5px;
+    color: #232A85;
+    text-align: left;
+    padding: 10px 3px;
+    font-family: "Poppins";
+    text-transform: capitalize;
+}
+.nav-pills .nav-link img{
+    width: 30px;
+}
+.nav-pills .nav-link.active{
+    color: #EB4454;
+    background-color: transparent;
+}
+.icon-down-responsive{
+    display: none;
+}
+
+/* Sesiones */
+.tab-pane{
+    padding: 0px 35px;
+}
+.title-section{
+    margin: 40px 0 0;
+    color: #232A85;
+    text-align: left;
+    font-family: "Poppins";
+}
+.row-card-wallets{
+    margin: 30px 0 0;
+    padding: 25px 13px;
+    align-items: baseline;
+    background-color: #F0F0F0;
+}
+.row-card-wallets h2{
+    margin: 0 0 35px;
+    color: #040589;
+    text-align: left;
+    font-family: "Poppins";
+}
+.row-card-wallets p {
+    margin: 0;
+    font-size: 14px;
+    color: #040589;
+    text-align: left;
+}
+.row-card-wallets p img{
+    width: 23px;
+    vertical-align: bottom;
+}
+.row-card-wallets h6 {
+    margin: 0;
+    color: #040589;
+    text-align: right;
+    font-family: "Geometos";
+}
+.row-card-wallets span {
+    font-size: 11px;
+    vertical-align: middle;
+}
+.row-btn{
+    margin-top: 8px;
+    padding-top: 20px;
+    border-top: 1px solid #040589;
+}
+.row-btn button{
+    width: 100%;
+    border: none;
+    padding: 10px;
+    color: #fff;
+    font-size: 12px;
+    border-radius: 25px;
+    font-family: "Geometos";
+    background-color: #005FFF;
+}
+.row-btn .btn2{
+    background-color: #FF103D;
+}
+
+/* Transacciones */
+.div-select {
+    display: flex;
+    padding: 7px 20px;
+    width: fit-content;
+    margin: 20px 0 30px;
+    margin-right: auto;
+    border-radius: 25px;
+    align-items: center;
+    justify-content: left;
+    background-color: rgba(231, 231, 231, 0.4);
+}
+.div-select:not(.input-group)>.bootstrap-select.form-control:not([class*=col-]){
+    padding: 0 13px;
+    width: fit-content;
+    background-color: transparent;
+}
+.div-select .bootstrap-select>.dropdown-toggle{
+    border: none;
+    width: fit-content;
+    margin-right: auto;
+    display: block!important;
+    background-color: transparent;
+}
+.btn-light:not(:disabled):not(.disabled).active:focus, .btn-light:not(:disabled):not(.disabled):active:focus, .show>.btn-light.dropdown-toggle:focus,
+.bootstrap-select .dropdown-toggle .filter-option-inner-inner:focus,
+.bootstrap-select .dropdown-toggle:focus, .bootstrap-select>select.mobile-device:focus+.dropdown-toggle{
+    outline: 0px!important;
+    box-shadow: none!important;
+    background-color: transparent;
+}
+.div-select .bootstrap-select .dropdown-toggle .filter-option-inner-inner{
+    color: #040C89;
+    font-size: 14px;
+    font-family: "Poppins";
+}
+.div-select .dropdown-menu {
+    z-index: 99;
+    min-width: 100%;
+    border-radius: 20px;
+    border: 2px solid #232a85;
+    padding: 5px 0px!important;
+}
+.div-select .dropdown-item {
+    padding: 5px 15px;
+    font-size: 12px;
+    cursor: pointer;
+    color: #232a85;
+    white-space: normal;
+    text-align: left;
+    font-family: "Poppins";
+}
+.div-select p {
+    margin: 0;
+    font-size: 14px;
+    color: #040C89;
+    margin-right: 15px;
+    padding-right: 50px;
+    font-family: "Poppins";
+    border-right: 1px solid #040C89;
+}
+.div-select img {
+    width: 25px;
+    height: 25px;
+    margin-top: -5px;
+    vertical-align: middle;
+}
+.div-select select {
+    padding: 0;
+    width: auto;
+    height: 30px;
+    border: none;
+    margin: 0 20px;
+    cursor: pointer;
+    font-size: 14px;
+    color: #040C89;
+    border-radius: 0px;
+    font-family: "Poppins";
+    background-color: transparent;
+}
+.div-select select:focus,
+.div-select select:active{
+    outline: 0px;
+    color: #040C89;
+    box-shadow: none;
+    background-color: transparent;
+}
+.div-select select option {
+    color: #070926;
+    font-size: 13px;
+}
+.grouo-fecha .input-group-text{
+    border: none;
+    color: #040589;
+    font-size: 15px;
+    background-color: transparent;
+}
+.grouo-fecha input{
+    border: none;
+    height: 40px;
+    font-size: 15px;
+    cursor: pointer;
+    color: #040589;
+    max-width: 170px;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: #F5F5F5;
+    border-radius: 25px!important;
+}
+.grouo-fecha input:focus,
+.grouo-fecha input:active{
+    border: none;
+    color: #040589;
+    outline: 0px;
+    box-shadow: none;
+    background-color: #F5F5F5;
+}
+input[type=date]::-webkit-calendar-picker-indicator {
+    margin-left: -30px;
+}
+.btnlimpiar {
+    height: 40px;
+    border: none;
+    color: #fff;
+    display: block;
+    font-size: 12px;
+    padding: 10px 50px;
+    margin-left: auto;
+    border-radius: 25px;
+    font-family: "Geometos";
+    background-color: #FF103D;
+}
+
+.responsive-table1 {
+    max-height: 310px;
+    overflow: auto;
+    margin-top: 30px;
+}
+.table-transacciones{
+    margin: 0;
+}
+.table-transacciones thead th {
+    top: 0;
+    border: none;
+    font-size: 15px;
+    position: sticky;
+    color: #040589;
+    padding: 0px 8px 15px;
+    text-align: center;
+    font-weight: normal;
+    font-family: "Poppins";
+    background-color: #fff;
+}
+.table-transacciones tbody td {
+    border: none;
+    padding: 10px 5px;
+    font-size: 15px;
+    color: #040589;
+    text-align: center;
+    cursor: default;
+    vertical-align: middle;
+}
+.table-transacciones tbody td{
+    border-bottom: 1px solid #040589;
+}
+.table-transacciones tbody td b{
+    font-size: 17px;
+    font-family: "Geometos";
+}
+.table-transacciones tbody td img{
+    width: 25px;
+    margin-top: -4px;
+}
+.div-select02{
+    width: 100%;
+    border-radius: 0px;
+    background-color: rgba(219, 219, 219, 0.4);
+}
+.row-recarga{
+    padding: 10px 0px;
+    align-items: flex-end;
+    background-color: #040589;
+}
+.row-recarga .btc{
+    width: 25px;
+}
+.row-recarga .text1,
+.row-recarga .text2{
+    margin: 0;
+    color: #fff;
+    font-size: 15px;
+    font-family: "Poppins";
+}
+.text1{
+    text-align: left;
+}
+.text2{
+    text-align: right;
+}
+.row-secund{
+    padding: 20px 5px;
+    align-items: flex-end;
+    background-color: #F1F1F1;
+}
+.row-secund b{
+    font-family: "Poppins";
+}
+.textqr{
+    margin: 0;
+    font-size: 15px;
+    color: #040589;
+    text-align: left;
+    line-height: 1;
+}
+.textqr img{
+    width: 30px;
+    cursor: pointer;
+}
+.QR{
+    width: 100%;
+    display: block; 
+    margin-right: auto;
+    margin-bottom: -5px;
+}
+
+
+/* Transferencias */
+.row-form{
+    margin-top: 30px;
+}
+.labelgray{
+    margin: 0;
+    font-size: 15px;
+    color: #707070;
+    text-align: left;
+}
+.text-pago{
+    margin: 15px 0 20px;
+    font-size: 13px;
+    color: #232A85;
+    text-align: left;
+    font-family: "Poppins";
+}
+.text-pago span{
+    margin-right: 10px;
+}
+.text-pago img{
+    width: 32px;
+}
+.text-pago input{
+    margin-left: 3px;
+    vertical-align: middle;
+}
+.label-form-sect{
+    margin: 0;
+    font-size: 14px;
+    color: #232A85;
+    text-align: left;
+    font-family: "Poppins";
+}
+.label-text{
+    margin: 10px 0 5px;
+    font-size: 14px;
+    color: #151A30;
+    text-align: left;
+}
+.inputs{
+    height: 45px;
+    width: 100%;
+    border: none;
+    resize: none;
+    color: #151A30;
+    font-size: 13px;
+    padding: 0 8px;
+    border-radius: 0px;
+    margin-bottom: 20px;
+    font-family: "Poppins";
+    background-color: #DBDBDB;
+}
+.inputs:focus{
+    outline: 0px;
+    color: #151A30;
+    box-shadow: none;
+    background-color: #DBDBDB;
+}
+.btningresar{
+    border: none;
+    color: #fff;
+    display: block;
+    font-size: 12px;
+    margin-top: 15px;
+    padding: 15px 50px;
+    margin-right: auto;
+    margin-bottom: 30px;
+    border-radius: 25px;
+    font-family: "Geometos";
+    background-color: #005FFF;
+}
+
+
+/* Metodos de pago para recargar */
+.wallet-title-header {
+    height: 120px;
+}
+.wallet-saldo_bonos_content {
+    display: flex;
+    text-align: center !important;
+    vertical-align: center !important;
+    transition: 200ms;
+    align-items: baseline;
+}
+.wallet-saldo_bonos {
+    font-size: 1rem !important;
+    font-weight: 500;
+    line-height: 1.2;
+    font-family: Open San,sans-serif;
+    width: 110px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    margin: 0;
+    color: #040589;
+    font-family: "Geometos";
+    transition: 200ms;
+}
+.wallet-saldo_bonos_divisa {
+    font-size: 11px !important;
+    font-weight: 500;
+    line-height: 1.2;
+    font-family: Open San,sans-serif;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    margin: 0;
+    color: #040589;
+    font-family: "Geometos";
+    transition: 200ms;
+    text-decoration: underline;
+}
+.wallet-img_bonos {
+    height: 24px;
+    margin-top: -7px !important;
+    transition: 200ms;
+}
+.icon-option-pay-2 {
+    height: 90px;
+    margin-top: 10px;
+    transition: 200ms;
+}
+.icon-option-pay {
+    height: 100px;
+    transition: 200ms;
+}
+
+
+/* Recargas NASBI */
+.recarga-nasbi .col-sm-11,
+.recarga-nasbi .col-sm-5,
+.recarga-nasbi .col-sm-6 {
+    padding-left: 16px;
+    padding-right: 16px;
+    transition: 200s;
+}
+
+.titulo-dashboard h5 {
+    font-family: "Poppins-Bold";
+    font-size: 14px;
+    transition: 200s;
+}
+.container-select-nasbi {
+    padding: 5px;
+    display: flex;
+    margin-top: 20px;
+    width: 100%;
+    align-items: center;
+    background-color: #dbdbdb;
+    transition: 200s;
+}
+.contain-selct02-nasbi.nasbipago p {
+    margin: 0;
+    width: 45%;
+    text-align: center;
+    text-align-last: center;
+    transition: 200s;
+}
+.container-select-nasbi p {
+    cursor: default;
+    font-size: 15px;
+    color: #151a30;
+    border-radius: 0px;
+    transition: 200s;
+}
+
+.contain-selct02-nasbi.nasbipago select {
+    margin: 0;
+    width: 65% !important;
+    text-align: center;
+    text-align-last: center;
+    text-indent: 0px !important;
+    transition: 200s;
+}
+.container-select-nasbi select,
+.container-select-nasbi input {
+    padding: 0 25px;
+    color: #151a30;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 0px;
+    border-right: none;
+    border-bottom: none;
+    border-top: transparent;
+    background-color: transparent;
+    border-left: 1px solid #707070;
+    transition: 200s;
+}
+.paddingright .contain-selct02-nasbi input,
+.nopaddingright .contain-selct02-nasbi input {
+    margin: 0;
+    width: 100%;
+    border-left: 0px;
+    text-align: center;
+    text-align-last: center;
+    transition: 200s;
+}
+.recargas-nasbi {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    transition: 200s;
+}
+.recargas-nasbi p {
+    font-size: 14px;
+    color: #707070;
+    text-align: center;
+    transition: 200s;
+}
+.wallet-sub-titles {
+    font-size: 14px;
+    color: #707070;
+    text-align: center;
+    transition: 200s;
+}
+
+
+.btn-transferir-nasbi {
+    margin-top: 20px;
+    border: none;
+    color: #fff;
+    font-size: 12px;
+    padding: 10px 40px;
+    border-radius: 25px;
+    background-color: #0c0f3d;
+    font-family: "Geometos";
+    text-transform: capitalize;
+    transition: 200s;
+}
+.flotantes {
+    background: #dbdbdb !important;
+    border-left: 1px solid #707070 !important;
+    width: 50% !important;
+    transition: 200s;
+}
+.wallets__recarga__img {
+    height: 30px;
+    transition: 200s;
+}
+.div-select .categorias__navbar .filter-option, .categorias__navbar .filter-option:focus, .categorias__navbar .filter-option:active, .bootstrap-select > .dropdown-toggle:after{
+    color: #040C89!important;
+}
+.row-selects-direridos{
+    margin: 10px 0 30px;
+}
+.row-selects-direridos .div-select{
+    width: 100%;
+}
+.row-selects-direridos .div-select p{
+    padding-right: 30px;
+}
+.selectsTrsnss p{
+    padding-right: 13px!important;
+}
+.dif_blo__pagination{
+    margin-top: 20px;
+}
+.dif_blo__pagination .col-12{
+    padding: 0;
+}
+.contn-entrega button {
+    border: none;
+    width: auto;
+    color: #fff;
+    font-size: 12px;
+    margin: 0 10px;
+    padding: 10px 35px;
+    border-radius: 25px;
+    font-family: "Geometos";
+}
+.row-rcrgr img{
+    width: 130px;
+    height: 130px;
+    object-fit: contain;
+    margin: 0!important;
+    box-shadow: 0px 0px 5px 0px #b6b6b6;
+}
+.row-rcrgr p{
+    margin: 10px 0 0!important;
+}
+
+
+
+
+/* -------------------------------- Medias Responsives -------------------------------- */
+@media (max-width: 1130px){
+    .tab-pane {
+        padding: 0px 15px;
+    }
+    .nav-pills .nav-link{
+        padding: 15px 0;
+        font-size: 13px;
+    }
+    .row-card-wallets h6{
+        font-size: 14px;
+    }
+    .row-card-wallets{
+        align-items: flex-end;
+    }
+    .row-card-wallets p{
+        display: grid;
+        font-size: 12px;
+    }
+    .row-btn button{
+        padding: 8px;
+        font-size: 11px;
+    }
+}
+
+
+@media (max-width: 992px){
+    .nav-pills .nav-link{
+        width: 85%;
+        padding: 20px 0;
+    }
+    .col-list-nav{
+        z-index: 9999;
+        left: -215px;
+        width: 250px;
+        height: 239px;
+        transition: 1s;
+        position: fixed;
+        background-size: 100% 100%;
+        padding: 15px 0px 15px 15px;
+        background-color: transparent;
+        background-image: url('../imagen/nav-lateral.png');
+    }
+    .col-list-nav:hover {
+        left: 0;
+    }
+    .icon-down-responsive{
+        bottom: 0;
+        left: auto;
+        top: 111px;
+        right: 13px;
+        display: block;
+        font-size: 15px;
+        color: #232A85;
+        position: absolute;
+        text-align: center;
+    }
+    .col-list-nav .fa-chevron-left{
+        display: none;
+        margin-top: 5px;
+    }
+    .col-list-nav:hover .fa-chevron-left {
+        display: block;
+    }
+    .col-list-nav:hover .fa-chevron-right {
+        display: none;
+    }
+    .row-card-wallets h6{
+        direction: rtl;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+    }
+    .table-transacciones{
+        width: 800px;
+    }
+    .div-table-diferido .table{
+        width: 1000px;
+        overflow-x: auto;
+    }
+    .descrip-tablee{
+        width: 400px;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+    }
+}
+
+
+@media (max-width: 767px){
+    .row-card-wallets h2{
+        font-size: 28px;
+    }
+    .label-text{
+        margin: 0px 0 5px;
+    }
+    .label001{
+        margin-top: 20px;
+    }
+}
+
+
+@media (max-width: 575px){
+    .title-section{
+        font-size: 25px;
+        text-align: center;
+    }
+    .div-select{
+        width: 100%;
+        display: block;
+        padding: 0 15px;
+        justify-content: center;
+        background-color: transparent;
+    }
+    .grouo-fecha{
+        margin: auto;
+        padding: 5px 0;
+        display: block;
+        justify-content: center;
+    }
+    .div-select p{
+        border: none;
+        font-size: 13px;
+        margin-right: 0px;
+        padding-right: 0;
+        text-align: left;
+    }
+    .div-select .bootstrap-select .dropdown-toggle .filter-option-inner-inner{
+        width: 100%;
+        text-align: left;
+    }
+    .div-select .bootstrap-select>.dropdown-toggle{
+        width: 100%;
+    }
+    .div-select:not(.input-group)>.bootstrap-select.form-control:not([class*=col-]){
+        width: 100%;
+        margin-top: 10px;
+        border-radius: 25px;
+        padding: 3px 15px 2px 2px;
+        background-color: rgba(231, 231, 231, 0.4);
+    }
+    .grouo-fecha input{
+        min-width: 100%!important;
+    }
+    .grouo-fecha .input-group-text{
+        padding: 6px 0;
+    }
+    .div-select select{
+        font-size: 13px;
+        margin: 0 5px;
+    }
+    .QR {
+        width: 90px;
+        margin: auto;
+        display: block;
+        margin-bottom: 5px;
+    }
+    .row-recarga .text1, 
+    .row-recarga .text2,
+    .textqr{
+        text-align: center;
+    }
+    .text-pago span{
+        display: block;
+    }
+    .btningresar{
+        width: 100%;
+    }
+    .btnlimpiar{
+        width: 100%;
+        margin: 20px 0 0;
+    }
+    #ref-recargas .div-select select{
+        width: 100%;
+        height: 40px;
+        margin-top: 15px;
+        text-align: center;
+        border-radius: 25px;
+        text-align-last: center;
+        background-color: rgba(231, 231, 231, 0.4);
+    }
+    
+
+    .recarga-nasbi .col-sm-11,
+    .recarga-nasbi .col-sm-5,
+    .recarga-nasbi .col-sm-6 {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+    .nasbipago {
+        margin-left: 15px;
+    }
+    .nasbipago.nasbipago > p {
+        font-size: 7px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .contain-selct02-nasbi.nasbipago select {
+        font-size: 12px;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    .paddingright .contain-selct02-nasbi input,
+    .nopaddingright .contain-selct02-nasbi input {
+        font-size: 12px;
+    }
+    .row-selects-direridos .div-select{
+        padding: 0;
+        margin: 20px 0 0px;
+    }
+}

@@ -1,0 +1,535 @@
+.row-carousel {
+    transition: 200ms;
+    align-items: center;
+}
+.container-text-carousel {
+    transition: 200ms;
+    margin-top: 160px;
+    position: absolute;
+    padding-left: 60px;
+    /* padding: 110px 0 60px 60px; */
+}
+.container-text-carousel h1 {
+    line-height: 1;
+    color: #ffffff;
+    text-align: left;
+    font-size: 36px;
+    font-family: "Geometos";
+    transition: 200ms;
+}
+.container-text-carousel p {
+    margin: 0;
+    font-size: 15px;
+    line-height: 1.2;
+    color: #0c0f3d;
+    text-align: left;
+    transition: 200ms;
+}
+.container-text-carousel button {
+    width: max-content;
+    height: 42px;
+    border: none;
+    color: #fff;
+    display: block;
+    font-size: 11px;
+    transition: 200ms;
+    margin-right: auto;
+    padding: 14px 30px;
+    border-radius: 25px;
+    font-family: "Geometos";
+    border-color: #005fff;
+    background-color: #005fff;
+}
+.container-text-carousel a:hover {
+    text-decoration: none;
+}
+#carousel-banner .owl-prev {
+    top: 22%;
+    left: 47%;
+    color: #1464e1;
+    position: absolute;
+    font-size: 90px !important;
+    transition: 200ms;
+}
+#carousel-banner .owl-next {
+    top: 22%;
+    right: 2%;
+    color: #1464e1;
+    position: absolute;
+    font-size: 90px !important;
+    transition: 200ms;
+}
+.franja-info {
+    color: #fff;
+    font-size: 15px;
+    text-align: left;
+    transition: 200ms;
+    padding: 10px 75px;
+    font-family: "Poppins";
+    background-color: #1464e1;
+}
+
+/* Carousel Categorias */
+.conatiner-categorias {
+    width: 95%;
+    display: flex;
+    margin: 30px 0;
+    align-items: center;
+    justify-content: center;
+}
+.go-filter-producto {
+    width: 12.5%;
+    cursor: pointer;
+    transition: 200ms;
+    transition: transform 0.2s;
+}
+.go-filter-producto:hover {
+    transition: 200ms;
+    transform: scale(1.03);
+}
+.conatiner-categorias h5 {
+    margin: 8px 0 0;
+    font-size: 13px;
+    color: #3474fc;
+    transition: 200ms;
+    text-align: center;
+    font-family: "Poppins";
+}
+
+/* Carousel Destacados */
+.row-container-destacado {
+    /* margin-top: 20px; */
+    padding: 20px 15px;
+    transition: 200ms;
+}
+.row-container-destacado:hover {
+    cursor: pointer;
+    transition: 200ms;
+    border-radius: 50px;
+    background-color: #ff103d;
+}
+.row-container-destacado a:hover {
+    text-decoration: none;
+}
+.row-container-destacado:hover p,
+.row-container-destacado:hover p span,
+.row-container-destacado:hover h4 {
+    color: #fff;
+    transition: 200ms;
+}
+
+.container-destacado .imagen-destacados {
+    width: 150px;
+    height: 130px;
+    max-width: 150px;
+    min-width: 150px;
+    max-height: 130px;
+    min-height: 130px;
+    border-radius: 3px;
+    vertical-align: middle;
+    transition: 200ms;
+    /* box-shadow: 0px 0px 5px 0px rgba(232,232,232,1);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(232,232,232,1);
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(232,232,232,1); */
+}
+.imagen-destacados {
+    width: 150px;
+    height: 130px;
+    max-width: 150px;
+    max-height: 130px;
+    background: #fff;
+    object-fit: contain;
+    transition: 200ms;
+}
+.nombre-producto {
+    height: 53px;
+    font-size: 15px;
+    margin: 12px 0 0;
+    color: #3474fc;
+    overflow: hidden;
+    text-align: center;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    font-family: "Poppins";
+    text-overflow: ellipsis;
+    -webkit-box-orient: vertical;
+    transition: 200ms;
+}
+.descuento {
+    margin: 3px 0 0;
+    font-size: 16px;
+    color: #ff103d;
+    transition: 200ms;
+}
+.descuento span {
+    font-size: 14px;
+    color: #999999;
+    text-decoration: line-through;
+    transition: 200ms;
+}
+.price-product {
+    font-size: 16px;
+    margin: 3px 0 0;
+    color: #808080;
+    text-align: center;
+    font-family: "Poppins";
+    transition: 200ms;
+}
+.descripcion-product {
+    height: 55px;
+    font-size: 12px;
+    margin: 3px 0 0;
+    color: #0c0f3d;
+    overflow: hidden;
+    text-align: center;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    text-overflow: ellipsis;
+    -webkit-box-orient: vertical;
+    transition: 200ms;
+}
+.btn-comprar {
+    width: 90%;
+    height: 40px;
+    padding: 5px;
+    border: none;
+    color: #fff;
+    font-size: 12px;
+    margin: 10px 0 0;
+    transition: 200ms;
+    border-radius: 25px;
+    font-family: "Geometos";
+    text-transform: uppercase;
+    background-color: #6b23ce;
+}
+
+/* Banners Shop y Buy */
+.containers-banner {
+    height: 345px;
+    padding: 60px 70px;
+    transition: 200ms;
+}
+.containers-banner h1 {
+    color: #fff;
+    line-height: 1;
+    font-size: 37px;
+    margin: 0 0 15px;
+    text-align: left;
+    font-family: "Geometos";
+    transition: 200ms;
+}
+.containers-banner p {
+    color: #fff;
+    font-size: 15px;
+    text-align: left;
+    transition: 200ms;
+}
+.containers-banner button {
+    height: 40px;
+    border: none;
+    color: #fff;
+    display: block;
+    font-size: 12px;
+    padding: 10px 40px;
+    margin-right: auto;
+    border-radius: 25px;
+    font-family: "Geometos";
+    text-transform: uppercase;
+    background-color: #1464e1;
+    transition: 200ms;
+}
+.containers-banner a:hover {
+    text-decoration: none;
+    transition: 200ms;
+}
+.btn-shop {
+    background-color: #3474fc !important;
+    transition: 200ms;
+}
+.banner-buy ._trans236 {
+    background-color: #5e16be;
+}
+.banner-shop {
+    background-size: cover;
+    background-image: url("../imagen/Crear-empresa.jpg");
+    transition: 200ms;
+}
+.banner-buy {
+    background-size: cover;
+    background-image: url("../imagen/Adquiere-tickests.png");
+    transition: 200ms;
+}
+.logo-banners {
+    width: 150px;
+    display: block;
+    margin-right: auto;
+    margin-bottom: 17px;
+    transition: 200ms;
+    object-fit: none;
+}
+.logo-banners2 {
+    width: 100px;
+    display: block;
+    margin-right: auto;
+    margin-bottom: 25px;
+    transition: 200ms;
+    object-fit: none;
+}
+
+.row-fondos {
+    padding: 20px 0 50px;
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url("../imagen/vender/fondo-pasos.png");
+}
+.title-section {
+    margin: 40px 0 0;
+    color: #232a85;
+    text-align: center;
+    font-family: "Poppins";
+}
+.desc-section {
+    font-size: 15px;
+    color: #232a85;
+    text-align: center;
+}
+.container-cat {
+    display: flex;
+    justify-content: center;
+}
+.button-siguiente {
+    border: none;
+    margin: auto;
+    color: #fff;
+    display: block;
+    font-size: 13px;
+    padding: 13px 70px;
+    margin-bottom: 10px;
+    border-radius: 25px;
+    font-family: "Geometos";
+    background-color: #1464e1;
+}
+
+.menu_auth__username {
+    text-transform: capitalize !important;
+}
+
+.container-chat-f {
+    right: 35px;
+    z-index: 999;
+    bottom: 60px;
+    display: flex;
+    color: #fff;
+    font-size: 10px;
+    width: max-content;
+    position: relative;
+    position: fixed;
+    align-items: center;
+    border-radius: 10px;
+    justify-content: center;
+    font-family: "Geometos";
+    background-color: #1464e1;
+}
+.container-chat-f a,
+.container-chat-f a:hover {
+    font-family: "Geometos";
+    color: #fff;
+    text-decoration: none;
+}
+.container-chat-f:after {
+    width: 0;
+    height: 0;
+    top: auto;
+    right: 0px;
+    left: auto;
+    content: "";
+    bottom: -14px;
+    position: absolute;
+    border: 15px solid;
+    border-color: transparent #1464e1 transparent transparent;
+}
+.container-chat-f .card1 {
+    padding: 15px 20px;
+    margin-right: 20px;
+    padding-right: 20px;
+    border-right-style: dotted;
+}
+.container-chat-f .card2 {
+    padding: 0px 15px 0 0;
+}
+.container-chat-f .card2 .icon-web {
+    width: 23px;
+    margin-top: -4px;
+    margin-left: 5px;
+}
+.container-chat-f .icon-responsive {
+    display: none;
+}
+
+/* -------------------------------------- Medias Responsive -------------------------------------- */
+@media (max-width: 1130px) {
+    .container-text-carousel {
+        padding: 25px;
+        bottom: 25px;
+        transition: 200ms;
+    }
+    .container-text-carousel h1 {
+        font-size: 37px;
+        transition: 200ms;
+    }
+    .containers-banner {
+        height: 300px;
+        padding: 30px;
+        transition: 200ms;
+    }
+    .go-filter-producto img {
+        width: 115px !important;
+        object-fit: contain;
+    }
+    .conatiner-categorias {
+        width: 100%;
+    }
+}
+
+@media (max-width: 991px) {
+    .container-text-carousel h1,
+    .container-text-carousel p {
+        text-align: center;
+        transition: 200ms;
+    }
+    .container-text-carousel p {
+        margin: 10px 0;
+    }
+    .container-text-carousel {
+        width: 100%;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    .container-text-carousel button {
+        margin: auto;
+        transition: 200ms;
+    }
+    .container-text-carousel br {
+        display: none;
+        transition: 200ms;
+    }
+    #carousel-banner .owl-prev {
+        left: 3%;
+        top: 55%;
+        transition: 200ms;
+    }
+    #carousel-banner .owl-next {
+        right: 3%;
+        top: 55%;
+        transition: 200ms;
+    }
+    .conatiner-categorias {
+        display: inherit;
+    }
+    .go-filter-producto {
+        width: auto;
+        margin: 20px;
+        display: inline-grid;
+    }
+}
+
+@media (max-width: 850px) {
+    .containers-banner h1 {
+        font-size: 30px;
+        transition: 200ms;
+    }
+}
+
+@media (max-width: 767px) {
+    .container-text-carousel {
+        padding: 0;
+        bottom: 0;
+        transition: 200ms;
+    }
+    .container-text-carousel button {
+        height: 32px;
+        font-size: 10px;
+        transition: 200ms;
+        margin: -5px auto 12px;
+        padding: 9px 30px;
+    }
+    .container-text-carousel h1 {
+        margin-bottom: 0;
+        margin-top: 40px;
+        transition: 200ms;
+    }
+    #carousel-banner .owl-next,
+    #carousel-banner .owl-prev {
+        top: 60%;
+        transition: 200ms;
+    }
+    .franja-info {
+        padding: 10px;
+        text-align: center;
+        transition: 200ms;
+    }
+    .containers-banner h1 {
+        font-size: 37px;
+        transition: 200ms;
+    }
+    .containers-banner {
+        padding: 80px;
+        height: inherit;
+        transition: 200ms;
+        background-position: center;
+    }
+}
+
+@media (max-width: 575px) {
+    #carousel-banner .owl-next,
+    #carousel-banner .owl-prev {
+        top: 65%;
+        transition: 200ms;
+    }
+    .containers-banner button {
+        width: 100%;
+        padding: 12px 5px;
+    }
+    .go-filter-producto {
+        margin: 20px 15px;
+    }
+    .container-text-carousel h1 {
+        font-size: 16px;
+    }
+    .containers-banner {
+        padding: 25px;
+        transition: 200ms;
+    }
+    .containers-banner h1 {
+        font-size: 25px;
+        margin: 0 0 5px;
+        transition: 200ms;
+    }
+    .container-chat-f .card1,
+    .container-chat-f .card2 {
+        display: none;
+    }
+    .icon-responsive {
+        width: 34px;
+        display: block !important;
+    }
+    .container-chat-f:after {
+        display: none;
+    }
+    .container-chat-f {
+        width: 50px;
+        right: 30px;
+        height: 50px;
+        bottom: 30px;
+        padding: 10px;
+        cursor: pointer;
+        border-radius: 50%;
+        background-color: #00bb2d;
+    }
+}
+
+.bootstrap-select .dropdown-toggle:focus,
+.bootstrap-select > select.mobile-device:focus + .dropdown-toggle {
+    outline: 0px !important;
+}

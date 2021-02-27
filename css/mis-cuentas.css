@@ -1,0 +1,3895 @@
+/*css para modales de mis publicaciones*/
+.mtvr_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 120px;
+}
+.mtv_titulo{
+    color: #232a85;
+}
+
+.info-review{
+    padding-bottom: 50px;
+}
+/*fin css para modales de mis publicaciones*/
+
+/* Nav pills */
+.col-list-nav {
+    padding: 30px 10px;
+    background-color: rgba(235, 235, 235, 0.6);
+}
+.nav-pills .nav-link {
+    font-size: 14px;
+    color: #232a85;
+    text-align: left;
+    padding: 10px 8px;
+    font-family: "Poppins";
+    text-transform: capitalize;
+}
+.nav-pills .nav-link img {
+    width: 30px;
+}
+.nav-pills .nav-link.active {
+    color: #eb4454;
+    background-color: transparent;
+}
+.icon-down-responsive {
+    display: none;
+}
+#modal-compras-timeline-detalle-orden .titleModal{
+    margin: 25px 0 10px;
+}
+.compras__timeline__descripcion br{
+    display: none;
+}
+/* Sesiones */
+.tab-pane {
+    padding: 0px 35px;
+    background-color: #ebebeb;
+}
+.title-section {
+    margin: 40px 0 0;
+    color: #232a85;
+    text-align: left;
+    font-family: "Poppins";
+}
+
+/* Resumen */
+.row-info-one {
+    padding: 10px 0;
+    margin: 20px 0 0;
+    align-items: center;
+    border-radius: 50px;
+    background-color: #fff;
+}
+.row-info-one p {
+    margin: 0;
+    cursor: pointer;
+    font-size: 15px;
+    color: #232a85;
+    text-align: center;
+    position: relative;
+}
+.row-info-one p b {
+    position: relative;
+    font-family: "Poppins";
+}
+.row-info-one p .badge {
+    top: -2px;
+    right: -20px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 11px;
+    padding: 3px 6px;
+    position: absolute;
+    border-radius: 25px;
+    background-color: #ff103d;
+}
+.tooltip-resumen {
+    top: -45px;
+    left: -180px;
+    width: 280px;
+    margin: auto;
+    display: none;
+    color: #fff;
+    line-height: 1;
+    font-size: 12px;
+    text-align: center;
+    padding: 10px 20px;
+    position: absolute;
+    border-radius: 5px;
+    background-color: #000;
+}
+.tooltip-resumen:before {
+    width: 0;
+    left: 82%;
+    height: 0;
+    content: "";
+    bottom: -6px;
+    margin-left: -6px;
+    position: absolute;
+    border-top: 6px solid #000;
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+}
+.row-info-one p:hover .tooltip-resumen {
+    display: block;
+}
+
+.tooltip-resumen2 {
+    top: -45px;
+    left: -135px;
+    width: 260px;
+    margin: auto;
+    display: none;
+    color: #fff;
+    line-height: 1;
+    font-size: 12px;
+    text-align: center;
+    padding: 10px 20px;
+    position: absolute;
+    border-radius: 5px;
+    background-color: #000;
+}
+.tooltip-resumen2:before {
+    width: 0;
+    left: 82%;
+    height: 0;
+    content: "";
+    bottom: -6px;
+    margin-left: -6px;
+    position: absolute;
+    border-top: 6px solid #000;
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+}
+.row-info-one p:hover .tooltip-resumen2 {
+    display: block;
+}
+
+.img-list {
+    width: 60px;
+}
+.row-info-progress {
+    align-items: center;
+}
+.row-info-progress p {
+    margin: 0;
+    font-size: 14px;
+    text-align: left;
+    color: #232a85;
+}
+.row-info-progress p b {
+    margin-right: 10px;
+    font-family: "Poppins";
+}
+.row-info-progress .ver-mas {
+    margin: 0;
+    font-size: 13px;
+    color: #232a85;
+    text-align: right;
+    text-decoration: underline;
+}
+.progress-list {
+    width: 100%;
+    margin-top: 15px;
+    margin-right: auto;
+    border-radius: 25px;
+    background-color: #626262;
+}
+.progress-list div {
+    width: 75%;
+    height: 7px;
+    margin-right: auto;
+    border-radius: 10px;
+    background-color: #78cc2f;
+}
+.row-secund {
+    padding: 10px;
+    cursor: pointer;
+    margin: 25px 0 0;
+    align-items: center;
+    border-radius: 50px;
+    background-color: #fff;
+}
+.row-secund p {
+    margin: 0;
+    font-size: 14px;
+    text-align: left;
+    color: #232a85;
+}
+.row-secund p b {
+    font-family: "Poppins";
+}
+.elc:hover {
+    text-decoration: none;
+}
+.text-objetico {
+    width: 100%;
+    padding: 15px;
+    font-size: 15px;
+    line-height: 1.2;
+    margin: 15px 0 0;
+    color: #232a85;
+    text-align: left;
+    background: #fff;
+    border-radius: 25px;
+}
+.text-objetico img {
+    width: 25px;
+}
+.text-objetico b {
+    font-size: 14px;
+    color: #ff103d;
+    font-family: "Poppins";
+}
+
+/* Facturacion */
+.row-one-fact {
+    padding: 10px;
+    margin: 20px 0;
+    align-items: center;
+    border-radius: 50px;
+    background-color: #fff;
+}
+.row-one-fact p {
+    margin: 0;
+    font-size: 14px;
+    text-align: left;
+    color: #232a85;
+}
+.row-one-fact p b {
+    margin-left: 8px;
+    font-family: "Poppins";
+}
+.descargar-fact {
+    border: none;
+    color: #fff;
+    font-size: 12px;
+    padding: 7px 30px;
+    margin-left: auto;
+    border-radius: 30px;
+    font-family: "Poppins";
+    background-color: #ff103d;
+}
+
+.responsive-table-facturacion {
+    margin: 30px 0;
+    overflow-y: auto;
+    max-height: 300px;
+    padding-right: 20px;
+}
+.table-facturacion thead th {
+    top: 0;
+    border: none;
+    font-size: 14px;
+    position: sticky;
+    color: #232a85;
+    padding: 0px 5px 10px;
+    text-align: center;
+    font-weight: normal;
+    font-family: "Poppins";
+    background-color: #ebebeb;
+}
+.table-facturacion tbody tr {
+    border-bottom: 4px solid #ebebeb;
+    line-height: 14px;
+}
+.table-facturacion tbody td {
+    border: none;
+    color: #232a85;
+    font-size: 14px;
+    text-align: center;
+    background: #fff;
+    vertical-align: middle;
+}
+.table-facturacion tr td:first-child {
+    border-radius: 25px 0 0 25px;
+}
+.table-facturacion tr td:last-child {
+    border-radius: 0 25px 25px 0;
+}
+
+/* Reputacion */
+.row-one-rep {
+    padding-bottom: 50px;
+}
+.row-one-rep .col-md-7 {
+    border-right: 1px solid #232a85;
+}
+.row-one-rep .col-md-5 {
+    padding-left: 30px;
+}
+.row-one-rep p {
+    font-size: 15px;
+    margin: 20px 0 0;
+    text-align: left;
+    color: #232a85;
+    line-height: 1.3;
+}
+.row-one-rep .progress-list {
+    width: 75%;
+    margin-top: 5px;
+}
+.row-one-rep p img {
+    width: 45px;
+}
+.txtray {
+    padding-bottom: 20px;
+    border-bottom: 1px solid #232a85;
+}
+.listUl li {
+    font-size: 14px;
+    margin: 20px 0 0;
+    text-align: left;
+    color: #232a85;
+    line-height: 1.3;
+}
+.listUl li::marker {
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+}
+.info-ttx {
+    font-size: 12px !important;
+}
+.conatine-text1 {
+    padding: 20px;
+    margin-top: 10px;
+    border-radius: 20px;
+    background-color: rgb(245 245 245);
+}
+.conatine-text1 p {
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+/* Publicaciones */
+#modal-compartir-publicacion .content-modal .close {
+    padding-left: 0.3px;
+}
+.row-filtro {
+    margin-top: 30px;
+    align-items: center;
+}
+#ref-publicaciones
+    .row-selects
+    .group-filtro
+    .bootstrap-select:not([class*="col-"]):not([class*="form-control"]):not(.input-group-btn) {
+    width: 180px;
+}
+#ref-publicaciones .group-filtro{
+    margin-left: 0;
+    margin-right: auto;
+}
+.group-input .input-group-text {
+    padding: 0;
+    border: none;
+    font-size: 14px;
+    color: #232a85;
+    border-radius: 0px;
+    padding-right: 10px;
+    font-family: "Poppins";
+    background-color: transparent;
+}
+.input-group-text img {
+    width: 25px;
+    margin-top: -3px;
+    margin-right: 5px;
+}
+.content-input-edit input {
+    padding: 3px 0px 3px 0px !important;
+    text-align: left !important;
+}
+.content-input {
+    border: none;
+    display: flex;
+    padding: 3px 0;
+    overflow: hidden;
+    border-radius: 25px;
+    background-color: #fff;
+}
+.group-input .input-group-addon {
+    padding: 0 5px 0 12px;
+}
+.group-input .input-group-addon i {
+    font-size: 18px;
+    margin-top: 8px;
+    color: #232a85;
+    vertical-align: bottom;
+}
+.group-input-edit input {
+    width: 182px !important;
+}
+.group-input input {
+    border: none;
+    width: 150px;
+    font-size: 14px;
+    padding-left: 5px;
+    border-radius: 0px;
+}
+.group-input input:focus,
+.group-input input:active {
+    outline: 0px;
+    box-shadow: none;
+}
+.Diamond {
+    background-color: #a9a9a9;
+}
+.Gold {
+    background-color: #be8a00;
+}
+.Platinum {
+    background-color: #707070;
+}
+.Bronze {
+    background-color: #a74111;
+}
+.Silver {
+    background-color: #bcbcbc;
+}
+.Normal {
+    background-color: #232a85;
+}
+/* Dropdown css */
+.group-filtro {
+    width: max-content;
+    align-items: center;
+}
+.group-filtro .input-group-text {
+    border: none;
+    color: #fff;
+    font-size: 14px;
+    color: #232a85;
+    font-family: "Poppins";
+    padding: 0px 5px 0px 0px;
+    background-color: transparent;
+}
+.group-filtro .input-group-addon {
+    height: 35px;
+    padding: 0 15px;
+    cursor: pointer;
+    background-color: #fff;
+    border-radius: 0px 25px 25px 0;
+}
+.drop-filtro {
+    width: 100%;
+    height: 40px;
+    border: none;
+    z-index: 99;
+    font-size: 11px;
+    max-width: 107px;
+    overflow: hidden;
+    color: #232a85;
+    font-family: "Geometos";
+    text-align: left;
+    padding: 5px 15px;
+    font-weight: bold;
+    position: relative;
+    border-radius: 25px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    background-color: #fff;
+    border: none;
+}
+select {
+    width: 100%;
+    height: 40px;
+    border: none;
+    z-index: 99;
+    font-size: 13px;
+    max-width: 100%;
+    overflow: hidden;
+    color: #232a85;
+    text-align: left;
+    padding: 5px 15px;
+    font-weight: bold;
+    position: relative;
+    border-radius: 25px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    background-color: #fff;
+    border: none;
+}
+
+.drop-filtro:hover {
+    color: #232a85;
+}
+.divdropdownfiltro {
+    display: flex;
+    width: initial;
+}
+.row-selects .divdropdownfiltro {
+    z-index: 999;
+}
+.divdropdownfiltro .dropdown-menu {
+    min-width: 100%;
+    z-index: 99;
+    margin-top: -18px;
+    padding: 15px 0px 5px !important;
+    border: 2px solid #232a85;
+    border-radius: 3px 0 20px 20px;
+}
+.row-selects .divdropdownfiltro .dropdown-menu,
+.row-title-compras .divdropdownfiltro .dropdown-menu {
+    border: none;
+}
+.divdropdownfiltro .filter-option-inner-inner {
+    font-size: 14px;
+    color: #232a85;
+    overflow: hidden;
+    white-space: nowrap;
+    font-family: "Poppins";
+    text-overflow: ellipsis;
+}
+.divdropdownfiltro option {
+    padding: 5px;
+    font-size: 11px;
+    cursor: pointer;
+    color: #232a85;
+    white-space: normal;
+    text-align: center;
+    font-family: "Poppins";
+}
+.divdropdownfiltro option:hover {
+    color: #ff103d;
+    background-color: transparent;
+}
+.divdropdownfiltro .dropdown-menu a:hover {
+    color: #ff103d;
+    border-radius: 25px;
+}
+.button-modificar {
+    border: none;
+    height: 40px;
+    color: #fff;
+    font-size: 11px;
+    padding: 10px 20px;
+    border-radius: 25px;
+    font-family: "Geometos";
+    background-color: #005fff;
+    border: 2px solid #005fff;
+}
+
+/* Modas subastas */
+.infor-subas {
+    padding: 20px;
+}
+.content-foto .img-carousel {
+    margin: auto;
+    width: 150px;
+    height: 150px;
+    cursor: pointer;
+    margin: 15px 0 0;
+    border-radius: 3px;
+    vertical-align: middle;
+    box-shadow: 0px 0px 5px 0px #b6b6b6;
+}
+.reclamo_input_motivo:focus {
+    outline: 0px;
+    box-shadow: none;
+    border-color: #232a85;
+}
+.img-carousel {
+    width: 150px;
+    height: 150px;
+    background: #fff;
+    object-fit: contain;
+}
+.nombre-producto-modal {
+    margin: 0;
+    font-size: 21px;
+    color: #ff103d;
+    overflow: hidden;
+    text-align: left;
+    white-space: nowrap;
+    font-family: "Poppins";
+    text-overflow: ellipsis;
+}
+.label-modal {
+    font-size: 15px;
+    margin: 5px 0 0;
+    color: #707070;
+    text-align: left;
+}
+.price-product-modal {
+    margin: 5px 0 0;
+    font-size: 16px;
+    color: #808080;
+    text-align: left;
+    font-family: "Poppins";
+}
+.label02 {
+    margin: 10px 0 0;
+    font-size: 14px;
+    color: #808080;
+    text-align: left;
+    font-family: "Poppins";
+}
+.tipo-subasta {
+    color: #fff;
+    font-size: 13px;
+    padding: 5px 15px;
+    margin-left: 6px;
+    border-radius: 25px;
+}
+.tipo-subasta img {
+    width: 20px;
+}
+.label02 .return {
+    font-size: 14px;
+    font-family: Open San, sans-serif;
+}
+.infor-subas button {
+    width: 50%;
+    border: none;
+    color: #fff;
+    margin-top: 20px;
+    padding: 10px 0;
+    font-size: 12px;
+    border-radius: 25px;
+    font-family: "Geometos";
+    background-color: #040589;
+}
+.header-modal-label {
+    color: #707070;
+    margin: 22px 0 0;
+    text-align: right;
+}
+.header-modal-label span {
+    color: #0c0f3d;
+    padding: 5px 18px;
+    font-size: 13px;
+    border-radius: 25px;
+    font-family: "Poppins";
+    /* background-color: #00ffba; */
+}
+.header-modal-label ._trans129 {
+    padding: 0 5px;
+    color: #707070;
+    margin: 22px 0 0;
+    background-color: transparent;
+    font-family: Open San, sans-serif;
+}
+.col12none {
+    display: none;
+}
+
+/* modal compartir subasta */
+.img-modal {
+    width: 70px;
+    margin: auto;
+    display: block;
+}
+.row-infMdal h4 {
+    width: 100%;
+    font-size: 20px;
+    line-height: 1.5;
+    margin: 10px 0 5px;
+    color: #232a85;
+    text-align: center;
+    font-family: "Poppins";
+}
+.row-infMdal p {
+    width: 100%;
+    font-size: 15px;
+    color: #707070;
+    text-align: center;
+}
+.row-infMdal textarea {
+    font-size: 15px;
+    color: #707070;
+    padding: 10px;
+}
+.row-infMdal textarea:focus {
+    outline: 0px;
+}
+.container-img {
+    margin: 0 auto 15px;
+}
+.container-img img {
+    width: 50px;
+    margin: 0 3px;
+}
+.responsive-table-ventas {
+    padding: 0 10px;
+    margin: 30px 0 50px;
+}
+.table-ventas {
+    margin: 0;
+}
+.table-ventas thead th {
+    top: 0;
+    z-index: 9;
+    border: none;
+    font-size: 14px;
+    position: sticky;
+    color: #232a85;
+    text-align: center;
+    font-weight: normal;
+    padding: 0px 8px 15px;
+    font-family: "Poppins";
+    background-color: #ebebeb;
+}
+
+.table-ventas tbody td {
+    border: none;
+    font-size: 13px;
+    color: #707070;
+    padding: 5px 5px;
+    text-align: center;
+    vertical-align: middle;
+    border-bottom: 1px solid #dee2e6;
+}
+.table-ventas tbody tr {
+    background: #f5f5f5;
+    border-bottom: 5px solid #ebebeb;
+    border-top: 5px solid #ebebeb;
+}
+.table-ventas tbody tr td:first-child {
+    border-radius: 50px 0 0 50px;
+}
+.table-ventas tbody tr td:last-child {
+    border-radius: 0 50px 50px 0;
+}
+.table-ventas tbody tr p {
+    margin: auto;
+}
+.table-ventas .dropdown-menu {
+    z-index: 999;
+    margin-top: 3px;
+    border-radius: 15px;
+}
+.table-ventas .button-modificar {
+    width: 100%;
+}
+.texto_copiado {
+    border: 2px solid #232a85;
+    position: relative;
+    border-radius: 10px;
+    height: 100%;
+    padding: 5px;
+    z-index: 1;
+    top: -89px;
+    left: 72px;
+    background: white;
+    display: none;
+}
+.content_select .bootstrap-select .dropdown-toggle,
+.row-selects .bootstrap-select .dropdown-toggle {
+    z-index: 999;
+    border-radius: 20px;
+    border: none;
+    padding: 10px 20px;
+}
+.content_select .bootstrap-select .dropdown-toggle:hover,
+.row-selects .bootstrap-select .dropdown-toggle:hover {
+    background-color: #fff;
+}
+.divdropdownfiltro .dropdown-item {
+    padding: 5px 15px;
+    font-size: 13px;
+    cursor: pointer;
+    color: #232a85;
+    white-space: normal;
+    text-align: left;
+    font-family: "Poppins";
+}
+.ventas__list__content .divdropdownfiltro .dropdown-item,
+.mis_publicaciones__tabla .divdropdownfiltro .dropdown-item,
+.list__compras .divdropdownfiltro .dropdown-item {
+    font-size: 11px;
+    text-transform: uppercase;
+}
+.mis_publicaciones__tabla .divdropdownfiltro button,
+.table-ventas .divdropdownfiltro .button {
+    text-transform: uppercase;
+    font-size: 11px;
+    font-family: "Geometos";
+}
+/* .content_select .bootstrap-select .dropdown-menu {
+    z-index: 9999 !important;
+} */
+/* table listado */
+.responsive-table-publicaciones {
+    padding: 0 10px;
+    margin: 30px 0 50px;
+}
+.table-publicaciones {
+    margin: 0;
+}
+.table-publicaciones .td2 p {
+    border-left: 1px solid #707070;
+    border-right: 1px solid #707070;
+}
+.table-publicaciones .td4 p {
+    border-left: 1px solid #707070;
+    border-right: 1px solid #707070;
+}
+.table-publicaciones thead th {
+    top: 0;
+    z-index: 9;
+    border: none;
+    font-size: 14px;
+    position: sticky;
+    color: #232a85;
+    text-align: center;
+    font-weight: normal;
+    padding: 0px 8px 15px;
+    font-family: "Poppins";
+    background-color: #ebebeb;
+}
+.table-publicaciones thead th:first-child {
+    text-align: left;
+}
+
+.table-publicaciones tbody td {
+    border: none;
+    font-size: 14px;
+    color: #707070;
+    padding: 5px 5px;
+    text-align: center;
+    vertical-align: middle;
+    border-bottom: 1px solid #dee2e6;
+}
+
+.table-publicaciones tbody tr {
+    background: #f5f5f5;
+    border-bottom: 5px solid #ebebeb;
+    border-top: 5px solid #ebebeb;
+}
+.table-publicaciones tbody tr td:first-child {
+    border-radius: 50px 0 0 50px;
+}
+.table-publicaciones tbody tr td:last-child {
+    border-radius: 0 50px 50px 0;
+}
+.table-publicaciones tbody tr p {
+    margin: auto;
+}
+.containe-fto .img-articulo {
+    width: 70px;
+    height: 70px;
+    float: left;
+    display: block;
+    max-width: 70px;
+    min-width: 70px;
+    max-height: 70px;
+    margin-top: 0px;
+    min-height: 70px;
+    margin-right: 10px;
+    border-radius: 50%;
+    margin-left: 10px;
+    vertical-align: middle;
+    border: 1px solid #b1b1b1;
+}
+.img-articulo {
+    width: 60px;
+    height: 60px;
+    max-width: 60px;
+    max-height: 60px;
+    object-fit: contain;
+    background: #ffffff;
+}
+.name-product {
+    font-size: 12px;
+    margin-left: 8px;
+    margin-bottom: 0;
+    color: #eb4454;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font-family: "Poppins";
+}
+.flex-name {
+    align-items: center;
+}
+.flex-name p {
+    max-width: 195px;
+    text-align: left;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.txt-numb {
+    margin: 0;
+    font-size: 13px;
+}
+.visits {
+    margin: 0;
+    font-size: 11px;
+}
+.drop-table {
+    color: #fff;
+    min-width: 100%;
+    max-width: 100%;
+    font-size: 10px;
+    text-align: center;
+    z-index: auto !important;
+    text-transform: uppercase;
+    background-color: #232a85;
+}
+.drop-table:hover {
+    color: #fff;
+}
+.table-publicaciones .dropdown-menu {
+    z-index: 999;
+    margin-top: 3px;
+    border-radius: 15px;
+}
+.table-publicaciones .button-modificar {
+    width: 100%;
+}
+.cont-btn {
+    display: flex;
+    align-items: center;
+}
+.cont-btn input {
+    margin-left: 8px;
+}
+
+/* Carousel publicaciones*/
+.row-cont-publi {
+    width: 250px;
+    padding: 20px 4px;
+    border-radius: 20px;
+}
+.row-cont-publi:hover {
+    cursor: pointer;
+    background-color: #005fff;
+}
+.row-cont-publi:hover p,
+.row-cont-publi:hover h5 {
+    color: #fff;
+}
+.carousel-publicaciones {
+    margin-top: 50px;
+}
+.carousel-publicaciones .owl-dots {
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    margin: 15px auto -10px;
+    justify-content: center;
+}
+.carousel-publicaciones .owl-dots button {
+    opacity: 0.4;
+    width: 11px;
+    height: 11px;
+    margin: auto 8px;
+    text-align: center;
+    border-radius: 25px;
+    background-color: #040589;
+}
+.carousel-publicaciones .owl-dots button.active {
+    opacity: 1;
+}
+.label1P {
+    line-height: 2;
+    margin: 5px 0 0;
+    font-size: 13px;
+    text-align: left;
+    color: #0c0f3d;
+    display: grid;
+}
+.label1P span {
+    font-size: 11px;
+    color: #0c0f3d;
+    padding: 3px 15px;
+    width: fit-content;
+    border-radius: 25px;
+    font-family: "Poppins";
+}
+.estado1 {
+    background-color: #36ffd1;
+}
+.estado2 {
+    background-color: #bcbcbc;
+}
+.estado3 {
+    background-color: #00ffba;
+}
+.estado4 {
+    background-color: #e85477;
+}
+
+.label2P {
+    display: grid;
+    margin: 12px 0;
+    font-size: 12px;
+    text-align: left;
+    color: #0c0f3d;
+    font-family: "Poppins";
+}
+.label2P span {
+    display: flex;
+    color: #fff;
+    font-size: 10px;
+    margin-top: 3px;
+    margin-left: 1px;
+    padding: 5px 15px;
+    width: fit-content;
+    border-radius: 25px;
+    vertical-align: middle;
+}
+
+.label2P span img {
+    width: 18px !important;
+    display: inherit !important;
+}
+.container-public .imagen-public {
+    width: 100%;
+    height: 130px;
+    margin: 10px 0px;
+    max-width: 100%;
+    min-width: 100%;
+    max-height: 130px;
+    min-height: 130px;
+    border-radius: 3px;
+    vertical-align: middle;
+}
+.imagen-public {
+    width: 100%;
+    height: 130px;
+    max-width: 100%;
+    max-height: 130px;
+    background: #fff;
+    object-fit: contain;
+}
+.bold-public {
+    font-size: 15px;
+    margin: 5px 0 0;
+    color: #0c0f3d;
+    text-align: left;
+    overflow: hidden;
+    white-space: nowrap;
+    font-family: "Poppins";
+    text-overflow: ellipsis;
+}
+
+/* Compras */
+.row-title-compras {
+    align-items: flex-end;
+    margin-bottom: 30px;
+}
+.filter-compras {
+    z-index: auto;
+    min-width: 100%;
+    max-width: 100%;
+    text-align: center;
+}
+.row-list-compra {
+    padding: 15px 0;
+    align-items: center;
+    border-bottom: 1px solid #767676;
+}
+.td-name1 {
+    max-width: 215px;
+}
+.td-name1 .row {
+    align-items: center;
+}
+.td-border p {
+    border-left: 1px solid #707070;
+    border-right: 1px solid #707070;
+}
+.content-img-comp p {
+    margin: 0;
+    font-size: 12px;
+    color: #707070;
+    text-align: left;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.content-img-comp .name {
+    color: #eb4454;
+    font-family: "Poppins";
+}
+.content-img-comp p b {
+    font-family: "Poppins";
+}
+.containerimg-compra .img-compra {
+    width: 70px;
+    height: 70px;
+    margin-right: auto;
+    display: block;
+    max-width: 70px;
+    min-width: 70px;
+    max-height: 70px;
+    min-height: 70px;
+    border-radius: 50%;
+    vertical-align: middle;
+    border: 1px solid #b1b1b1;
+}
+.img-compra {
+    width: 70px;
+    height: 70px;
+    max-width: 70px;
+    max-height: 70px;
+    object-fit: contain;
+    background: #ffffff;
+}
+.usd-compra {
+    margin: 0;
+    font-size: 15px;
+    color: #707070;
+    text-align: center;
+    font-family: "Poppins";
+}
+.name-001 {
+    margin: 0;
+    font-size: 14px;
+    color: #707070;
+    text-align: center;
+}
+.name-001 b {
+    font-family: "Poppins";
+}
+.ver-conver {
+    margin: 0;
+    font-size: 14px;
+    color: #707070;
+    text-align: center;
+    text-decoration: underline;
+    font-family: "Poppins";
+}
+.btn-califi {
+    width: 100%;
+    border: none;
+    height: 40px;
+    color: #fff;
+    font-size: 12px;
+    padding: 10px;
+    border-radius: 25px;
+    font-family: "Geometos";
+    background-color: #005fff;
+}
+.row-list-compra .dropdown-menu {
+    z-index: 99;
+    margin-top: 3px;
+    border-radius: 15px;
+}
+.row-title-compras .group-filtro {
+    margin-left: auto;
+    justify-content: flex-end;
+}
+.body-table th {
+    position: relative;
+}
+.ver-conver .badge {
+    top: -10px;
+    right: 3px;
+    color: #fff;
+    font-size: 11px;
+    padding: 3px 6px;
+    position: relative;
+    border-radius: 25px;
+    background-color: #ff103d;
+}
+.button-modificar .badge {
+    top: -7px;
+    right: 0px;
+    color: #fff;
+    font-size: 11px;
+    padding: 4px 5px;
+    position: relative;
+    border-radius: 25px;
+    background-color: #ff103d;
+}
+.ventas__newProductoOptions__AddMasiva {
+    border: none;
+    width: 28%;
+    color: #fff;
+    font-size: 12px;
+    margin: 0 10px;
+    padding: 10px 0px;
+    border-radius: 25px;
+    font-family: "Geometos";
+    background-color: #d85065;
+}
+.ventas__newProductoOptions__AddMasiva button {
+    border: none;
+    width: 28%;
+    color: #fff;
+    font-size: 12px;
+    margin: 0 10px;
+    padding: 10px 0px;
+    border-radius: 25px;
+    font-family: "Geometos";
+    background-color: #d85065;
+}
+.ventas__newProductoOptions__AddMasiva a {
+    border: none;
+    width: 28%;
+    color: #fff;
+    font-size: 12px;
+    margin: 0 10px;
+    padding: 10px 0px;
+    border-radius: 25px;
+    font-family: "Geometos";
+    background-color: #d85065;
+}
+.ventas__newProductoOptions__AddNormal {
+    border: none;
+    width: 28%;
+    color: #fff;
+    font-size: 12px;
+    margin: 0 10px;
+    padding: 10px 0px;
+    border-radius: 25px;
+    font-family: "Geometos";
+    background-color: #232d80;
+}
+.ventas__newProductoOptions__AddNormal button {
+    border: none;
+    width: 28%;
+    color: #fff;
+    font-size: 12px;
+    margin: 0 10px;
+    padding: 10px 0px;
+    border-radius: 25px;
+    font-family: "Geometos";
+    background-color: #232d80;
+}
+.ventas__newProductoOptions__AddNormal a {
+    border: none;
+    width: 28%;
+    color: #fff;
+    font-size: 12px;
+    margin: 0 10px;
+    padding: 10px 0px;
+    border-radius: 25px;
+    font-family: "Geometos";
+    background-color: #232d80;
+}
+/* Modal Detalle orden */
+.titleModal {
+    margin: 25px 0;
+    color: #232a85;
+    text-align: left;
+    font-family: "Poppins";
+}
+.rowIm {
+    align-items: center;
+    margin-bottom: 20px;
+}
+.container-mdal .img-mdal {
+    width: 140px;
+    height: 110px;
+    display: block;
+    max-width: 140px;
+    min-width: 140px;
+    max-height: 110px;
+    min-height: 110px;
+    border-radius: 5px;
+    margin-right: auto;
+    vertical-align: middle;
+    border: 1px solid #b1b1b1;
+}
+.img-mdal {
+    width: 140px;
+    height: 110px;
+    max-width: 140px;
+    max-height: 110px;
+    object-fit: contain;
+    background: #ffffff;
+}
+.col-name-modal p {
+    margin: 3px 0 0;
+    font-size: 14px;
+    color: #707070;
+    text-align: left;
+}
+.col-name-modal h5 {
+    margin: 3px 0 0;
+    font-size: 15px;
+    color: #eb4454;
+    text-align: left;
+    font-family: "Poppins";
+}
+.col-name-modal h4 {
+    margin: 6px 0 0;
+    color: #707070;
+    text-align: left;
+    font-family: "Poppins";
+}
+.info-ord {
+    margin: 8px 0 0;
+    font-size: 14px;
+    color: #707070;
+    text-align: left;
+}
+
+/* Time line */
+.ol-timeline {
+    width: 100%;
+    height: 2px;
+    display: block;
+    position: relative;
+    margin: 25px auto 0;
+    border-top: 2px solid #d1d1d1;
+}
+.ol-timeline li {
+    width: 25%;
+    height: 50px;
+    float: left;
+    position: relative;
+    display: inline-block;
+    font: bold 14px arial;
+    /* border-top: 2px solid #d1d1d1; */
+}
+
+.hr-left {
+    display: none;
+    margin-top: -9px;
+    margin-bottom: 14px;
+    margin-left: 100px;
+}
+
+.hr-right {
+    display: none;
+    margin-top: -9px;
+    margin-bottom: 14px;
+    margin-right: 100px;
+}
+
+.mr-top-15 {
+    margin-top: -15px !important;
+}
+
+.ol-timeline .conPoin {
+    vertical-align: middle;
+}
+.ol-timeline li .point {
+    top: -12px;
+    width: 15px;
+    height: 15px;
+    display: flex;
+    border-radius: 50%;
+    margin: -10px auto 0;
+    justify-content: center;
+    background: #d1d1d1;
+}
+
+.ol-timeline li .pointactive {
+    background: #eb4454;
+    border-top: 2px solid #eb4454;
+}
+li .textime {
+    left: 36%;
+    margin: 5px 0 -5px;
+    font-size: 13px;
+    color: #707070;
+    text-align: center;
+    font-weight: normal;
+    vertical-align: middle;
+}
+
+/* Modal calificar vendedor */
+.titleCalif {
+    color: #232a85;
+    margin: 15px 0 5px;
+    text-align: center;
+    font-family: "Poppins";
+}
+.descrip-cali {
+    margin: 0;
+    color: #707070;
+    font-size: 15px;
+    text-align: center;
+}
+.descrip-cali span {
+    font-weight: bold;
+}
+.clasificacion-vendedor {
+    margin: 0;
+    direction: rtl;
+    font-size: 35px;
+    color: #707070;
+    text-align: center !important;
+    letter-spacing: 5px;
+    unicode-bidi: bidi-override;
+}
+.clasificacion-vendedor input[type="radio"] {
+    display: none;
+}
+.clasificacion-vendedor label {
+    margin: 0;
+}
+.clasificacion-vendedor label:hover,
+.clasificacion-vendedor label:hover ~ label {
+    color: orange;
+    cursor: pointer;
+}
+.clasificacion-vendedor input[type="radio"]:checked ~ label {
+    color: orange;
+}
+.rowinfocali button {
+    width: 100%;
+    border: none;
+    padding: 10px;
+    color: #fff;
+    margin: 15px 0;
+    font-size: 14px;
+    border-radius: 25px;
+    font-family: "Poppins";
+}
+.btn1 {
+    background-color: #232a85;
+}
+.btn2 {
+    background-color: #eb4454;
+}
+.btn3 {
+    background-color: #005fff;
+}
+
+/* Ventas */
+.btton-mejorar {
+    border: none;
+    color: #fff;
+    display: block;
+    font-size: 12px;
+    margin-left: auto;
+    margin-top: 30px;
+    padding: 12px 22px;
+    border-radius: 25px;
+    font-family: "Geometos";
+    background-color: #005fff;
+}
+.row-filtro-venta .drop-filtro {
+    z-index: 999;
+}
+.row-filtro-venta .btn:not(:disabled):not(.disabled) {
+    z-index: 999;
+    border: none;
+    padding: 10px 15px;
+}
+.row-filtro-venta .filter-option-inner-inner {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.row-filtro-venta .btn:not(:disabled):not(.disabled):hover,
+.row-filtro-venta .btn:not(:disabled):not(.disabled):focus {
+    background-color: #fff;
+}
+.row-filtro-venta .bootstrap-select:not([class*="col-"]):not([class*="form-control"]):not(.input-group-btn) {
+    /* width: 100%; */
+    width: 160px;
+}
+.row-filtro-venta .dropdown-menu {
+    border-color: #fff;
+    padding: 5px 0 !important;
+}
+.row-info-venta {
+    padding: 35px 0px 30px 40px;
+    border-radius: 12px;
+    background-color: #fff;
+    width: 98%;
+}
+.row-info-venta p {
+    margin: 0;
+    font-size: 15px;
+    text-align: left;
+    color: #232a85;
+}
+.row-info-venta p b {
+    font-family: "Poppins";
+}
+.row-filtro-venta {
+    width: 99%;
+    margin: 30px 0;
+    align-items: center;
+}
+.row-filtro-venta button {
+    width: 100%;
+    border-radius: 20px;
+}
+.label-filter {
+    margin: 0;
+    text-align: left;
+    font-size: 14px;
+    color: #232a85;
+    font-family: "Poppins";
+}
+.label-filter img {
+    width: 25px;
+    margin-top: -3px;
+    margin-right: 5px;
+}
+.row-filtro-venta .frilter-ordenar {
+    margin-left: auto;
+}
+.table-ventas .button-modificar {
+    padding: 10px;
+    font-size: 10px;
+}
+.col-tabcontent {
+    background-color: #ebebeb;
+}
+/* Esta clase se le añade a tab-pane de venta cuando se muestra los tips de ventas */
+.tabTips {
+    background-size: 100% 100%;
+    padding-bottom: 150px !important;
+    background-repeat: no-repeat;
+    background-image: url("../imagen/fondo-tips.png");
+}
+.labelTips {
+    margin: 25px 0 0;
+    color: #232a85;
+    text-align: left;
+    font-family: "Poppins";
+}
+.des-tips {
+    margin: 5px 0;
+    font-size: 15px;
+    text-align: left;
+    color: #707070;
+}
+.container-tips {
+    margin-top: 20px;
+    padding: 30px;
+    background-color: #fff;
+}
+.container-tips img {
+    width: 50px;
+    float: left;
+    margin-left: -8px;
+}
+.container-tips h5 {
+    color: #232a85;
+    text-align: left;
+    font-family: "Poppins";
+}
+.container-tips p {
+    margin: 0;
+    font-size: 14px;
+    color: #707070;
+    text-align: left;
+    line-height: 1.2;
+}
+.containet-btns {
+    margin-top: 30px;
+    display: flex;
+}
+.containet-btns button {
+    border: none;
+    color: #fff;
+    font-size: 12px;
+    margin-right: 20px;
+    padding: 3px 30px;
+    border-radius: 25px;
+    font-family: "Geometos";
+}
+.containet-btns .btn01 {
+    background-color: #0c0f3d;
+}
+.containet-btns .btn02 {
+    background-color: #005fff;
+}
+.btn02 img {
+    width: 35px;
+}
+
+/* Modal confirmacion entrega */
+.content-rutas h5 {
+    color: #232a85;
+    text-align: center;
+    font-family: "Poppins";
+}
+.content-rutas span {
+    font-family: "Poppins";
+}
+.label-titulo {
+    margin: 25px 0 0;
+    color: #232a85;
+    text-align: center;
+    font-family: "Poppins";
+}
+.row-titleEntrega h5 {
+    margin: 25px 0 0;
+    color: #232a85;
+    text-align: center;
+    font-family: "Poppins";
+}
+.row-titleEntrega p {
+    font-size: 14px;
+    color: #707070;
+    margin: 10px 120px;
+    text-align: center;
+    font-family: Open San, sans-serif;
+}
+.p_negrillas {
+    color: #232a85 !important;
+    font-family: "Poppins";
+}
+.row-titleEntrega p a {
+    color: #232a85;
+    font-family: "Poppins";
+}
+.contn-entrega {
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+}
+.contn-entrega button {
+    border: none;
+    width: auto;
+    color: #fff;
+    font-size: 12px;
+    margin: 0 10px;
+    padding: 10px 35px;
+    border-radius: 25px;
+    font-family: "Geometos";
+}
+.cancelar_input_motivo,
+.cancelar_input_motivo:focus,
+.__justificaciondeclinarventa,
+.__justificaciondeclinarventa:focus,
+.compras_adjuntar_comprobante_description,
+.compras_adjuntar_comprobante_description:focus,
+.__descripcalificarcomprador,
+.__descripcalificarcomprador:focus {
+    color: #151a30;
+    font-size: 13px;
+    box-shadow: none;
+    border-radius: 0px;
+    background-color: #ebebeb;
+}
+.ul-recep {
+    list-style: none;
+}
+.ul-recep h5 {
+    font-size: 15px;
+    color: #eb4454;
+}
+.ul-recep p,
+.ul-recep a {
+    font-size: 14px;
+    color: #707070;
+    text-align: center;
+}
+.compras__timeline__descripcion {
+    max-height: 250px;
+    overflow: auto;
+}
+
+.btnsi {
+    background-color: #040589;
+}
+.btnno {
+    background-color: #005fff;
+}
+
+/* Subastas */
+.row-fondo-subas {
+    overflow: hidden;
+    background-size: contain;
+    background-position: left;
+    background-repeat: no-repeat;
+    background-position: top 1em left -3em;
+    /* background-image: url("../imagen/fondo-subastas.png"); */
+}
+.title-subast {
+    margin: 40px 0 0;
+    color: #232a85;
+    text-align: center;
+    font-family: "Poppins";
+}
+.title-subast img {
+    width: 60px;
+    object-fit: contain;
+}
+.texto-infor-subas {
+    width: 95%;
+    padding: 30px 40px;
+    font-size: 15px;
+    margin: 20px 0 0;
+    color: #707070;
+    background-color: rgba(247, 247, 247, 0.7);
+}
+.container-video-subas {
+    width: 95%;
+    margin-bottom: -8px;
+}
+.container-video-subas iframe {
+    width: 100%;
+    height: 250px;
+}
+.title-subast2 {
+    margin: 0;
+    font-size: 22px;
+    color: #232a85;
+    text-align: left;
+    font-family: "Poppins";
+}
+.title-subast2 img {
+    width: 45px;
+    object-fit: contain;
+}
+.text-two {
+    margin: 0 10px 0;
+    text-align: left;
+    font-size: 14px;
+    color: #707070;
+}
+.btn-partic {
+    border: none;
+    color: #fff;
+    display: block;
+    font-size: 12px;
+    margin-top: 10px;
+    margin-right: 15px;
+    width: fit-content;
+    padding: 10px 28px;
+    border-radius: 25px;
+    font-family: "Geometos";
+    background-color: #ff103d;
+}
+.btn-aprende-como,
+.btn-aprende-como:hover{
+    background-color: #1464e1 !important;
+}
+.ctn-btns-nasbi{
+    display: flex;
+}
+.btn-partic:hover {
+    color: #fff;
+    text-decoration: none;
+}
+.rowtwo {
+    padding: 50px 0 70px;
+}
+.div-contac {
+    margin: 0;
+    padding: 35px;
+    color: #fff;
+    font-size: 14px;
+    margin-top: 60px;
+    font-family: "Poppins";
+    background-size: 100% 100%;
+    background-image: url("../imagen/fondo-contact.png");
+}
+.div-contac a {
+    color: #fff;
+    font-size: 14px;
+    font-family: "Poppins";
+}
+
+/* Configuraciones */
+.label-confi {
+    margin: 28px 0 0;
+    color: #232a85;
+    text-align: left;
+    font-family: "Poppins";
+}
+/* lolo */
+.row-form3 {
+    width: 100%;
+    margin: 0;
+    margin: 20px 0 30px;
+    overflow: auto;
+    max-height: 360px;
+    border-radius: 15px;
+    background-color: #fff;
+}
+.row-form3 .card {
+    border-radius: 20px;
+    border: 1px solid #232a85;
+    margin-bottom: 15px;
+}
+.row-form3 .title-section {
+    text-align: center;
+    margin: 20px 0;
+    font-size: 17px;
+}
+.row-form3 p {
+    margin: 12px;
+    font-size: 13px;
+    text-align: left;
+    color: #232a85;
+    font-family: "Poppins";
+}
+.card-body {
+    padding: 0;
+}
+.row-form3 span {
+    color: #151a30;
+    font-size: 13px;
+    font-family: "Poppins";
+}
+.row-form3 .activo {
+    color: #eb4454;
+}
+.row-form3 a {
+    font-size: 14px;
+    margin: 0 10px 10px;
+    font-family: "Poppins";
+}
+
+.row-foms2 {
+    margin: 15px 0 50px;
+}
+
+.label-form {
+    margin: 0;
+    font-size: 13px;
+    color: #232a85;
+    text-align: left;
+    font-family: "Poppins";
+}
+.label-form span {
+    color: #707070;
+}
+.text-modificar {
+    margin: 0 0 5px;
+    font-size: 11px;
+    cursor: pointer;
+    color: #151a30;
+    text-align: right;
+    font-family: "Poppins";
+    text-decoration: underline;
+}
+.text-modificar2 {
+    margin: 0 0 5px;
+    font-size: 11px;
+    cursor: pointer;
+    color: #151a30;
+    text-align: left;
+    font-family: "Poppins";
+    text-decoration: underline;
+}
+#ref-configuracion .row-form1 {
+    padding: 0;
+    background-color: transparent;
+}
+.row-foms2 .label,
+.row-foms2 select,
+.row-foms2 .row-form1 .form-control:disabled,
+.form-control[readonly],
+.row-foms2 .bootstrap-select {
+    /* background-color: #fff;
+    border: 1px solid #232a85;
+    height: 45px;
+    width: 100%;
+    resize: none;
+    color: #151a30;
+    font-size: 13px;
+    padding: 0 8px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    font-family: "Poppins"; */
+    height: 45px;
+    border: none;
+    resize: none;
+    display: grid;
+    padding: 0 8px;
+    font-size: 13px;
+    color: #151a30;
+    text-align: left;
+    border-radius: 0px;
+    margin-bottom: 20px;
+    align-items: center;
+    width: 100% !important;
+    font-family: "Poppins";
+    justify-content: initial;
+    background-color: #fff !important;
+}
+.row-foms2 .bootstrap-select > select,
+.row-foms2 .bootstrap-select .dropdown-toggle .filter-option-inner-inner {
+    left: 0;
+    font-size: 13px;
+    color: #151a30;
+    text-align: left;
+    width: 100%;
+    font-family: "Poppins";
+    height: fit-content !important;
+}
+.row-foms2 .bootstrap-select > select:focus,
+.row-foms2 .bootstrap-select > select:hover,
+.row-foms2 .bootstrap-select .dropdown-toggle .filter-option-inner-inner:focus,
+.row-foms2 .bootstrap-select .dropdown-toggle .filter-option-inner-inner:hover {
+    border: none;
+    outline: 0px;
+    box-shadow: none;
+}
+.row-foms2 .btn:not(:disabled):not(.disabled),
+.row-foms2 .btn:not(:disabled):not(.disabled):hover,
+.row-foms2 .btn:not(:disabled):not(.disabled):focus {
+    padding: 0;
+    border: none !important;
+    outline: 0px !important;
+    box-shadow: none !important;
+    background-color: transparent;
+}
+.row-foms2 select:focus {
+    color: #151a30;
+}
+.row-foms2 input {
+    height: 45px;
+}
+.row-foms2 input,
+.row-foms2 textarea {
+    height: 45px;
+    border: none;
+    resize: none;
+    color: #151a30;
+    font-size: 13px;
+    padding: 0 8px;
+    border-radius: 0px;
+    margin-bottom: 20px;
+    font-family: "Poppins";
+    box-shadow: 0px 0px 3px #232a85;
+}
+.row-foms2 .bootstrap-select:not([class*="col-"]):not([class*="form-control"]):not(.input-group-btn) {
+    box-shadow: 0px 0px 3px #232a85;
+}
+.row-foms2 .dropdown-menu {
+    width: inherit;
+    padding: 5px 0px 5px;
+    margin: 20px 0 0 -8px;
+    border: 2px solid #5c15b7;
+    border-radius: 20px;
+}
+.row-foms2 .dropdown-item {
+    font-size: 13px;
+    color: #232a85;
+    padding: 5px 13px;
+    font-family: "Poppins";
+}
+.row-foms2 .dropdown-menu li .selected,
+.row-foms2 .dropdown-menu li .selected:hover {
+    color: #ff103d !important;
+}
+.row-foms2 textarea {
+    padding: 5px 10px;
+}
+.row-foms2 input:focus,
+.row-foms2 input:active,
+.row-foms2 textarea:focus,
+.row-foms2 textarea:active {
+    outline: 0px;
+    box-shadow: none;
+    color: #151a30;
+}
+.row-foms2 input::placeholder {
+    color: #151a30;
+    opacity: 1;
+}
+.row-foms2 input:-ms-input-placeholder {
+    color: #151a30;
+}
+.row-foms2 input::-ms-input-placeholder {
+    color: #151a30;
+}
+
+.row-foms2 textarea::placeholder {
+    color: #151a30;
+    opacity: 1;
+}
+.row-foms2 textarea:-ms-input-placeholder {
+    color: #151a30;
+}
+.row-foms2 textarea::-ms-input-placeholder {
+    color: #151a30;
+}
+.btnsopcs {
+    border: none;
+    color: #fff;
+    display: block;
+    font-size: 12px;
+    padding: 8px 40px;
+    margin-bottom: 10px;
+    border-radius: 25px;
+    font-family: "Geometos";
+    background-color: #040589;
+}
+.btn-cambiar-contrasena {
+    width: 100%;
+    border: none;
+    color: #fff;
+    padding: 10px;
+    display: block;
+    font-size: 11px;
+    margin-top: 44px;
+    border-radius: 25px;
+    font-family: "Geometos";
+    background-color: #040589;
+}
+.row-foms2 .title-section {
+    display: flex;
+    color: #ff103d;
+    text-align: left;
+    margin-bottom: 20px;
+    width: fit-content;
+    margin-right: auto;
+    align-items: baseline;
+}
+.row-form1 {
+    width: 100%;
+    margin: 0;
+    padding: 30px 20px;
+    border-radius: 15px;
+    background-color: #fff;
+}
+
+.modal .row-form1 {
+    width: auto;
+}
+
+.modal .row-form1 .filter-option-inner-inner {
+    text-align: center !important;
+    font-size: 14px !important;
+    text-transform: capitalize !important;
+}
+.row-form1 input {
+    height: 30px;
+    border: none;
+    font-size: 15px;
+    color: #707070;
+    text-align: left;
+    border-radius: 0px;
+    margin: 10px 0;
+    background-color: #fff;
+    border-bottom: 1px solid #232a85;
+    outline: none;
+    box-shadow: none;
+}
+.row-form1 input[type="checkbox"] {
+    width: 25px;
+}
+.contant-button02 {
+    display: flex;
+    margin-top: 10px;
+    justify-content: center;
+}
+.modal .row-form1 input {
+    height: 35px;
+    border: none;
+    box-shadow: 0px 0px 3px #232a85;
+    font-family: Open San, sans-serif;
+}
+.row-form1 .form-control:disabled,
+.form-control[readonly] {
+    background-color: transparent !important;
+}
+.row-form1 input:focus,
+.row-form1 input:active {
+    outline: 0px;
+}
+.row-form1 input::placeholder {
+    color: #707070;
+    opacity: 1;
+}
+.row-form1 input:-ms-input-placeholder {
+    color: #707070;
+}
+.row-form1 input::-ms-input-placeholder {
+    color: #707070;
+}
+.row-form1 p {
+    margin: 0;
+    font-size: 13px;
+    color: #232a85;
+    text-align: left;
+    font-family: "Poppins";
+}
+.row-form1 button {
+    border: none;
+    color: #fff;
+    display: block;
+    font-size: 12px;
+    padding: 8px 40px;
+    margin-left: auto;
+    margin-bottom: 10px;
+    border-radius: 25px;
+    font-family: "Geometos";
+    background-color: #040589;
+}
+
+.radiomix {
+    display: flex;
+    justify-content: space-evenly;
+}
+.radiomix label {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.radiomix input[type="radio"] {
+    margin: 0;
+    width: 100%;
+    height: 2em;
+    box-shadow: none;
+}
+.rzar {
+    float: right;
+    margin-top: 0.5px;
+    color: #707070;
+    text-decoration: underline;
+}
+.text-verificada {
+    margin: 0 0 5px;
+    font-size: 11px;
+    cursor: pointer;
+    color: #8ac10d;
+    text-align: left;
+    font-family: "Poppins";
+    text-decoration: underline;
+}
+.content-metodo {
+    text-align: left;
+    font-size: 13px;
+    padding: 0 8px;
+    color: #151a30;
+    font-family: "Poppins";
+    background-color: #fff;
+}
+.content-metodo input {
+    margin: 0;
+    width: auto;
+    vertical-align: middle;
+}
+.content-metodo span {
+    margin-left: 10px;
+    color: #ababab;
+}
+.textinfo2 {
+    margin: 0;
+    font-size: 14px;
+    text-align: left;
+    color: #151a30;
+}
+.switch {
+    width: 60px;
+    float: left;
+    height: 34px;
+    position: relative;
+    display: inline-block;
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+/* The slider */
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+}
+
+input:checked + .slider {
+    background-color: #ff103d;
+}
+
+input:focus + .slider {
+    box-shadow: 0 0 1px #ff103d;
+}
+
+input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+    border-radius: 34px;
+}
+
+.slider.round:before {
+    border-radius: 50%;
+}
+.contant-button02 button {
+    width: 20%;
+    border: none;
+    color: #fff;
+    padding: 10px 0;
+    font-size: 12px;
+    border-radius: 25px;
+    font-family: "Geometos";
+    background-color: #040589;
+}
+
+.title-anadir {
+    cursor: pointer;
+    margin: 18px 0 0;
+    color: #ff103d;
+    text-align: center;
+    text-decoration: underline;
+    font-family: "Poppins";
+}
+.content-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Estadisticas */
+.row-mes {
+    padding: 7px 0;
+    background-color: #a7a7a7;
+}
+.row-mes select {
+    border: none;
+    color: #fff;
+    font-size: 18px;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 0px;
+    width: max-content;
+    font-family: "Poppins";
+    text-align-last: center;
+    background-color: transparent;
+}
+.row-mes select:focus,
+.row-mes select:active {
+    border: none;
+    color: #fff;
+    outline: 0px;
+    box-shadow: none;
+    background-color: transparent;
+}
+.row-mes select option {
+    color: #000;
+    font-size: 14px;
+    cursor: pointer;
+}
+.select-mes {
+    margin-right: auto;
+}
+.select-a {
+    margin-left: auto;
+}
+.img-grafica {
+    width: 100%;
+}
+.filtr02 {
+    margin-right: auto;
+}
+
+/* Modal metedos de pago */
+.row-mtd-pago {
+    align-items: center;
+}
+.titleMtd {
+    margin: 20px 0 0;
+    color: #151a30;
+    text-align: left;
+    font-family: "Poppins";
+}
+.textmtd {
+    margin: 10px 0 0;
+    color: #151a30;
+    text-align: left;
+    font-size: 14px;
+    font-family: "Poppins";
+}
+.text-mtodo {
+    margin: 10px 0 0;
+    color: #151a30;
+    text-align: left;
+}
+.text-mtodo img {
+    width: 28px;
+}
+.text-mtodo span {
+    vertical-align: middle;
+}
+.text-tarj {
+    margin: 10px 0 0;
+    color: #1464e1;
+    text-align: left;
+    font-size: 15px;
+    font-family: "Poppins";
+}
+.tarj-act {
+    color: #eb4454 !important;
+}
+.row-scrol {
+    align-items: center;
+    overflow: auto;
+    max-height: 150px;
+}
+.btn-agg-mtd {
+    border: none;
+    height: 40px;
+    color: #fff;
+    display: block;
+    font-size: 12px;
+    margin-top: 10px;
+    margin-right: auto;
+    padding: 12px 30px;
+    border-radius: 25px;
+    font-family: "Geometos";
+    background-color: #1464e1;
+}
+.row-footerM {
+    padding: 35px 20px;
+    align-items: flex-end;
+    background-color: #e7e7e7;
+}
+.cont-btn-metdo button {
+    border: none;
+    height: 38px;
+    color: #fff;
+    font-size: 12px;
+    margin-top: 10px;
+    margin-right: 10px;
+    padding: 10px 30px;
+    border-radius: 25px;
+    font-family: "Geometos";
+    background-color: #1464e1;
+}
+.btn-r {
+    background-color: #ff103d !important;
+}
+.row-sld {
+    align-items: flex-end;
+    border-bottom: 1px solid #0c0f3d;
+}
+.row-sld img {
+    width: 35px;
+    display: block;
+    margin-right: auto;
+}
+.row-sld p {
+    margin: 0;
+    font-size: 15px;
+    color: #0c0f3d;
+    overflow: hidden;
+    text-align: left;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.row-sld h5 {
+    margin: 0;
+    color: #0c0f3d;
+    overflow: hidden;
+    text-align: right;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font-family: "Geometos";
+}
+.row-sld h5 span {
+    font-size: 11px;
+    vertical-align: middle;
+    text-decoration: underline;
+}
+.row-agg-mtd {
+    padding-bottom: 20px;
+    background-color: rgba(231, 231, 231, 0.5);
+}
+.row-agg-mtd p {
+    margin: 15px 0 1px;
+    font-size: 15px;
+    color: #0c0f3d;
+    text-align: left;
+}
+.row-agg-mtd .input-group {
+    background-color: #e7e7e7;
+}
+.row-agg-mtd .input-group-addon {
+    cursor: pointer;
+    padding: 5px 10px;
+}
+.row-agg-mtd .input-group-addon i {
+    color: #707070;
+    font-size: 18px;
+    vertical-align: middle;
+}
+.row-agg-mtd input {
+    border: none;
+    font-size: 15px;
+    color: #707070;
+    border-radius: 0px;
+    background-color: #e7e7e7;
+}
+.row-agg-mtd input:focus,
+.row-agg-mtd input:active {
+    outline: 0px;
+    box-shadow: none;
+    background-color: #e7e7e7;
+}
+.row-m02 button {
+    width: 100%;
+    border: none;
+    padding: 5px;
+    height: 38px;
+    color: #fff;
+    font-size: 12px;
+    margin-top: 37px;
+    margin-right: 10px;
+    border-radius: 25px;
+    font-family: "Geometos";
+    background-color: #ff103d;
+}
+.row-m02 .btnCanc {
+    background-color: #040589 !important;
+}
+.foto-producto-modal .img-producto-modal {
+    width: 200px;
+    height: 200px;
+    float: center;
+    display: block;
+    max-width: 200px;
+    min-width: 200px;
+    max-height: 200px;
+    margin-top: -4px;
+    min-height: 200px;
+    object-fit: contain;
+    margin-right: 10px;
+    vertical-align: middle;
+    border: 1px solid #b1b1b1;
+}
+textarea {
+    resize: none;
+}
+
+.lg-outer.lg-visible {
+    z-index: 30000 !important;
+}
+.lg-backdrop {
+    z-index: 30000 !important;
+}
+.pac-container {
+    z-index: 999999999999 !important;
+}
+
+.radio-envio {
+    width: 15px;
+}
+.label1 {
+    margin: 20px 0 0;
+    font-size: 13px;
+    color: #0c0f3d;
+    text-align: left;
+    font-family: "Poppins";
+}
+
+.tipo-carrier {
+    font-size: 14px;
+    text-align: left;
+}
+
+.precio-carrier {
+    font-size: 14px;
+}
+
+/* Paginacion */
+.pagination {
+    margin: 20px 0 50px;
+    display: inline-block;
+}
+.pagination a {
+    color: #ff103d;
+    font-size: 15px;
+    padding: 10px 14px;
+    text-decoration: none;
+}
+.pagination .active {
+    color: #fff;
+    border-radius: 50%;
+    background-color: #ff103d;
+}
+.pagination .AD {
+    font-size: 20px;
+}
+
+.content-text-cali {
+    margin: 15px 0;
+    font-size: 16px;
+    color: #909090;
+    text-align: justify;
+    letter-spacing: 3px;
+}
+
+.text-calif {
+    color: #707070;
+    letter-spacing: normal;
+    font-family: "Poppins";
+}
+.col6idioma {
+    padding-right: 370px;
+}
+.content-text-cali img {
+    width: 30px;
+}
+.btnTle {
+    width: 106px;
+    border: none;
+    color: #fff;
+    display: block;
+    font-size: 11px;
+    margin-left: auto;
+    padding: 10px 0px;
+    border-radius: 25px;
+    font-family: "Poppins";
+    background-color: #232a85;
+}
+.dropdown-item.active {
+    background-color: #ff103d;
+}
+/* Chat con el vendedor */
+#modal-chat .modal-dialog,
+#modal-chat .modal-content {
+    margin: 0;
+    height: 100%;
+    margin-left: auto;
+}
+#modal-chat .modal-body {
+    height: 100%;
+    border: none;
+    overflow-y: auto;
+}
+#modal-chat .modal-header,
+#modal-chat .modal-footer {
+    border: none;
+}
+.div-encabezado {
+    width: 100%;
+}
+.encabezado-chat {
+    padding: 15px 0;
+    align-items: center;
+    background-color: #1464e1;
+}
+.encabezado-chat .close {
+    margin: 0 !important;
+    /* background-color: transparent!important; */
+}
+.encabezado-chat img {
+    width: 95px;
+    margin: 5px;
+}
+.encabezado-chat p {
+    margin: 0;
+    color: #fff;
+    font-size: 15px;
+    text-align: right;
+    letter-spacing: 20px;
+    font-family: "Geometos";
+}
+.row-user-chat {
+    padding: 10px 0;
+    align-items: center;
+}
+.container-user-chat .imagen-user-chat {
+    width: 60px;
+    height: 60px;
+    margin: auto;
+    display: block;
+    max-width: 60px;
+    min-width: 60px;
+    max-height: 60px;
+    min-height: 60px;
+    border-radius: 50%;
+    vertical-align: middle;
+    border: 1px solid #b1b1b1;
+}
+.imagen-user-chat {
+    width: 60px;
+    height: 60px;
+    max-width: 60px;
+    max-height: 60px;
+    object-fit: contain;
+    background: #ffffff;
+}
+.row-user-chat h6 {
+    margin: 0 5px 0;
+    color: #1464e1;
+    text-align: left;
+    font-family: "Poppins";
+}
+.row-user-chat p {
+    margin: 0 5px 0;
+    color: #0c0f3d;
+    text-align: left;
+    font-family: "Poppins";
+}
+.row-chat-product {
+    position: relative;
+    padding: 15px 30px;
+    align-items: center;
+    background-color: #e7e7e7;
+}
+.row-chat-product .left-slid {
+    left: 10px;
+}
+.row-chat-product .right-slid {
+    right: 15px;
+}
+.container-product-chat .imagen-product-chat {
+    width: 90px;
+    height: 90px;
+    margin: auto;
+    display: block;
+    max-width: 90px;
+    min-width: 90px;
+    max-height: 90px;
+    min-height: 90px;
+    border-radius: 5px;
+    vertical-align: middle;
+    border: 1px solid #b1b1b1;
+}
+.imagen-product-chat {
+    width: 90px;
+    height: 90px;
+    max-width: 90px;
+    max-height: 90px;
+    object-fit: contain;
+    background: #ffffff;
+}
+.row-chat-product .name {
+    margin: 0;
+    font-size: 19px;
+    color: #0c0f3d;
+    text-align: left;
+    overflow: hidden;
+    white-space: nowrap;
+    font-family: "Poppins";
+    text-overflow: ellipsis;
+}
+.row-chat-product .price {
+    margin: 0;
+    font-size: 19px;
+    color: #808080;
+    text-align: left;
+    font-family: "Poppins";
+}
+.row-chat-product .descuento {
+    margin: 0;
+    font-size: 16px;
+    color: #ff103d;
+    text-align: left;
+    font-family: "Poppins";
+}
+.row-chat-product .descuento span {
+    color: #999999;
+    text-decoration: line-through;
+    font-family: Open San, sans-serif;
+}
+.text-conect {
+    margin: 0;
+    padding: 5px;
+    font-size: 15px;
+    color: #707070;
+    font-weight: bold;
+    text-align: center;
+    background-color: #fff;
+    justify-content: center;
+}
+.text-conect p {
+    margin: 2px;
+    text-align: center;
+}
+.scroll-chat {
+    width: 100%;
+    align-items: center;
+    padding-bottom: 10px;
+}
+.scroll-chat .row {
+    margin: 10px 0;
+    align-items: flex-end;
+}
+.scroll-chat .row img {
+    border-radius: 20px;
+    margin: 15px 0;
+    width: 270px;
+    height: 270px;
+    display: block;
+    max-width: 270px;
+    min-width: 270px;
+    max-height: 270px;
+    min-height: 270px;
+}
+.inicial-vendedor {
+    margin: 0;
+
+    width: 35px;
+    height: 35px;
+    color: #fff;
+    display: flex;
+    font-size: 22px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    align-items: center;
+    font-family: "Poppins";
+    justify-content: center;
+    text-transform: uppercase;
+    background-color: #1464e1;
+}
+.msj-vendedor {
+    color: #fff;
+    font-size: 15px;
+    text-align: left;
+    margin: 7px 0 0;
+    margin-right: auto;
+    line-height: 1.3;
+    padding: 7px 20px;
+    width: fit-content;
+    border-radius: 25px;
+    background-color: #1464e1;
+}
+.inicial-comprador {
+    margin: 0;
+    width: 35px;
+    height: 35px;
+    color: #fff;
+    display: flex;
+    font-size: 22px;
+    border-radius: 50%;
+    align-items: center;
+    margin-bottom: 20px;
+    font-family: "Poppins";
+    justify-content: center;
+    text-transform: uppercase;
+    background-color: #4a00b1;
+}
+.msj-comprador {
+    color: #fff;
+    font-size: 15px;
+    margin: 7px 0 0;
+    text-align: left;
+    line-height: 1.3;
+    margin-left: auto;
+    padding: 7px 20px;
+    width: fit-content;
+    border-radius: 25px;
+    background-color: #4a00b1;
+}
+.hora-chat-vendedor {
+    color: #999;
+    font-size: 13px;
+    font-weight: bold;
+    margin: 5px 0 -3px;
+    text-align: left;
+}
+.hora-chat-comprador {
+    color: #999;
+    font-size: 13px;
+    font-weight: bold;
+    margin: 5px 0 -3px;
+    text-align: right;
+}
+.row-enviar-msj {
+    padding: 10px;
+    align-items: center;
+    background-color: #f5f5f5;
+}
+.textarea-chat {
+    width: 100%;
+    padding: 10px;
+    overflow: auto;
+    font-size: 13px;
+    color: #707070;
+    max-height: 50px;
+    min-height: 20px;
+    line-height: 1.2;
+    text-align: left;
+    margin: 7px auto 0;
+    border-radius: 25px;
+    display: inline-block;
+    background-color: #fff;
+    border: 1px solid #c6c5c5;
+    font-family: Open San, sans-serif;
+}
+.textarea-chat:hover,
+.textarea-chat:focus,
+.textarea-chat:active {
+    outline: 0px;
+    box-shadow: none;
+}
+.textarea-chat[placeholder]:empty:before {
+    content: attr(placeholder);
+    color: #707070;
+}
+.btn-camara {
+    cursor: pointer;
+    width: 45px;
+    margin: 0;
+    border: none;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: #ff103d;
+}
+.msg-error {
+    padding: 0 35px;
+    color: #ff103d;
+    font-family: "Poppins";
+    font-size: 13px;
+}
+
+.btn-camara img {
+    width: 25px;
+}
+.file-logo {
+    display: none;
+}
+
+h6.chat_nombre_vendedor {
+    text-transform: capitalize !important;
+}
+.loading-spinners {
+    color: #ff103d;
+}
+.bootstrap-select .dropdown-toggle:focus,
+.bootstrap-select > select.mobile-device:focus + .dropdown-toggle {
+    box-shadow: none !important;
+    outline: 0px !important;
+    background-color: rgb(255, 255, 255);
+}
+.carousel-publicc {
+    margin-top: 30px;
+}
+.card {
+    border: none;
+}
+.card-body {
+    padding: 0;
+}
+.card-body p,
+.card-body input {
+    width: 100%;
+    border: none;
+    resize: none;
+    color: #151a30;
+    font-size: 13px;
+    text-align: left;
+    padding: 10px 12px;
+    border-radius: 0px;
+    margin-bottom: 20px;
+    font-family: "Poppins";
+    background-color: #ebebeb;
+}
+.card-body input {
+    height: 40px;
+}
+#modal-envio .card-body input:focus{
+    background-color: #ebebeb;
+    box-shadow: none;
+}
+.card-body .text-primary,
+.__envio2op .text-primary {
+    padding: 0;
+    font-size: 14px;
+    text-align: left;
+    font-family: "Poppins";
+    color: #232a85 !important;
+    background-color: transparent;
+}
+.__envio2op {
+    padding: 0 30px;
+}
+.__envio2op a {
+    margin: 0 !important;
+    font-size: 15px;
+    display: block;
+    text-align: left;
+    color: #005fff;
+}
+.__envio2op a:hover {
+    color: #005fff;
+}
+
+/* Direcciones */
+#modal-direccion-cuenta .row-form1,
+#modal-direccion-cuenta_editar .row-form1 {
+    align-items: flex-end;
+}
+#modal-direccion-cuenta .row-form1 p,
+#modal-direccion-cuenta_editar .row-form1 p {
+    text-align: center;
+}
+#modal-direccion-cuenta .row-form1 input,
+#modal-direccion-cuenta_editar .row-form1 input {
+    box-shadow: none;
+    margin: 0 auto 10px;
+    text-align: center;
+    border-bottom: 1px solid #232a85;
+}
+.select_pais_div {
+    margin: 10px 0 0;
+    width: fit-content;
+    margin-right: auto;
+}
+.select_pais_div .input-group-text {
+    border: none;
+    font-size: 15px;
+    color: #232a85;
+    border-radius: 0px;
+    font-family: "Poppins";
+    background-color: transparent;
+}
+.select_pais_div .bootstrap-select .dropdown-toggle,
+.select_pais_div .bootstrap-select .dropdown-toggle {
+    z-index: 99;
+    padding: 6px 30px;
+    background-color: #fff;
+    border: 2px solid #232a85;
+    border-radius: 20px !important;
+}
+.select_pais_div .filter-option-inner-inner {
+    font-size: 14px;
+    color: #232a85;
+    font-family: "Poppins";
+    text-align: left !important;
+}
+.input-group > .custom-select:not(:first-child),
+.input-group > .form-control:not(:first-child) {
+    background-color: transparent;
+}
+.select_pais_div .input-group-text {
+    padding-left: 0;
+}
+.row-crear-direct {
+    margin-bottom: 50px;
+    align-items: flex-end;
+}
+.btn-crear-direccion {
+    border: none;
+    height: 40px;
+    color: #fff;
+    display: block;
+    cursor: pointer;
+    font-size: 12px;
+    margin: 10px 0 0;
+    margin-left: auto;
+    width: fit-content;
+    padding: 10px 30px;
+    border-radius: 25px;
+    font-family: "Geometos";
+    background-color: #ff103d;
+}
+.direcciones__list__nodata img {
+    width: 300px;
+}
+.__alldirecciones_cuenta {
+    margin-bottom: 50px;
+}
+.__alldirecciones_cuenta .card-title {
+    color: #232a85;
+    text-align: left;
+    font-family: "Poppins";
+}
+.div-enlaces {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.div-enlaces a {
+    width: 100%;
+    color: #fff;
+    padding: 8px 0;
+    font-size: 11px;
+    border-radius: 25px;
+    margin: 0 3px !important;
+    font-family: "Geometos";
+    background-color: #0c0f3d;
+}
+
+.col6-selects .filter-option-inner-inner {
+    font-family: "Poppins";
+}
+.col6-selects:not(.input-group) > .bootstrap-select.form-control:not([class*="col-"]) {
+    margin-top: 8px;
+}
+.col6-selects:not(.input-group) > .bootstrap-select.form-control:not([class*="col-"]) button {
+    z-index: 999;
+    color: #232a85;
+    border-radius: 20px;
+    background-color: #fff;
+    border: 2px solid #232a85;
+}
+.col6-selects .dropdown-menu {
+    z-index: 99;
+    width: inherit;
+    margin-top: -18px;
+    padding: 5px 0 !important;
+    border: 2px solid #232a85;
+    border-radius: 3px 0 20px 20px;
+}
+.col6-selects .dropdown-item {
+    padding: 5px 15px;
+    font-size: 13px;
+    cursor: pointer;
+    color: #232a85;
+    white-space: normal;
+    text-align: left;
+    font-family: "Poppins";
+}
+.col6-selects .dropdown-menu a:hover {
+    color: #ff103d;
+}
+
+.opcion_resumen_miscuentas:hover {
+    background-color: #eb4454;
+}
+.opcion_resumen_miscuentas:hover p {
+    color: #fff;
+}
+.opcion_resumen_miscuentas:hover img {
+    filter: brightness(0) invert(1);
+}
+.img-list_facturacion {
+    width: 34px;
+}
+.table-facturacion {
+    border-collapse: separate;
+    border-spacing: 0px 20px;
+}
+.contenedor_reportes_facturacion {
+    margin-top: 10px;
+}
+.facturacion_title {
+    margin-top: 18px !important;
+}
+.contenedor_table_facturacion {
+    width: 100% !important;
+    margin-top: 0px;
+}
+.row_facturacion_one {
+    margin: 20px 0px 20px 0px !important;
+    width: 96%;
+    height: 70px;
+}
+
+.title_venta_style {
+    margin-bottom: 15px !important;
+}
+
+.row-info-venta div {
+    margin-right: 0;
+}
+.div_de_row_filtro_venta {
+    padding-right: 183px !important;
+}
+.content__nodata_venta_miscuentas {
+    margin-bottom: 10px;
+}
+
+.padding-label {
+    margin-left: 18px !important;
+    transition: 200ms;
+}
+
+.lbel-facturacion,
+.pfact {
+    margin: 0;
+    color: #232a85;
+    font-family: "Poppins";
+}
+.pfact {
+    color: #ff103d;
+}
+
+.cont-ints {
+    display: flex;
+    margin-top: 30px;
+    align-items: center;
+    justify-content: center;
+}
+.sub-cont {
+    width: 240px;
+    margin: 0 10px;
+}
+.cont-ints p {
+    font-size: 12px;
+}
+/* para darle estilo al texto de declinada o no concretada*/
+h4 strike {
+    color: #232a85;
+    font-family: "Poppins";
+}
+
+.row-clavess{
+    align-items: flex-end;
+}
+.row-clavess p{
+    color: #eb4454;
+}
+.group-claves input{
+    margin: 0;
+    padding: 0;
+    box-shadow: none!important;
+    border-bottom: 1px solid #040589!important;
+}
+.group-claves button{
+    margin: 0;
+    padding: 0 7px;
+    background-color: transparent;
+    border-bottom: 1px solid #040589!important;
+}
+.group-claves button i{
+    color: #040589;
+}
+.group-claves .input-group-prepend{
+    width: auto;
+}
+#modal-desactivar-usuario ._trans893{
+    font-size: 14px;
+    color: #eb4454;
+    font-family: "Poppins";
+}
+.groupdesactivar{
+    width: 60%;
+    margin: 0 auto 45px;
+}
+.groupdesactivar input{
+    border: none;
+    font-size: 14px;
+    border-radius: 0px;
+}
+#modal-compartir-publicacion-no-revisada .trans293{
+    margin-bottom: 40px;
+}
+.__divdepnewdireccion_dir .dropdown-item.active{
+    background-color: transparent;
+}
+
+.content-formss-clave{
+    display: flex;
+    justify-content: center;
+}
+.content-formss-clave .sub-forms{
+    width: 100%;
+    padding: 0 14px;
+}
+
+
+
+
+
+
+
+/* -------------------------------- Medias Responsives -------------------------------- */
+@media (max-width: 1130px) {
+    .nav-pills .nav-link {
+        padding: 10px 0;
+        font-size: 13px;
+    }
+    #ref-publicaciones .row-selects .group-filtro .bootstrap-select:not([class*="col-"]):not([class*="form-control"]):not(.input-group-btn) {
+    width: 220px;
+}
+    .row-filtro-venta .bootstrap-select:not([class*="col-"]):not([class*="form-control"]):not(.input-group-btn) {
+        width: 100px;
+    }
+    .btn-partic{
+        font-size: 10px;
+        padding: 10px 17px;
+    }
+    .title-subast2{
+        font-size: 20px;
+    }
+    .td-name1 {
+        max-width: 240px;
+    }
+    .row-cont-publi {
+        width: 100%;
+    }
+    .row-info-progress p b {
+        margin-right: 0;
+    }
+    .tab-pane {
+        padding: 0px 15px;
+    }
+    .row-info-one p,
+    .row-secund p {
+        font-size: 13px;
+    }
+    .row-info-progress p,
+    .row-info-one p b,
+    .row-secund p b {
+        font-size: 14px;
+    }
+    .img-list {
+        width: 50px;
+    }
+    .table-facturacion thead th {
+        font-size: 12px;
+    }
+    .table-facturacion tbody td {
+        padding: 10px 5px;
+    }
+    .group-filtro {
+        width: 100%;
+    }
+    .row-filtro .col-sm-6 {
+        padding: 15px;
+    }
+    .row-filtro .group-input,
+    .group-filtro {
+        justify-content: center;
+    }
+    .row-filtro .drop-filtro,
+    .row-filtro .content-input {
+        width: 220px;
+        max-width: 220px;
+    }
+    .row-filtro .group-filtro .input-group-text {
+        padding: 0px 22px 0px 0px;
+    }
+    .row-filtro .button-modificar {
+        width: 220px;
+        display: block;
+        margin-left: 75px;
+    }
+    .table-publicaciones thead th {
+        font-size: 13px;
+    }
+
+    .containerimg-compra .img-compra {
+        width: 57px;
+        height: 57px;
+        max-width: 57px;
+        min-width: 57px;
+        max-height: 57px;
+        min-height: 57px;
+    }
+    .row-filtro-venta .group-input,
+    .row-filtro-venta .group-filtro {
+        justify-content: center;
+        width: max-content;
+    }
+    .table-ventas .button-modificar {
+        font-size: 10px;
+    }
+    .col6idioma {
+        padding-right: 300px;
+    }
+}
+
+@media (max-width: 991px) {
+    .row-info-progress .ver-mas {
+        margin: 0 30px 0 0;
+    }
+    .content-formss-clave{
+        display: block;
+    }
+    .row-clavess p{
+        margin: 30px 0 0!important;
+    }
+    #ref-publicaciones  .content-input{
+        margin-left: 0;
+        margin-right: auto;
+    }
+    ._trans886{
+        margin-top: 35px;
+    }
+    #modal-cambiar-contrasena .contant-button02 button,
+    #modal-cambiar-clave .contant-button02 button{
+        width: 150px;
+    }
+    .cont-ints {
+        display: block;
+    }
+    .btn-partic{
+        font-size: 10px;
+        padding: 10px 12px;
+        margin-right: 7px;
+    }
+    .title-subast2{
+        font-size: 18px;
+    }
+    .sub-cont {
+        width: 100%;
+        margin: 5px 0 25px;
+    }
+    .col6idioma {
+        padding-right: 15px;
+    }
+    .row-one-rep .col-md-5 {
+        padding-left: 15px;
+    }
+    .card-body .col-12,
+    .__envio2op {
+        padding: 0;
+    }
+    .btnsopcs {
+        margin-top: 30px;
+    }
+    .row-info-one .col-sm-4 {
+        padding-top: 20px;
+    }
+    .progress-list {
+        width: 95%;
+    }
+    .col-list-nav {
+        z-index: 9999;
+        left: -195px;
+        top: 70px;
+        width: 235px;
+        transition: 1s;
+        position: fixed;
+        background-size: 100% 100%;
+        padding: 15px 0px 15px 15px;
+        background-color: transparent;
+        background-image: url("../imagen/nav-lateral.png");
+    }
+    .col-list-nav:hover {
+        left: 0;
+    }
+    .icon-down-responsive {
+        bottom: 0;
+        top: 225px;
+        left: auto;
+        right: 13px;
+        display: block;
+        font-size: 20px;
+        color: #232a85;
+        position: absolute;
+        text-align: center;
+    }
+    .col-list-nav .fa-chevron-left {
+        display: none;
+        margin-top: 5px;
+    }
+    .col-list-nav:hover .fa-chevron-left {
+        display: block;
+    }
+    .col-list-nav:hover .fa-chevron-right {
+        display: none;
+    }
+    .table-facturacion {
+        width: 900px;
+        overflow: auto;
+    }
+    .row-filtro .drop-filtro,
+    .row-filtro .content-input {
+        width: 200px;
+        max-width: 200px;
+    }
+    .row-filtro .button-modificar {
+        width: 200px;
+        font-size: 11px;
+    }
+    .table-publicaciones {
+        width: 900px;
+    }
+    .rowinfocali button {
+        margin: 15px 0 0;
+    }
+    .label-filter {
+        text-align: center;
+    }
+    .row-filtro-venta .drop-filtro {
+        width: 200px;
+        max-width: 200px;
+    }
+    .row-filtro-venta .col-sm-6 {
+        padding: 15px;
+    }
+    .row-filtro-venta .frilter-ordenar {
+        margin: inherit;
+    }
+    .row-info-venta {
+        padding: 35px 5px;
+    }
+    .row-info-venta p {
+        font-size: 14px;
+        text-align: center;
+    }
+    .container-tips {
+        height: 150px;
+    }
+    .row-titleEntrega p {
+        margin: 10px;
+    }
+    /* .contn-entrega button {
+        width: 30%;
+    } */
+    .col7none {
+        display: none;
+    }
+    .col12none {
+        display: block;
+    }
+    .header-modal-label {
+        margin: 15px 0 20px;
+        text-align: left;
+    }
+    .infor-subas {
+        padding: 0;
+    }
+    .row-info2 .pl-lg-0 {
+        padding: 0 15px;
+        padding-bottom: 20px;
+    }
+    .row-info2 .col-md-6 {
+        padding-bottom: 20px;
+    }
+    .text-tarj {
+        margin: 2px 33px 10px;
+    }
+    .btn-agg-mtd {
+        width: 100%;
+    }
+    .titleMtd {
+        text-align: center;
+    }
+    .cont-btn-metdo {
+        display: flex;
+        justify-content: center;
+    }
+    .cont-btn-metdo button {
+        padding: 10px 45px;
+    }
+    .row-sld {
+        margin-top: 25px;
+    }
+    .row-m02 button {
+        margin-top: 25px;
+    }
+    .radiomix {
+        flex-flow: wrap;
+    }
+    .radiomix label {
+        width: auto;
+    }
+    /* .ver-conver .badge, */
+    .button-modificar .badge {
+        top: -30px;
+        right: -66px;
+    }
+    .table-ventas {
+        width: 1100px;
+    }
+    .btn-cambiar-contrasena {
+        margin-top: 15px;
+    }
+}
+
+@media (max-width: 767px) {
+    #ref-publicaciones .row-selects .group-filtro .bootstrap-select:not([class*="col-"]):not([class*="form-control"]):not(.input-group-btn), .content_estado, .content_tipo_publicacion, .content_expo{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .row-one-rep .progress-list {
+        width: 100%;
+    }
+    .title-subast2, .text-two{
+        text-align: center;
+    }
+    .ctn-btns-nasbi{
+        justify-content: center;
+    }
+    .img-nasb{
+        width: 100%;
+        margin-bottom: 40px;
+    }
+    .btn-partic{
+        width: 100%;
+        margin: 15px 10px;
+    }
+    .header-modal-label,
+    .label02 {
+        line-height: 2.1;
+        display: grid;
+    }
+    .tipo-subasta {
+        width: fit-content;
+        margin-left: 0;
+    }
+    .header-modal-label span {
+        width: fit-content;
+    }
+    .row-filtro-venta .bootstrap-select:not([class*="col-"]):not([class*="form-control"]):not(.input-group-btn),
+    .content_estado_venta,
+    .content_expo_venta {
+        width: 100%;
+    }
+    .row-filtro-venta .label-filter {
+        text-align: left;
+    }
+    .title-section {
+        font-size: 25px;
+        text-align: center;
+    }
+    .row-one-fact p {
+        text-align: center;
+    }
+    .row-one-rep .col-md-7 {
+        border-right: none;
+    }
+    .input-group-prepend {
+        width: 100%;
+    }
+    .row-filtro .drop-filtro,
+    .row-filtro .content-input {
+        width: 100%;
+        max-width: 100%;
+    }
+    .divdropdownfiltro,
+    .row-filtro .button-modificar {
+        width: 100%;
+        margin: 0;
+        justify-content: center;
+    }
+    .row-filtro {
+        align-items: flex-end;
+    }
+    .containerimg-compra .img-compra {
+        margin: auto;
+    }
+    .btn-califi,
+    .row-list-compra .divdropdownfiltro {
+        margin-top: 20px;
+    }
+    .row-title-compras .title-section {
+        margin: 0;
+        text-align: left;
+    }
+    .filter-compras {
+        max-width: 100%;
+        text-align: center;
+    }
+    .row-title-compras {
+        margin-top: 30px;
+        align-items: center;
+    }
+    .row-title-compras .input-group-prepend {
+        justify-content: center;
+    }
+    .cont-compra {
+        margin-bottom: 50px;
+    }
+    .container-mdal .img-mdal {
+        margin: auto;
+    }
+    .col-name-modal p,
+    .col-name-modal h5,
+    .col-name-modal h4 {
+        text-align: center;
+    }
+    .titleModal {
+        text-align: center;
+    }
+    .row-filtro-venta .group-input,
+    .row-filtro-venta .group-filtro,
+    .row-filtro-venta .drop-filtro {
+        width: 100%;
+        max-width: 100%;
+    }
+    .row-info-venta {
+        padding: 5px;
+    }
+    .row-info-venta .col-sm-6 {
+        padding: 15px;
+    }
+    .btton-mejorar {
+        font-size: 10px;
+        padding: 12px 10px;
+    }
+    .labelTips,
+    .des-tips {
+        text-align: center;
+    }
+    .tabTips {
+        background-size: cover;
+    }
+    .containet-btns {
+        display: block;
+    }
+    .containet-btns button {
+        width: 100%;
+        height: 40px;
+        font-size: 10px;
+        margin-bottom: 15px;
+    }
+    .tabTips {
+        padding-bottom: 50px !important;
+    }
+    .texto-infor-subas {
+        width: 100%;
+        padding: 20px;
+    }
+    .row-fondo-subas {
+        background: transparent;
+    }
+    .row-fondo-subas iframe {
+        margin-bottom: 20px;
+    }
+    .rowtwo {
+        padding: 20px 0 70px;
+    }
+    .rowtwo iframe {
+        margin-top: 40px;
+    }
+    .radiomix {
+        flex-wrap: wrap;
+    }
+    /* .ver-conver .badge, */
+    .button-modificar .badge {
+        top: -30px;
+        right: -66px;
+    }
+    .row-filtro-venta .btn:not(:disabled):not(.disabled) {
+        z-index: 9;
+    }
+    .row-filtro-venta .dropdown-menu {
+        margin-top: 5px;
+        border-radius: 20px;
+    }
+}
+
+@media (max-width: 575px) {
+    .title-section {
+        font-size: 22px;
+    }
+    .groupdesactivar{
+        width: 100%;
+    }
+    .groupdesactiva{
+        width: 100%;
+    }
+    .ctn-btns-nasbi{
+        display: block;
+    }
+    .row-chat-product .name,
+    .row-chat-product .price {
+        text-align: center;
+    }
+    .container-product-chat .imagen-product-chat {
+        margin-bottom: 10px;
+    }
+    .encabezado-chat p {
+        font-size: 13px;
+        text-align: left;
+        margin: 0 0 0 -5px;
+        letter-spacing: 10px;
+    }
+    .encabezado-chat img {
+        margin: 0;
+        width: 90px;
+    }
+    .row-filtro-venta .label-filter {
+        text-align: center;
+    }
+    .col-name-modal h4 {
+        font-size: 20px;
+    }
+    .col-name-modal h5 {
+        margin: 15px 0 0;
+        font-size: 13px;
+    }
+    .content-foto .img-carousel {
+        width: 150px;
+        height: 150px;
+    }
+    .modal .row-form1 {
+        padding: 30px 0px;
+    }
+    .row-form3 {
+        max-height: 280px;
+    }
+    #modal-direcciones .contant-button02 button {
+        width: 100%;
+    }
+    .btnsopcs {
+        margin-top: 10px;
+    }
+    .row-info-one {
+        padding: 20px;
+        border-radius: 30px;
+    }
+    .row-info-progress .ver-mas,
+    .row-info-one p {
+        text-align: left;
+    }
+    .row-secund .img-list {
+        width: 90%;
+    }
+    .row-one-fact p {
+        display: grid;
+    }
+    .row-one-rep p img {
+        float: left;
+    }
+    .row-filtro .col-sm-6,
+    .row-filtro-venta .col-sm-6 {
+        padding: 0px 15px 15px;
+    }
+    .containerimg-compra .img-compra {
+        width: 80px;
+        height: 80px;
+        max-width: 80px;
+        min-width: 80px;
+        max-height: 80px;
+        min-height: 80px;
+    }
+    .td-name1 {
+        max-width: 380px;
+    }
+    .row-title-compras {
+        align-items: flex-end;
+    }
+    .row-list-compra p {
+        margin: 5px 0;
+    }
+    .content-img-comp p,
+    .content-img-comp .name,
+    .name-001,
+    .ver-conver {
+        text-align: center;
+    }
+    .row-title-compras .title-section {
+        margin: 0 0 10px;
+        text-align: center;
+    }
+    li .textime {
+        font-size: 10px;
+    }
+    .btton-mejorar {
+        margin: auto;
+        padding: 12px 40px;
+    }
+    .row-filtro .input-group-text,
+    .input-group-prepend,
+    .row-filtro .drop-filtro,
+    .row-filtro-venta .drop-filtro {
+        width: 100%;
+        text-align: center;
+        justify-content: center;
+    }
+    .container-tips h5 {
+        font-size: 17px;
+    }
+    .container-tips p {
+        float: left;
+    }
+    .row-titleEntrega p {
+        margin: 10px 0;
+    }
+    .contn-entrega {
+        display: block;
+        margin: 10px 0;
+    }
+    .contn-entrega button {
+        width: 100%;
+        margin: 10px 0px 0;
+    }
+    /* .contn-entrega button {
+        width: 42%;
+    } */
+    .contnConf .col-12,
+    .contnConf .col-md-6,
+    .contnConf .col-lg-6 {
+        padding: 0 8px;
+    }
+    .content-metodo {
+        display: grid;
+        padding: 15px 5px;
+    }
+    .content-metodo span {
+        margin-left: 0;
+        margin-top: 7px;
+    }
+    .content-metodo input {
+        height: auto;
+    }
+    .carousel-publicaciones {
+        margin-top: 20px;
+    }
+    .row-infMdal p {
+        font-size: 14px;
+    }
+    .title-subast {
+        display: grid;
+        font-size: 23px;
+        margin: 25px 0 0;
+    }
+    .container-video-subas iframe {
+        height: 200px;
+    }
+    .btn-partic {
+        width: 100%;
+    }
+    .title-subast2 {
+        font-size: 17px;
+        text-align: center;
+    }
+    .text-two {
+        text-align: center;
+    }
+    .div-contac {
+        padding: 20px 10px;
+    }
+    .img-grafica {
+        margin-bottom: 15px;
+    }
+    .cont-btn-metdo button {
+        padding: 10px 25px;
+    }
+    .text-mtodo img {
+        float: left;
+    }
+    .btn-agg-mtd {
+        height: 40px;
+        font-size: 11px;
+        padding: 10px;
+    }
+    /* .ver-conver .badge, */
+    .button-modificar .badge {
+        top: -30px;
+        right: -66px;
+    }
+    .div-enlaces {
+        margin-bottom: 30px;
+    }
+    .select_pais_div,
+    .btn-crear-direccion {
+        margin: 10px auto;
+    }
+    .contant-button02 button {
+        width: 100%;
+    }
+    .content_tipo_publicacion,
+    #ref-publicaciones
+        .row-selects
+        .group-filtro
+        .bootstrap-select:not([class*="col-"]):not([class*="form-control"]):not(.input-group-btn) {
+        width: 100%;
+    }
+    .tooltip-resumen,
+    .tooltip-resumen2 {
+        left: 0;
+    }
+    .tooltip-resumen:before {
+        left: 16.5%;
+    }
+    .tooltip-resumen2:before {
+        left: 28%;
+    }
+    .content_estado,
+    .bootstrap-select:not([class*="col-"]):not([class*="form-control"]):not(.input-group-btn),
+    .content_expo,
+    .content_expo_venta,
+    .content_estado_venta {
+        width: 100%;
+    }
+    .row-filtro .group-filtro .input-group-text {
+        padding: 0;
+        margin: 15px 0 4px;
+    }
+    h6.chat_nombre_vendedor,
+    .row-user-chat p {
+        margin-left: 30px;
+    }
+}
+
+.pac-container {
+    z-index: 999999999999 !important;
+}

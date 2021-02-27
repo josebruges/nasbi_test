@@ -1,0 +1,586 @@
+.row-content {
+    padding: 50px 50px 30px;
+    background-color: #ebebeb;
+}
+.row-content .form-control:disabled,
+.row-content .form-control[readonly] {
+    cursor: not-allowed;
+}
+.rowGray {
+    width: 65%;
+    padding: 60px 120px 60px 40px;
+    align-items: center;
+    background-color: rgb(112 112 112 / 0.2);
+}
+.row-content :not(.input-group) > .bootstrap-select.form-control:not([class*="col-"]),
+.row-content .btn:not(:disabled):not(.disabled) {
+    height: 45px;
+    border: none;
+    border-radius: 0px;
+    background-color: #fff;
+}
+.row-content .bootstrap-select .dropdown-toggle .filter-option-inner-inner {
+    margin-top: 7px;
+}
+.row-content .bootstrap-select .dropdown-toggle .filter-option-inner-inner {
+    font-size: 13px;
+    font-family: "Poppins";
+}
+.rowGray input {
+    margin: 0 !important;
+}
+.rowGray .btnsopcs {
+    width: 100%;
+    padding: 10px 0;
+    font-size: 12px;
+    margin: 25px 0 0 !important;
+    background-color: #ff103d;
+}
+.bootstrap-select .dropdown-toggle:focus,
+.bootstrap-select > select.mobile-device:focus + .dropdown-toggle {
+    outline: 0px !important;
+}
+.row-content .dropdown-menu {
+    margin-top: 7px;
+    border-radius: 20px;
+    border: 2px solid #232a85;
+}
+.row-content .bootstrap-select .dropdown-menu li a {
+    font-size: 13px;
+    color: #232a85;
+    font-family: "Poppins";
+}
+.row-content h3,
+.row-content h5 {
+    color: #232a85;
+    text-align: left;
+    font-family: "Poppins";
+}
+
+.info-text {
+    margin-bottom: 20px;
+    font-size: 14px;
+    text-align: left;
+    color: #707070;
+    font-family: "Poppins";
+}
+.label-form {
+    margin: 0 0 8px;
+    font-size: 13px;
+    color: #232a85;
+    text-align: left;
+    font-family: "Poppins";
+}
+.rowGray .label-form {
+    color: #ffffff;
+}
+
+.row-content input,
+.row-content select,
+.row-content textarea {
+    width: 100%;
+    height: 45px;
+    border: none;
+    resize: none;
+    padding: 10px;
+    font-size: 13px;
+    color: #151a30;
+    border-radius: 0px;
+    margin-bottom: 40px;
+    font-family: "Poppins";
+}
+
+.row-content input:focus,
+.row-content input:active,
+.row-content select:focus,
+.row-content select:active,
+.row-content textarea:focus,
+.row-content textarea:active {
+    outline: 0px;
+    box-shadow: none;
+    color: #151a30;
+}
+.row-content input::placeholder,
+.row-content textarea::placeholder {
+    color: #707070;
+    opacity: 0.5;
+}
+.row-content input:-ms-input-placeholder,
+.row-content textarea:-ms-input-placeholder {
+    color: #707070;
+}
+.row-content input::-ms-input-placeholder,
+.row-content textarea::-ms-input-placeholder {
+    color: #707070;
+}
+.rowGray input,
+.rowGray select,
+.rowGray textarea {
+    color: #707070;
+}
+.rowGray input:focus,
+.rowGray input:active,
+.rowGray select:focus,
+.rowGray select:active,
+.rowGray textarea:focus,
+.rowGray textarea:active {
+    color: #707070;
+}
+.contenedor-logo .imagen-logo {
+    width: 120px;
+    height: 120px;
+    cursor: pointer;
+    max-width: 120px;
+    min-width: 120px;
+    max-height: 120px;
+    min-height: 120px;
+    border-radius: 50%;
+    vertical-align: middle;
+}
+.imagen-logo {
+    width: 120px;
+    height: 120px;
+    max-width: 120px;
+    max-height: 120px;
+    background: #fff;
+    object-fit: contain;
+}
+.file-logo {
+    display: none;
+}
+.row-secnd {
+    width: 75%;
+    margin: 50px 30px;
+}
+.row-secnd .form-control:disabled,
+.row-secnd .form-control[readonly] {
+    background-color: rgb(112 112 112 / 0.2);
+}
+.label-img {
+    cursor: default;
+    font-size: 12px;
+    margin-top: 7px;
+    color: #232a85;
+    width: max-content;
+    font-family: "Geometos";
+    border-bottom: 1.4px solid #232a85;
+}
+.img-portada {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    object-fit: cover;
+}
+.content-portada {
+    height: 350px;
+    padding: 30px;
+    margin-top: 30px;
+    position: relative;
+}
+.contenedor-logo-portada {
+    margin-top: 10px;
+    position: inherit;
+    margin-left: 30px;
+    width: max-content;
+    margin-right: auto;
+}
+.contenedor-logo-portada .imagen-logo-portada {
+    width: 120px;
+    height: 120px;
+    max-width: 120px;
+    min-width: 120px;
+    max-height: 120px;
+    min-height: 120px;
+    border-radius: 50%;
+    vertical-align: middle;
+}
+.imagen-logo-portada {
+    width: 120px;
+    height: 120px;
+    max-width: 120px;
+    max-height: 120px;
+    background: #fff;
+    object-fit: contain;
+}
+.button-registrar {
+    border: none;
+    color: #fff;
+    display: block;
+    font-size: 12px;
+    padding: 12px 50px;
+    margin-right: 10px;
+    /*margin-right: auto;*/
+    border-radius: 25px;
+    font-family: "Geometos";
+    background-color: #ff103d;
+}
+.img-mapa {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    margin: 30px 0 20px;
+}
+.btn-acep-mdl {
+    border: none;
+    color: #fff;
+    font-size: 12px;
+    padding: 10px 42px;
+    border-radius: 25px;
+    margin: 0px 10px 10px;
+    font-family: "Geometos";
+    background-color: #232a85;
+}
+.fa-info-circle {
+    cursor: pointer;
+}
+.content-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btnsopcs {
+    border: none;
+    color: #fff;
+    display: block;
+    font-size: 12px;
+    padding: 8px 40px;
+    margin-bottom: 10px;
+    border-radius: 25px;
+    font-family: "Geometos";
+    background-color: #040589;
+}
+.switch {
+    width: 60px;
+    float: left;
+    height: 34px;
+    position: relative;
+    display: inline-block;
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+/* The slider */
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+}
+
+input:checked + .slider {
+    background-color: #ff103d;
+}
+
+input:focus + .slider {
+    box-shadow: 0 0 1px #ff103d;
+}
+
+input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+    border-radius: 34px;
+}
+
+.slider.round:before {
+    border-radius: 50%;
+}
+/* modal cambiar contraseña */
+
+.row-form1 {
+    width: 100%;
+    margin: 0;
+    padding: 30px 20px;
+    border-radius: 15px;
+    background-color: #fff;
+}
+
+.modal .row-form1 {
+    width: auto;
+}
+
+.row-form1 input {
+    padding: 0;
+    height: 30px;
+    border: none;
+    font-size: 15px;
+    color: #707070;
+    text-align: center;
+    border-radius: 0px;
+    margin: 10px 0;
+    background-color: #fff;
+    border-bottom: 1px solid #232a85;
+    outline: none;
+    box-shadow: none;
+}
+
+.contant-button02 {
+    display: flex;
+    margin-top: 10px;
+    justify-content: center;
+}
+.contant-button02 button {
+    border: none;
+    width: 170px;
+    color: #fff;
+    font-size: 12px;
+    margin: 0 10px;
+    padding: 10px 35px;
+    border-radius: 25px;
+    font-family: "Geometos";
+    background-color: #040589;
+    /* width: 20%;
+    border: none;
+    color: #fff;
+    padding: 10px 0;
+    margin: 0 5px;
+    font-size: 12px;
+    border-radius: 25px;
+    font-family: "Geometos";
+    background-color: #040589; */
+}
+.modal .row-form1 input {
+    height: 35px;
+    border-bottom: 1px solid #232a85;
+    font-family: Open San, sans-serif;
+}
+
+.row-form1 input:hover,
+.row-form1 input:focus,
+.row-form1 input:active {
+    outline: 0px;
+    box-shadow: none;
+}
+.row-form1 input::placeholder {
+    color: #707070;
+    opacity: 1;
+}
+.row-form1 input:-ms-input-placeholder {
+    color: #707070;
+}
+.row-form1 input::-ms-input-placeholder {
+    color: #707070;
+}
+.row-form1 p {
+    margin: 0;
+    color: #232a85;
+    font-size: 14px;
+    text-align: center;
+    text-transform: capitalize;
+    font-family: "Poppins";
+}
+.row-form1 button {
+    border: none;
+    color: #fff;
+    display: block;
+    font-size: 12px;
+    padding: 8px 40px;
+    margin-left: auto;
+    margin-bottom: 10px;
+    border-radius: 25px;
+    font-family: "Geometos";
+    background-color: #040589;
+}
+/* modal desactiva cuenta */
+.row-infMdal h4 {
+    width: 100%;
+    font-size: 20px;
+    line-height: 1.5;
+    margin: 10px 0 5px;
+    color: #232a85;
+    text-align: center;
+    font-family: "Poppins";
+}
+.row-infMdal p {
+    width: 100%;
+    font-size: 15px;
+    color: #707070;
+    text-align: center;
+}
+.row-infMdal textarea {
+    font-size: 15px;
+    color: #707070;
+    padding: 10px;
+}
+.row-infMdal textarea:focus {
+    outline: 0px;
+}
+.cont-btn-empresa{
+    display: flex;
+}
+.cont-btn-empresa button{
+    margin-right: 30px;
+}
+.disabled_empresa{
+    margin-left: auto;
+}
+#modal-desactivar-empresa ._trans893{
+    font-size: 14px;
+    color: #eb4454;
+    font-family: "Poppins";
+}
+.groupdesactivar {
+    width: 60%;
+    margin: 0 auto 45px;
+}
+.group-claves input {
+    margin: 0;
+    padding: 0;
+    border: none;
+    font-size: 14px;
+    text-align: left;
+    border-radius: 0px;
+    box-shadow: none!important;
+    border-bottom: 1px solid #040589!important;
+}
+.group-claves button {
+    margin: 0;
+    padding: 0 7px;
+    background-color: transparent;
+    border-bottom: 1px solid #040589!important;
+}
+.group-claves button i {
+    color: #040589;
+}
+.btnsi{
+    background-color: #040589;
+}
+.row-clavess p {
+    color: #eb4454;
+    text-align: left;
+}
+
+
+
+
+
+
+
+
+/* ---------------------------------- Medias responsive ---------------------------------- */
+@media (max-width: 1130px) {
+    .rowGray {
+        width: 100%;
+    }
+    .row-secnd {
+        width: 100%;
+        margin: 50px 0;
+    }
+}
+
+@media (max-width: 992px) {
+    .label-form {
+        font-size: 12px;
+    }
+    .row-clavess p{
+        margin: 20px 0;
+    }
+    .row-content h3 {
+        font-size: 25px;
+    }
+    .label-img {
+        margin-bottom: 50px;
+    }
+    .rowGray {
+        padding: 60px 10px;
+    }
+    .row-content .filter-option-inner {
+        justify-content: end;
+    }
+    .row-content .bootstrap-select .dropdown-toggle .filter-option-inner-inner {
+        margin-top: 0px;
+    }
+}
+
+@media (max-width: 767px) {
+    .row-content h3 {
+        font-size: 20px;
+    }
+    .label-form,
+    .info-text {
+        font-size: 14px;
+    }
+    .row-content {
+        padding: 50px 12px 30px;
+    }
+    .rowGray {
+        margin-top: 40px;
+        padding: 45px 20px 30px;
+    }
+    .button-registrar{
+        margin-right: auto;
+    }
+    .rowGray .btnsopcs {
+        margin: 40px 0 15px !important;
+    }
+    .row-content :not(.input-group) > .bootstrap-select.form-control:not([class*="col-"]), .row-content .btn:not(:disabled):not(.disabled){
+        margin-bottom: 40px;
+    }
+}
+
+@media (max-width: 575px) {
+    .content-portada {
+        height: 220px;
+    }
+    .groupdesactivar{
+        width: 100%;
+    }
+    .contenedor-logo-portada {
+        margin: auto;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .row-content :not(.input-group) > .bootstrap-select.form-control:not([class*="col-"]),
+    .row-content .btn:not(:disabled):not(.disabled) {
+        margin-bottom: 60px;
+    }
+    .button-registrar {
+        width: 100%;
+    }
+    .contant-button02 {
+        display: block;
+        margin: 10px 0;
+    }
+    .contant-button02 button {
+        width: 100%;
+        margin: 10px 0px 0;
+    }
+    .cont-btn-empresa{
+        display: block;
+    }
+    .cont-btn-empresa button{
+        margin: 0 0 30px;
+    }
+}

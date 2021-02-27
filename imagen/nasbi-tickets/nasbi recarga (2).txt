@@ -1,0 +1,172 @@
+html:
+
+  <!-- Recarga -->
+ <div class="recarga-nasbi" >
+    <div class="row">
+        <div class="col-sm-11 mt-5 titulo-dashboard">
+            <h2 class="json" key="bonoN13">Recargas</h2>
+            <h5 class="json" key="bonoN14">Puedes recargar los Bonos que podrán ser utilizados en nuestro marketplace aliado NASBI. Solo coloca la cantidad que se deseas usar en moneda local y adquiere tus bonos.</h5>
+        </div>
+        <div class="col-sm-7" style="margin-left: -15px;">
+            <div class="container-select-nasbi contain-selct02-nasbi nasbipago">
+                <p class="max40">
+                    <span><img loading="lazy" loading="lazy" src="imagen/icon-tipo-wallet.png" /></span> <span class="json" key="wallets8"></span>
+                </p>
+                <select class="form-control" id="address_nasbicoin"> </select>
+                <span class="caret"></span>
+            </div>
+        </div>
+        <div class="col-sm-7 secondlabel" style="margin-left: -15px;">
+            <div class="row">
+                <div class="col-sm-6 paddingright">
+                    <div class="container-select-nasbi contain-selct02-nasbi">
+                        <input class="form-control marginmoneda" id="cantidadComprarFiat" placeholder="Cantidad en COP" value="0" min="0" type="number" />
+
+                        <input class="form-control flotantes monfiat" readonly value="COP" type="text" />
+
+                        <span class="caret"></span>
+                    </div>
+                </div>
+                <div class="col-sm-6 nopaddingright">
+                    <div class="container-select-nasbi contain-selct02-nasbi">
+                        <input class="form-control marginmoneda" id="cantidadComprar" placeholder="Cantidad de bonos" value="0" type="number" />
+
+                        <input class="form-control flotantes" readonly id="TipoDeBono" value="Gold" type="text" />
+
+                        <span class="caret"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row recargas-nasbi">
+        <div class="col-sm-7 col-lg-7">
+            <p>
+                <span class="json" key="bonoN17" style="color: white;">Valor en</span> <b>dólares <span class="preciousdnasbi">$300</span> USD</b>
+            </p>
+
+            <p><span class="json" key="bonoN17" style="color: white;">Valor en</span> <b class="nasbicoinsrecibir">BTC 0.0456783</b></p>
+        </div>
+        <div class="col-12 px-0">
+            <button id="" class="btn btn-transferir-nasbi json" key="bonoN18">adquirir mis bonos Nasbi</button>
+        </div>
+    </div>
+</div>
+
+
+
+css:
+.recarga-nasbi .col-sm-11,
+  .recarga-nasbi .col-sm-5,
+  .recarga-nasbi .col-sm-6 {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+.titulo-dashboard h5 {
+    font-family: "Poppins-Bold";
+    font-size: 14px;
+}
+.container-select-nasbi {
+    padding: 5px;
+    display: flex;
+    margin-top: 20px;
+    width: 100%;
+    align-items: center;
+    background-color: #dbdbdb;
+}
+.contain-selct02-nasbi.nasbipago p {
+    margin: 0;
+    width: 45%;
+    text-align: center;
+    text-align-last: center;
+}
+.container-select-nasbi p {
+    cursor: default;
+    font-size: 15px;
+    color: #151a30;
+    border-radius: 0px;
+ 
+}
+
+.contain-selct02-nasbi.nasbipago select {
+    margin: 0;
+    width: 65%!important;
+    text-align: center;
+    text-align-last: center;
+    text-indent: 0px!important;
+}
+.container-select-nasbi select, .container-select-nasbi input {
+
+    padding: 0 25px;
+    color: #151a30;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 0px;
+    border-right: none;
+    border-bottom: none;
+    border-top: transparent;
+    background-color: transparent;
+    border-left: 1px solid #707070;
+}
+.paddingright .contain-selct02-nasbi input, .nopaddingright .contain-selct02-nasbi input {
+    margin: 0;
+    width: 100%;
+    border-left: 0px;
+    text-align: center;
+    text-align-last: center;
+}
+
+.recargas-nasbi p {
+    letter-spacing: 0.75px;
+    margin: 0;
+}
+.preciousdnasbi,.recargas-nasbi p b {
+    color: #ffffff !important;
+}
+
+.btn-transferir-nasbi {
+    padding: 12px 37px !important;
+    margin: 0;
+    color: #fff;
+    display: block;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 25px;
+    text-transform: uppercase;
+    background-color: #ff2544;
+    font-family: "Poppins-Bold" !important;
+}
+
+
+@media (max-width: 575px) {
+ 
+
+  .recarga-nasbi .col-sm-11,
+  .recarga-nasbi .col-sm-5,
+  .recarga-nasbi .col-sm-6 {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+.nasbipago {
+    margin-left: 15px;
+}
+.nasbipago.nasbipago > p {
+    font-size: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contain-selct02-nasbi.nasbipago select {
+    font-size: 12px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.paddingright .contain-selct02-nasbi input, .nopaddingright .contain-selct02-nasbi input {
+    font-size: 12px;
+}
+.recargas-nasbi .btn-transferir-nasbi {
+    width: 90%;
+}
+}

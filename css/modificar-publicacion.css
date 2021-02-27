@@ -1,0 +1,824 @@
+.row-content{
+    padding: 50px;
+    background-repeat: no-repeat;
+    background-position: top -2em right -35em;
+    background-image: url('../imagen/fondo-modificar.png');
+}
+.row-content h2{
+    color: #EB4454;
+    text-align: left;
+    font-family: "Poppins";
+}
+.row-content p{
+    font-size: 15px;
+    color: #232A85;
+    text-align: left;
+    margin-bottom: 13px;
+}
+.scroll-modal-tallas{
+    overflow: auto;
+    margin-top: 35px;
+    max-height: 310px;
+}
+.add-talla{
+    color: #EB4454;
+    vertical-align: bottom;
+}
+.btnaddicon i,
+.btnsaveicon i,
+.btncancelicon i{
+    color: #fff;
+    font-size: 13px;
+    margin-left: 5px;
+    margin-top: -3px;
+    vertical-align: middle;
+}
+.btncancelicon{
+    width: 100%;
+    height: 32px;
+    border: none;
+    color: #fff;
+    font-size: 11px;
+    padding: 10px 20px;
+    border-radius: 25px;
+    font-family: "Geometos";
+    background-color: #FF103D;
+}
+.btnsaveicon{
+    width: 100%;
+    height: 32px;
+    border: none;
+    color: #fff;
+    font-size: 11px;
+    padding: 10px 20px;
+    border-radius: 25px;
+    font-family: "Geometos";
+    background-color: #3474FC;
+}
+.btnaddicon{
+    width: 100%;
+    height: 32px;
+    border: none;
+    color: #fff;
+    font-size: 11px;
+    padding: 10px 20px;
+    border-radius: 25px;
+    font-family: "Geometos";
+    background-color: #0c0f3d;
+}
+.btn-colrs{
+    transition: transform 0.2s;
+}
+.select-color-edit{
+    transform: scale(1.2);
+    box-shadow: 0px 0px 3px #888888!important;
+}
+.content-return-color{
+    display: flex;
+    padding-right: 8px;
+    align-items: center;
+    justify-content: space-between;
+}
+.div-color{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.div-color .span-color{
+    display: none;
+}
+.btn-add-more-color {
+    margin: 0;
+    font-size: 17px;
+    color: #EB4454;
+    text-align: center;
+    font-family: "Poppins";
+    text-decoration: underline;
+}
+.btn-add-more-color:hover,
+.btn-add-more-color:focus{
+    outline: 0px;
+    color: #EB4454;
+    box-shadow: none;
+    text-decoration: underline;
+}
+.label-create-color{
+    margin: 0;
+    font-size: 17px;
+    color: #EB4454;
+    text-align: center;
+    font-family: "Poppins";
+}
+.input-picker-color{
+    height: 45px;
+    width: 200px;
+    cursor: pointer;
+    margin: 0 auto 25px;
+    border: none!important;
+}
+.row-escoger-color{
+    width: 70%;
+    margin: auto;
+}
+#content-colors .trans_eb9,
+#content-colors .trans_eb10,
+#content-colors .trans_eb37,
+#content-colors .trans_eb38{
+    font-size: 14px;
+    color: #232a85;
+    margin-bottom: 5px;
+    font-family: "Poppins";
+}
+#div-talla-edit select{
+    padding: 0;
+    height: 30px;
+    border: none;
+    outline: none;
+    font-size: 13px;
+    color: #232a85;
+    box-shadow: none;
+    text-align: center;
+    border-radius: 0px;
+    font-family: "Poppins";
+    text-align-last: center;
+    background-color: transparent;
+    border-bottom: 1px solid #232a85;
+}
+#div-colors-edit{
+    width: 65%;
+    margin: auto;
+}
+.btn-canell01{
+    width: 150px;
+    height: 37px;
+    border: none;
+    color: #fff;
+    font-size: 11px;
+    margin: 5px 10px;
+    padding: 12px 20px;
+    border-radius: 25px;
+    font-family: "Geometos";
+    background-color: #FF103D;
+}
+.btn-createll01{
+    width: 150px;
+    height: 37px;
+    border: none;
+    color: #fff;
+    font-size: 11px;
+    margin: 5px 10px;
+    padding: 12px 20px;
+    border-radius: 25px;
+    font-family: "Geometos";
+    background-color: #3474FC;
+}
+.div-buttons-talla{
+    margin-top: 15px;
+}
+.btn-create-color{
+    margin: auto;
+    display: block;
+    background-color: #0c0f3d;
+}
+.div-buttons-talla button{
+    width: 150px;
+    height: 37px;
+    border: none;
+    color: #fff;
+    font-size: 11px;
+    padding: 12px 20px;
+    border-radius: 25px;
+    font-family: "Geometos";
+}
+.div-buttons-talla button i{
+    color: #fff;
+    font-size: 13px;
+    margin-left: 5px;
+    margin-top: -3px;
+    vertical-align: middle;
+}
+.btn-cancell-talla{
+    background-color: #FF103D;
+}
+.btn-save-talla{
+    background-color: #3474FC;
+}
+.tabla-tallas{
+    margin-bottom: 25px;
+}
+.tabla-tallas .table thead th, .tabla-tallas .table tbody td {
+    margin: 0;
+    border: none;
+    font-size: 13px;
+    color: #232a85;
+    padding: 5px 8px;
+    vertical-align: bottom;
+    font-family: "Poppins";
+}
+.tabla-tallas .table input,
+.tabla-tallas .table select{
+    padding: 0;
+    width: 100%;
+    height: 30px;
+    border: none;
+    outline: none;
+    font-size: 13px;
+    color: #232a85;
+    box-shadow: none;
+    border-radius: 0px;
+    font-family: "Poppins";
+    background-color: transparent;
+    border-bottom: 1px solid #232a85;
+}
+.descrip_edit_p{
+    max-height: 200px;
+    overflow: auto;
+}
+.row-content h5{
+    color: #232A85;
+    text-align: left;
+    margin: 10px 0 5px;
+    font-family: "Poppins";
+}
+.btn-edit{
+    border: none;
+    color: #fff;
+    display: block;
+    font-size: 12px;
+    padding: 8px 40px;
+    margin-right: auto;
+    margin-bottom: 60px;
+    border-radius: 25px;
+    font-family: "Geometos";
+    background-color: #040589;
+}
+.content-product .img-product{
+    width: 130px;
+    height: 130px;
+    display: block;
+    margin: 15px 0;
+    margin-right: auto;
+    max-width: 130px;
+    min-width: 130px;
+    max-height: 130px;
+    min-height: 130px;
+    border-radius: 3px;
+    vertical-align: middle;
+    border: none;
+}
+.img-product{
+    width: 130px;
+    height: 130px;
+    max-width: 130px;
+    max-height: 130px;
+    background: #fff;
+    object-fit: contain;
+}
+.btn-publicar{
+    border: none;
+    color: #fff;
+    display: block;
+    font-size: 13px;
+    padding: 12px 70px;
+    margin-right: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border-radius: 25px;
+    font-family: "Geometos";
+    background-color: #EB4454;
+}
+.card-condicion {
+    cursor: pointer;
+    padding:32px 7px;
+    border-radius: 30px;
+}
+.card-condicion {
+    cursor: pointer;
+    padding: 30px 5px;
+    border-radius: 30px;
+}
+.card-condicion.activo {
+    background-color: #040589;
+}
+.card-condicion.activo h5,
+.card-condicion.activo p {
+    color: #fff;
+}
+.card-condicion h5 {
+    margin: 0;
+    color: #040589;
+    font-family: "Poppins";
+}
+.card-condicion p {
+    color: #040589;
+    margin: 20px 0;
+    font-size: 15px;
+    text-align: center;
+}
+.card-condicion input {
+    margin-top: -3px;
+    margin-right: 3px;
+    vertical-align: middle;
+}
+.card-condicion span {
+    margin: 0 5px;
+}
+.span1 {
+    margin-left: 5px !important;
+}
+.card-condicion button {
+    border: none;
+    color: #fff;
+    font-size: 13px;
+    padding: 10px 65px;
+    border-radius: 25px;
+    font-family: "Geometos";
+    background-color: #eb4454;
+}
+.contn-condiciones_edit {
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+}
+.contn-condiciones_edit  button {
+    border: none;
+    width: 20%;
+    color: #fff;
+    font-size: 12px;
+    margin: 0 10px;
+    padding: 10px 0px;
+    border-radius: 25px;
+    font-family: "Geometos";
+}
+.aceptar_condi {
+    background-color: #0c0f3d;
+}
+.cancelar_condi {
+    background-color: #005FFF;
+}
+.container_condiciones_edit{
+    padding: 15px;
+}
+.container-public {
+    width: 90%;
+    cursor: pointer;
+    padding: 25px 5px;
+    border-radius: 30px;
+}
+.container-public button {
+    border: none;
+    color: #fff;
+    font-size: 13px;
+    padding: 10px 65px;
+    border-radius: 25px;
+    font-family: "Geometos";
+    background-color: #eb4454;
+}
+.container-public.activo {
+    background-color: #040589;
+}
+.container-public.activo h5,
+.container-public.activo p {
+    color: #fff;
+    border-color: #fff;
+}
+.container-public.activo .btn-eleg {
+    background-color: #eb4454;
+}
+.container-public.activo img {
+    filter: brightness(0) invert(1);
+}
+.container-public img {
+    width: 55px;
+}
+.container-public h5 {
+    color: #232a85;
+    margin: 5px 0 6px 0;
+    text-align: center;
+    width: fit-content;
+    padding: 0 0px 10px;
+    font-family: "Poppins";
+    border-bottom: 2px solid #232a85;
+    font-size: 13px;
+}
+.container-public p {
+    margin: 0;
+    font-size: 15px;
+    color: #232a85;
+    text-align: center;
+}
+.container-public .enlace {
+    margin: 20px 0;
+    font-size: 13px;
+    color: #232a85;
+    font-family: "Poppins";
+    text-decoration: underline;
+}
+.publc2 {
+    align-items: end;
+}
+.container_envio_edit{
+    padding: 30px;
+}
+.card_dire_edit {
+    padding: 0 6px;
+    cursor: pointer;
+    border-radius: 30px;
+}
+.card_dire_edit button {
+    border: none;
+    color: #fff;
+    font-size: 13px;
+    padding: 10px 65px;
+    border-radius: 25px;
+    font-family: "Geometos";
+    background-color: #eb4454;
+}
+.card_dire_edit.activo p{
+    color: #fff;
+    background-color: #040589;
+}
+.card_dire_edit h5 {
+    margin: 0;
+    color: #040589;
+    font-family: "Poppins";
+    font-size: 10px;
+}
+.card_dire_edit h4 {
+    margin: 0 0 5px;
+    color: #040589;
+    text-align: left;
+    font-family: "Poppins";
+}
+.card_dire_edit p {
+    width: 100%;
+    border: none;
+    resize: none;
+    padding: 10px;
+    font-size: 13px;
+    color: #151a30;
+    text-align: left;
+    overflow: hidden;
+    border-radius: 0px;
+    margin-bottom: 20px;
+    white-space: nowrap;
+    font-family: "Poppins";
+    text-overflow: ellipsis;
+    background-color: #ebebeb;
+}
+.card_dire_edit input {
+    margin-top: -3px;
+    vertical-align: middle;
+}
+/* .card_dire_edit span {
+    margin: 0 5px;
+} */
+.container-cat {
+    text-align: center;
+}
+.card-cat {
+    cursor: pointer;
+    padding: 40px 50px;
+    width: 100%;
+    border-radius: 15px;
+    margin: 30px 0px 20px;
+}
+.card-cat img{
+    display: block;
+    margin: auto;
+}
+.card-cat.activo {
+    background-color: #eb4454;
+}
+.card-cat.activo p {
+    color: #fff;
+    text-align: center;
+}
+.card-cat.activo img {
+    filter: brightness(0) invert(1);
+}
+.card-cat p {
+    margin: 0;
+    font-size: 15px;
+    color: #232a85;
+    font-family: "Poppins";
+}
+
+.cont002 {
+    height: 70px;
+    margin-bottom: 5px;
+}
+.container-public_expo {
+    width: 90%;
+    cursor: pointer;
+    padding: 25px 5px;
+    border-radius: 30px;
+}
+.container-public_expo button {
+    border: none;
+    color: #fff;
+    font-size: 13px;
+    padding: 10px 65px;
+    border-radius: 25px;
+    font-family: "Geometos";
+    background-color: #eb4454;
+}
+.container-public_expo.activo {
+    background-color: #040589;
+}
+.container-public_expo.activo h5,
+.container-public_expo.activo p {
+    color: #fff;
+    border-color: #fff;
+}
+.container-public_expo.activo .btn-eleg {
+    background-color: #eb4454;
+}
+.container-public_expo.activo img {
+    filter: brightness(0) invert(1);
+}
+.container-public_expo img {
+    width: 55px;
+}
+.container-public_expo h5 {
+    color: #232a85;
+    margin: 5px 0 20px;
+    text-align: center;
+    width: fit-content;
+    padding: 0 10px 10px;
+    font-family: "Poppins";
+    border-bottom: 2px solid #232a85;
+    font-size: 13px;
+}
+.container-public_expo p {
+    margin: 0;
+    height: 80px;
+    font-size: 13px;
+    color: #232a85;
+    text-align: center;
+}
+.container-public_expo .enlace {
+    margin: 20px 0;
+    font-size: 13px;
+    color: #232a85;
+    font-family: "Poppins";
+    text-decoration: underline;
+}
+.modal input,
+.row-inf textarea{
+    padding: 0;
+    resize: none;
+    border: none;
+    font-size: 15px;
+    color: #232A85;
+    text-align: left;
+    border-radius: 0px;
+    border-bottom: 1px solid #232A85;   
+    background-color: transparent!important;
+}
+.modal input:focus,
+.modal input:active,
+.row-inf textarea:focus,
+.row-inf textarea:active{
+    outline: 0px;
+    color: #232A85;
+    box-shadow: none;
+    border-color: #232A85;   
+}
+#modal-cambiar_camp_in input{
+    width: 400px;
+    margin: auto;
+    text-align: center;
+}
+.colselects .bootstrap-select .dropdown-toggle, 
+.datos_caracteristica_product_edit .bootstrap-select .dropdown-toggle{
+    z-index: 999;
+    padding: 9px 20px;
+    border-radius: 20px;
+    background-color: #fff;
+    border: 2px solid #232a85;
+}
+.colselects .bootstrap-select .dropdown-toggle .filter-option-inner-inner,
+.datos_caracteristica_product_edit .bootstrap-select .dropdown-toggle .filter-option-inner-inner,
+.colselects .dropdown-toggle:after,
+.datos_caracteristica_product_edit .dropdown-toggle:after{
+    color: #232a85;
+}
+.colselects .dropdown-menu,
+.datos_caracteristica_product_edit .dropdown-menu{
+    min-width: 100%;
+    z-index: 99;
+    margin-top: -18px;
+    padding: 15px 0px 5px !important;
+    border: 2px solid #232a85;
+    border-radius: 3px 0 20px 20px;
+}
+.colselects .dropdown-item,
+.datos_caracteristica_product_edit .dropdown-item{
+    padding: 5px 15px;
+    font-size: 13px;
+    cursor: pointer;
+    color: #232a85;
+    white-space: normal;
+    text-align: left;
+    font-family: "Poppins";
+}
+.colselects .inner{
+    max-height: 115px;
+}
+.__divfotos_edit_2{
+    overflow: auto;
+    max-height: 280px;
+}
+.__divfotos_edit_2 .content-product{
+    display: grid;
+    justify-content: center;
+}
+.__divfotos_edit_2 .content-product .img-product{
+    cursor: pointer;
+    margin: 15px 0 0;
+    box-shadow: 0px 0px 5px 0px #b6b6b6;
+}
+/* .quitar_img_edit{
+    background-color: #eb4454!important;
+} */
+.__divfotos_edit_2 button{
+    width: 85%;
+}
+.respuesta_promo_edit{
+    margin-top: 30px!important;
+    margin-bottom: 0!important;
+}
+.respuesta_promo_edit label{
+    font-size: 15px;
+    color: #232A85;
+}
+.input_precio_edit .row-inf{
+    margin: 30px 0 50px;
+}
+.input_precio_edit h4{
+    font-size: 15px;
+}
+.input_precio_edit input{
+    vertical-align: middle;
+    width: -webkit-fill-available;
+}
+.group-pocents .input-group-addon {
+    color: #232A85;
+    padding: 7px 10px 0px 0;
+}
+.group-pocents span {
+    margin: 0 5px 0 0;
+}
+.bootstrap-select .dropdown-toggle:focus, .bootstrap-select>select.mobile-device:focus+.dropdown-toggle{
+    outline: 0px!important;
+}
+.contenedor-videos iframe {
+    width: 100%;
+    height: 216px;
+    border-radius: 25px;
+}
+.text_change_vi{
+    font-family: "Poppins";
+    color: #232a85;
+    font-size: 20px;
+}
+.container_descrip_condicion{
+    margin: 8px; 
+}
+.boton_expo_product{
+    padding: 5px;
+}
+.texto_poximamente_style_modificar{
+    color: #040589;
+    font-family: "Poppins";
+    font-size: 12px !important;
+    margin-bottom: 5px;
+}
+.contenedor_text_temporal{
+    padding: 0;
+    margin: 13px;
+    height: 10px;
+}
+.element_oculto_modificar{
+    display: none;
+}
+.rojo_claass_btn{
+    background-color: #eb4454!important;
+}
+.__unidadDistancia_edit .bs-searchbox{
+    padding-bottom: 0px!important;
+}
+.select-talla-agg{
+    width: 50px!important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ---------------------------------------------- Medias Respondives ---------------------------------------------- */
+@media (max-width: 991px){
+    .contn-condiciones_edit button {
+        width: 100%;
+        margin: 10px 10px 0;
+    }
+    #div-colors-edit, .row-escoger-color{
+        width: 100%;
+    }
+    .btn-canell01, .btn-createll01, .div-buttons-talla button{
+        width: 150px;
+        height: 32px;
+        padding: 10px;
+    }
+    .div-buttons-talla a{
+        padding: 0;
+    }
+    .card-condicion,
+    #modal-cambiar_camp_in input{
+        width: 100%;
+    }
+    .respuesta_promo_edit{
+        margin: 0!important;
+    }
+    .input_precio_edit h4{
+        margin: 30px 0 0px;
+    }
+    .card_dire_edit{
+        padding: 0;
+        margin-bottom: 30px;
+    }
+    .card-cat{
+        margin: 30px 0 0;
+    }
+    .colselects .bootstrap-select .dropdown-toggle, .datos_caracteristica_product_edit .bootstrap-select .dropdown-toggle{
+        z-index: 9;
+    }
+    .colselects .dropdown-menu, .datos_caracteristica_product_edit .dropdown-menu{
+        z-index: 999;
+        margin-top: 5px;
+        width: inherit;
+        border-radius: 20px;
+    }
+}
+
+
+
+
+@media (max-width: 575px){
+    .btn-canell01, .btn-createll01, .div-buttons-talla button{
+        width: 105px;
+        margin: 5px;
+    }
+    .btn-create-color{
+        margin: auto!important;
+        width: 215px!important;
+    }
+    #div-talla-edit select{
+        width: 75%!important;
+    }
+    .btn-edit{
+        margin-bottom: 25px;
+    }
+    .row-content{
+        padding: 50px 10px;
+    }
+    .row-content h2{
+        font-size: 25px;
+        text-align: center;
+    }
+    .row-content p,
+    .row-content h5{
+        text-align: center;
+    }
+    .btn-edit{
+        margin: auto;
+        margin-bottom: 20px;
+    }
+    .content-product .img-product,
+    .btn-publicar{
+        margin: 15px auto;
+    }
+    .contn-condiciones_edit {
+        display: block;
+        margin: 10px 0;
+    }
+    .contn-condiciones_edit button {
+        width: 100%;
+        margin: 10px 0px 0;
+    }
+    .__divfotos_edit_2 button {
+        width: 100%;
+    }
+}

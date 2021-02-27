@@ -1,0 +1,738 @@
+.ubi-page {
+    font-size: 15px;
+    text-align: left;
+    color: #707070;
+    margin-bottom: 30px;
+    display: none;
+}
+.row-name h2 {
+    margin: 0;
+    color: #0c0f3d;
+    text-align: left;
+    font-family: "Poppins";
+    justify-content: end;
+}
+.container-user .nombre {
+    margin: 0 10px;
+}
+.container-user .img-user-vendedor {
+    width: 50px;
+    height: 50px;
+    max-width: 50px;
+    min-width: 50px;
+    max-height: 50px;
+    min-height: 50px;
+    border-radius: 50%;
+    vertical-align: middle;
+    border: 1px solid #b1b1b1;
+}
+.img-user-vendedor {
+    width: 50px;
+    height: 50px;
+    max-width: 50px;
+    max-height: 50px;
+    object-fit: contain;
+    background: #ffffff;
+}
+.label-ubi {
+    font-size: 14px;
+    color: #1464E1;
+    margin-top: 8px;
+}
+.ciudad {
+    font-size: 15px;
+    color: #666666;
+    font-family: Open San, sans-serif;
+}
+.row-name {
+    padding: 50px 80px 30px;
+    background-color: #fff;
+}
+
+/* insignias */
+.row-insignias {
+    padding: 20px 150px 20px 300px;
+    background-color: #f5f5f5;
+}
+.calif-vendedor {
+    margin: 6px 0;
+    font-size: 15px;
+    color: #909090;
+    text-align: left;
+    letter-spacing: 3px;
+}
+.calif-vendedor i {
+    letter-spacing: 7px;
+}
+.calif-vendedor .orange {
+    color: orange;
+}
+.calif-vendedor img {
+    width: 30px;
+}
+.text-insig {
+    color: #707070;
+    letter-spacing: normal;
+    font-family: "Poppins";
+}
+
+/* Cantidad comentarios */
+.cantidad-comentarios .col-sm-3 {
+    padding: 0 5px;
+}
+.cantidad-comentarios {
+    padding: 30px 150px;
+}
+.cantidad-comentarios p {
+    margin: 0;
+    color: #666666;
+    cursor: pointer;
+    text-align: center;
+    font-family: "Poppins";
+}
+.cantidad-comentarios p:hover {
+    color: #232a85;
+}
+.cantidad-comentarios p .numbrs {
+    font-size: 35px;
+    margin-right: 5px;
+}
+
+/* Listado comentarios */
+.list-comentarios {
+    padding: 30px;
+    margin-bottom: 50px;
+}
+.row-filter {
+    padding: 10px 0;
+    align-items: center;
+}
+.label-copmentario {
+    margin: 0;
+    color: #666666;
+    text-align: left;
+    font-family: "Poppins";
+}
+.group-filtro {
+    align-items: center;
+    border-radius: 25px;
+    justify-content: flex-end;
+    background-color: #232a85;
+}
+.filtro_meses .dropdown-toggle:focus,
+.filtro_meses .dropdown-toggle:active{
+    outline: 0px!important;
+    box-shadow: none!important;
+    background-color: #fff;
+    border-color: #232a85!important;
+}
+.filtro_meses .btn-light:not(:disabled):not(.disabled).active,
+.filtro_meses .btn-light:not(:disabled):not(.disabled):active,
+.filtro_meses .show>.btn-light.dropdown-toggle{
+    border-color: #232a85!important;
+}
+.group-filtro .input-group-text {
+    border: none;
+    color: #fff;
+    font-size: 15px;
+    padding: 6px 5px 6px 12px;
+    background-color: transparent;
+}
+.drop-filtro {
+    height: 40px;
+    width: 160px;
+    border: none;
+    z-index: 1050;
+    font-size: 14px;
+    overflow: hidden;
+    color: #232a85;
+    text-align: left;
+    padding: 5px 25px;
+    font-weight: bold;
+    position: relative;
+    border-radius: 25px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    background-color: #fff;
+    border: 3px solid #232a85;
+}
+.drop-filtro:hover {
+    color: #232a85;
+}
+.divdropdownfiltro {
+    width: 69%;
+    position: relative;
+}
+.divdropdownfiltro .bootstrap-select {
+    width: 171px !important;
+}
+
+.divdropdownfiltro .btn {
+    color: #232a85;
+    font-family: "Poppins";
+    font-size: 14px;
+    border-radius: 20px;
+    border: 2px solid #232a85;
+    z-index: 9999;
+}
+.divdropdownfiltro .btn:focus,
+.divdropdownfiltro .btn:active{
+    border: 2px solid #232a85!important;
+}
+.filtro_meses .dropdown-menu li a{
+    color: #232a85;
+    font-size: 12px;
+    font-family: "Poppins";
+}
+.divdropdownfiltro .dropdown-menu {
+    margin-top: -15px;
+    padding: 20px 0px 5px;
+    border: 3px solid #232a85;
+    width: -webkit-fill-available;
+    border-radius: 3px 0 20px 20px;
+}
+.divdropdownfiltro option {
+    color: #232a85;
+    font-size: 13px;
+    font-family: "Poppins";
+}
+.divdropdownfiltro option:hover {
+    color: #FF103D;
+    background-color: transparent;
+}
+.divdropdownfiltro .dropdown-menu a:hover {
+    color: #FF103D;
+    border-radius: 25px;
+}
+.drop-filtro::after {
+    top: 15px;
+    right: 12px;
+    font-size: 20px;
+    position: absolute;
+}
+
+/* Scroll comentarios */
+.scroll-comentarios {
+    max-height: 320px;
+    overflow: auto;
+    margin: 20px 0;
+}
+.scroll-comentarios .row {
+    padding: 5px 0;
+    align-items: center;
+}
+.text-comentario {
+    margin: 0;
+    font-size: 15px;
+    color: #999999;
+    text-align: left;
+    padding: 5px 20px;
+}
+.text-comentario img {
+    width: 25px;
+    margin-right: 5px;
+}
+.text-comentario span {
+    font-weight: bold;
+}
+.calif-comentario {
+    margin: 0;
+    font-size: 15px;
+    color: #909090;
+    text-align: right;
+    letter-spacing: 3px;
+}
+.calif-comentario .orange {
+    color: orange;
+}
+.text-fondo {
+    background-color: #f5f5f5;
+    border-radius: 25px;
+}
+.container-infor {
+    padding: 40px 30px;
+    border-radius: 25px;
+    background-color: #f5f5f5;
+}
+.clasificacion-general {
+    margin: 0;
+    font-size: 20px;
+    text-align: left;
+    color: #909090;
+    letter-spacing: 3px;
+}
+.clasificacion-general .orange {
+    color: orange;
+}
+.clasificacion-general span {
+    font-size: 35px;
+    color: #232a85;
+    vertical-align: sub;
+    font-family: "Poppins";
+}
+.text-infor {
+    margin: 10px 0;
+    font-size: 15px;
+    color: #999999;
+    text-align: left;
+}
+.text-infor .number-art {
+    color: #666666;
+    font-family: "Poppins";
+}
+.progress-user {
+    width: 90%;
+    margin-top: 15px;
+    margin-right: auto;
+    border-radius: 13px;
+    background-color: #d1d1d1;
+}
+.progress-user div {
+    width: 40%;
+    height: 14px;
+    margin-right: auto;
+    border-radius: 10px;
+    background-color: #36ffd1;
+}
+.btn-contactar {
+    border: none;
+    color: #fff;
+    display: block;
+    font-size: 13px;
+    margin-top: 20px;
+    padding: 12px 25px;
+    margin-right: auto;
+    border-radius: 25px;
+    font-family: "Geometos";
+    background-color: #eb4454;
+}
+.btn-contactar img {
+    width: 25px;
+    margin-top: -3px;
+    vertical-align: middle;
+}
+
+/* Paginacion */
+.pagination {
+    margin-bottom: 30px;
+    display: inline-block;
+}
+.pagination a {
+    color: #FF103D;
+    font-size: 15px;
+    padding: 10px 14px;
+    text-decoration: none;
+}
+.pagination .active {
+    color: #fff;
+    border-radius: 50%;
+    background-color: #FF103D;
+}
+.pagination .AD {
+    font-size: 20px;
+}
+
+/* Chat con el vendedor */
+#modal-chat .modal-dialog,
+#modal-chat .modal-content {
+    margin: 0;
+    height: 100%;
+    margin-left: auto;
+}
+#modal-chat .modal-body {
+    height: 100%;
+    border: none;
+    overflow-y: scroll;
+}
+#modal-chat .modal-header,
+#modal-chat .modal-footer {
+    border: none;
+}
+.div-encabezado {
+    width: 100%;
+}
+.encabezado-chat {
+    align-items: center;
+    background-color: #1464E1;
+}
+.encabezado-chat img {
+    width: 170px;
+}
+.encabezado-chat p {
+    margin: 0;
+    color: #fff;
+    font-size: 15px;
+    text-align: right;
+    letter-spacing: 20px;
+    font-family: "Geometos";
+}
+.row-user-chat {
+    padding: 10px 0;
+    align-items: center;
+}
+.container-user-chat .imagen-user-chat {
+    width: 60px;
+    height: 60px;
+    margin: auto;
+    display: block;
+    max-width: 60px;
+    min-width: 60px;
+    max-height: 60px;
+    min-height: 60px;
+    border-radius: 50%;
+    vertical-align: middle;
+    border: 1px solid #b1b1b1;
+}
+.imagen-user-chat {
+    width: 60px;
+    height: 60px;
+    max-width: 60px;
+    max-height: 60px;
+    object-fit: contain;
+    background: #ffffff;
+}
+.row-user-chat h6 {
+    margin: 0 5px 0;
+    color: #1464E1;
+    text-align: left;
+    font-family: "Poppins";
+}
+.row-user-chat p {
+    margin: 0 5px 0;
+    color: #0c0f3d;
+    text-align: left;
+    font-family: "Poppins";
+}
+.row-chat-product {
+    padding: 10px 0 0;
+    align-items: center;
+    background-color: #e7e7e7;
+}
+.container-product-chat .imagen-product-chat {
+    width: 90px;
+    height: 90px;
+    margin: auto;
+    display: block;
+    max-width: 90px;
+    min-width: 90px;
+    max-height: 90px;
+    min-height: 90px;
+    border-radius: 5px;
+    vertical-align: middle;
+    border: 1px solid #b1b1b1;
+}
+.imagen-product-chat {
+    width: 90px;
+    height: 90px;
+    max-width: 90px;
+    max-height: 90px;
+    object-fit: contain;
+    background: #ffffff;
+}
+.row-chat-product .name {
+    margin: 0;
+    font-size: 19px;
+    color: #0c0f3d;
+    text-align: left;
+    overflow: hidden;
+    white-space: nowrap;
+    font-family: "Poppins";
+    text-overflow: ellipsis;
+}
+.row-chat-product .price {
+    margin: 0;
+    font-size: 19px;
+    color: #808080;
+    text-align: left;
+    font-family: "Poppins";
+}
+.row-chat-product .descuento {
+    margin: 0;
+    font-size: 16px;
+    color: #FF103D;
+    text-align: left;
+    font-family: "Poppins";
+}
+.row-chat-product .descuento span {
+    color: #999999;
+    text-decoration: line-through;
+    font-family: Open San, sans-serif;
+}
+.text-conect {
+    padding: 5px;
+    font-size: 15px;
+    color: #707070;
+    font-weight: bold;
+    margin: 10px 0px 0;
+    text-align: center;
+    background-color: #fff;
+}
+.scroll-chat {
+    width: 100%;
+    align-items: center;
+    padding-bottom: 10px;
+}
+.scroll-chat .row {
+    margin: 10px 0;
+    align-items: flex-end;
+}
+.inicial-vendedor {
+    margin: 0;
+    width: 35px;
+    height: 35px;
+    color: #fff;
+    display: flex;
+    font-size: 22px;
+    border-radius: 50%;
+    align-items: center;
+    font-family: "Poppins";
+    justify-content: center;
+    text-transform: uppercase;
+    background-color: #1464E1;
+}
+.msj-vendedor {
+    color: #fff;
+    font-size: 15px;
+    text-align: left;
+    margin: 7px 0 0;
+    line-height: 1.3;
+    padding: 7px 20px;
+    width: fit-content;
+    border-radius: 25px;
+    background-color: #1464E1;
+}
+.inicial-comprador {
+    margin: 0;
+    width: 35px;
+    height: 35px;
+    color: #fff;
+    display: flex;
+    font-size: 22px;
+    border-radius: 50%;
+    align-items: center;
+    font-family: "Poppins";
+    justify-content: center;
+    text-transform: uppercase;
+    background-color: #4a00b1;
+}
+.msj-comprador {
+    color: #fff;
+    font-size: 15px;
+    margin: 7px 0 0;
+    text-align: left;
+    line-height: 1.3;
+    margin-left: auto;
+    padding: 7px 20px;
+    width: fit-content;
+    border-radius: 25px;
+    background-color: #4a00b1;
+}
+.hora-chat {
+    color: #999;
+    font-size: 13px;
+    font-weight: bold;
+    margin: 5px 0 -3px;
+    text-align: center;
+}
+.row-enviar-msj {
+    padding: 10px;
+    background-color: #f5f5f5;
+}
+.textarea-chat {
+    width: 100%;
+    padding: 10px;
+    overflow: auto;
+    font-size: 13px;
+    color: #707070;
+    max-height: 50px;
+    min-height: 20px;
+    line-height: 1.2;
+    text-align: left;
+    margin: 7px auto 0;
+    border-radius: 25px;
+    display: inline-block;
+    background-color: #fff;
+    border: 1px solid #c6c5c5;
+    font-family: Open San, sans-serif;
+}
+.textarea-chat:hover,
+.textarea-chat:focus,
+.textarea-chat:active {
+    outline: 0px;
+    box-shadow: none;
+}
+.textarea-chat[placeholder]:empty:before {
+    content: attr(placeholder);
+    color: #707070;
+}
+.btn-camara {
+    width: 45px;
+    border: none;
+    height: 45px;
+    border-radius: 50%;
+    background-color: #FF103D;
+}
+.btn-camara img {
+    width: 25px;
+}
+/* modal general */
+.row-inf h4 {
+    width: 100%;
+    font-size: 19px;
+    line-height: 1.5;
+    margin: 20px 0 15px;
+    color: #0c0f3d;
+    text-align: center;
+    font-family: "Poppins";
+}
+.row-inf p {
+    width: 100%;
+    font-size: 15px;
+    color: #707070;
+    text-align: center;
+}
+.row-inf button {
+    border: none;
+    color: #fff;
+    display: block;
+    font-size: 12px;
+    padding: 9px 42px;
+    margin: 0 auto 20px;
+    border-radius: 25px;
+    font-family: "Geometos";
+    background-color: #0c0f3d;
+}
+
+/* ------------------------------- Medias responsive ------------------------------- */
+@media (max-width: 1130px) {
+    .cantidad-comentarios {
+        padding: 30px 40px;
+    }
+    .drop-filtro,
+    .divdropdownfiltro .dropdown-menu {
+        min-width: 130px;
+    }
+    .list-comentarios {
+        padding: 30px 0;
+    }
+    .container-infor {
+        padding: 40px 15px;
+    }
+    .btn-contactar {
+        font-size: 11px;
+    }
+    .calif-comentario {
+        letter-spacing: 1px;
+    }
+    .row-insignias {
+        padding: 20px 90px 20px 140px;
+    }
+}
+
+@media (max-width: 991px) {
+    .cantidad-comentarios {
+        padding: 30px 15px;
+    }
+    .cantidad-comentarios p .numbrs {
+        font-size: 28px;
+    }
+    .cantidad-comentarios p {
+        font-size: 14px;
+    }
+    .text-insig {
+        font-size: 14px;
+    }
+    .calif-vendedor {
+        display: flex;
+        align-items: center;
+        letter-spacing: 1px;
+    }
+    .calif-vendedor img {
+        margin: 0 5px;
+    }
+    .row-insignias {
+        padding: 20px 40px;
+    }
+    .row-name {
+        padding: 50px 40px 30px;
+    }
+}
+
+@media (max-width: 767px) {
+    .cantidad-comentarios p {
+        margin: 12px 0;
+    }
+    .label-copmentario {
+        text-align: center;
+    }
+    .group-filtro {
+        margin: 15px auto 0;
+    }
+    .list-comentarios {
+        padding: 0;
+    }
+    .calif-comentario {
+        text-align: left;
+        margin: 5px 20px 10px;
+    }
+}
+
+@media (max-width: 650px) {
+    .container-chat {
+        width: 100%;
+    }
+    .row-name h3 {
+        display: grid;
+        line-height: 1.5;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 575px) {
+    .row-name {
+        padding: 30px 10px 25px;
+    }
+    .row-name h3 {
+        font-size: 25px;
+    }
+    .row-chat-product .name {
+        margin: 10px 0 0;
+    }
+    .row-user-chat h6,
+    .row-user-chat p {
+        margin: 0px 0 0 35px;
+    }
+    .row-chat-product .name,
+    .row-chat-product .price,
+    .row-chat-product .descuento {
+        text-align: center;
+    }
+    .encabezado-chat p {
+        letter-spacing: 5px;
+    }
+    .row-insignias {
+        padding: 20px 10px;
+    }
+    .cantidad-comentarios {
+        padding: 15px 0px;
+    }
+    .cantidad-comentarios p {
+        display: grid;
+        line-height: 1.2;
+    }
+    .label-copmentario {
+        font-size: 17px;
+    }
+    .progress-user,
+    .btn-contactar {
+        width: 100%;
+    }
+    .calif-vendedor {
+        margin: 15px 0;
+        display: inherit;
+        text-align: center;
+    }
+    .text-insig {
+        display: block;
+    }
+}

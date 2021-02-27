@@ -1,0 +1,350 @@
+.row-registro {
+    padding: 120px 90px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("../imagen/fondo-registro-empresa.png");
+}
+.text-type {
+    border: none;
+    display: block;
+    font-size: 14px;
+    margin-top: 20px;
+    color: #005fff;
+    padding: 10px 30px;
+    width: max-content;
+    margin-right: auto;
+    margin-bottom: 15px;
+    border-radius: 25px;
+    font-family: "Poppins";
+    background-color: #fff;
+}
+.text-type img {
+    margin-right: 5px;
+}
+.textD1 {
+    margin: 0;
+    font-size: 32px;
+    color: #fff;
+    text-align: left;
+    line-height: 1.2;
+    font-family: "Geometos";
+}
+.desc {
+    color: #fff;
+    margin: 7px 0;
+    font-size: 15px;
+    text-align: left;
+}
+.container-form .col-6 {
+    margin-bottom: -13px;
+}
+.row-registro iframe {
+    transform: scale(0.88);
+    margin-left: -20px;
+}
+.container-form .input-form {
+    height: 47px;
+    border: none;
+    font-size: 15px;
+    color: #151a30;
+    margin-top: 20px;
+    border-radius: 0px;
+    background-color: #fff;
+}
+.container-form .input-form:focus,
+.container-form .input-form:active {
+    outline: 0px;
+    box-shadow: none;
+}
+.btn-Env {
+    border: none;
+    color: #fff;
+    display: block;
+    font-size: 13px;
+    width: 99%;
+    height: 43px;
+    font-weight: bold;
+    border-radius: 25px;
+    font-family: "Poppins";
+    text-transform: uppercase;
+    background-color: #ff103d;
+}
+.container-btnn {
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+}
+.container-btnn p {
+    font-size: 12px;
+    text-align: left;
+    color: #707070;
+    margin: 0px 0px 0 12px;
+}
+.text001 {
+    margin: 0;
+    font-size: 13px;
+    text-align: left;
+    color: #707070;
+    display: block;
+}
+.text001:hover {
+    text-decoration: underline;
+    color: #707070;
+}
+.line {
+    text-decoration: underline;
+}
+.captcha {
+    text-align: left;
+}
+.mensajes {
+    height: 20px;
+}
+/* terminos */
+.text-terminos {
+    margin-top: 15px;
+    display: flex;
+    font-size: 11px;
+    text-align: left;
+    color: #707070;
+    line-height: 1.4;
+}
+.text-terminos a span {
+    color: #707070;
+}
+
+.containerCheck {
+    display: block;
+    position: relative;
+    padding-left: 29px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.containerCheck input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+.spancheckmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 16px;
+    width: 16px;
+    background-color: #fff;
+}
+.containerCheck input:checked ~ .spancheckmark:after {
+    display: block;
+}
+.spancheckmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+.containerCheck .spancheckmark:after {
+    left: 5px;
+    top: 2px;
+    width: 6px;
+    height: 11px;
+    border: solid #fff;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+.containerCheck input:checked ~ .spancheckmark {
+    background-color: #ff103d;
+}
+
+/* Modal bienvenida (promociones) */
+.row-inf h4 {
+    width: 100%;
+    font-size: 19px;
+    line-height: 1.5;
+    margin: 20px 0 15px;
+    color: #0c0f3d;
+    text-align: center;
+    font-family: "Poppins";
+}
+.row-inf p {
+    width: 100%;
+    font-size: 15px;
+    color: #707070;
+    text-align: center;
+    font-family: "Poppins-normal";
+}
+.content-input {
+    border-radius: 20px;
+    height: inherit;
+    width: 258px;
+    margin: auto;
+    background-color: transparent;
+}
+#validar-registro-empresa .content-input {
+    margin: auto;
+    display: block;
+    justify-content: center;
+}
+.content-input input {
+    border: none;
+    width: 100%;
+    border-radius: 0px;
+    margin: 0 auto 15px;
+    color: #0c0f3d;
+    text-align: center;
+    font-family: "Poppins";
+    background-color: transparent;
+    border-bottom: 1px solid #0c0f3d;
+}
+.content-input input:focus {
+    border: none;
+    outline: 0px;
+    box-shadow: none;
+    border-bottom: 1px solid #0c0f3d;
+}
+
+.row-inf button {
+    border: none;
+    color: #fff;
+    font-size: 12px;
+    padding: 9px 42px;
+    border-radius: 25px;
+    font-family: "Geometos";
+    background-color: #0c0f3d;
+}
+
+.group-clave{
+    margin-top: 20px;
+}
+.group-clave button{
+    background-color: #fff;
+}
+.registro__empresa__pais .dropdown-menu {
+    border-radius: 15px;
+    border: 2px solid #232a85;
+}
+.registro__empresa__pais .dropdown-item {
+    padding: 5px 15px;
+    font-size: 13px;
+    cursor: pointer;
+    color: #232a85;
+    white-space: normal;
+    text-align: left;
+    font-family: "Poppins";
+}
+.registro__empresa__pais .dropdown-item:hover{
+    color: #ff103d;
+}
+.bootstrap-select .dropdown-toggle .filter-option-inner-inner{
+    margin-top: 6px;
+}
+.registro__empresa__pais button {
+    height: 47px;
+    border: none;
+    border-radius: 0px;
+}
+.registro__empresa__pais button:hover,
+.registro__empresa__pais button:focus,
+.registro__empresa__pais button:active{
+    outline: 0px!important;
+    background-color: transparent;
+}
+
+
+
+
+
+
+
+
+
+
+/* ---------------------------------- Medias responsives ----------------------------------------- */
+@media (max-width: 1130px) {
+    .row-registro {
+        padding: 70px 12px;
+    }
+    .textD1 {
+        font-size: 35px;
+    }
+    .text001 {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 991px) {
+    .registro__empresa__pais .filter-option-inner{
+        justify-content: left;
+    }
+    .row-registro {
+        padding: 70px;
+    }
+    .text-type {
+        margin-top: 60px;
+        margin-right: inherit;
+    }
+    .textD1 {
+        font-size: 37px;
+        text-align: center;
+        margin-left: 0;
+    }
+    .desc br,
+    .textD1 br {
+        display: none;
+    }
+    .desc {
+        text-align: center;
+        margin-bottom: 30px;
+        margin-left: 0;
+    }
+    .text001 {
+        font-size: 14px;
+    }
+    .btn-Env {
+        height: 47px;
+    }
+}
+
+@media (max-width: 767px) {
+    .row-registro {
+        padding: 20px 40px;
+    }
+    .textD1 {
+        margin: 30px 0 0;
+        font-size: 32px;
+    }
+    .btn-Env {
+        width: 100%;
+    }
+}
+
+@media (max-width: 575px) {
+    .row-registro {
+        padding: 0 0 40px;
+    }
+    .textD1 {
+        font-size: 20px;
+    }
+    .desc {
+        font-size: 14px;
+        margin-bottom: 15px;
+    }
+    .row-inf p br {
+        display: none;
+    }
+    .container-btnn {
+        display: block;
+    }
+    .container-btnn p {
+        font-size: 13px;
+        text-align: center;
+        margin: 10px 0px 25px;
+    }
+}

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="236" height="237" viewBox="0 0 236 237">
+  <g id="Grupo_7251" data-name="Grupo 7251" transform="translate(-0.378 0.408)">
+    <g id="validating-ticket" transform="matrix(0.259, 0.966, -0.966, 0.259, 195.918, 28.189)">
+      <path id="Trazado_44923" data-name="Trazado 44923" d="M134.916,176.185V21.428A21.428,21.428,0,0,1,113.488,0h-24.6A21.428,21.428,0,0,1,67.458,21.428,21.428,21.428,0,0,1,46.03,0h-24.6A21.428,21.428,0,0,1,0,21.428V176.185a21.428,21.428,0,0,1,21.428,21.428h24.6a21.428,21.428,0,0,1,42.856,0h24.6A21.428,21.428,0,0,1,134.916,176.185Z" transform="translate(0 0)" fill="#ffc839"/>
+      <path id="Trazado_44924" data-name="Trazado 44924" d="M0,0H103.171V130.108H0Z" transform="translate(15.872 33.758)" fill="#ff9100"/>
+      <path id="Trazado_44925" data-name="Trazado 44925" d="M13.774,37.634,0,18.817l23.182,2.521L32.591,0,42,21.337l23.183-2.521L51.408,37.634,65.182,56.451,42,53.93,32.591,75.267,23.182,53.93,0,56.451Z" transform="translate(34.867 61.177)" fill="#fcf9f0"/>
+    </g>
+    <rect id="Rectángulo_1959" data-name="Rectángulo 1959" width="236" height="237" transform="translate(0.378 -0.407)" fill="none"/>
+  </g>
+</svg>

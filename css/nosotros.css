@@ -1,0 +1,163 @@
+.row-imagen-nosotros {
+  height: 340px;
+  margin-top: 0px;  
+  align-items: center;
+  background-size: auto;
+  background: url("../imagen/nosotros/banner.png");
+}
+.card1 {
+  width: 490px;
+  margin: 0 45px;
+  padding: 0 40px;
+  margin-right: auto;
+}
+.card1 h3 {
+  color: #fff;
+  line-height: 1;
+  font-size: 40px;
+  font-family: "Poppins";
+}
+.card1 p {
+  color: #fff;
+  margin: 10px 0 0;
+  font-size: 14px;
+}
+.hrcard{
+  height: 6px;
+  width: 60px;
+  border-radius: 25px;
+}
+.hr1{
+  background-color: #fff;
+}
+.hr2{
+  background-color: #6200EA;
+}
+
+
+.row-aprende{
+  width: 85%;
+  margin: auto;
+  align-items: center;
+}
+.row-aprende img{
+  display: block;
+  margin-right: auto;
+}
+.content01{
+  width: 465px;
+  margin-top: 90px;
+  margin-left: auto;
+}
+.content01 h5 {
+  line-height: 1;
+  font-size: 40px;
+  color: #6200EA;
+  font-family: "Poppins";
+}
+.content01 p {
+  font-size: 14px;
+  color: #0C0F3D;
+  margin: 15px 0 0;
+}
+
+
+.row-sueno{
+  width: 85%;
+  margin: auto;
+  margin-bottom: 80px;
+  align-items: center;
+}
+.row-sueno img{
+  display: block;
+  margin-left: auto;
+}
+.content02{
+  margin-top: 130px;
+  margin-left: auto;
+}
+.content02 h5 {
+  line-height: 1;
+  font-size: 40px;
+  color: #6200EA;
+  font-family: "Poppins";
+}
+.content02 p {
+  font-size: 14px;
+  color: #0C0F3D;
+  margin: 15px 0 0;
+}
+
+.btn-ver-nosotros {
+  border: none;
+  font-size: 12px;
+  margin-top: 10px;
+  padding: 10px 30px;
+  border-radius: 31px;
+  font-family: "Poppins";
+  color: #fff !important;
+  background-color: #6B23CE !important;
+}
+
+
+
+/* --------------------------------- Medias Responsive --------------------------------- */
+@media (max-width: 1130px) {
+  .row-aprende, 
+  .row-sueno{
+    width: 95%;
+  }
+  .row-sueno{
+    margin-top: 40px;
+  }
+  .row-aprende img,
+  .row-sueno img{
+    width: 90%;
+    object-fit: contain;
+  }
+  .content01,
+  .content02{
+    width: 100%;
+  }
+}
+
+
+
+@media (max-width: 767px){
+  .card1{
+    margin: 0;
+  }
+  .row-aprende img,
+  .row-sueno img{
+    width: 100%;
+    margin: auto;
+    object-fit: contain;
+  }
+  .content01 h5, 
+  .content02 h5{
+    margin-top: 30px;
+  }
+  .row-sueno{
+    margin-top: 0;
+    flex-direction: column-reverse;
+  }
+  .content01,
+  .content02{
+    margin-top: 0;
+  }
+}
+
+
+@media (max-width: 575px){
+  .card1{
+    width: 100%;
+  }
+  .row-imagen-nosotros{
+    background-position: bottom;
+  }
+  .card1 h3,
+  .content01 h5,
+  .content02 h5{
+    font-size: 33px;
+  }
+}
